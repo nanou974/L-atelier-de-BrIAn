@@ -18,11 +18,11 @@ h1{margin:0;font-size:19px}
 main{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:16px;padding:16px;max-width:1500px;margin:0 auto}
 @media (max-width:1000px){main{grid-template-columns:1fr}}
 .game{position:relative;background:#000;border:3px solid var(--line);border-radius:10px;overflow:hidden;max-width:1100px;margin:0 auto;width:100%}
-canvas{display:block;width:100%;height:auto;image-rendering:pixelated;image-rendering:crisp-edges;aspect-ratio:640/384;background:#111}
+canvas{display:block;width:100%;height:auto;image-rendering:pixelated;image-rendering:crisp-edges;background:#111}
 .dialog{position:relative;margin:8px;background:rgba(18,14,30,.92);border:3px solid #f3ead7;border-radius:8px;color:#f3ead7;padding:8px 12px;font-size:clamp(11px,1.7vw,15px);line-height:1.35;min-height:44px;box-shadow:0 0 0 3px #1b1630}
 .dialog b{color:#ffd86b}
 .dialog .sub{color:#b9b0d8;font-size:.85em}
-.lab{position:absolute;width:25%;height:20%;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding-top:.7%;pointer-events:none;color:#f3ead7;text-shadow:0 1px 2px #000;font-size:clamp(9px,1.25vw,14px);font-weight:700;text-align:center;line-height:1.15}.lab small{font-weight:400;font-size:.82em;color:#bff5d0;max-width:92%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lab{position:absolute;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding-top:.7%;pointer-events:none;color:#f3ead7;text-shadow:0 1px 2px #000;font-size:var(--labfs,12px);font-weight:700;text-align:center;line-height:1.15}.lab small{font-weight:400;font-size:.82em;color:#bff5d0;max-width:92%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .controls{display:flex;gap:8px;justify-content:center;margin:8px 0}
 button{background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:6px 12px;font-size:13px;cursor:pointer}
 button.on{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
@@ -72,12 +72,18 @@ function dur(s){ s=Math.max(0,Math.round(s)); const h=Math.floor(s/3600), m=Math
 function dans(s){ if(s<90) return "dans quelques secondes"; const h=Math.floor(s/3600), m=Math.round(s%3600/60); return h? `dans ${h} h ${m} min` : `dans ${m} min`; }
 
 /* ---------- plan : 4 colonnes x 3 lignes de pièces, chacune de 10x8 tuiles (160x128 px) ---------- */
-const COLS=4, ROWS=3, W=160, H=128;
-const LAYOUT = [
-  ["idee","recherche","script","images"],
-  ["voix","synchro","montage","qualite"],
-  ["jugement","publication","veille","accueil"],
-];
+const W=160, H=128;
+const ORDRE = ["idee","recherche","script","images","voix","synchro","montage","qualite","jugement","publication","veille","accueil"];
+let COLS=4, ROWS=3, LAYOUT=[], POS={};
+function setLayout(cols){
+  COLS=cols; ROWS=Math.ceil(ORDRE.length/cols); LAYOUT=[]; POS={};
+  for(let r=0;r<ROWS;r++) LAYOUT.push(ORDRE.slice(r*cols,(r+1)*cols));
+  LAYOUT.forEach((row,r)=>row.forEach((k,c)=>POS[k]={r,c}));
+  if(typeof cv!=="undefined"){ cv.width=COLS*W; cv.height=ROWS*H; g.imageSmoothingEnabled=false; }
+  // BrIAn reste dans la même pièce : on retrouve sa position dans la nouvelle grille
+  if(typeof brian!=="undefined" && brian.room && POS[brian.room]){ brian.r=POS[brian.room].r; brian.c=POS[brian.room].c; brian.path=[]; brian.sleep=false; }
+}
+function colsFor(w){ return w<560 ? 2 : (w<900 ? 3 : 4); }
 const THEME = {
   idee:["#d9c27a","#cdb46c"], recherche:["#9c7b57","#92714e"], script:["#c9b79a","#bfae90"], images:["#7fb3a0","#74a894"],
   voix:["#6f6aa8","#655f9c"], synchro:["#6a8fb8","#6085ad"], montage:["#a85a5a","#9c5050"], qualite:["#7da86a","#729c60"],
@@ -85,14 +91,12 @@ const THEME = {
 };
 const ICON = {idee:"💡",recherche:"🔎",script:"✍️",images:"🖼️",voix:"🎙️",synchro:"⏱️",montage:"🎬",qualite:"✅",jugement:"⚖️",publication:"📺",veille:"🧰",accueil:"☕"};
 const NAME = {accueil:"Salle de repos"};
-const POS = {}; LAYOUT.forEach((row,r)=>row.forEach((k,c)=>POS[k]={r,c}));
 const CENTER=[80,76], DESK=[80,66];     // devant le bureau
 const DOORS = {up:[80,30], down:[80,118], left:[12,76], right:[148,76]};
 
-const STATIC = location.hostname.endsWith('github.io') || location.protocol==='file:';
-let D = null;            // dernières données
+const STATIC = location.hostname.endsWith('github.io') || location.protocol==='file:'; let D = null;            // dernières données
 let stationInfo = {};    // clé -> station
-let brian = {r:2,c:3,x:96,y:80,dir:"down",path:[],target:"accueil",dwellUntil:0,walking:false,work:false};
+let brian = {room:"accueil",r:2,c:3,x:96,y:80,dir:"down",path:[],target:"accueil",dwellUntil:0,walking:false,work:false};
 let view = {r:2,c:3, free:false};
 let slide = null;        // transition d'écran à écran
 let confetti = [];
@@ -151,7 +155,7 @@ function step(dt, now){
     const nd = {up:[-1,0],down:[1,0],left:[0,-1],right:[0,1]}[s.dir];
     const op = {up:"down",down:"up",left:"right",right:"left"}[s.dir];
     const from = {r:brian.r,c:brian.c};
-    brian.r+=nd[0]; brian.c+=nd[1]; brian.x=DOORS[op][0]; brian.y=DOORS[op][1];
+    brian.r+=nd[0]; brian.c+=nd[1]; brian.room=roomKey(brian.r,brian.c); brian.x=DOORS[op][0]; brian.y=DOORS[op][1];
     brian.path.shift(); return;
   }
   const dx=s.x-brian.x, dy=s.y-brian.y, d=Math.hypot(dx,dy);
@@ -272,7 +276,7 @@ function render(d){
     `<span class="badge">En cours ${d.compteurs.RUNNING} · à faire ${d.compteurs.READY+d.compteurs.PENDING+d.compteurs.DEFERRED} · terminées ${d.compteurs.SUCCESS}</span>`;
   $("#labels").innerHTML = LAYOUT.flat().map(k=>{ const st=stationInfo[k], p=POS[k];
     const nom = st?st.titre:(NAME[k]||k), tache = st&&st.courant? st.courant.titre.replace(/ : .*$/,'').slice(0,34) : '';
-    return `<div class="lab" style="left:${p.c*25}%;top:${p.r*33.333}%">${ICON[k]} ${esc(nom)}${tache?`<small>▶ ${esc(tache)}</small>`:''}</div>`; }).join("");
+    return `<div class="lab" style="left:${p.c*100/COLS}%;top:${p.r*100/ROWS}%;width:${100/COLS}%;height:${100/ROWS}%">${ICON[k]} ${esc(nom)}${tache?`<small>▶ ${esc(tache)}</small>`:''}</div>`; }).join("");
   $("#prog").innerHTML = d.programmees.length ? d.programmees.map(p =>
     `<li><span class="when">${esc(p.quand)}</span> · ${dans(p.ts - Date.now()/1000)}<div class="sub">${esc(p.titre.replace(/^Publier : /,''))}</div></li>`).join("") : '<li class="empty">Aucune publication programmée.</li>';
   $("#notifs").innerHTML = d.notifications.length ? d.notifications.map(n =>
@@ -286,7 +290,7 @@ function render(d){
     for(let i=0;i<70;i++) confetti.push({x:Math.random()*COLS*W,y:-4-Math.random()*30,vx:(Math.random()-.5)*30,vy:10+Math.random()*30,c:["#ef5b4f","#f0b429","#54d17f","#4bc3ff","#c77dff"][i%5]});
   }
   knownPubs = urls;
-  if(first){ const s=d.stations.find(s=>s.etat==="actif"); if(s){ brian.r=POS[s.key].r; brian.c=POS[s.key].c; brian.x=DESK[0]; brian.y=DESK[1]; brian.dir="up"; brian.target=s.key; } }
+  if(first){ const s=d.stations.find(s=>s.etat==="actif"); if(s){ brian.room=s.key; brian.r=POS[s.key].r; brian.c=POS[s.key].c; brian.x=DESK[0]; brian.y=DESK[1]; brian.dir="up"; brian.target=s.key; } }
 }
 cv.addEventListener("click",e=>{ const b=cv.getBoundingClientRect(); const c=Math.floor((e.clientX-b.left)/b.width*COLS), r=Math.floor((e.clientY-b.top)/b.height*ROWS);
   if(r>=0&&r<ROWS&&c>=0&&c<COLS){ inspect={key:roomKey(r,c),until:performance.now()+8000}; } });
@@ -295,7 +299,16 @@ async function tick(){
   try { const r=await fetch(STATIC?("data.json?t="+Date.now()):"/api/atelier",{cache:"no-store"}); render(await r.json()); }
   catch(e){ $("#badges").innerHTML='<span class="badge"><span class="dot bad"></span>Dashboard injoignable</span>'; }
 }
-tick(); setInterval(tick,3000); requestAnimationFrame(frame);
+function adapte(){
+  const w = document.querySelector(".game").getBoundingClientRect().width || innerWidth;
+  const cols = colsFor(w);
+  if(cols!==COLS) setLayout(cols);
+  document.documentElement.style.setProperty("--labfs", Math.max(9, Math.min(15, w/COLS/13))+"px");
+  if(D) render(D);
+}
+setLayout(colsFor(document.querySelector(".game").getBoundingClientRect().width||innerWidth));
+let _rz; addEventListener("resize",()=>{ clearTimeout(_rz); _rz=setTimeout(adapte,150); });
+tick(); setInterval(tick,3000); requestAnimationFrame(frame); adapte();
 </script>
 </body>
 </html>
