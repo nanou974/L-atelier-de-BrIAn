@@ -1,15 +1,15 @@
 {
- "now": 1792274341.094485,
- "heure": "23:59:01",
+ "now": 1792274641.1090765,
+ "heure": "00:04:01",
  "moteur": {
   "etat": "actif",
   "activite": "en attente de travail exécutable",
-  "battement_s": 5
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "18/10 00:03",
-  "erreur": "quota Groq atteint, pause 570 s",
+  "reprise": "18/10 00:09",
+  "erreur": "quota Groq atteint, pause 382 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -184,10 +184,10 @@
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Tester la disponibilité du LLM Groq (borné)",
-    "quand": "17/10 18:00"
+    "titre": "Contrôler l'espace disque",
+    "quand": "18/10 00:00"
    },
-   "total_fait": 22
+   "total_fait": 25
   }
  ],
  "assistants": [
@@ -235,39 +235,39 @@
  "programmees": [
   {
    "titre": "Publier : RISC-V version corrigée (noms propres), 17/10 18 h",
-   "quand": "18/10 00:01",
-   "ts": 1792274499.4200122,
-   "dans_s": 158
+   "quand": "18/10 00:31",
+   "ts": 1792276305.5562193,
+   "dans_s": 1664
   },
   {
    "titre": "Publier : Risques de l'impression 3D (jugée publiable, le 18/10 9 h)",
    "quand": "18/10 09:00",
    "ts": 1792306800.0,
-   "dans_s": 32458
+   "dans_s": 32158
   },
   {
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 54058
+   "dans_s": 53758
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 118858
+   "dans_s": 118558
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 140458
+   "dans_s": 140158
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 205258
+   "dans_s": 204958
   }
  ],
  "publiees": [
@@ -412,7 +412,7 @@
   "READY": 0,
   "PENDING": 20,
   "DEFERRED": 9,
-  "SUCCESS": 425,
+  "SUCCESS": 428,
   "FAILED": 28
  }
 }
