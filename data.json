@@ -1,15 +1,15 @@
 {
- "now": 1792257540.5851045,
- "heure": "19:19:00",
+ "now": 1792257840.604015,
+ "heure": "19:24:00",
  "moteur": {
   "etat": "actif",
-  "activite": "en attente de travail exécutable",
-  "battement_s": 4
+  "activite": "Recherche documentaire : Impression 3D dans la construction",
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
-  "reprise": "17/10 19:23",
-  "erreur": "quota Groq atteint, pause 307 s",
+  "reprise": "17/10 19:39",
+  "erreur": "quota Groq atteint, pause 902 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -34,9 +34,13 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : Impression 3D dans la construction",
+    "projet": "Sujet : Impression 3D dans la construction",
+    "depuis": 17
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -237,37 +241,37 @@
    "titre": "Publier : RISC-V version corrigée (noms propres), 17/10 18 h",
    "quand": "17/10 19:30",
    "ts": 1792258222.176952,
-   "dans_s": 681
+   "dans_s": 381
   },
   {
    "titre": "Publier : Risques de l'impression 3D (jugée publiable, le 18/10 9 h)",
    "quand": "18/10 09:00",
    "ts": 1792306800.0,
-   "dans_s": 49259
+   "dans_s": 48959
   },
   {
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 70859
+   "dans_s": 70559
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 135659
+   "dans_s": 135359
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 157259
+   "dans_s": 156959
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 222059
+   "dans_s": 221759
   }
  ],
  "publiees": [
@@ -408,10 +412,10 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 0,
+  "RUNNING": 1,
   "READY": 0,
   "PENDING": 20,
-  "DEFERRED": 9,
+  "DEFERRED": 8,
   "SUCCESS": 425,
   "FAILED": 28
  }
