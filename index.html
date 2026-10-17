@@ -4,6 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Atelier de BrIAn</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#1d1a22">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" href="icon-192.png">
 <style>
 :root{--bg:#1d1a22;--panel:#2a2531;--ink:#f3ead7;--muted:#b6a98f;--line:#4a4256;--ok:#54d17f;--wait:#f0b429;--alert:#ef5b4f;--idle:#8b8794;--accent:#4bc3ff}
 @media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--bg:#efe6d3;--panel:#fffaf0;--ink:#2b2218;--muted:#7a6a58;--line:#d9c7aa}}
@@ -49,6 +55,7 @@ footer{padding:8px 16px 24px;text-align:center;color:var(--muted);font-size:12px
 <header>
   <h1>🛠️ L'atelier de BrIAn</h1>
   <div class="badges" id="badges"></div>
+  <div class="badges"><button id="fs" title="Afficher en plein écran">⛶ Plein écran</button><button id="install" hidden>⬇️ Installer l'appli</button></div>
 </header>
 <main>
   <section>
@@ -309,6 +316,13 @@ function adapte(){
 setLayout(colsFor(document.querySelector(".game").getBoundingClientRect().width||innerWidth));
 let _rz; addEventListener("resize",()=>{ clearTimeout(_rz); _rz=setTimeout(adapte,150); });
 tick(); setInterval(tick,3000); requestAnimationFrame(frame); adapte();
+/* appli installable (Chrome) et plein écran */
+$("#fs").onclick=()=>{ if(document.fullscreenElement) document.exitFullscreen(); else (document.documentElement.requestFullscreen||document.documentElement.webkitRequestFullscreen).call(document.documentElement); };
+let _inst=null;
+addEventListener("beforeinstallprompt",e=>{ e.preventDefault(); _inst=e; $("#install").hidden=false; });
+$("#install").onclick=async()=>{ if(!_inst) return; _inst.prompt(); await _inst.userChoice; _inst=null; $("#install").hidden=true; };
+addEventListener("appinstalled",()=>{ $("#install").hidden=true; });
+if("serviceWorker" in navigator && STATIC && location.protocol!=="file:") navigator.serviceWorker.register("sw.js").catch(()=>{});
 </script>
 </body>
 </html>
