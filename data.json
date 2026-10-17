@@ -1,15 +1,15 @@
 {
- "now": 1792279141.5192637,
- "heure": "01:19:01",
+ "now": 1792279441.3422108,
+ "heure": "01:24:01",
  "moteur": {
   "etat": "actif",
   "activite": "en attente de travail exécutable",
-  "battement_s": 4
+  "battement_s": 5
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": "quota Groq atteint, pause 1051 s",
+  "ok": false,
+  "reprise": "18/10 01:32",
+  "erreur": "quota Groq atteint, pause 789 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -194,32 +194,32 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "images",
    "poste_prefere": "idee",
    "etat": "veille",
-   "dernier": "31 titres lus, 5 idées retenues, 2 ajoutées : Intelligence artificielle, Tesla (automobile)",
-   "passages": 1,
-   "dernier_a": "17/10 18:35"
+   "dernier": "[poste Images, avec Analyste] camp-d-innovation-poc21 : 0 images; capteur : 4 images; carte-a-puce : 4 images",
+   "passages": 2,
+   "dernier_a": "18/10 01:22"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "recherche",
+   "poste": "images",
    "poste_prefere": "recherche",
    "etat": "veille",
-   "dernier": "[poste Écriture du script, avec Plume] 6 script(s) relu(s), 5 avec défauts : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent",
-   "passages": 2,
-   "dernier_a": "17/10 18:38"
+   "dernier": "[poste Images, avec Éclaireur, Analyste] contour-crafting : 2 images; defauts-des-joints-soudes : 2 images; depot-de-fil-fondu : 1 images",
+   "passages": 3,
+   "dernier_a": "18/10 01:22"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "images",
    "poste_prefere": "script",
    "etat": "veille",
-   "dernier": "[poste Écriture du script] 6 script(s) relu(s), 4 avec défauts : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD",
-   "passages": 2,
-   "dernier_a": "17/10 18:38"
+   "dernier": "[poste Images, avec Éclaireur, Archiviste, Analyste] disque-compact : 4 images; esp8266 : 4 images; fgc-9 : 4 images",
+   "passages": 3,
+   "dernier_a": "18/10 01:22"
   },
   {
    "cle": "iconographe",
@@ -227,9 +227,19 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "veille",
-   "dernier": null,
-   "passages": 0,
-   "dernier_a": null
+   "dernier": "[poste Images, avec Éclaireur, Archiviste, Plume, Analyste] fichier-de-stereolithographie : 1 images; impression-3d : 5 images; industrie-4-0 : 5 images",
+   "passages": 1,
+   "dernier_a": "18/10 01:23"
+  },
+  {
+   "cle": "analyste",
+   "nom": "Analyste",
+   "poste": "images",
+   "poste_prefere": "publication",
+   "etat": "veille",
+   "dernier": "[poste Images, avec Éclaireur, Archiviste, Plume, Iconographe] nodemcu : 3 images; potentiometre-numerique : 0 images; prometheus-moteur-fusee : 4 images",
+   "passages": 3,
+   "dernier_a": "18/10 01:23"
   }
  ],
  "programmees": [
@@ -237,37 +247,37 @@
    "titre": "Publier : RISC-V version corrigée (noms propres), 17/10 18 h",
    "quand": "18/10 01:31",
    "ts": 1792279919.385593,
-   "dans_s": 777
+   "dans_s": 478
   },
   {
    "titre": "Publier : Risques de l'impression 3D (jugée publiable, le 18/10 9 h)",
    "quand": "18/10 09:00",
    "ts": 1792306800.0,
-   "dans_s": 27658
+   "dans_s": 27358
   },
   {
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 49258
+   "dans_s": 48958
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 114058
+   "dans_s": 113758
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 135658
+   "dans_s": 135358
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 200458
+   "dans_s": 200158
   }
  ],
  "publiees": [
@@ -412,7 +422,7 @@
   "READY": 0,
   "PENDING": 20,
   "DEFERRED": 9,
-  "SUCCESS": 428,
+  "SUCCESS": 433,
   "FAILED": 28
  }
 }
