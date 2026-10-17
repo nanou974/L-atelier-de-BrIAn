@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atelier de BrIAn</title>
+<style>
+:root{--bg:#1d1a22;--panel:#2a2531;--ink:#f3ead7;--muted:#b6a98f;--line:#4a4256;--ok:#54d17f;--wait:#f0b429;--alert:#ef5b4f;--idle:#8b8794;--accent:#4bc3ff}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--bg:#efe6d3;--panel:#fffaf0;--ink:#2b2218;--muted:#7a6a58;--line:#d9c7aa}}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink)}
+header{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid var(--line)}
+h1{margin:0;font-size:19px}
+.badges{display:flex;flex-wrap:wrap;gap:8px}
+.badge{padding:4px 10px;border-radius:999px;background:var(--panel);border:1px solid var(--line);font-size:12.5px}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;background:var(--idle)}
+.dot.ok{background:var(--ok)}.dot.warn{background:var(--wait)}.dot.bad{background:var(--alert)}
+main{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:16px;padding:16px;max-width:1500px;margin:0 auto}
+@media (max-width:1000px){main{grid-template-columns:1fr}}
+.game{position:relative;background:#000;border:3px solid var(--line);border-radius:10px;overflow:hidden;max-width:1100px;margin:0 auto;width:100%}
+canvas{display:block;width:100%;height:auto;image-rendering:pixelated;image-rendering:crisp-edges;aspect-ratio:640/384;background:#111}
+.dialog{position:relative;margin:8px;background:rgba(18,14,30,.92);border:3px solid #f3ead7;border-radius:8px;color:#f3ead7;padding:8px 12px;font-size:clamp(11px,1.7vw,15px);line-height:1.35;min-height:44px;box-shadow:0 0 0 3px #1b1630}
+.dialog b{color:#ffd86b}
+.dialog .sub{color:#b9b0d8;font-size:.85em}
+.lab{position:absolute;width:25%;height:20%;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding-top:.7%;pointer-events:none;color:#f3ead7;text-shadow:0 1px 2px #000;font-size:clamp(9px,1.25vw,14px);font-weight:700;text-align:center;line-height:1.15}.lab small{font-weight:400;font-size:.82em;color:#bff5d0;max-width:92%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.controls{display:flex;gap:8px;justify-content:center;margin:8px 0}
+button{background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:6px 12px;font-size:13px;cursor:pointer}
+button.on{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+aside{display:flex;flex-direction:column;gap:14px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.panel h2{margin:0 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.panel ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.panel li{font-size:13px;line-height:1.35;padding-bottom:8px;border-bottom:1px dashed var(--line)}
+.panel li:last-child{border:0;padding-bottom:0}
+.when{font-weight:700}.sub{color:var(--muted);font-size:12px}.empty{color:var(--muted);font-size:13px}
+a{color:var(--accent)}
+.tag{display:inline-block;font-size:11px;padding:1px 7px;border-radius:999px;margin-right:6px;background:var(--line)}
+.tag.publication{background:var(--ok);color:#06210f}.tag.alerte{background:var(--alert);color:#fff}
+.map{display:grid;grid-template-columns:repeat(4,1fr);gap:5px}
+.cell{border:2px solid var(--line);border-radius:6px;padding:4px 2px;text-align:center;font-size:11px;cursor:pointer;background:var(--bg);position:relative;min-height:46px}
+.cell .e{font-size:17px;display:block}
+.cell.actif{border-color:var(--ok)}.cell.attente{border-color:var(--wait)}.cell.alerte{border-color:var(--alert)}
+.cell.view{background:var(--line)}
+.cell .me{position:absolute;right:3px;top:1px;font-size:12px}
+footer{padding:8px 16px 24px;text-align:center;color:var(--muted);font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <h1>🛠️ L'atelier de BrIAn</h1>
+  <div class="badges" id="badges"></div>
+</header>
+<main>
+  <section>
+    <div class="game">
+      <div style="position:relative"><canvas id="cv" width="640" height="384"></canvas>
+      <div id="labels"></div></div>
+      <div class="dialog" id="dialog">…</div>
+    </div>
+    </section>
+  <aside>
+    <div class="panel"><h2>⏰ Prochaines publications</h2><ul id="prog"></ul></div>
+    <div class="panel"><h2>🔔 Notifications</h2><ul id="notifs"></ul></div>
+    <div class="panel"><h2>📺 Déjà en ligne <span class="sub" id="nbpub"></span></h2><ul id="pubs"></ul></div>
+  </aside>
+</main>
+<footer>Mise à jour toutes les 3 secondes · données lues dans l'état réel de l'ordonnanceur · rien n'est simulé</footer>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function dur(s){ s=Math.max(0,Math.round(s)); const h=Math.floor(s/3600), m=Math.floor(s%3600/60); return h? `${h} h ${m} min` : (m? `${m} min` : `${s} s`); }
+function dans(s){ if(s<90) return "dans quelques secondes"; const h=Math.floor(s/3600), m=Math.round(s%3600/60); return h? `dans ${h} h ${m} min` : `dans ${m} min`; }
+
+/* ---------- plan : 4 colonnes x 3 lignes de pièces, chacune de 10x8 tuiles (160x128 px) ---------- */
+const COLS=4, ROWS=3, W=160, H=128;
+const LAYOUT = [
+  ["idee","recherche","script","images"],
+  ["voix","synchro","montage","qualite"],
+  ["jugement","publication","veille","accueil"],
+];
+const THEME = {
+  idee:["#d9c27a","#cdb46c"], recherche:["#9c7b57","#92714e"], script:["#c9b79a","#bfae90"], images:["#7fb3a0","#74a894"],
+  voix:["#6f6aa8","#655f9c"], synchro:["#6a8fb8","#6085ad"], montage:["#a85a5a","#9c5050"], qualite:["#7da86a","#729c60"],
+  jugement:["#b79a4e","#ab8f45"], publication:["#c4604a","#b85641"], veille:["#7d8590","#737b86"], accueil:["#a98b64","#9d8059"],
+};
+const ICON = {idee:"💡",recherche:"🔎",script:"✍️",images:"🖼️",voix:"🎙️",synchro:"⏱️",montage:"🎬",qualite:"✅",jugement:"⚖️",publication:"📺",veille:"🧰",accueil:"☕"};
+const NAME = {accueil:"Salle de repos"};
+const POS = {}; LAYOUT.forEach((row,r)=>row.forEach((k,c)=>POS[k]={r,c}));
+const CENTER=[80,76], DESK=[80,66];     // devant le bureau
+const DOORS = {up:[80,30], down:[80,118], left:[12,76], right:[148,76]};
+
+const STATIC = location.hostname.endsWith('github.io') || location.protocol==='file:';
+let D = null;            // dernières données
+let stationInfo = {};    // clé -> station
+let brian = {r:2,c:3,x:96,y:80,dir:"down",path:[],target:"accueil",dwellUntil:0,walking:false,work:false};
+let view = {r:2,c:3, free:false};
+let slide = null;        // transition d'écran à écran
+let confetti = [];
+let knownPubs = null;
+const cv = $("#cv"), g = cv.getContext("2d");
+g.imageSmoothingEnabled = false;
+
+function roomKey(r,c){ return LAYOUT[r][c]; }
+
+/* ---------- déplacement ---------- */
+function planPath(fromR,fromC,toKey){
+  const t = POS[toKey]; if(!t) return [];
+  // BFS sur la grille des pièces
+  const q=[[fromR,fromC]], prev={}, seen=new Set([fromR+","+fromC]);
+  while(q.length){
+    const [r,c]=q.shift(); if(r===t.r&&c===t.c) break;
+    for(const [dr,dc,d] of [[-1,0,"up"],[1,0,"down"],[0,-1,"left"],[0,1,"right"]]){
+      const nr=r+dr, nc=c+dc; if(nr<0||nc<0||nr>=ROWS||nc>=COLS||seen.has(nr+","+nc)) continue;
+      seen.add(nr+","+nc); prev[nr+","+nc]={from:[r,c],dir:d}; q.push([nr,nc]);
+    }
+  }
+  const dirs=[]; let cur=t.r+","+t.c;
+  while(prev[cur]){ dirs.unshift(prev[cur].dir); const f=prev[cur].from; cur=f[0]+","+f[1]; }
+  const path=[];
+  for(const d of dirs){ path.push({kind:"move",x:CENTER[0],y:CENTER[1]}); path.push({kind:"move",x:DOORS[d][0],y:DOORS[d][1]}); path.push({kind:"door",dir:d}); }
+  path.push({kind:"move",x:CENTER[0],y:CENTER[1]});
+  if(toKey!=="accueil") path.push({kind:"move",x:DESK[0],y:DESK[1],face:"up",arrive:true});
+  else path.push({kind:"move",x:44,y:70,face:"down",arrive:true,sleep:true});
+  return path;
+}
+function chooseTarget(now){
+  const actifs = D.stations.filter(s=>s.etat==="actif").map(s=>s.key);
+  if(actifs.length){
+    if(actifs.includes(brian.target) && now<brian.dwellUntil) return brian.target;
+    if(actifs.includes(brian.target) && actifs.length===1) return brian.target;
+    const i = actifs.indexOf(brian.target);
+    return actifs[(i+1)%actifs.length];
+  }
+  const att = D.stations.find(s=>s.etat==="attente"); if(att) return att.key;
+  return "accueil";
+}
+function retarget(now){
+  const t = chooseTarget(now);
+  const auRepos = brian.r===POS.accueil.r && brian.c===POS.accueil.c;
+  if(t!==brian.target || (!brian.path.length && !brian.work && t==="accueil" && (!auRepos || !brian.sleep))){
+    brian.target=t; brian.path=planPath(brian.r,brian.c,t); brian.work=false;
+  }
+}
+const SPEED=34;
+function step(dt, now){
+  brian.walking=false;
+  const s = brian.path[0];
+  if(s) brian.sleep=false;
+  if(!s){ const here = roomKey(brian.r,brian.c)===brian.target; brian.work = here && brian.target!=="accueil" && stationInfo[brian.target] && stationInfo[brian.target].etat==="actif"; return; }
+  if(s.kind==="door"){
+    const nd = {up:[-1,0],down:[1,0],left:[0,-1],right:[0,1]}[s.dir];
+    const op = {up:"down",down:"up",left:"right",right:"left"}[s.dir];
+    const from = {r:brian.r,c:brian.c};
+    brian.r+=nd[0]; brian.c+=nd[1]; brian.x=DOORS[op][0]; brian.y=DOORS[op][1];
+    brian.path.shift(); return;
+  }
+  const dx=s.x-brian.x, dy=s.y-brian.y, d=Math.hypot(dx,dy);
+  if(d<1.2){ brian.x=s.x; brian.y=s.y; if(s.face) brian.dir=s.face; if(s.arrive) brian.dwellUntil=now+9000; brian.sleep=!!s.sleep; brian.path.shift(); return; }
+  // mouvement par axes, comme dans un jeu en 2D vu de dessus
+  const m = Math.min(d, SPEED*dt);
+  if(Math.abs(dx)>1.2){ brian.x += Math.sign(dx)*Math.min(Math.abs(dx),m); brian.dir = dx>0?"right":"left"; }
+  else { brian.y += Math.sign(dy)*Math.min(Math.abs(dy),m); brian.dir = dy>0?"down":"up"; }
+  brian.walking=true;
+}
+
+/* ---------- dessin ---------- */
+function rect(x,y,w,h,c){ g.fillStyle=c; g.fillRect(Math.round(x),Math.round(y),w,h); }
+function drawRoom(r,c,ox,oy,t){
+  const key=roomKey(r,c), th=THEME[key]; const st=stationInfo[key];
+  g.save(); g.translate(ox,oy);
+  // sol
+  for(let ty=0;ty<8;ty++)for(let tx=0;tx<10;tx++) rect(tx*16,ty*16,16,16,(tx+ty)%2?th[0]:th[1]);
+  // murs
+  rect(0,0,W,24,"#4b3a2e"); rect(0,20,W,4,"#2e2219");
+  for(let i=0;i<W;i+=16) rect(i,6,15,1,"#5d4a3b"), rect(i+8,13,15,1,"#5d4a3b");
+  rect(0,24,8,H-24,"#4b3a2e"); rect(W-8,24,8,H-24,"#4b3a2e"); rect(0,H-8,W,8,"#4b3a2e");
+  // portes (ouvertures) vers les pièces voisines
+  const gap="#2e2219";
+  if(r>0) rect(68,0,24,24,th[1]), rect(68,22,24,2,gap);
+  if(r<ROWS-1) rect(68,H-8,24,8,th[1]);
+  if(c>0) rect(0,64,8,24,th[1]);
+  if(c<COLS-1) rect(W-8,64,8,24,th[1]);
+  // mobilier
+  if(key==="accueil"){
+    rect(100,34,34,16,"#7b5a3a"); rect(104,30,10,6,"#e8e0d0"); rect(120,28,8,8,"#c9433a");  // table + tasse + machine à café
+    rect(24,38,40,22,"#5a6fa8"); rect(24,38,40,6,"#e8e0d0");                               // lit
+    g.font="12px sans-serif"; g.fillText("☕",118,26); g.fillText("🪴",14,108); g.fillText("🛋️",110,100);
+  } else {
+    rect(48,40,64,14,"#7a4f2b"); rect(48,52,64,3,"#5a3a1e");           // bureau
+    const on = st && st.etat==="actif", fl = on && (Math.floor(t*6)%2);
+    rect(70,28,20,13,"#1c1c24"); rect(72,30,16,9,on?(fl?"#7dffb0":"#3fd37f"):"#2b3a44");  // écran
+    if(on){ rect(74,32,10,1,"#0a3a22"); rect(74,35,7,1,"#0a3a22"); }
+    rect(78,41,4,3,"#444");
+    // voyant d'état
+    const col = st? ({actif:"#54d17f",attente:"#f0b429",alerte:"#ef5b4f",repos:"#8b8794"}[st.etat]) : "#8b8794";
+    rect(104,34,6,6,"#111"); rect(105,35,4,4,col);
+    g.font="13px sans-serif"; g.fillText(ICON[key]||"",16,48); g.fillText(ICON[key]||"",132,112);
+    g.font="10px sans-serif"; g.fillText("🪴",14,112); g.fillText("📦",134,48);
+    if(st && st.file){ rect(26,70,14,10,"#c8a165"); rect(26,70,14,2,"#a98245"); }   // pile de dossiers = file d'attente
+    if(st && st.file>2){ rect(28,62,14,10,"#d8b175"); }
+  }
+  g.restore();
+}
+function drawBrian(ox,oy,t){
+  if(brian.sleep && brian.path.length===0){
+    const bx=28+ox, by=44+oy;
+    rect(bx,by+2,34,14,"#f3f6f9"); rect(bx,by+2,34,2,"#8aa4b8");           // corps allongé sur le lit
+    rect(bx-2,by+1,12,11,"#f3f6f9"); rect(bx,by+3,8,6,"#17222d");          // tête sur l'oreiller
+    rect(bx+1,by+6,3,1,"#4bc3ff"); rect(bx+5,by+6,3,1,"#4bc3ff");          // yeux fermés
+    rect(bx+12,by+8,2,2,"#2aa6ff");
+    rect(bx+10,by+4,24,12,"#6f8fd0");                                         // couverture
+    const z=Math.floor(t*1.5)%3; g.font="9px sans-serif"; g.fillStyle="#f3ead7";
+    g.fillText("z",bx+14,by-2-z*2); if(z>0) g.fillText("Z",bx+20,by-8-z*2);
+    return;
+  }
+  const x=Math.round(brian.x+ox), y=Math.round(brian.y+oy);
+  const bob = brian.walking ? (Math.floor(t*8)%2) : (brian.work ? (Math.floor(t*10)%2) : 0);
+  rect(x-6,y-1,12,3,"rgba(0,0,0,.35)");
+  const leg = brian.walking ? (Math.floor(t*8)%2?2:-2) : 0;
+  rect(x-4+leg,y-4,3,4,"#cfd8e0"); rect(x+1-leg,y-4,3,4,"#cfd8e0");                  // jambes
+  rect(x-5,y-11-bob,10,8,"#f3f6f9"); rect(x-5,y-11-bob,10,1,"#8aa4b8");               // corps
+  rect(x-1,y-8-bob,2,2,"#2aa6ff");                                                     // cœur lumineux
+  rect(x-7,y-10-bob,2,5,"#f3f6f9"); rect(x+5,y-10-bob,2,5,"#f3f6f9");                 // bras
+  rect(x-6,y-20-bob,12,10,"#f3f6f9"); rect(x-5,y-18-bob,10,6,"#17222d");              // tête + visière
+  const e = {down:[-3,2],up:[-3,2],left:[-4,0],right:[0,4]}[brian.dir]||[-3,2];
+  rect(x+e[0],y-17-bob,2,2,"#4bc3ff"); rect(x+e[1],y-17-bob,2,2,"#4bc3ff");           // yeux
+  if(brian.dir==="up"){ rect(x-5,y-18-bob,10,6,"#dfe6ec"); }                          // de dos
+  rect(x-8,y-17-bob,2,3,"#2aa6ff"); rect(x+6,y-17-bob,2,3,"#2aa6ff");                 // oreillettes
+  if(brian.work){ g.font="9px sans-serif"; g.fillText("⌨️",x-5,y-22-bob); }
+}
+function drawConfetti(dt){
+  confetti = confetti.filter(p=>p.y<ROWS*H+4);
+  for(const p of confetti){ p.x+=p.vx*dt; p.y+=p.vy*dt; p.vy+=20*dt; rect(p.x,p.y,2,2,p.c); }
+}
+function frame(ms){
+  const t=ms/1000, dt=Math.min(0.1,(ms-(frame.last||ms))/1000); frame.last=ms;
+  if(D){ retarget(ms); step(dt,ms); }
+  g.clearRect(0,0,COLS*W,ROWS*H);
+  for(let r=0;r<ROWS;r++) for(let c=0;c<COLS;c++) drawRoom(r,c,c*W,r*H,t);
+  drawBrian(brian.c*W, brian.r*H, t);
+  drawConfetti(dt);
+  updateText();
+  requestAnimationFrame(frame);
+}
+
+/* ---------- textes ---------- */
+let inspect = {key:null, until:0};
+function updateText(){
+  const now = performance.now();
+  const key = (inspect.key && now<inspect.until) ? inspect.key : roomKey(brian.r,brian.c);
+  const st=stationInfo[key], ici = (key===roomKey(brian.r,brian.c));
+  let h="";
+  if(!D){ h="Chargement de l'atelier…"; }
+  else if(ici){
+    if(key==="accueil") h = !brian.sleep? "<b>BrIAn</b> rejoint son lit." : "<b>BrIAn</b> dort : <span class='sub'>zzz… rien d'urgent à faire. Il se réveille dès qu'une tâche démarre.</span>";
+    else if(st && st.courant) h = `<b>BrIAn</b> travaille au poste « ${esc(st.titre)} » :<br>${esc(st.courant.titre)}<div class="sub">${esc(st.courant.projet)} · depuis ${dur(st.courant.depuis + (STATIC? (Date.now()/1000 - D.now) : 0))}</div>`;
+    else h = `<b>BrIAn</b> passe au poste « ${esc(st?st.titre:"")} ».<div class="sub">${esc(st?st.desc:"")}</div>`;
+  } else if(st){
+    h = `<b>${esc(st.titre)}</b> — ${esc(st.desc)}<div class="sub">${st.courant?("En cours : "+esc(st.courant.titre)):(st.file? st.file+" tâche(s) en file." : "Au repos.")}</div>`;
+  } else h="Salle de repos de BrIAn.";
+  if($("#dialog").dataset.h!==h){ $("#dialog").innerHTML=h; $("#dialog").dataset.h=h; }
+}
+
+function render(d){
+  const first = !D; D = d;
+  stationInfo = {}; d.stations.forEach(s=>stationInfo[s.key]=s);
+  const mo=d.moteur, md=d.modele;
+  $("#badges").innerHTML =
+    `<span class="badge"><span class="dot ${mo.etat==='actif'?'ok':mo.etat==='en pause'?'warn':'bad'}"></span>Moteur : ${esc(mo.etat)}</span>` +
+    `<span class="badge"><span class="dot ${md.ok?'ok':'warn'}"></span>Cerveau (modèle gratuit) : ${md.ok?'disponible':'en pause jusqu\'à '+esc(md.reprise||'?')}</span>` +
+    `<span class="badge">🕒 ${STATIC? 'instantané de '+esc(d.heure)+' (il y a '+dur(Date.now()/1000-d.now)+')' : esc(d.heure)}</span><span class="badge">📺 ${d.nb_publiees} vidéos en ligne</span>` +
+    `<span class="badge">En cours ${d.compteurs.RUNNING} · à faire ${d.compteurs.READY+d.compteurs.PENDING+d.compteurs.DEFERRED} · terminées ${d.compteurs.SUCCESS}</span>`;
+  $("#labels").innerHTML = LAYOUT.flat().map(k=>{ const st=stationInfo[k], p=POS[k];
+    const nom = st?st.titre:(NAME[k]||k), tache = st&&st.courant? st.courant.titre.replace(/ : .*$/,'').slice(0,34) : '';
+    return `<div class="lab" style="left:${p.c*25}%;top:${p.r*33.333}%">${ICON[k]} ${esc(nom)}${tache?`<small>▶ ${esc(tache)}</small>`:''}</div>`; }).join("");
+  $("#prog").innerHTML = d.programmees.length ? d.programmees.map(p =>
+    `<li><span class="when">${esc(p.quand)}</span> · ${dans(p.ts - Date.now()/1000)}<div class="sub">${esc(p.titre.replace(/^Publier : /,''))}</div></li>`).join("") : '<li class="empty">Aucune publication programmée.</li>';
+  $("#notifs").innerHTML = d.notifications.length ? d.notifications.map(n =>
+    `<li><span class="tag ${esc(n.type)}">${esc(n.type)}</span><span class="sub">${esc((n.ts||'').replace('T',' ').slice(5,16))}</span><br>${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.texte)}</a>`:esc(n.texte)}</li>`).join("") : '<li class="empty">Aucune notification.</li>';
+  $("#nbpub").textContent = `(${d.nb_publiees})`;
+  $("#pubs").innerHTML = d.publiees.length ? d.publiees.map(p =>
+    `<li><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title.replace(' #Shorts',''))}</a><div class="sub">${esc((p.at||'').replace('T',' ').slice(0,16))}${p.miniature?'':' · sans miniature'}</div></li>`).join("") : '<li class="empty">Rien en ligne.</li>';
+  // fête quand une nouvelle vidéo apparaît
+  const urls = new Set(d.publiees.map(p=>p.url));
+  if(knownPubs && [...urls].some(u=>!knownPubs.has(u))){
+    for(let i=0;i<70;i++) confetti.push({x:Math.random()*COLS*W,y:-4-Math.random()*30,vx:(Math.random()-.5)*30,vy:10+Math.random()*30,c:["#ef5b4f","#f0b429","#54d17f","#4bc3ff","#c77dff"][i%5]});
+  }
+  knownPubs = urls;
+  if(first){ const s=d.stations.find(s=>s.etat==="actif"); if(s){ brian.r=POS[s.key].r; brian.c=POS[s.key].c; brian.x=DESK[0]; brian.y=DESK[1]; brian.dir="up"; brian.target=s.key; } }
+}
+cv.addEventListener("click",e=>{ const b=cv.getBoundingClientRect(); const c=Math.floor((e.clientX-b.left)/b.width*COLS), r=Math.floor((e.clientY-b.top)/b.height*ROWS);
+  if(r>=0&&r<ROWS&&c>=0&&c<COLS){ inspect={key:roomKey(r,c),until:performance.now()+8000}; } });
+
+async function tick(){
+  try { const r=await fetch(STATIC?("data.json?t="+Date.now()):"/api/atelier",{cache:"no-store"}); render(await r.json()); }
+  catch(e){ $("#badges").innerHTML='<span class="badge"><span class="dot bad"></span>Dashboard injoignable</span>'; }
+}
+tick(); setInterval(tick,3000); requestAnimationFrame(frame);
+</script>
+</body>
+</html>

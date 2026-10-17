@@ -1,0 +1,352 @@
+{
+ "now": 1792252903.0308077,
+ "heure": "18:01:43",
+ "moteur": {
+  "etat": "actif",
+  "activite": "en attente de travail exécutable",
+  "battement_s": 3
+ },
+ "modele": {
+  "ok": false,
+  "reprise": "17/10 18:15",
+  "erreur": "quota Groq atteint, pause 965 s",
+  "moteur": "groq openai/gpt-oss-120b"
+ },
+ "stations": [
+  {
+   "key": "idee",
+   "titre": "Trouver une idée",
+   "icone": "💡",
+   "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
+   "etat": "repos",
+   "courant": null,
+   "file": 0,
+   "attend_humain": 0,
+   "alerte": null,
+   "derniere": {
+    "titre": "Trouver des sujets candidats",
+    "quand": "17/10 11:38"
+   },
+   "total_fait": 11
+  },
+  {
+   "key": "recherche",
+   "titre": "Recherche",
+   "icone": "🔎",
+   "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
+   "attend_humain": 0,
+   "alerte": null,
+   "derniere": {
+    "titre": "Recherche documentaire : Robocasting",
+    "quand": "17/10 10:10"
+   },
+   "total_fait": 26
+  },
+  {
+   "key": "script",
+   "titre": "Écriture du script",
+   "icone": "✍️",
+   "desc": "Écrit le récit oral à partir des faits vérifiés.",
+   "etat": "repos",
+   "courant": null,
+   "file": 3,
+   "attend_humain": 0,
+   "alerte": null,
+   "derniere": {
+    "titre": "Écrire le script : NodeMCU",
+    "quand": "17/10 02:21"
+   },
+   "total_fait": 31
+  },
+  {
+   "key": "images",
+   "titre": "Images",
+   "icone": "🖼️",
+   "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
+   "attend_humain": 0,
+   "alerte": null,
+   "derniere": {
+    "titre": "Réunir de vraies illustrations libres : NodeMCU",
+    "quand": "17/10 02:23"
+   },
+   "total_fait": 34
+  },
+  {
+   "key": "voix",
+   "titre": "Studio voix",
+   "icone": "🎙️",
+   "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
+   "attend_humain": 0,
+   "alerte": null,
+   "derniere": {
+    "titre": "Voix (3D dit « trois dé ») : UltiMaker",
+    "quand": "17/10 10:56"
+   },
+   "total_fait": 50
+  },
+  {
+   "key": "synchro",
+   "titre": "Synchronisation",
+   "icone": "⏱️",
+   "desc": "Écoute la voix et la cale sur les sous-titres.",
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
+   "attend_humain": 0,
+   "alerte": null,
+   "derniere": {
+    "titre": "Aligner la narration : UltiMaker",
+    "quand": "17/10 10:57"
+   },
+   "total_fait": 47
+  },
+  {
+   "key": "montage",
+   "titre": "Montage vidéo",
+   "icone": "🎬",
+   "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
+   "attend_humain": 0,
+   "alerte": null,
+   "derniere": {
+    "titre": "Rendre la vidéo : UltiMaker",
+    "quand": "17/10 11:34"
+   },
+   "total_fait": 69
+  },
+  {
+   "key": "qualite",
+   "titre": "Contrôle qualité",
+   "icone": "✅",
+   "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
+   "attend_humain": 0,
+   "alerte": null,
+   "derniere": {
+    "titre": "QA automatique : UltiMaker",
+    "quand": "17/10 11:35"
+   },
+   "total_fait": 54
+  },
+  {
+   "key": "jugement",
+   "titre": "Bureau du juge",
+   "icone": "⚖️",
+   "desc": "Décide si la vidéo mérite d'être publiée.",
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
+   "attend_humain": 0,
+   "alerte": null,
+   "derniere": {
+    "titre": "Revue finale : UltiMaker",
+    "quand": "17/10 16:57"
+   },
+   "total_fait": 40
+  },
+  {
+   "key": "publication",
+   "titre": "Publication YouTube",
+   "icone": "📺",
+   "desc": "Envoie la vidéo, la miniature et la description sur la chaîne.",
+   "etat": "repos",
+   "courant": null,
+   "file": 12,
+   "attend_humain": 0,
+   "alerte": null,
+   "derniere": {
+    "titre": "Miniature : Fichier de stéréolithographie",
+    "quand": "17/10 15:00"
+   },
+   "total_fait": 29
+  },
+  {
+   "key": "veille",
+   "titre": "Veille et maintenance",
+   "icone": "🧰",
+   "desc": "Vérifie le disque, l'intégrité des fichiers et le modèle de langage.",
+   "etat": "repos",
+   "courant": null,
+   "file": 0,
+   "attend_humain": 0,
+   "alerte": null,
+   "derniere": {
+    "titre": "Tester la disponibilité du LLM Groq (borné)",
+    "quand": "17/10 18:00"
+   },
+   "total_fait": 22
+  }
+ ],
+ "programmees": [
+  {
+   "titre": "Publier : RISC-V version corrigée (noms propres), 17/10 18 h",
+   "quand": "17/10 18:30",
+   "ts": 1792254606.6936226,
+   "dans_s": 1703
+  },
+  {
+   "titre": "Publier : Risques de l'impression 3D (jugée publiable, le 18/10 9 h)",
+   "quand": "18/10 09:00",
+   "ts": 1792306800.0,
+   "dans_s": 53896
+  },
+  {
+   "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
+   "quand": "18/10 15:00",
+   "ts": 1792328400.0,
+   "dans_s": 75496
+  },
+  {
+   "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
+   "quand": "19/10 09:00",
+   "ts": 1792393200.0,
+   "dans_s": 140296
+  },
+  {
+   "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
+   "quand": "19/10 15:00",
+   "ts": 1792414800.0,
+   "dans_s": 161896
+  },
+  {
+   "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
+   "quand": "20/10 09:00",
+   "ts": 1792479600.0,
+   "dans_s": 226696
+  }
+ ],
+ "publiees": [
+  {
+   "slug": "fichier-de-stereolithographie",
+   "title": "Fichier de stéréolithographie : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=pelVz3EWz2M",
+   "at": "2026-10-17T15:00:11",
+   "miniature": true
+  },
+  {
+   "slug": "risc-v.old-version",
+   "title": "RISC-V : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=Rdp9AgvQvA0",
+   "at": "2026-10-17T09:00:09",
+   "miniature": true
+  },
+  {
+   "slug": "depot-de-fil-fondu",
+   "title": "Dépôt de fil fondu : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg",
+   "at": "2026-10-16T19:43:35",
+   "miniature": true
+  },
+  {
+   "slug": "disque-compact",
+   "title": "Disque compact : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=NodSE53R2ck",
+   "at": "2026-10-16T16:08:27",
+   "miniature": true
+  },
+  {
+   "slug": "contour-crafting",
+   "title": "Contour crafting : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=uE7b3v48llE",
+   "at": "2026-10-15T17:57:36",
+   "miniature": true
+  },
+  {
+   "slug": "veroboard",
+   "title": "Veroboard : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=vg8eUodecWE",
+   "at": "2026-10-15T17:57:24",
+   "miniature": true
+  }
+ ],
+ "nb_publiees": 11,
+ "notifications": [
+  {
+   "ts": "2026-10-17T15:00:11",
+   "type": "publication",
+   "texte": "Publiée : Fichier de stéréolithographie : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=pelVz3EWz2M"
+  },
+  {
+   "ts": "2026-10-17T09:00:09",
+   "type": "publication",
+   "texte": "Publiée : RISC-V : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=Rdp9AgvQvA0"
+  },
+  {
+   "ts": "2026-10-16T19:43:35",
+   "type": "publication",
+   "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
+  },
+  {
+   "ts": "2026-10-16T16:08:27",
+   "type": "publication",
+   "texte": "Publiée : Disque compact : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=NodSE53R2ck"
+  },
+  {
+   "ts": "2026-10-15T17:57:36",
+   "type": "publication",
+   "texte": "Publiée : Contour crafting : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=uE7b3v48llE"
+  },
+  {
+   "ts": "2026-10-15T17:57:24",
+   "type": "publication",
+   "texte": "Publiée : Veroboard : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=vg8eUodecWE"
+  },
+  {
+   "ts": "2026-10-15T17:57:08",
+   "type": "publication",
+   "texte": "Publiée : Potentiomètre numérique : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=CLLtzKp5WmQ"
+  },
+  {
+   "ts": "2026-10-15T17:56:51",
+   "type": "publication",
+   "texte": "Publiée : RepRap : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=U5r3ctltLRU"
+  },
+  {
+   "ts": "2026-10-15T10:25:37",
+   "type": "publication",
+   "texte": "Publiée : Basic (langage) : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=dDI4udv_xDI"
+  },
+  {
+   "ts": "2026-10-15T07:08:33",
+   "type": "publication",
+   "texte": "Publiée : Agility Robotics : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=f8jI127vgnE"
+  },
+  {
+   "ts": "2026-10-15T07:08:33",
+   "type": "publication",
+   "texte": "Publiée : Carte à puce : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=jiV5xeArGm8"
+  }
+ ],
+ "compteurs": {
+  "RUNNING": 0,
+  "READY": 0,
+  "PENDING": 20,
+  "DEFERRED": 9,
+  "SUCCESS": 425,
+  "FAILED": 28
+ }
+}
