@@ -1,10 +1,10 @@
 {
- "now": 1792254952.6987066,
- "heure": "18:35:52",
+ "now": 1792255140.6576517,
+ "heure": "18:39:00",
  "moteur": {
   "etat": "actif",
   "activite": "en attente de travail exécutable",
-  "battement_s": 2
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
@@ -195,6 +195,7 @@
    "cle": "eclaireur",
    "nom": "Éclaireur",
    "poste": "idee",
+   "poste_prefere": "idee",
    "etat": "veille",
    "dernier": "31 titres lus, 5 idées retenues, 2 ajoutées : Intelligence artificielle, Tesla (automobile)",
    "passages": 1,
@@ -203,25 +204,28 @@
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "recherche",
+   "poste": "script",
+   "poste_prefere": "recherche",
    "etat": "veille",
-   "dernier": "Materialise NV : OK (16 phrases) ; Impression 4D : OK (13 phrases) ; PirateBox : OK (34 phrases)",
-   "passages": 1,
-   "dernier_a": "17/10 18:33"
+   "dernier": "[poste Écriture du script, avec Plume] 6 script(s) relu(s), 5 avec défauts : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent",
+   "passages": 2,
+   "dernier_a": "17/10 18:38"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "script",
+   "poste_prefere": "script",
    "etat": "veille",
-   "dernier": "6 script(s) relu(s), 5 avec défauts : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP",
-   "passages": 1,
-   "dernier_a": "17/10 18:32"
+   "dernier": "[poste Écriture du script] 6 script(s) relu(s), 4 avec défauts : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD",
+   "passages": 2,
+   "dernier_a": "17/10 18:38"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "images",
+   "poste_prefere": "images",
    "etat": "veille",
    "dernier": null,
    "passages": 0,
@@ -233,37 +237,37 @@
    "titre": "Publier : RISC-V version corrigée (noms propres), 17/10 18 h",
    "quand": "17/10 19:00",
    "ts": 1792256416.0150454,
-   "dans_s": 1463
+   "dans_s": 1275
   },
   {
    "titre": "Publier : Risques de l'impression 3D (jugée publiable, le 18/10 9 h)",
    "quand": "18/10 09:00",
    "ts": 1792306800.0,
-   "dans_s": 51847
+   "dans_s": 51659
   },
   {
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 73447
+   "dans_s": 73259
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 138247
+   "dans_s": 138059
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 159847
+   "dans_s": 159659
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 224647
+   "dans_s": 224459
   }
  ],
  "publiees": [
@@ -312,6 +316,18 @@
  ],
  "nb_publiees": 11,
  "notifications": [
+  {
+   "ts": "2026-10-17T18:38:45",
+   "type": "assistant",
+   "texte": "Plume : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
+   "url": null
+  },
+  {
+   "ts": "2026-10-17T18:38:45",
+   "type": "assistant",
+   "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
+   "url": null
+  },
   {
    "ts": "2026-10-17T18:35:09",
    "type": "assistant",
