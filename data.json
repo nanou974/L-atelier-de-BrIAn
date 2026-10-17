@@ -1,10 +1,10 @@
 {
- "now": 1792254840.6465816,
- "heure": "18:34:00",
+ "now": 1792254888.9787078,
+ "heure": "18:34:49",
  "moteur": {
   "etat": "actif",
   "activite": "en attente de travail exécutable",
-  "battement_s": 3
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
@@ -190,42 +190,80 @@
    "total_fait": 22
   }
  ],
+ "assistants": [
+  {
+   "cle": "eclaireur",
+   "nom": "Éclaireur",
+   "poste": "idee",
+   "etat": "veille",
+   "dernier": null,
+   "passages": 0,
+   "dernier_a": null
+  },
+  {
+   "cle": "archiviste",
+   "nom": "Archiviste",
+   "poste": "recherche",
+   "etat": "veille",
+   "dernier": "Materialise NV : OK (16 phrases) ; Impression 4D : OK (13 phrases) ; PirateBox : OK (34 phrases)",
+   "passages": 1,
+   "dernier_a": "17/10 18:33"
+  },
+  {
+   "cle": "plume",
+   "nom": "Plume",
+   "poste": "script",
+   "etat": "veille",
+   "dernier": "6 script(s) relu(s), 5 avec défauts : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP",
+   "passages": 1,
+   "dernier_a": "17/10 18:32"
+  },
+  {
+   "cle": "iconographe",
+   "nom": "Iconographe",
+   "poste": "images",
+   "etat": "veille",
+   "dernier": null,
+   "passages": 0,
+   "dernier_a": null
+  }
+ ],
  "programmees": [
   {
    "titre": "Publier : RISC-V version corrigée (noms propres), 17/10 18 h",
    "quand": "17/10 19:00",
    "ts": 1792256416.0150454,
-   "dans_s": 1575
+   "dans_s": 1527
   },
   {
    "titre": "Publier : Risques de l'impression 3D (jugée publiable, le 18/10 9 h)",
    "quand": "18/10 09:00",
    "ts": 1792306800.0,
-   "dans_s": 51959
+   "dans_s": 51911
   },
   {
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 73559
+   "dans_s": 73511
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 138359
+   "dans_s": 138311
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 159959
+   "dans_s": 159911
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 224759
+   "dans_s": 224711
   }
  ],
  "publiees": [
