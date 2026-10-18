@@ -1,10 +1,10 @@
 {
- "now": 1792324140.464896,
- "heure": "13:49:00",
+ "now": 1792324440.4660015,
+ "heure": "13:54:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Culture maker + Plume : passage continu",
-  "battement_s": 3
+  "activite": "Éclaireur : passage continu",
+  "battement_s": 5
  },
  "modele": {
   "ok": false,
@@ -51,13 +51,9 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Culture maker",
-    "projet": "Sujet : Culture maker",
-    "depuis": 53
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -67,14 +63,13 @@
    "total_fait": 26,
    "taches": [
     {
-     "titre": "Recherche documentaire : Culture maker",
-     "projet": "Sujet : Culture maker",
-     "etat": "en cours",
-     "depuis": 53
-    },
-    {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
+     "etat": "programmée 18/10 13:54"
+    },
+    {
+     "titre": "Recherche documentaire : Culture maker",
+     "projet": "Sujet : Culture maker",
      "etat": "programmée 18/10 13:54"
     },
     {
@@ -524,19 +519,19 @@
    "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 75,
-   "dernier_a": "18/10 13:44"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 76,
+   "dernier_a": "18/10 13:50"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 64,
-   "dernier_a": "18/10 13:05"
+   "passages": 65,
+   "dernier_a": "18/10 13:52"
   },
   {
    "cle": "analyste",
@@ -604,25 +599,25 @@
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 4259
+   "dans_s": 3959
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 69059
+   "dans_s": 68759
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 90659
+   "dans_s": 90359
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 155459
+   "dans_s": 155159
   }
  ],
  "audience": {
@@ -835,11 +830,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 7,
+  "RUNNING": 1,
+  "READY": 8,
   "PENDING": 18,
-  "DEFERRED": 6,
-  "SUCCESS": 899,
+  "DEFERRED": 7,
+  "SUCCESS": 898,
   "FAILED": 28
  }
 }
