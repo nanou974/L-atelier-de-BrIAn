@@ -1,15 +1,15 @@
 {
- "now": 1792304940.9793284,
- "heure": "08:29:01",
+ "now": 1792305211.5382738,
+ "heure": "08:33:31",
  "moteur": {
   "etat": "actif",
-  "activite": "Iconographe : passage continu",
-  "battement_s": 4
+  "activite": "en attente de travail exécutable",
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
-  "reprise": "18/10 08:31",
-  "erreur": "quota Groq atteint, pause 385 s",
+  "reprise": "18/10 08:47",
+  "erreur": "quota Groq atteint, pause 931 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -27,7 +27,24 @@
     "titre": "Trouver des sujets candidats",
     "quand": "17/10 11:38"
    },
-   "total_fait": 11
+   "total_fait": 11,
+   "taches": [
+    {
+     "titre": "Trouver des sujets candidats",
+     "projet": "Éditorial",
+     "etat": "terminée 17/10 11:38"
+    },
+    {
+     "titre": "Trouver des sujets candidats",
+     "projet": "Éditorial",
+     "etat": "terminée 16/10 23:27"
+    },
+    {
+     "titre": "Trouver des sujets candidats",
+     "projet": "Éditorial",
+     "etat": "terminée 16/10 14:59"
+    }
+   ]
   },
   {
    "key": "recherche",
@@ -43,7 +60,34 @@
     "titre": "Recherche documentaire : Robocasting",
     "quand": "17/10 10:10"
    },
-   "total_fait": 26
+   "total_fait": 26,
+   "taches": [
+    {
+     "titre": "Recherche documentaire : Impression 3D dans la construction",
+     "projet": "Sujet : Impression 3D dans la construction",
+     "etat": "programmée 18/10 08:47"
+    },
+    {
+     "titre": "Recherche documentaire : Culture maker",
+     "projet": "Sujet : Culture maker",
+     "etat": "programmée 18/10 08:35"
+    },
+    {
+     "titre": "Recherche documentaire : Robocasting",
+     "projet": "Sujet : Robocasting",
+     "etat": "terminée 17/10 10:10"
+    },
+    {
+     "titre": "Recherche documentaire : D-Shape",
+     "projet": "Sujet : D-Shape",
+     "etat": "terminée 17/10 02:38"
+    },
+    {
+     "titre": "Recherche documentaire : NodeMCU",
+     "projet": "Sujet : NodeMCU",
+     "etat": "terminée 17/10 02:19"
+    }
+   ]
   },
   {
    "key": "script",
@@ -59,7 +103,39 @@
     "titre": "Écrire le script : NodeMCU",
     "quand": "17/10 02:21"
    },
-   "total_fait": 31
+   "total_fait": 31,
+   "taches": [
+    {
+     "titre": "Écrire le script : Robocasting",
+     "projet": "Sujet : Robocasting",
+     "etat": "programmée 18/10 08:35"
+    },
+    {
+     "titre": "Écrire le script : Impression 3D dans la construction",
+     "projet": "Sujet : Impression 3D dans la construction",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Écrire le script : Culture maker",
+     "projet": "Sujet : Culture maker",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Écrire le script : NodeMCU",
+     "projet": "Sujet : NodeMCU",
+     "etat": "terminée 17/10 02:21"
+    },
+    {
+     "titre": "Écrire le script : UltiMaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "terminée 16/10 23:46"
+    },
+    {
+     "titre": "Écrire le script : Capteur",
+     "projet": "Sujet : Capteur",
+     "etat": "terminée 16/10 23:23"
+    }
+   ]
   },
   {
    "key": "images",
@@ -75,7 +151,34 @@
     "titre": "Réunir de vraies illustrations libres : NodeMCU",
     "quand": "17/10 02:23"
    },
-   "total_fait": 34
+   "total_fait": 34,
+   "taches": [
+    {
+     "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
+     "projet": "Sujet : Impression 3D dans la construction",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Culture maker",
+     "projet": "Sujet : Culture maker",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : NodeMCU",
+     "projet": "Sujet : NodeMCU",
+     "etat": "terminée 17/10 02:23"
+    },
+    {
+     "titre": "Illustrations : ESP8266",
+     "projet": "Sujet : ESP8266",
+     "etat": "terminée 17/10 01:31"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : UltiMaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "terminée 16/10 23:49"
+    }
+   ]
   },
   {
    "key": "voix",
@@ -91,7 +194,34 @@
     "titre": "Voix (3D dit « trois dé ») : UltiMaker",
     "quand": "17/10 10:56"
    },
-   "total_fait": 50
+   "total_fait": 50,
+   "taches": [
+    {
+     "titre": "Générer la voix : Impression 3D dans la construction",
+     "projet": "Sujet : Impression 3D dans la construction",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Générer la voix : Culture maker",
+     "projet": "Sujet : Culture maker",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Voix (3D dit « trois dé ») : UltiMaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "terminée 17/10 10:56"
+    },
+    {
+     "titre": "Voix (noms propres prononcés selon le lexique) : RISC-V",
+     "projet": "Sujet : RISC-V",
+     "etat": "terminée 17/10 10:47"
+    },
+    {
+     "titre": "Voix (noms propres prononcés selon le lexique) : UltiMaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "terminée 17/10 09:27"
+    }
+   ]
   },
   {
    "key": "synchro",
@@ -107,7 +237,34 @@
     "titre": "Aligner la narration : UltiMaker",
     "quand": "17/10 10:57"
    },
-   "total_fait": 47
+   "total_fait": 47,
+   "taches": [
+    {
+     "titre": "Aligner la narration : Impression 3D dans la construction",
+     "projet": "Sujet : Impression 3D dans la construction",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Aligner la narration : Culture maker",
+     "projet": "Sujet : Culture maker",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Aligner la narration : UltiMaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "terminée 17/10 10:57"
+    },
+    {
+     "titre": "Aligner la narration : RISC-V",
+     "projet": "Sujet : RISC-V",
+     "etat": "terminée 17/10 10:48"
+    },
+    {
+     "titre": "Aligner la narration : UltiMaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "terminée 17/10 09:29"
+    }
+   ]
   },
   {
    "key": "montage",
@@ -123,7 +280,34 @@
     "titre": "Rendre la vidéo : UltiMaker",
     "quand": "17/10 11:34"
    },
-   "total_fait": 69
+   "total_fait": 69,
+   "taches": [
+    {
+     "titre": "Rendre la vidéo : Impression 3D dans la construction",
+     "projet": "Sujet : Impression 3D dans la construction",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Rendre la vidéo : Culture maker",
+     "projet": "Sujet : Culture maker",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Rendre la vidéo : UltiMaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "terminée 17/10 11:34"
+    },
+    {
+     "titre": "Rendre la vidéo : RISC-V",
+     "projet": "Sujet : RISC-V",
+     "etat": "terminée 17/10 11:16"
+    },
+    {
+     "titre": "Rendre la vidéo : UltiMaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "terminée 17/10 10:26"
+    }
+   ]
   },
   {
    "key": "qualite",
@@ -139,7 +323,34 @@
     "titre": "QA automatique : UltiMaker",
     "quand": "17/10 11:35"
    },
-   "total_fait": 54
+   "total_fait": 54,
+   "taches": [
+    {
+     "titre": "QA automatique : Impression 3D dans la construction",
+     "projet": "Sujet : Impression 3D dans la construction",
+     "etat": "en attente"
+    },
+    {
+     "titre": "QA automatique : Culture maker",
+     "projet": "Sujet : Culture maker",
+     "etat": "en attente"
+    },
+    {
+     "titre": "QA automatique : UltiMaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "terminée 17/10 11:35"
+    },
+    {
+     "titre": "QA automatique : RISC-V",
+     "projet": "Sujet : RISC-V",
+     "etat": "terminée 17/10 11:17"
+    },
+    {
+     "titre": "QA automatique : ESP8266",
+     "projet": "Sujet : ESP8266",
+     "etat": "terminée 17/10 10:15"
+    }
+   ]
   },
   {
    "key": "jugement",
@@ -155,7 +366,34 @@
     "titre": "Revue finale : UltiMaker",
     "quand": "17/10 16:57"
    },
-   "total_fait": 40
+   "total_fait": 40,
+   "taches": [
+    {
+     "titre": "Revue finale (dossier, script, vidéo) : Impression 3D dans la construction",
+     "projet": "Sujet : Impression 3D dans la construction",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Revue finale (dossier, script, vidéo) : Culture maker",
+     "projet": "Sujet : Culture maker",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Revue finale : UltiMaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "terminée 17/10 16:57"
+    },
+    {
+     "titre": "Revue finale : RISC-V",
+     "projet": "Sujet : RISC-V",
+     "etat": "terminée 17/10 16:57"
+    },
+    {
+     "titre": "Revue finale : ESP8266",
+     "projet": "Sujet : ESP8266",
+     "etat": "terminée 17/10 16:57"
+    }
+   ]
   },
   {
    "key": "publication",
@@ -171,7 +409,54 @@
     "titre": "Miniature : Fichier de stéréolithographie",
     "quand": "17/10 15:00"
    },
-   "total_fait": 29
+   "total_fait": 29,
+   "taches": [
+    {
+     "titre": "Publier : Risques de l'impression 3D (jugée publiable, le 18/10 9 h)",
+     "projet": "Sujet : Risques pour la santé liés à l'impression 3D",
+     "etat": "programmée 18/10 09:00"
+    },
+    {
+     "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
+     "projet": "Sujet : Capteur",
+     "etat": "programmée 18/10 15:00"
+    },
+    {
+     "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
+     "projet": "Sujet : Défauts des joints soudés",
+     "etat": "programmée 19/10 15:00"
+    },
+    {
+     "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
+     "projet": "Sujet : ESP8266",
+     "etat": "programmée 20/10 09:00"
+    },
+    {
+     "titre": "Publier : RISC-V version corrigée (noms propres), 17/10 18 h",
+     "projet": "Sujet : RISC-V",
+     "etat": "programmée 18/10 08:33"
+    },
+    {
+     "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
+     "projet": "Sujet : UltiMaker",
+     "etat": "programmée 19/10 09:00"
+    },
+    {
+     "titre": "Miniature : Fichier de stéréolithographie",
+     "projet": "Sujet : Fichier de stéréolithographie",
+     "etat": "terminée 17/10 15:00"
+    },
+    {
+     "titre": "Publier : Fichier de stéréolithographie (jugée publiable, demain 15 h)",
+     "projet": "Sujet : Fichier de stéréolithographie",
+     "etat": "terminée 17/10 15:00"
+    },
+    {
+     "titre": "Miniature : RISC-V",
+     "projet": "Sujet : RISC-V",
+     "etat": "terminée 17/10 09:00"
+    }
+   ]
   },
   {
    "key": "veille",
@@ -187,7 +472,24 @@
     "titre": "Tester la disponibilité du LLM Groq (borné)",
     "quand": "18/10 06:01"
    },
-   "total_fait": 26
+   "total_fait": 26,
+   "taches": [
+    {
+     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "projet": "Maintenance",
+     "etat": "terminée 18/10 06:01"
+    },
+    {
+     "titre": "Contrôler l'espace disque",
+     "projet": "Maintenance",
+     "etat": "terminée 18/10 00:00"
+    },
+    {
+     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "projet": "Maintenance",
+     "etat": "terminée 18/10 00:00"
+    }
+   ]
   }
  ],
  "assistants": [
@@ -198,8 +500,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 46,
-   "dernier_a": "18/10 08:28"
+   "passages": 48,
+   "dernier_a": "18/10 08:32"
   },
   {
    "cle": "archiviste",
@@ -208,8 +510,8 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 47,
-   "dernier_a": "18/10 08:28"
+   "passages": 49,
+   "dernier_a": "18/10 08:32"
   },
   {
    "cle": "plume",
@@ -218,8 +520,8 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script] 0 script(s) relu(s), aucun défaut",
-   "passages": 47,
-   "dernier_a": "18/10 08:28"
+   "passages": 49,
+   "dernier_a": "18/10 08:32"
   },
   {
    "cle": "iconographe",
@@ -228,8 +530,8 @@
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 45,
-   "dernier_a": "18/10 08:28"
+   "passages": 47,
+   "dernier_a": "18/10 08:33"
   },
   {
    "cle": "analyste",
@@ -238,8 +540,8 @@
    "poste_prefere": "publication",
    "etat": "actif",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 46,
-   "dernier_a": "18/10 08:27"
+   "passages": 49,
+   "dernier_a": "18/10 08:33"
   },
   {
    "cle": "tendances",
@@ -248,8 +550,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 44,
-   "dernier_a": "18/10 08:27"
+   "passages": 46,
+   "dernier_a": "18/10 08:33"
   },
   {
    "cle": "accroche",
@@ -258,8 +560,8 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 44,
-   "dernier_a": "18/10 08:27"
+   "passages": 45,
+   "dernier_a": "18/10 08:31"
   },
   {
    "cle": "miniaturiste",
@@ -268,8 +570,8 @@
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 44,
-   "dernier_a": "18/10 08:27"
+   "passages": 45,
+   "dernier_a": "18/10 08:31"
   },
   {
    "cle": "referenceur",
@@ -278,8 +580,8 @@
    "poste_prefere": "publication",
    "etat": "actif",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 45,
-   "dernier_a": "18/10 08:27"
+   "passages": 46,
+   "dernier_a": "18/10 08:31"
   },
   {
    "cle": "programmateur",
@@ -288,8 +590,8 @@
    "poste_prefere": "publication",
    "etat": "actif",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 45,
-   "dernier_a": "18/10 08:27"
+   "passages": 46,
+   "dernier_a": "18/10 08:31"
   }
  ],
  "programmees": [
@@ -297,37 +599,37 @@
    "titre": "Publier : RISC-V version corrigée (noms propres), 17/10 18 h",
    "quand": "18/10 08:33",
    "ts": 1792305236.556737,
-   "dans_s": 295
+   "dans_s": 25
   },
   {
    "titre": "Publier : Risques de l'impression 3D (jugée publiable, le 18/10 9 h)",
    "quand": "18/10 09:00",
    "ts": 1792306800.0,
-   "dans_s": 1859
+   "dans_s": 1588
   },
   {
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 23459
+   "dans_s": 23188
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 88259
+   "dans_s": 87988
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 109859
+   "dans_s": 109588
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 174659
+   "dans_s": 174388
   }
  ],
  "publiees": [
@@ -474,11 +776,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 1,
+  "RUNNING": 0,
+  "READY": 0,
   "PENDING": 20,
   "DEFERRED": 9,
-  "SUCCESS": 867,
+  "SUCCESS": 869,
   "FAILED": 28
  }
 }

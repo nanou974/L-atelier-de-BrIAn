@@ -27,6 +27,10 @@ main{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:16px;padding:16p
 canvas{display:block;width:100%;height:auto;image-rendering:pixelated;image-rendering:crisp-edges;background:#111}
 .dialog{position:relative;margin:8px;background:rgba(18,14,30,.92);border:3px solid #f3ead7;border-radius:8px;color:#f3ead7;padding:8px 12px;font-size:clamp(11px,1.7vw,15px);line-height:1.35;min-height:44px;box-shadow:0 0 0 3px #1b1630}
 .dialog b{color:#ffd86b}
+#roomlist ul{list-style:none;margin:6px 0 0;padding:0;max-height:34vh;overflow:auto}
+#roomlist li{padding:4px 0;border-top:1px solid rgba(243,234,215,.18)}
+#roomlist .tag{display:inline-block;font-size:.8em;padding:0 6px;border-radius:999px;background:#3a3358;margin-right:6px;color:#e8e0ff}
+#roomlist .tag.run{background:#1f6b44;color:#d9ffe8}
 .dialog .sub{color:#b9b0d8;font-size:.85em}
 .lab{position:absolute;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding-top:.7%;pointer-events:none;color:#f3ead7;text-shadow:0 1px 2px #000;font-size:var(--labfs,12px);font-weight:700;text-align:center;line-height:1.15}.lab small{font-weight:400;font-size:.82em;color:#bff5d0;max-width:92%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .controls{display:flex;gap:8px;justify-content:center;margin:8px 0}
@@ -62,6 +66,7 @@ footer{padding:8px 16px 24px;text-align:center;color:var(--muted);font-size:12px
     <div class="game">
       <div style="position:relative"><canvas id="cv" width="640" height="384"></canvas>
       <div id="labels"></div></div>
+      <div class="dialog" id="roomlist" hidden></div>
       <div class="dialog" id="dialog">…</div>
     </div>
     </section>
@@ -270,6 +275,7 @@ function frame(ms){
   g.clearRect(0,0,COLS*W,ROWS*H);
   for(let r=0;r<ROWS;r++) for(let c=0;c<COLS;c++) drawRoom(r,c,c*W,r*H,t);
   drawBrian(brian.c*W, brian.r*H, t);
+  if(selectedRoom){ const p=POS[selectedRoom]; if(p){ g.strokeStyle='#ffd86b'; g.lineWidth=3; g.strokeRect(p.c*W+2,p.r*H+2,W-4,H-4); } }
   drawConfetti(dt);
   updateText();
   requestAnimationFrame(frame);
@@ -277,6 +283,17 @@ function frame(ms){
 
 /* ---------- textes ---------- */
 let inspect = {key:null, until:0};
+let selectedRoom = null;       // bureau cliqué : sa liste de tâches s'affiche ; un second clic (ou un autre bureau) la remplace
+function renderRoomList(){
+  const el=$("#roomlist"); if(!selectedRoom || !D){ el.hidden=true; return; }
+  const st=stationInfo[selectedRoom], helpers=assistByPoste[selectedRoom]||[];
+  let h = `<b>${ICON[selectedRoom]||""} ${esc(st?st.titre:(NAME[selectedRoom]||selectedRoom))}</b> <span class="sub">— tâches de ce bureau (touche le bureau à nouveau pour fermer)</span>`;
+  const L = st? (st.taches||[]) : [];
+  h += L.length ? "<ul>"+L.map(t=>`<li><span class="tag ${t.etat==='en cours'?'run':''}">${esc(t.etat)}${t.depuis!=null?' · '+dur(t.depuis):''}</span>${esc(t.titre)}<div class="sub">${esc(t.projet)}</div></li>`).join("")+"</ul>"
+           : `<div class="sub" style="margin-top:6px">${st?'Aucune tâche pour le moment.':'Salle de repos : rien à suivre ici.'}</div>`;
+  if(helpers.length) h += `<div class="sub" style="margin-top:6px">🤝 Assistants ici : ${helpers.map(a=>esc(a.nom)+(a.etat==='actif'?' (au travail)':'')).join(', ')}</div>`;
+  el.innerHTML=h; el.hidden=false;
+}
 function updateText(){
   const now = performance.now();
   const key = (inspect.key && now<inspect.until) ? inspect.key : roomKey(brian.r,brian.c);
@@ -300,6 +317,7 @@ function render(d){
   const first = !D; D = d;
   stationInfo = {}; d.stations.forEach(s=>stationInfo[s.key]=s);
   assistByPoste = {}; (d.assistants||[]).forEach(a=>(assistByPoste[a.poste]=assistByPoste[a.poste]||[]).push(a));
+  renderRoomList();
   const mo=d.moteur, md=d.modele;
   $("#badges").innerHTML =
     `<span class="badge"><span class="dot ${mo.etat==='actif'?'ok':mo.etat==='en pause'?'warn':'bad'}"></span>Moteur : ${esc(mo.etat)}</span>` +
@@ -325,7 +343,8 @@ function render(d){
   if(first){ const s=d.stations.find(s=>s.etat==="actif"); if(s){ brian.room=s.key; brian.r=POS[s.key].r; brian.c=POS[s.key].c; brian.x=DESK[0]; brian.y=DESK[1]; brian.dir="up"; brian.target=s.key; } }
 }
 cv.addEventListener("click",e=>{ const b=cv.getBoundingClientRect(); const c=Math.floor((e.clientX-b.left)/b.width*COLS), r=Math.floor((e.clientY-b.top)/b.height*ROWS);
-  if(r>=0&&r<ROWS&&c>=0&&c<COLS){ inspect={key:roomKey(r,c),until:performance.now()+8000}; } });
+  if(r>=0&&r<ROWS&&c>=0&&c<COLS){ const k=roomKey(r,c); inspect={key:k,until:performance.now()+8000};
+    selectedRoom = (selectedRoom===k) ? null : k; renderRoomList(); } });
 
 async function tick(){
   try { const r=await fetch(STATIC?("data.json?t="+Date.now()):"/api/atelier",{cache:"no-store"}); render(await r.json()); }
