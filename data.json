@@ -1,14 +1,14 @@
 {
- "now": 1792326840.5150733,
- "heure": "14:34:00",
+ "now": 1792327140.5540743,
+ "heure": "14:39:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Culture maker + Éclaireur : passage continu",
-  "battement_s": 0
+  "activite": "Écrire le script : Robocasting + Iconographe : passage continu",
+  "battement_s": 1
  },
  "modele": {
-  "ok": false,
-  "reprise": "18/10 14:38",
+  "ok": true,
+  "reprise": null,
   "erreur": "quota Groq atteint, pause 389 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
@@ -51,13 +51,9 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Culture maker",
-    "projet": "Sujet : Culture maker",
-    "depuis": 56
-   },
-   "file": 1,
+   "etat": "attente",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -67,15 +63,14 @@
    "total_fait": 26,
    "taches": [
     {
-     "titre": "Recherche documentaire : Culture maker",
-     "projet": "Sujet : Culture maker",
-     "etat": "en cours",
-     "depuis": 56
-    },
-    {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 18/10 14:38"
+     "etat": "prête"
+    },
+    {
+     "titre": "Recherche documentaire : Culture maker",
+     "projet": "Sujet : Culture maker",
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -99,9 +94,13 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "repos",
-   "courant": null,
-   "file": 3,
+   "etat": "actif",
+   "courant": {
+    "titre": "Écrire le script : Robocasting",
+    "projet": "Sujet : Robocasting",
+    "depuis": 11
+   },
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -113,7 +112,8 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 18/10 14:38"
+     "etat": "en cours",
+     "depuis": 11
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -505,8 +505,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 92,
-   "dernier_a": "18/10 14:27"
+   "passages": 93,
+   "dernier_a": "18/10 14:35"
   },
   {
    "cle": "archiviste",
@@ -515,25 +515,25 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 92,
-   "dernier_a": "18/10 14:29"
+   "passages": 93,
+   "dernier_a": "18/10 14:37"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 81,
-   "dernier_a": "18/10 14:32"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 82,
+   "dernier_a": "18/10 14:37"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 65,
    "dernier_a": "18/10 13:52"
@@ -604,25 +604,25 @@
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 1559
+   "dans_s": 1259
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 66359
+   "dans_s": 66059
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 87959
+   "dans_s": 87659
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 152759
+   "dans_s": 152459
   }
  ],
  "audience": {
@@ -836,10 +836,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 8,
+  "READY": 9,
   "PENDING": 18,
-  "DEFERRED": 6,
-  "SUCCESS": 898,
+  "DEFERRED": 4,
+  "SUCCESS": 899,
   "FAILED": 28
  }
 }
