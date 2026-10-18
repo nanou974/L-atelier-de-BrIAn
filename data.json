@@ -1,15 +1,15 @@
 {
- "now": 1792319340.3807228,
- "heure": "12:29:00",
+ "now": 1792319640.3508875,
+ "heure": "12:34:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 4
+  "activite": "Plume : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "18/10 12:30",
-  "erreur": "quota Groq atteint, pause 600 s",
+  "reprise": "18/10 12:36",
+  "erreur": "quota Groq atteint, pause 390 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,12 +65,12 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 18/10 12:30"
+     "etat": "programmée 18/10 12:36"
     },
     {
      "titre": "Recherche documentaire : Culture maker",
      "projet": "Sujet : Culture maker",
-     "etat": "programmée 18/10 12:30"
+     "etat": "programmée 18/10 12:36"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -108,7 +108,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 18/10 12:30"
+     "etat": "programmée 18/10 12:36"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -499,19 +499,19 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 73,
-   "dernier_a": "18/10 12:23"
+   "dernier": "[poste Trouver une idée, avec Archiviste, Plume] 31 titres lus, 0 idées retenues",
+   "passages": 74,
+   "dernier_a": "18/10 12:30"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 73,
-   "dernier_a": "18/10 12:25"
+   "dernier": "[poste Publication YouTube] 18 fiches vérifiées, 18 avec remarques ; à corriger avant envoi : capteur : plus de 3 hashtags dans la description | defauts-des-joints-soudes : plus de 3 hashtags dans la description",
+   "passages": 74,
+   "dernier_a": "18/10 12:30"
   },
   {
    "cle": "plume",
@@ -599,25 +599,25 @@
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 9059
+   "dans_s": 8759
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 73859
+   "dans_s": 73559
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 95459
+   "dans_s": 95159
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 160259
+   "dans_s": 159959
   }
  ],
  "audience": {
@@ -831,10 +831,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 9,
   "PENDING": 18,
   "DEFERRED": 7,
-  "SUCCESS": 898,
+  "SUCCESS": 897,
   "FAILED": 28
  }
 }
