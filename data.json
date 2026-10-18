@@ -1,15 +1,15 @@
 {
- "now": 1792328940.6944137,
- "heure": "15:09:00",
+ "now": 1792329241.140903,
+ "heure": "15:14:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Analyste : passage continu",
-  "battement_s": 4
+  "activite": "Écrire le script : Robocasting + Archiviste : passage continu",
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
-  "reprise": "18/10 15:13",
-  "erreur": "quota Groq atteint, pause 987 s",
+  "reprise": "18/10 15:24",
+  "erreur": "quota Groq atteint, pause 606 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -51,7 +51,7 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
    "file": 2,
    "attend_humain": 0,
@@ -65,12 +65,12 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 18/10 15:13"
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Culture maker",
      "projet": "Sujet : Culture maker",
-     "etat": "programmée 18/10 15:13"
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -94,9 +94,13 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "repos",
-   "courant": null,
-   "file": 3,
+   "etat": "actif",
+   "courant": {
+    "titre": "Écrire le script : Robocasting",
+    "projet": "Sujet : Robocasting",
+    "depuis": 6
+   },
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -108,7 +112,8 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 18/10 15:13"
+     "etat": "en cours",
+     "depuis": 6
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -500,13 +505,13 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Analyste] 31 titres lus, 0 idées retenues",
-   "passages": 97,
-   "dernier_a": "18/10 15:04"
+   "passages": 98,
+   "dernier_a": "18/10 15:12"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "images",
+   "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Images] 13 miniatures notées, meilleure : contour-crafting",
@@ -518,7 +523,7 @@
    "nom": "Plume",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube] 18 fiches vérifiées, 18 avec remarques ; à corriger avant envoi : defauts-des-joints-soudes : plus de 3 hashtags dans la description | esp8266 : plus de 3 hashtags dans la description",
    "passages": 86,
    "dernier_a": "18/10 15:04"
@@ -540,8 +545,8 @@
    "poste_prefere": "publication",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 60,
-   "dernier_a": "18/10 15:02"
+   "passages": 61,
+   "dernier_a": "18/10 15:09"
   },
   {
    "cle": "tendances",
@@ -599,19 +604,19 @@
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 64259
+   "dans_s": 63958
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 85859
+   "dans_s": 85558
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 150659
+   "dans_s": 150358
   }
  ],
  "audience": {
@@ -821,11 +826,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 8,
+  "RUNNING": 2,
+  "READY": 11,
   "PENDING": 17,
-  "DEFERRED": 6,
-  "SUCCESS": 900,
+  "DEFERRED": 3,
+  "SUCCESS": 899,
   "FAILED": 28
  }
 }
