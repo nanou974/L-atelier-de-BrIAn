@@ -1,15 +1,15 @@
 {
- "now": 1792331340.813331,
- "heure": "15:49:01",
+ "now": 1792331640.814538,
+ "heure": "15:54:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Impression 3D dans la construction + Plume : passage continu",
-  "battement_s": 1
+  "activite": "Analyste : passage continu",
+  "battement_s": 3
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": "quota Groq atteint, pause 1376 s",
+  "ok": false,
+  "reprise": "18/10 15:58",
+  "erreur": "quota Groq atteint, pause 541 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -51,13 +51,9 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Impression 3D dans la construction",
-    "projet": "Sujet : Impression 3D dans la construction",
-    "depuis": 41
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -69,13 +65,12 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en cours",
-     "depuis": 41
+     "etat": "programmée 18/10 15:58"
     },
     {
      "titre": "Recherche documentaire : Culture maker",
      "projet": "Sujet : Culture maker",
-     "etat": "prête"
+     "etat": "programmée 18/10 15:58"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -99,7 +94,7 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "attente",
+   "etat": "repos",
    "courant": null,
    "file": 3,
    "attend_humain": 0,
@@ -113,7 +108,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "prête"
+     "etat": "programmée 18/10 15:58"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -511,12 +506,12 @@
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 103,
-   "dernier_a": "18/10 15:45"
+   "dernier": "[poste Publication YouTube] 3 publications programmées, calendrier sain",
+   "passages": 104,
+   "dernier_a": "18/10 15:51"
   },
   {
    "cle": "plume",
@@ -525,25 +520,25 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 88,
-   "dernier_a": "18/10 15:40"
+   "passages": 89,
+   "dernier_a": "18/10 15:51"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 69,
-   "dernier_a": "18/10 15:33"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, avec Archiviste] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 70,
+   "dernier_a": "18/10 15:51"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
    "poste": "idee",
    "poste_prefere": "publication",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 61,
    "dernier_a": "18/10 15:09"
@@ -604,19 +599,19 @@
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 61859
+   "dans_s": 61559
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 83459
+   "dans_s": 83159
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 148259
+   "dans_s": 147959
   }
  ],
  "audience": {
@@ -826,11 +821,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
+  "RUNNING": 1,
   "READY": 9,
   "PENDING": 17,
-  "DEFERRED": 3,
-  "SUCCESS": 901,
+  "DEFERRED": 6,
+  "SUCCESS": 899,
   "FAILED": 28
  }
 }
