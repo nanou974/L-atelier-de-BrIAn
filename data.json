@@ -1,15 +1,15 @@
 {
- "now": 1792360740.5145078,
- "heure": "23:59:00",
+ "now": 1792361040.5510004,
+ "heure": "00:04:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Iconographe : passage continu",
-  "battement_s": 1
+  "activite": "Archiviste : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "18/10 23:59",
-  "erreur": "quota Groq atteint, pause 620 s",
+  "reprise": "19/10 00:05",
+  "erreur": "quota Groq atteint, pause 386 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 18/10 23:59"
+     "etat": "programmée 19/10 00:06"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 18/10 23:59"
+     "etat": "programmée 19/10 00:06"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -429,25 +429,25 @@
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Tester la disponibilité du LLM Groq (borné)",
-    "quand": "18/10 18:01"
+    "titre": "Contrôler l'espace disque",
+    "quand": "19/10 00:00"
    },
-   "total_fait": 28,
+   "total_fait": 31,
    "taches": [
     {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "titre": "Contrôler l'espace disque",
      "projet": "Maintenance",
-     "etat": "terminée 18/10 18:01"
+     "etat": "terminée 19/10 00:00"
     },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
-     "etat": "terminée 18/10 12:02"
+     "etat": "terminée 19/10 00:00"
     },
     {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "titre": "Vérifier l'intégrité des médias sources",
      "projet": "Maintenance",
-     "etat": "terminée 18/10 06:01"
+     "etat": "terminée 19/10 00:00"
     }
    ]
   }
@@ -460,13 +460,13 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 181,
-   "dernier_a": "18/10 23:55"
+   "passages": 182,
+   "dernier_a": "19/10 00:03"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
@@ -490,8 +490,8 @@
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 89,
-   "dernier_a": "18/10 23:20"
+   "passages": 90,
+   "dernier_a": "19/10 00:01"
   },
   {
    "cle": "analyste",
@@ -559,19 +559,19 @@
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 32459
+   "dans_s": 32159
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 54059
+   "dans_s": 53759
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 118859
+   "dans_s": 118559
   }
  ],
  "audience": {
@@ -785,10 +785,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 7,
+  "READY": 8,
   "PENDING": 10,
   "DEFERRED": 5,
-  "SUCCESS": 902,
+  "SUCCESS": 904,
   "FAILED": 28
  }
 }
