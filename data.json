@@ -1,10 +1,10 @@
 {
- "now": 1792315741.2398455,
- "heure": "11:29:01",
+ "now": 1792316041.3161626,
+ "heure": "11:34:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Rendre la vidéo : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
-  "battement_s": 4
+  "activite": "QA automatique : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker + Rendre la vidéo : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
@@ -283,29 +283,24 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "actif",
    "courant": {
-    "titre": "Rendre la vidéo : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
-    "projet": "Sujet : UltiMaker",
-    "depuis": 889
+    "titre": "Rendre la vidéo : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
+    "projet": "Sujet : Défauts des joints soudés",
+    "depuis": 48
    },
-   "file": 4,
+   "file": 3,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Rendre la vidéo : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
-    "quand": "18/10 10:52"
+    "titre": "Rendre la vidéo : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
+    "quand": "18/10 11:33"
    },
-   "total_fait": 71,
+   "total_fait": 72,
    "taches": [
-    {
-     "titre": "Rendre la vidéo : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
-     "projet": "Sujet : UltiMaker",
-     "etat": "en cours",
-     "depuis": 889
-    },
     {
      "titre": "Rendre la vidéo : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
      "projet": "Sujet : Défauts des joints soudés",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 48
     },
     {
      "titre": "Rendre la vidéo : Impression 3D dans la construction",
@@ -323,6 +318,11 @@
      "etat": "en attente"
     },
     {
+     "titre": "Rendre la vidéo : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "terminée 18/10 11:33"
+    },
+    {
      "titre": "Rendre la vidéo : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
      "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
      "etat": "terminée 18/10 10:52"
@@ -331,11 +331,6 @@
      "titre": "Rendre la vidéo : Capteur (ouverture « Aujourd'hui je vais vous parler de ») : capteur",
      "projet": "Sujet : Capteur",
      "etat": "terminée 18/10 10:32"
-    },
-    {
-     "titre": "Rendre la vidéo : UltiMaker",
-     "projet": "Sujet : UltiMaker",
-     "etat": "terminée 17/10 11:34"
     }
    ]
   },
@@ -344,9 +339,13 @@
    "titre": "Contrôle qualité",
    "icone": "✅",
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
-   "etat": "repos",
-   "courant": null,
-   "file": 5,
+   "etat": "actif",
+   "courant": {
+    "titre": "QA automatique : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
+    "projet": "Sujet : UltiMaker",
+    "depuis": 48
+   },
+   "file": 4,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -356,6 +355,12 @@
    "total_fait": 56,
    "taches": [
     {
+     "titre": "QA automatique : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "en cours",
+     "depuis": 48
+    },
+    {
      "titre": "QA automatique : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
      "etat": "en attente"
@@ -363,11 +368,6 @@
     {
      "titre": "QA automatique : Culture maker",
      "projet": "Sujet : Culture maker",
-     "etat": "en attente"
-    },
-    {
-     "titre": "QA automatique : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
-     "projet": "Sujet : UltiMaker",
      "etat": "en attente"
     },
     {
@@ -659,25 +659,25 @@
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 12658
+   "dans_s": 12358
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 77458
+   "dans_s": 77158
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 99058
+   "dans_s": 98758
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 163858
+   "dans_s": 163558
   }
  ],
  "audience": {
@@ -881,11 +881,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 2,
-  "PENDING": 26,
+  "RUNNING": 2,
+  "READY": 1,
+  "PENDING": 25,
   "DEFERRED": 7,
-  "SUCCESS": 895,
+  "SUCCESS": 896,
   "FAILED": 28
  }
 }
