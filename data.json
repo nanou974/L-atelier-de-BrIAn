@@ -1,10 +1,10 @@
 {
- "now": 1792336440.93403,
- "heure": "17:14:01",
+ "now": 1792336740.9533162,
+ "heure": "17:19:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Culture maker + Éclaireur : passage continu",
-  "battement_s": 4
+  "activite": "Éclaireur : passage continu",
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
@@ -51,13 +51,9 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Culture maker",
-    "projet": "Sujet : Culture maker",
-    "depuis": 55
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -67,14 +63,13 @@
    "total_fait": 26,
    "taches": [
     {
-     "titre": "Recherche documentaire : Culture maker",
-     "projet": "Sujet : Culture maker",
-     "etat": "en cours",
-     "depuis": 55
-    },
-    {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
+     "etat": "programmée 18/10 17:19"
+    },
+    {
+     "titre": "Recherche documentaire : Culture maker",
+     "projet": "Sujet : Culture maker",
      "etat": "programmée 18/10 17:19"
     },
     {
@@ -504,9 +499,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 116,
-   "dernier_a": "18/10 17:06"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 117,
+   "dernier_a": "18/10 17:14"
   },
   {
    "cle": "archiviste",
@@ -514,16 +509,16 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 115,
-   "dernier_a": "18/10 17:11"
+   "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
+   "passages": 116,
+   "dernier_a": "18/10 17:17"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
    "passages": 97,
    "dernier_a": "18/10 17:09"
@@ -604,19 +599,19 @@
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 56759
+   "dans_s": 56459
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 78359
+   "dans_s": 78059
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 143159
+   "dans_s": 142859
   }
  ],
  "audience": {
@@ -826,11 +821,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 9,
+  "RUNNING": 1,
+  "READY": 8,
   "PENDING": 17,
-  "DEFERRED": 5,
-  "SUCCESS": 899,
+  "DEFERRED": 6,
+  "SUCCESS": 900,
   "FAILED": 28
  }
 }
