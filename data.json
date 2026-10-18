@@ -1,15 +1,15 @@
 {
- "now": 1792295940.7580016,
- "heure": "05:59:00",
+ "now": 1792296240.7530277,
+ "heure": "06:04:00",
  "moteur": {
   "etat": "actif",
   "activite": "en attente de travail exécutable",
-  "battement_s": 2
+  "battement_s": 5
  },
  "modele": {
   "ok": false,
-  "reprise": "18/10 06:01",
-  "erreur": "quota Groq atteint, pause 1391 s",
+  "reprise": "18/10 06:19",
+  "erreur": "quota Groq atteint, pause 1043 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -184,10 +184,10 @@
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Contrôler l'espace disque",
-    "quand": "18/10 00:00"
+    "titre": "Tester la disponibilité du LLM Groq (borné)",
+    "quand": "18/10 06:01"
    },
-   "total_fait": 25
+   "total_fait": 26
   }
  ],
  "assistants": [
@@ -198,8 +198,8 @@
    "poste_prefere": "idee",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 29,
-   "dernier_a": "18/10 05:51"
+   "passages": 30,
+   "dernier_a": "18/10 06:01"
   },
   {
    "cle": "archiviste",
@@ -208,8 +208,8 @@
    "poste_prefere": "recherche",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 30,
-   "dernier_a": "18/10 05:51"
+   "passages": 31,
+   "dernier_a": "18/10 06:01"
   },
   {
    "cle": "plume",
@@ -218,8 +218,8 @@
    "poste_prefere": "script",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 script(s) relu(s), aucun défaut",
-   "passages": 30,
-   "dernier_a": "18/10 05:51"
+   "passages": 31,
+   "dernier_a": "18/10 06:02"
   },
   {
    "cle": "iconographe",
@@ -228,8 +228,8 @@
    "poste_prefere": "images",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 28,
-   "dernier_a": "18/10 05:51"
+   "passages": 29,
+   "dernier_a": "18/10 06:02"
   },
   {
    "cle": "analyste",
@@ -238,8 +238,8 @@
    "poste_prefere": "publication",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 30,
-   "dernier_a": "18/10 05:51"
+   "passages": 31,
+   "dernier_a": "18/10 06:02"
   },
   {
    "cle": "tendances",
@@ -248,8 +248,8 @@
    "poste_prefere": "idee",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 28,
-   "dernier_a": "18/10 05:51"
+   "passages": 29,
+   "dernier_a": "18/10 06:02"
   },
   {
    "cle": "accroche",
@@ -258,8 +258,8 @@
    "poste_prefere": "script",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 28,
-   "dernier_a": "18/10 05:52"
+   "passages": 29,
+   "dernier_a": "18/10 06:02"
   },
   {
    "cle": "miniaturiste",
@@ -268,8 +268,8 @@
    "poste_prefere": "images",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 28,
-   "dernier_a": "18/10 05:52"
+   "passages": 29,
+   "dernier_a": "18/10 06:02"
   },
   {
    "cle": "referenceur",
@@ -278,8 +278,8 @@
    "poste_prefere": "publication",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 29,
-   "dernier_a": "18/10 05:52"
+   "passages": 30,
+   "dernier_a": "18/10 06:02"
   },
   {
    "cle": "programmateur",
@@ -288,46 +288,46 @@
    "poste_prefere": "publication",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 29,
-   "dernier_a": "18/10 05:52"
+   "passages": 30,
+   "dernier_a": "18/10 06:02"
   }
  ],
  "programmees": [
   {
    "titre": "Publier : RISC-V version corrigée (noms propres), 17/10 18 h",
-   "quand": "18/10 06:03",
-   "ts": 1792296198.3913348,
-   "dans_s": 257
+   "quand": "18/10 06:33",
+   "ts": 1792298005.2895591,
+   "dans_s": 1764
   },
   {
    "titre": "Publier : Risques de l'impression 3D (jugée publiable, le 18/10 9 h)",
    "quand": "18/10 09:00",
    "ts": 1792306800.0,
-   "dans_s": 10859
+   "dans_s": 10559
   },
   {
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 32459
+   "dans_s": 32159
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 97259
+   "dans_s": 96959
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 118859
+   "dans_s": 118559
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 183659
+   "dans_s": 183359
   }
  ],
  "publiees": [
@@ -478,7 +478,7 @@
   "READY": 0,
   "PENDING": 20,
   "DEFERRED": 9,
-  "SUCCESS": 708,
+  "SUCCESS": 719,
   "FAILED": 28
  }
 }
