@@ -1,10 +1,10 @@
 {
- "now": 1792301040.9615371,
- "heure": "07:24:01",
+ "now": 1792301340.8888884,
+ "heure": "07:29:01",
  "moteur": {
   "etat": "actif",
   "activite": "en attente de travail exécutable",
-  "battement_s": 0
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
@@ -34,7 +34,7 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "attente",
+   "etat": "repos",
    "courant": null,
    "file": 2,
    "attend_humain": 0,
@@ -50,7 +50,7 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "attente",
+   "etat": "repos",
    "courant": null,
    "file": 3,
    "attend_humain": 0,
@@ -297,37 +297,37 @@
    "titre": "Publier : RISC-V version corrigée (noms propres), 17/10 18 h",
    "quand": "18/10 07:33",
    "ts": 1792301621.718639,
-   "dans_s": 580
+   "dans_s": 280
   },
   {
    "titre": "Publier : Risques de l'impression 3D (jugée publiable, le 18/10 9 h)",
    "quand": "18/10 09:00",
    "ts": 1792306800.0,
-   "dans_s": 5759
+   "dans_s": 5459
   },
   {
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 27359
+   "dans_s": 27059
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 92159
+   "dans_s": 91859
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 113759
+   "dans_s": 113459
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 178559
+   "dans_s": 178259
   }
  ],
  "publiees": [
@@ -475,9 +475,9 @@
  ],
  "compteurs": {
   "RUNNING": 0,
-  "READY": 2,
+  "READY": 0,
   "PENDING": 20,
-  "DEFERRED": 7,
+  "DEFERRED": 9,
   "SUCCESS": 799,
   "FAILED": 28
  }
