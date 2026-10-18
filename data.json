@@ -1,15 +1,15 @@
 {
- "now": 1792300740.8698463,
- "heure": "07:19:01",
+ "now": 1792301040.9615371,
+ "heure": "07:24:01",
  "moteur": {
   "etat": "actif",
   "activite": "en attente de travail exécutable",
-  "battement_s": 3
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
-  "reprise": "18/10 07:21",
-  "erreur": "quota Groq atteint, pause 926 s",
+  "reprise": "18/10 07:50",
+  "erreur": "quota Groq atteint, pause 1705 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -34,7 +34,7 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
    "file": 2,
    "attend_humain": 0,
@@ -50,7 +50,7 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
    "file": 3,
    "attend_humain": 0,
@@ -198,8 +198,8 @@
    "poste_prefere": "idee",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 37,
-   "dernier_a": "18/10 07:11"
+   "passages": 38,
+   "dernier_a": "18/10 07:21"
   },
   {
    "cle": "archiviste",
@@ -208,8 +208,8 @@
    "poste_prefere": "recherche",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 38,
-   "dernier_a": "18/10 07:11"
+   "passages": 39,
+   "dernier_a": "18/10 07:21"
   },
   {
    "cle": "plume",
@@ -218,8 +218,8 @@
    "poste_prefere": "script",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 script(s) relu(s), aucun défaut",
-   "passages": 38,
-   "dernier_a": "18/10 07:11"
+   "passages": 39,
+   "dernier_a": "18/10 07:22"
   },
   {
    "cle": "iconographe",
@@ -228,8 +228,8 @@
    "poste_prefere": "images",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 36,
-   "dernier_a": "18/10 07:11"
+   "passages": 37,
+   "dernier_a": "18/10 07:22"
   },
   {
    "cle": "analyste",
@@ -238,8 +238,8 @@
    "poste_prefere": "publication",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 38,
-   "dernier_a": "18/10 07:11"
+   "passages": 39,
+   "dernier_a": "18/10 07:22"
   },
   {
    "cle": "tendances",
@@ -248,8 +248,8 @@
    "poste_prefere": "idee",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 36,
-   "dernier_a": "18/10 07:11"
+   "passages": 37,
+   "dernier_a": "18/10 07:22"
   },
   {
    "cle": "accroche",
@@ -258,8 +258,8 @@
    "poste_prefere": "script",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 36,
-   "dernier_a": "18/10 07:11"
+   "passages": 37,
+   "dernier_a": "18/10 07:22"
   },
   {
    "cle": "miniaturiste",
@@ -268,8 +268,8 @@
    "poste_prefere": "images",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 36,
-   "dernier_a": "18/10 07:12"
+   "passages": 37,
+   "dernier_a": "18/10 07:22"
   },
   {
    "cle": "referenceur",
@@ -278,8 +278,8 @@
    "poste_prefere": "publication",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 37,
-   "dernier_a": "18/10 07:12"
+   "passages": 38,
+   "dernier_a": "18/10 07:22"
   },
   {
    "cle": "programmateur",
@@ -288,8 +288,8 @@
    "poste_prefere": "publication",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 37,
-   "dernier_a": "18/10 07:12"
+   "passages": 38,
+   "dernier_a": "18/10 07:22"
   }
  ],
  "programmees": [
@@ -297,37 +297,37 @@
    "titre": "Publier : RISC-V version corrigée (noms propres), 17/10 18 h",
    "quand": "18/10 07:33",
    "ts": 1792301621.718639,
-   "dans_s": 880
+   "dans_s": 580
   },
   {
    "titre": "Publier : Risques de l'impression 3D (jugée publiable, le 18/10 9 h)",
    "quand": "18/10 09:00",
    "ts": 1792306800.0,
-   "dans_s": 6059
+   "dans_s": 5759
   },
   {
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 27659
+   "dans_s": 27359
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 92459
+   "dans_s": 92159
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 114059
+   "dans_s": 113759
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 178859
+   "dans_s": 178559
   }
  ],
  "publiees": [
@@ -475,10 +475,10 @@
  ],
  "compteurs": {
   "RUNNING": 0,
-  "READY": 0,
+  "READY": 2,
   "PENDING": 20,
-  "DEFERRED": 9,
-  "SUCCESS": 789,
+  "DEFERRED": 7,
+  "SUCCESS": 799,
   "FAILED": 28
  }
 }
