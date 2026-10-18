@@ -1,15 +1,15 @@
 {
- "now": 1792339441.0045235,
- "heure": "18:04:01",
+ "now": 1792339741.037878,
+ "heure": "18:09:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Impression 3D dans la construction + Plume : passage continu",
-  "battement_s": 2
+  "activite": "Plume : passage continu",
+  "battement_s": 4
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": "quota Groq atteint, pause 455 s",
+  "ok": false,
+  "reprise": "18/10 18:14",
+  "erreur": "quota Groq atteint, pause 621 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -51,13 +51,9 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Impression 3D dans la construction",
-    "projet": "Sujet : Impression 3D dans la construction",
-    "depuis": 1
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -69,13 +65,12 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en cours",
-     "depuis": 1
+     "etat": "programmée 18/10 18:11"
     },
     {
      "titre": "Recherche documentaire : Culture maker",
      "projet": "Sujet : Culture maker",
-     "etat": "en attente"
+     "etat": "programmée 18/10 18:14"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -113,7 +108,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "en attente"
+     "etat": "programmée 18/10 18:14"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -504,19 +499,19 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 124,
-   "dernier_a": "18/10 17:59"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 125,
+   "dernier_a": "18/10 18:07"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 122,
-   "dernier_a": "18/10 18:01"
+   "dernier": "[poste Publication YouTube] 15 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (323 vues)",
+   "passages": 123,
+   "dernier_a": "18/10 18:07"
   },
   {
    "cle": "plume",
@@ -524,16 +519,16 @@
    "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 101,
-   "dernier_a": "18/10 17:51"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 102,
+   "dernier_a": "18/10 18:04"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 75,
    "dernier_a": "18/10 17:56"
@@ -604,26 +599,26 @@
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 53758
+   "dans_s": 53458
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 75358
+   "dans_s": 75058
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 140158
+   "dans_s": 139858
   }
  ],
  "audience": {
-  "vues": 1652,
-  "likes": 36,
+  "vues": 1729,
+  "likes": 37,
   "commentaires": 0,
-  "maj": "14:56"
+  "maj": "18:07"
  },
  "publiees": [
   {
@@ -631,7 +626,10 @@
    "title": "Capteur : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=yEFqshq0F3A",
    "at": "2026-10-18T15:00:12",
-   "miniature": true
+   "miniature": true,
+   "vues": 3,
+   "likes": 1,
+   "commentaires": 0
   },
   {
    "slug": "risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -639,7 +637,7 @@
    "url": "https://www.youtube.com/watch?v=1HW5H4d5bzQ",
    "at": "2026-10-18T10:57:13",
    "miniature": true,
-   "vues": 267,
+   "vues": 306,
    "likes": 6,
    "commentaires": 0
   },
@@ -649,7 +647,7 @@
    "url": "https://www.youtube.com/watch?v=RJ2JFpAB8Ew",
    "at": "2026-10-18T09:37:12",
    "miniature": true,
-   "vues": 3,
+   "vues": 4,
    "likes": 0,
    "commentaires": 0
   },
@@ -659,7 +657,7 @@
    "url": "https://www.youtube.com/watch?v=5JBt9S1Z8Z8",
    "at": "2026-10-18T09:00:12",
    "miniature": true,
-   "vues": 228,
+   "vues": 258,
    "likes": 3,
    "commentaires": 0
   },
@@ -669,7 +667,7 @@
    "url": "https://www.youtube.com/watch?v=pelVz3EWz2M",
    "at": "2026-10-17T15:00:11",
    "miniature": true,
-   "vues": 295,
+   "vues": 297,
    "likes": 4,
    "commentaires": 0
   },
@@ -826,11 +824,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 9,
+  "RUNNING": 1,
+  "READY": 7,
   "PENDING": 17,
-  "DEFERRED": 5,
-  "SUCCESS": 900,
+  "DEFERRED": 6,
+  "SUCCESS": 902,
   "FAILED": 28
  }
 }
