@@ -1,10 +1,10 @@
 {
- "now": 1792306441.0945098,
- "heure": "08:54:01",
+ "now": 1792306455.9991877,
+ "heure": "08:54:16",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 1
+  "activite": "Plume : passage continu",
+  "battement_s": 6
  },
  "modele": {
   "ok": false,
@@ -499,24 +499,24 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Miniaturiste] 31 titres lus, 0 idées retenues",
-   "passages": 54,
-   "dernier_a": "18/10 08:47"
+   "dernier": "[poste Trouver une idée, avec Tendances, Accroche, Miniaturiste] 31 titres lus, 0 idées retenues",
+   "passages": 55,
+   "dernier_a": "18/10 08:54"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "recherche",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Recherche] Loi de Moore : OK (29 phrases) ; Raspberry Pi Pico : écarté (22 phrases, EN 0)",
-   "passages": 55,
-   "dernier_a": "18/10 08:48"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 17 fiches vérifiées, 17 avec remarques ; à corriger avant envoi : capteur : plus de 3 hashtags dans la description | defauts-des-joints-soudes : plus de 3 hashtags dans la description",
+   "passages": 56,
+   "dernier_a": "18/10 08:54"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Publication YouTube] 11 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (317 vues)",
@@ -592,16 +592,6 @@
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
    "passages": 48,
    "dernier_a": "18/10 08:39"
-  },
-  {
-   "cle": "ecoute",
-   "nom": "Écoute",
-   "poste": "publication",
-   "poste_prefere": "publication",
-   "etat": "veille",
-   "dernier": null,
-   "passages": 0,
-   "dernier_a": null
   }
  ],
  "programmees": [
@@ -609,37 +599,37 @@
    "titre": "Publier : Risques de l'impression 3D (jugée publiable, le 18/10 9 h)",
    "quand": "18/10 09:00",
    "ts": 1792306800.0,
-   "dans_s": 358
+   "dans_s": 344
   },
   {
    "titre": "Publier : RISC-V version corrigée (noms propres), 17/10 18 h",
    "quand": "18/10 09:04",
    "ts": 1792307046.813571,
-   "dans_s": 605
+   "dans_s": 590
   },
   {
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 21958
+   "dans_s": 21944
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 86758
+   "dans_s": 86744
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 108358
+   "dans_s": 108344
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 173158
+   "dans_s": 173144
   }
  ],
  "audience": {
@@ -841,10 +831,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 10,
+  "READY": 7,
   "PENDING": 20,
   "DEFERRED": 9,
-  "SUCCESS": 859,
+  "SUCCESS": 861,
   "FAILED": 28
  }
 }
