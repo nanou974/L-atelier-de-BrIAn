@@ -1,9 +1,9 @@
 {
- "now": 1792319040.7425067,
- "heure": "12:24:00",
+ "now": 1792319340.3807228,
+ "heure": "12:29:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Rendre la vidéo : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266 + Archiviste : passage continu",
+  "activite": "Éclaireur : passage continu",
   "battement_s": 4
  },
  "modele": {
@@ -271,27 +271,17 @@
    "titre": "Montage vidéo",
    "icone": "🎬",
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Rendre la vidéo : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
-    "projet": "Sujet : ESP8266",
-    "depuis": 1221
-   },
+   "etat": "repos",
+   "courant": null,
    "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Rendre la vidéo : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
-    "quand": "18/10 11:49"
+    "titre": "Rendre la vidéo : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
+    "quand": "18/10 12:24"
    },
-   "total_fait": 73,
+   "total_fait": 74,
    "taches": [
-    {
-     "titre": "Rendre la vidéo : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
-     "projet": "Sujet : ESP8266",
-     "etat": "en cours",
-     "depuis": 1221
-    },
     {
      "titre": "Rendre la vidéo : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
@@ -303,6 +293,11 @@
      "etat": "en attente"
     },
     {
+     "titre": "Rendre la vidéo : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
+     "projet": "Sujet : ESP8266",
+     "etat": "terminée 18/10 12:24"
+    },
+    {
      "titre": "Rendre la vidéo : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
      "projet": "Sujet : Défauts des joints soudés",
      "etat": "terminée 18/10 11:49"
@@ -311,11 +306,6 @@
      "titre": "Rendre la vidéo : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
      "projet": "Sujet : UltiMaker",
      "etat": "terminée 18/10 11:33"
-    },
-    {
-     "titre": "Rendre la vidéo : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
-     "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
-     "etat": "terminée 18/10 10:52"
     }
    ]
   },
@@ -326,14 +316,14 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "repos",
    "courant": null,
-   "file": 3,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "QA automatique : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
-    "quand": "18/10 11:50"
+    "titre": "QA automatique : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
+    "quand": "18/10 12:25"
    },
-   "total_fait": 58,
+   "total_fait": 59,
    "taches": [
     {
      "titre": "QA automatique : Impression 3D dans la construction",
@@ -348,7 +338,7 @@
     {
      "titre": "QA automatique : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
      "projet": "Sujet : ESP8266",
-     "etat": "en attente"
+     "etat": "terminée 18/10 12:25"
     },
     {
      "titre": "QA automatique : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
@@ -359,11 +349,6 @@
      "titre": "QA automatique : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
      "projet": "Sujet : UltiMaker",
      "etat": "terminée 18/10 11:34"
-    },
-    {
-     "titre": "QA automatique : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
-     "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
-     "etat": "terminée 18/10 10:53"
     }
    ]
   },
@@ -374,14 +359,14 @@
    "desc": "Décide si la vidéo mérite d'être publiée.",
    "etat": "repos",
    "courant": null,
-   "file": 3,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
-    "quand": "18/10 11:56"
+    "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
+    "quand": "18/10 12:28"
    },
-   "total_fait": 44,
+   "total_fait": 45,
    "taches": [
     {
      "titre": "Revue finale (dossier, script, vidéo) : Impression 3D dans la construction",
@@ -396,7 +381,7 @@
     {
      "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
      "projet": "Sujet : ESP8266",
-     "etat": "en attente"
+     "etat": "terminée 18/10 12:28"
     },
     {
      "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
@@ -407,11 +392,6 @@
      "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
      "projet": "Sujet : UltiMaker",
      "etat": "terminée 18/10 11:35"
-    },
-    {
-     "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
-     "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
-     "etat": "terminée 18/10 10:56"
     }
    ]
   },
@@ -529,9 +509,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 72,
-   "dernier_a": "18/10 12:15"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 73,
+   "dernier_a": "18/10 12:25"
   },
   {
    "cle": "plume",
@@ -539,16 +519,16 @@
    "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 67,
-   "dernier_a": "18/10 12:17"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 68,
+   "dernier_a": "18/10 12:28"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
    "passages": 62,
    "dernier_a": "18/10 12:20"
@@ -619,25 +599,25 @@
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 9359
+   "dans_s": 9059
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 74159
+   "dans_s": 73859
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 95759
+   "dans_s": 95459
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 160559
+   "dans_s": 160259
   }
  ],
  "audience": {
@@ -850,11 +830,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
+  "RUNNING": 1,
   "READY": 8,
-  "PENDING": 20,
+  "PENDING": 18,
   "DEFERRED": 7,
-  "SUCCESS": 895,
+  "SUCCESS": 898,
   "FAILED": 28
  }
 }
