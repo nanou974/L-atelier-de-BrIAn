@@ -1,10 +1,10 @@
 {
- "now": 1792310641.0526373,
- "heure": "10:04:01",
+ "now": 1792310941.2055197,
+ "heure": "10:09:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Générer la voix : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr + Recherche documentaire : Impression 3D dans la construction",
-  "battement_s": 3
+  "activite": "Générer la voix : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
@@ -51,13 +51,9 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Impression 3D dans la construction",
-    "projet": "Sujet : Impression 3D dans la construction",
-    "depuis": 3
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -69,13 +65,12 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en cours",
-     "depuis": 3
+     "etat": "programmée 18/10 10:14"
     },
     {
      "titre": "Recherche documentaire : Culture maker",
      "projet": "Sujet : Culture maker",
-     "etat": "prête"
+     "etat": "programmée 18/10 10:14"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -194,7 +189,7 @@
    "courant": {
     "titre": "Générer la voix : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
     "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
-    "depuis": 54
+    "depuis": 355
    },
    "file": 5,
    "attend_humain": 0,
@@ -209,7 +204,7 @@
      "titre": "Générer la voix : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
      "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
      "etat": "en cours",
-     "depuis": 54
+     "depuis": 355
     },
     {
      "titre": "Générer la voix : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
@@ -683,7 +678,7 @@
    "nom": "Miniaturiste",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Éclaireur, Plume] 31 titres lus, 0 idées retenues",
    "passages": 49,
    "dernier_a": "18/10 09:58"
@@ -693,7 +688,7 @@
    "nom": "Référenceur",
    "poste": "idee",
    "poste_prefere": "publication",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Éclaireur, Plume] 31 titres lus, 0 idées retenues",
    "passages": 49,
    "dernier_a": "18/10 10:00"
@@ -714,25 +709,25 @@
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 17758
+   "dans_s": 17458
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 82558
+   "dans_s": 82258
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 104158
+   "dans_s": 103858
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 168958
+   "dans_s": 168658
   }
  ],
  "audience": {
@@ -939,10 +934,10 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 5,
+  "RUNNING": 1,
+  "READY": 4,
   "PENDING": 36,
-  "DEFERRED": 5,
+  "DEFERRED": 7,
   "SUCCESS": 881,
   "FAILED": 28
  }
