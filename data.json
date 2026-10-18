@@ -1,15 +1,15 @@
 {
- "now": 1792309142.5612044,
- "heure": "09:39:03",
+ "now": 1792309441.3723848,
+ "heure": "09:44:02",
  "moteur": {
   "etat": "actif",
-  "activite": "Voix (3D dit « troidé ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr + Analyste : passage continu",
-  "battement_s": 3
+  "activite": "Voix (3D dit « troidé ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr + Archiviste : passage continu",
+  "battement_s": 0
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": "quota Groq atteint, pause 454 s",
+  "ok": false,
+  "reprise": "18/10 09:53",
+  "erreur": "quota Groq atteint, pause 615 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -51,7 +51,7 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "attente",
+   "etat": "repos",
    "courant": null,
    "file": 2,
    "attend_humain": 0,
@@ -65,12 +65,12 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "prête"
+     "etat": "programmée 18/10 09:53"
     },
     {
      "titre": "Recherche documentaire : Culture maker",
      "projet": "Sujet : Culture maker",
-     "etat": "prête"
+     "etat": "programmée 18/10 09:53"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -94,7 +94,7 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "attente",
+   "etat": "repos",
    "courant": null,
    "file": 3,
    "attend_humain": 0,
@@ -108,7 +108,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "prête"
+     "etat": "programmée 18/10 09:53"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -142,9 +142,9 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
-   "file": 2,
+   "file": 7,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -153,6 +153,31 @@
    },
    "total_fait": 34,
    "taches": [
+    {
+     "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
+     "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
+     "etat": "prête"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "prête"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Capteur (ouverture « Aujourd'hui je vais vous parler de ») : capteur",
+     "projet": "Sujet : Capteur",
+     "etat": "prête"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
+     "projet": "Sujet : Défauts des joints soudés",
+     "etat": "prête"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
+     "projet": "Sujet : ESP8266",
+     "etat": "prête"
+    },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
@@ -189,9 +214,9 @@
    "courant": {
     "titre": "Voix (3D dit « troidé ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
     "projet": "Sujet : Risques pour la santé liés à l'impression 3D",
-    "depuis": 107
+    "depuis": 405
    },
-   "file": 3,
+   "file": 7,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -204,12 +229,7 @@
      "titre": "Voix (3D dit « troidé ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
      "projet": "Sujet : Risques pour la santé liés à l'impression 3D",
      "etat": "en cours",
-     "depuis": 107
-    },
-    {
-     "titre": "Voix (3D dit « troidé ») : ultimaker",
-     "projet": "Sujet : UltiMaker",
-     "etat": "prête"
+     "depuis": 405
     },
     {
      "titre": "Générer la voix : Impression 3D dans la construction",
@@ -219,6 +239,26 @@
     {
      "titre": "Générer la voix : Culture maker",
      "projet": "Sujet : Culture maker",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Générer la voix : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
+     "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Générer la voix : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Générer la voix : Capteur (ouverture « Aujourd'hui je vais vous parler de ») : capteur",
+     "projet": "Sujet : Capteur",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Générer la voix : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
+     "projet": "Sujet : Défauts des joints soudés",
      "etat": "en attente"
     },
     {
@@ -245,7 +285,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 4,
+   "file": 7,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -265,13 +305,23 @@
      "etat": "en attente"
     },
     {
-     "titre": "Aligner la narration : Risques pour la santé liés à l'impression 3D (3D dit « troidé ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
-     "projet": "Sujet : Risques pour la santé liés à l'impression 3D",
+     "titre": "Aligner la narration : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
+     "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
      "etat": "en attente"
     },
     {
-     "titre": "Aligner la narration : UltiMaker (3D dit « troidé ») : ultimaker",
+     "titre": "Aligner la narration : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
      "projet": "Sujet : UltiMaker",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Aligner la narration : Capteur (ouverture « Aujourd'hui je vais vous parler de ») : capteur",
+     "projet": "Sujet : Capteur",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Aligner la narration : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
+     "projet": "Sujet : Défauts des joints soudés",
      "etat": "en attente"
     },
     {
@@ -298,7 +348,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 4,
+   "file": 7,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -318,13 +368,23 @@
      "etat": "en attente"
     },
     {
-     "titre": "Rendre la vidéo : Risques pour la santé liés à l'impression 3D (3D dit « troidé ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
-     "projet": "Sujet : Risques pour la santé liés à l'impression 3D",
+     "titre": "Rendre la vidéo : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
+     "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
      "etat": "en attente"
     },
     {
-     "titre": "Rendre la vidéo : UltiMaker (3D dit « troidé ») : ultimaker",
+     "titre": "Rendre la vidéo : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
      "projet": "Sujet : UltiMaker",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Rendre la vidéo : Capteur (ouverture « Aujourd'hui je vais vous parler de ») : capteur",
+     "projet": "Sujet : Capteur",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Rendre la vidéo : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
+     "projet": "Sujet : Défauts des joints soudés",
      "etat": "en attente"
     },
     {
@@ -351,7 +411,7 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "repos",
    "courant": null,
-   "file": 4,
+   "file": 7,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -371,13 +431,23 @@
      "etat": "en attente"
     },
     {
-     "titre": "QA automatique : Risques pour la santé liés à l'impression 3D (3D dit « troidé ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
-     "projet": "Sujet : Risques pour la santé liés à l'impression 3D",
+     "titre": "QA automatique : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
+     "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
      "etat": "en attente"
     },
     {
-     "titre": "QA automatique : UltiMaker (3D dit « troidé ») : ultimaker",
+     "titre": "QA automatique : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
      "projet": "Sujet : UltiMaker",
+     "etat": "en attente"
+    },
+    {
+     "titre": "QA automatique : Capteur (ouverture « Aujourd'hui je vais vous parler de ») : capteur",
+     "projet": "Sujet : Capteur",
+     "etat": "en attente"
+    },
+    {
+     "titre": "QA automatique : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
+     "projet": "Sujet : Défauts des joints soudés",
      "etat": "en attente"
     },
     {
@@ -404,7 +474,7 @@
    "desc": "Décide si la vidéo mérite d'être publiée.",
    "etat": "repos",
    "courant": null,
-   "file": 4,
+   "file": 7,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -424,13 +494,23 @@
      "etat": "en attente"
     },
     {
-     "titre": "Revue finale : Risques pour la santé liés à l'impression 3D (3D dit « troidé ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
-     "projet": "Sujet : Risques pour la santé liés à l'impression 3D",
+     "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
+     "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
      "etat": "en attente"
     },
     {
-     "titre": "Revue finale : UltiMaker (3D dit « troidé ») : ultimaker",
+     "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
      "projet": "Sujet : UltiMaker",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : capteur",
+     "projet": "Sujet : Capteur",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
+     "projet": "Sujet : Défauts des joints soudés",
      "etat": "en attente"
     },
     {
@@ -455,22 +535,17 @@
    "titre": "Publication YouTube",
    "icone": "📺",
    "desc": "Envoie la vidéo, la miniature et la description sur la chaîne.",
-   "etat": "attente",
+   "etat": "repos",
    "courant": null,
-   "file": 9,
+   "file": 8,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Publier : RISC-V version corrigée (noms propres), 17/10 18 h",
-    "quand": "18/10 09:37"
+    "titre": "Miniature : RISC-V (corrigée)",
+    "quand": "18/10 09:40"
    },
-   "total_fait": 32,
+   "total_fait": 33,
    "taches": [
-    {
-     "titre": "Miniature : RISC-V (corrigée)",
-     "projet": "Sujet : RISC-V",
-     "etat": "prête"
-    },
     {
      "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
      "projet": "Sujet : Capteur",
@@ -502,17 +577,17 @@
      "etat": "en attente"
     },
     {
+     "titre": "Miniature : RISC-V (corrigée)",
+     "projet": "Sujet : RISC-V",
+     "etat": "terminée 18/10 09:40"
+    },
+    {
      "titre": "Publier : RISC-V version corrigée (noms propres), 17/10 18 h",
      "projet": "Sujet : RISC-V",
      "etat": "terminée 18/10 09:37"
     },
     {
      "titre": "Miniature : Risques de l'impression 3D",
-     "projet": "Sujet : Risques pour la santé liés à l'impression 3D",
-     "etat": "terminée 18/10 09:00"
-    },
-    {
-     "titre": "Publier : Risques de l'impression 3D (jugée publiable, le 18/10 9 h)",
      "projet": "Sujet : Risques pour la santé liés à l'impression 3D",
      "etat": "terminée 18/10 09:00"
     }
@@ -559,14 +634,14 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste, Plume] 31 titres lus, 0 idées retenues",
-   "passages": 61,
-   "dernier_a": "18/10 09:35"
+   "dernier": "[poste Trouver une idée, avec Analyste] 31 titres lus, 0 idées retenues",
+   "passages": 62,
+   "dernier_a": "18/10 09:43"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Publication YouTube] 17 fiches vérifiées, 17 avec remarques ; à corriger avant envoi : capteur : plus de 3 hashtags dans la description | defauts-des-joints-soudes : plus de 3 hashtags dans la description",
@@ -578,7 +653,7 @@
    "nom": "Plume",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube, avec Archiviste] 1 commentaire(s) suivis, 0 nouveau(x)",
    "passages": 61,
    "dernier_a": "18/10 09:35"
@@ -599,9 +674,9 @@
    "poste": "idee",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Archiviste] ronde : statistiques à jour (relevé il y a 19 min)",
-   "passages": 57,
-   "dernier_a": "18/10 09:07"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 58,
+   "dernier_a": "18/10 09:40"
   },
   {
    "cle": "tendances",
@@ -659,25 +734,25 @@
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 19257
+   "dans_s": 18958
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 84057
+   "dans_s": 83758
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 105657
+   "dans_s": 105358
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 170457
+   "dans_s": 170158
   }
  ],
  "audience": {
@@ -692,7 +767,7 @@
    "title": "RISC-V : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=RJ2JFpAB8Ew",
    "at": "2026-10-18T09:37:12",
-   "miniature": false
+   "miniature": true
   },
   {
    "slug": "risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -879,10 +954,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
-  "PENDING": 26,
-  "DEFERRED": 4,
-  "SUCCESS": 866,
+  "READY": 13,
+  "PENDING": 43,
+  "DEFERRED": 7,
+  "SUCCESS": 864,
   "FAILED": 28
  }
 }
