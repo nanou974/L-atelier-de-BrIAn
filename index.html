@@ -219,7 +219,7 @@ function drawRoom(r,c,ox,oy,t){
   drawHelper(key,t);
   g.restore();
 }
-const HELPER_COL = {eclaireur:"#ffb347",archiviste:"#7cc8ff",plume:"#c792ea",iconographe:"#7ee081",analyste:"#ff7a90",tendances:"#ffd166",accroche:"#f78fb3",miniaturiste:"#5eead4",referenceur:"#a3e635",programmateur:"#fb923c"};
+const HELPER_COL = {eclaireur:"#ffb347",archiviste:"#7cc8ff",plume:"#c792ea",iconographe:"#7ee081",analyste:"#ff7a90",tendances:"#ffd166",accroche:"#f78fb3",miniaturiste:"#5eead4",referenceur:"#a3e635",programmateur:"#fb923c",ecoute:"#60a5fa"};
 function drawHelper(key,t){
   const L = assistByPoste[key]; if(!L) return;
   rect(110,92,36,10,"#7a4f2b"); rect(116,84,12,8,"#1c1c24");
@@ -323,6 +323,7 @@ function render(d){
     `<span class="badge"><span class="dot ${mo.etat==='actif'?'ok':mo.etat==='en pause'?'warn':'bad'}"></span>Moteur : ${esc(mo.etat)}</span>` +
     `<span class="badge"><span class="dot ${md.ok?'ok':'warn'}"></span>Cerveau (modèle gratuit) : ${md.ok?'disponible':'en pause jusqu\'à '+esc(md.reprise||'?')}</span>` +
     `<span class="badge">🕒 ${STATIC? 'instantané de '+esc(d.heure)+' (il y a '+dur(Date.now()/1000-d.now)+')' : esc(d.heure)}</span><span class="badge">📺 ${d.nb_publiees} vidéos en ligne</span>` +
+    (d.audience && d.audience.vues!=null ? `<span class="badge" title="Relevé de ${esc(d.audience.maj||'?')}">👁 ${d.audience.vues} vues</span><span class="badge">👍 ${d.audience.likes} likes</span><span class="badge">💬 ${d.audience.commentaires}</span>` : '') +
     `<span class="badge">En cours ${d.compteurs.RUNNING} · à faire ${d.compteurs.READY+d.compteurs.PENDING+d.compteurs.DEFERRED} · terminées ${d.compteurs.SUCCESS}</span>`;
   $("#labels").innerHTML = LAYOUT.flat().map(k=>{ const st=stationInfo[k], p=POS[k];
     const nom = st?st.titre:(NAME[k]||k), tache = st&&st.courant? st.courant.titre.replace(/ : .*$/,'').slice(0,34) : '';
@@ -333,7 +334,7 @@ function render(d){
     `<li><span class="tag ${esc(n.type)}">${esc(n.type)}</span><span class="sub">${esc((n.ts||'').replace('T',' ').slice(5,16))}</span><br>${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.texte)}</a>`:esc(n.texte)}</li>`).join("") : '<li class="empty">Aucune notification.</li>';
   $("#nbpub").textContent = `(${d.nb_publiees})`;
   $("#pubs").innerHTML = d.publiees.length ? d.publiees.map(p =>
-    `<li><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title.replace(' #Shorts',''))}</a><div class="sub">${esc((p.at||'').replace('T',' ').slice(0,16))}${p.miniature?'':' · sans miniature'}</div></li>`).join("") : '<li class="empty">Rien en ligne.</li>';
+    `<li><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title.replace(' #Shorts',''))}</a><div class="sub">${esc((p.at||'').replace('T',' ').slice(0,16))}${p.miniature?'':' · sans miniature'}${p.vues!=null?` · 👁 ${p.vues} · 👍 ${p.likes} · 💬 ${p.commentaires}`:''}</div></li>`).join("") : '<li class="empty">Rien en ligne.</li>';
   // fête quand une nouvelle vidéo apparaît
   const urls = new Set(d.publiees.map(p=>p.url));
   if(knownPubs && [...urls].some(u=>!knownPubs.has(u))){
