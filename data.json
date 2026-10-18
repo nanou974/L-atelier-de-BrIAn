@@ -1,15 +1,15 @@
 {
- "now": 1792314241.3166287,
- "heure": "11:04:01",
+ "now": 1792314541.3932264,
+ "heure": "11:09:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Aligner la narration : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker + Générer la voix : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
-  "battement_s": 1
+  "activite": "Générer la voix : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
-  "reprise": "18/10 11:06",
-  "erreur": "quota Groq atteint, pause 1130 s",
+  "reprise": "18/10 11:20",
+  "erreur": "quota Groq atteint, pause 842 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,12 +65,12 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 18/10 11:06"
+     "etat": "programmée 18/10 11:20"
     },
     {
      "titre": "Recherche documentaire : Culture maker",
      "projet": "Sujet : Culture maker",
-     "etat": "programmée 18/10 11:06"
+     "etat": "programmée 18/10 11:20"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -108,7 +108,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 18/10 11:06"
+     "etat": "programmée 18/10 11:20"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -189,7 +189,7 @@
    "courant": {
     "titre": "Générer la voix : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
     "projet": "Sujet : Défauts des joints soudés",
-    "depuis": 53
+    "depuis": 353
    },
    "file": 3,
    "attend_humain": 0,
@@ -204,7 +204,7 @@
      "titre": "Générer la voix : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
      "projet": "Sujet : Défauts des joints soudés",
      "etat": "en cours",
-     "depuis": 53
+     "depuis": 353
     },
     {
      "titre": "Générer la voix : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
@@ -243,27 +243,17 @@
    "titre": "Synchronisation",
    "icone": "⏱️",
    "desc": "Écoute la voix et la cale sur les sous-titres.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Aligner la narration : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
-    "projet": "Sujet : UltiMaker",
-    "depuis": 53
-   },
+   "etat": "repos",
+   "courant": null,
    "file": 4,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Aligner la narration : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
-    "quand": "18/10 10:15"
+    "titre": "Aligner la narration : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
+    "quand": "18/10 11:04"
    },
-   "total_fait": 49,
+   "total_fait": 50,
    "taches": [
-    {
-     "titre": "Aligner la narration : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
-     "projet": "Sujet : UltiMaker",
-     "etat": "en cours",
-     "depuis": 53
-    },
     {
      "titre": "Aligner la narration : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
@@ -285,6 +275,11 @@
      "etat": "en attente"
     },
     {
+     "titre": "Aligner la narration : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "terminée 18/10 11:04"
+    },
+    {
      "titre": "Aligner la narration : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
      "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
      "etat": "terminée 18/10 10:15"
@@ -293,11 +288,6 @@
      "titre": "Aligner la narration : Capteur (ouverture « Aujourd'hui je vais vous parler de ») : capteur",
      "projet": "Sujet : Capteur",
      "etat": "terminée 18/10 10:03"
-    },
-    {
-     "titre": "Aligner la narration : UltiMaker",
-     "projet": "Sujet : UltiMaker",
-     "etat": "terminée 17/10 10:57"
     }
    ]
   },
@@ -306,7 +296,7 @@
    "titre": "Montage vidéo",
    "icone": "🎬",
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
    "file": 5,
    "attend_humain": 0,
@@ -318,6 +308,11 @@
    "total_fait": 71,
    "taches": [
     {
+     "titre": "Rendre la vidéo : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "prête"
+    },
+    {
      "titre": "Rendre la vidéo : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
      "etat": "en attente"
@@ -325,11 +320,6 @@
     {
      "titre": "Rendre la vidéo : Culture maker",
      "projet": "Sujet : Culture maker",
-     "etat": "en attente"
-    },
-    {
-     "titre": "Rendre la vidéo : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
-     "projet": "Sujet : UltiMaker",
      "etat": "en attente"
     },
     {
@@ -679,25 +669,25 @@
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 14158
+   "dans_s": 13858
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 78958
+   "dans_s": 78658
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 100558
+   "dans_s": 100258
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 165358
+   "dans_s": 165058
   }
  ],
  "audience": {
@@ -901,11 +891,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 1,
-  "PENDING": 29,
+  "RUNNING": 1,
+  "READY": 2,
+  "PENDING": 28,
   "DEFERRED": 7,
-  "SUCCESS": 892,
+  "SUCCESS": 893,
   "FAILED": 28
  }
 }
