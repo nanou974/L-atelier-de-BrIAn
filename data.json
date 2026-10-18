@@ -1,6 +1,6 @@
 {
- "now": 1792312441.1575518,
- "heure": "10:34:01",
+ "now": 1792312741.1343236,
+ "heure": "10:39:01",
  "moteur": {
   "etat": "actif",
   "activite": "Rendre la vidéo : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -8,8 +8,8 @@
  },
  "modele": {
   "ok": false,
-  "reprise": "18/10 10:36",
-  "erreur": "quota Groq atteint, pause 921 s",
+  "reprise": "18/10 10:47",
+  "erreur": "quota Groq atteint, pause 619 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,12 +65,12 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 18/10 10:36"
+     "etat": "programmée 18/10 10:47"
     },
     {
      "titre": "Recherche documentaire : Culture maker",
      "projet": "Sujet : Culture maker",
-     "etat": "programmée 18/10 10:36"
+     "etat": "programmée 18/10 10:47"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -108,7 +108,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 18/10 10:36"
+     "etat": "programmée 18/10 10:47"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -305,7 +305,7 @@
    "courant": {
     "titre": "Rendre la vidéo : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
     "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
-    "depuis": 107
+    "depuis": 407
    },
    "file": 5,
    "attend_humain": 0,
@@ -320,7 +320,7 @@
      "titre": "Rendre la vidéo : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
      "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
      "etat": "en cours",
-     "depuis": 107
+     "depuis": 407
     },
     {
      "titre": "Rendre la vidéo : Impression 3D dans la construction",
@@ -435,13 +435,13 @@
    "etat": "repos",
    "courant": null,
    "file": 6,
-   "attend_humain": 1,
+   "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Revue finale : UltiMaker",
-    "quand": "17/10 16:57"
+    "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : capteur",
+    "quand": "18/10 10:35"
    },
-   "total_fait": 40,
+   "total_fait": 41,
    "taches": [
     {
      "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -474,6 +474,11 @@
      "etat": "en attente"
     },
     {
+     "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : capteur",
+     "projet": "Sujet : Capteur",
+     "etat": "terminée 18/10 10:35"
+    },
+    {
      "titre": "Revue finale : UltiMaker",
      "projet": "Sujet : UltiMaker",
      "etat": "terminée 17/10 16:57"
@@ -481,11 +486,6 @@
     {
      "titre": "Revue finale : RISC-V",
      "projet": "Sujet : RISC-V",
-     "etat": "terminée 17/10 16:57"
-    },
-    {
-     "titre": "Revue finale : ESP8266",
-     "projet": "Sujet : ESP8266",
      "etat": "terminée 17/10 16:57"
     }
    ]
@@ -694,25 +694,25 @@
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 15958
+   "dans_s": 15658
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 80758
+   "dans_s": 80458
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 102358
+   "dans_s": 102058
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 167158
+   "dans_s": 166858
   }
  ],
  "audience": {
@@ -779,12 +779,6 @@
  ],
  "nb_publiees": 13,
  "notifications": [
-  {
-   "ts": "2026-10-18T10:33:42",
-   "type": "à juger",
-   "texte": "Vidéo prête à juger : Capteur",
-   "url": null
-  },
   {
    "ts": "2026-10-18T09:46:34",
    "type": "assistant",
@@ -929,7 +923,7 @@
   "READY": 3,
   "PENDING": 32,
   "DEFERRED": 7,
-  "SUCCESS": 885,
+  "SUCCESS": 886,
   "FAILED": 28
  }
 }
