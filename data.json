@@ -1,10 +1,10 @@
 {
- "now": 1792310941.2055197,
- "heure": "10:09:01",
+ "now": 1792311241.1207356,
+ "heure": "10:14:01",
  "moteur": {
   "etat": "actif",
   "activite": "Générer la voix : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
-  "battement_s": 1
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
@@ -185,27 +185,17 @@
    "titre": "Studio voix",
    "icone": "🎙️",
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Générer la voix : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
-    "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
-    "depuis": 355
-   },
+   "etat": "attente",
+   "courant": null,
    "file": 5,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Générer la voix : Capteur (ouverture « Aujourd'hui je vais vous parler de ») : capteur",
-    "quand": "18/10 10:02"
+    "titre": "Générer la voix : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
+    "quand": "18/10 10:14"
    },
-   "total_fait": 52,
+   "total_fait": 53,
    "taches": [
-    {
-     "titre": "Générer la voix : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
-     "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
-     "etat": "en cours",
-     "depuis": 355
-    },
     {
      "titre": "Générer la voix : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
      "projet": "Sujet : UltiMaker",
@@ -232,6 +222,11 @@
      "etat": "en attente"
     },
     {
+     "titre": "Générer la voix : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
+     "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
+     "etat": "terminée 18/10 10:14"
+    },
+    {
      "titre": "Générer la voix : Capteur (ouverture « Aujourd'hui je vais vous parler de ») : capteur",
      "projet": "Sujet : Capteur",
      "etat": "terminée 18/10 10:02"
@@ -240,11 +235,6 @@
      "titre": "Voix (3D dit « troidé ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
      "projet": "Sujet : Risques pour la santé liés à l'impression 3D",
      "etat": "terminée 18/10 09:48"
-    },
-    {
-     "titre": "Voix (3D dit « trois dé ») : UltiMaker",
-     "projet": "Sujet : UltiMaker",
-     "etat": "terminée 17/10 10:56"
     }
    ]
   },
@@ -698,7 +688,7 @@
    "nom": "Programmateur",
    "poste": "idee",
    "poste_prefere": "publication",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Éclaireur, Plume, Référenceur] 31 titres lus, 0 idées retenues",
    "passages": 49,
    "dernier_a": "18/10 10:03"
@@ -709,25 +699,25 @@
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 17458
+   "dans_s": 17158
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 82258
+   "dans_s": 81958
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 103858
+   "dans_s": 103558
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 168658
+   "dans_s": 168358
   }
  ],
  "audience": {
@@ -934,11 +924,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
+  "RUNNING": 0,
   "READY": 4,
   "PENDING": 36,
   "DEFERRED": 7,
-  "SUCCESS": 881,
+  "SUCCESS": 882,
   "FAILED": 28
  }
 }
