@@ -1,14 +1,14 @@
 {
- "now": 1792318440.3906848,
- "heure": "12:14:00",
+ "now": 1792318740.347361,
+ "heure": "12:19:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Rendre la vidéo : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266 + Éclaireur : passage continu",
-  "battement_s": 0
+  "activite": "Rendre la vidéo : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266 + Iconographe : passage continu",
+  "battement_s": 2
  },
  "modele": {
-  "ok": false,
-  "reprise": "18/10 12:18",
+  "ok": true,
+  "reprise": null,
   "erreur": "quota Groq atteint, pause 355 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
@@ -51,7 +51,7 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
    "file": 2,
    "attend_humain": 0,
@@ -65,12 +65,12 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 18/10 12:18"
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Culture maker",
      "projet": "Sujet : Culture maker",
-     "etat": "programmée 18/10 12:18"
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -94,7 +94,7 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
    "file": 3,
    "attend_humain": 0,
@@ -108,7 +108,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 18/10 12:18"
+     "etat": "prête"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -275,7 +275,7 @@
    "courant": {
     "titre": "Rendre la vidéo : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
     "projet": "Sujet : ESP8266",
-    "depuis": 620
+    "depuis": 920
    },
    "file": 2,
    "attend_humain": 0,
@@ -290,7 +290,7 @@
      "titre": "Rendre la vidéo : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
      "projet": "Sujet : ESP8266",
      "etat": "en cours",
-     "depuis": 620
+     "depuis": 920
     },
     {
      "titre": "Rendre la vidéo : Impression 3D dans la construction",
@@ -519,19 +519,19 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 71,
-   "dernier_a": "18/10 12:09"
+   "dernier": "[poste Trouver une idée, avec Archiviste, Plume] 31 titres lus, 0 idées retenues",
+   "passages": 72,
+   "dernier_a": "18/10 12:15"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 71,
-   "dernier_a": "18/10 12:12"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 72,
+   "dernier_a": "18/10 12:15"
   },
   {
    "cle": "plume",
@@ -540,15 +540,15 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 66,
-   "dernier_a": "18/10 12:07"
+   "passages": 67,
+   "dernier_a": "18/10 12:17"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 61,
    "dernier_a": "18/10 11:56"
@@ -619,25 +619,25 @@
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 9959
+   "dans_s": 9659
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 74759
+   "dans_s": 74459
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 96359
+   "dans_s": 96059
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 161159
+   "dans_s": 160859
   }
  ],
  "audience": {
@@ -851,10 +851,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 8,
+  "READY": 9,
   "PENDING": 20,
-  "DEFERRED": 7,
-  "SUCCESS": 895,
+  "DEFERRED": 4,
+  "SUCCESS": 897,
   "FAILED": 28
  }
 }
