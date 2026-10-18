@@ -1,10 +1,10 @@
 {
- "now": 1792313941.319835,
- "heure": "10:59:01",
+ "now": 1792314241.3166287,
+ "heure": "11:04:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Générer la voix : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
-  "battement_s": 2
+  "activite": "Aligner la narration : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker + Générer la voix : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
@@ -187,29 +187,24 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "actif",
    "courant": {
-    "titre": "Générer la voix : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
-    "projet": "Sujet : UltiMaker",
-    "depuis": 389
+    "titre": "Générer la voix : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
+    "projet": "Sujet : Défauts des joints soudés",
+    "depuis": 53
    },
-   "file": 4,
+   "file": 3,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Générer la voix : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
-    "quand": "18/10 10:14"
+    "titre": "Générer la voix : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
+    "quand": "18/10 11:03"
    },
-   "total_fait": 53,
+   "total_fait": 54,
    "taches": [
-    {
-     "titre": "Générer la voix : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
-     "projet": "Sujet : UltiMaker",
-     "etat": "en cours",
-     "depuis": 389
-    },
     {
      "titre": "Générer la voix : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
      "projet": "Sujet : Défauts des joints soudés",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 53
     },
     {
      "titre": "Générer la voix : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
@@ -227,6 +222,11 @@
      "etat": "en attente"
     },
     {
+     "titre": "Générer la voix : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "terminée 18/10 11:03"
+    },
+    {
      "titre": "Générer la voix : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
      "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
      "etat": "terminée 18/10 10:14"
@@ -235,11 +235,6 @@
      "titre": "Générer la voix : Capteur (ouverture « Aujourd'hui je vais vous parler de ») : capteur",
      "projet": "Sujet : Capteur",
      "etat": "terminée 18/10 10:02"
-    },
-    {
-     "titre": "Voix (3D dit « troidé ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
-     "projet": "Sujet : Risques pour la santé liés à l'impression 3D",
-     "etat": "terminée 18/10 09:48"
     }
    ]
   },
@@ -248,9 +243,13 @@
    "titre": "Synchronisation",
    "icone": "⏱️",
    "desc": "Écoute la voix et la cale sur les sous-titres.",
-   "etat": "repos",
-   "courant": null,
-   "file": 5,
+   "etat": "actif",
+   "courant": {
+    "titre": "Aligner la narration : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
+    "projet": "Sujet : UltiMaker",
+    "depuis": 53
+   },
+   "file": 4,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -260,6 +259,12 @@
    "total_fait": 49,
    "taches": [
     {
+     "titre": "Aligner la narration : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "en cours",
+     "depuis": 53
+    },
+    {
      "titre": "Aligner la narration : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
      "etat": "en attente"
@@ -267,11 +272,6 @@
     {
      "titre": "Aligner la narration : Culture maker",
      "projet": "Sujet : Culture maker",
-     "etat": "en attente"
-    },
-    {
-     "titre": "Aligner la narration : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
-     "projet": "Sujet : UltiMaker",
      "etat": "en attente"
     },
     {
@@ -679,25 +679,25 @@
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 14458
+   "dans_s": 14158
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 79258
+   "dans_s": 78958
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 100858
+   "dans_s": 100558
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 165658
+   "dans_s": 165358
   }
  ],
  "audience": {
@@ -901,11 +901,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 2,
-  "PENDING": 30,
+  "RUNNING": 2,
+  "READY": 1,
+  "PENDING": 29,
   "DEFERRED": 7,
-  "SUCCESS": 891,
+  "SUCCESS": 892,
   "FAILED": 28
  }
 }
