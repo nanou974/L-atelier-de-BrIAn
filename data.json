@@ -1,14 +1,14 @@
 {
- "now": 1792309741.006531,
- "heure": "09:49:01",
+ "now": 1792310041.486491,
+ "heure": "09:54:02",
  "moteur": {
   "etat": "actif",
-  "activite": "Tendances : passage continu",
-  "battement_s": 2
+  "activite": "Générer la voix : Capteur (ouverture « Aujourd'hui je vais vous parler de ») : capteur + Plume : passage continu",
+  "battement_s": 1
  },
  "modele": {
-  "ok": false,
-  "reprise": "18/10 09:53",
+  "ok": true,
+  "reprise": null,
   "erreur": "quota Groq atteint, pause 615 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
@@ -51,7 +51,7 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
    "file": 2,
    "attend_humain": 0,
@@ -65,12 +65,12 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 18/10 09:53"
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Culture maker",
      "projet": "Sujet : Culture maker",
-     "etat": "programmée 18/10 09:53"
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -94,7 +94,7 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
    "file": 3,
    "attend_humain": 0,
@@ -108,7 +108,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 18/10 09:53"
+     "etat": "prête"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -144,25 +144,15 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "repos",
    "courant": null,
-   "file": 7,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Réunir de vraies illustrations libres : NodeMCU",
-    "quand": "17/10 02:23"
+    "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
+    "quand": "18/10 09:49"
    },
-   "total_fait": 34,
+   "total_fait": 39,
    "taches": [
-    {
-     "titre": "Réunir de vraies illustrations libres : Capteur (ouverture « Aujourd'hui je vais vous parler de ») : capteur",
-     "projet": "Sujet : Capteur",
-     "etat": "programmée 18/10 09:53"
-    },
-    {
-     "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
-     "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
-     "etat": "programmée 18/10 09:53"
-    },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
@@ -174,29 +164,19 @@
      "etat": "en attente"
     },
     {
-     "titre": "Réunir de vraies illustrations libres : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
-     "projet": "Sujet : UltiMaker",
-     "etat": "programmée 18/10 09:53"
+     "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
+     "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
+     "etat": "terminée 18/10 09:49"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
+     "projet": "Sujet : ESP8266",
+     "etat": "terminée 18/10 09:49"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
      "projet": "Sujet : Défauts des joints soudés",
-     "etat": "programmée 18/10 09:53"
-    },
-    {
-     "titre": "Réunir de vraies illustrations libres : NodeMCU",
-     "projet": "Sujet : NodeMCU",
-     "etat": "terminée 17/10 02:23"
-    },
-    {
-     "titre": "Illustrations : ESP8266",
-     "projet": "Sujet : ESP8266",
-     "etat": "terminée 17/10 01:31"
-    },
-    {
-     "titre": "Réunir de vraies illustrations libres : UltiMaker",
-     "projet": "Sujet : UltiMaker",
-     "etat": "terminée 16/10 23:49"
+     "etat": "terminée 18/10 09:49"
     }
    ]
   },
@@ -205,9 +185,13 @@
    "titre": "Studio voix",
    "icone": "🎙️",
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
-   "etat": "repos",
-   "courant": null,
-   "file": 7,
+   "etat": "actif",
+   "courant": {
+    "titre": "Générer la voix : Capteur (ouverture « Aujourd'hui je vais vous parler de ») : capteur",
+    "projet": "Sujet : Capteur",
+    "depuis": 245
+   },
+   "file": 6,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -219,12 +203,28 @@
     {
      "titre": "Générer la voix : Capteur (ouverture « Aujourd'hui je vais vous parler de ») : capteur",
      "projet": "Sujet : Capteur",
-     "etat": "en attente"
+     "etat": "en cours",
+     "depuis": 245
     },
     {
      "titre": "Générer la voix : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
      "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
-     "etat": "en attente"
+     "etat": "prête"
+    },
+    {
+     "titre": "Générer la voix : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "prête"
+    },
+    {
+     "titre": "Générer la voix : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
+     "projet": "Sujet : Défauts des joints soudés",
+     "etat": "prête"
+    },
+    {
+     "titre": "Générer la voix : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
+     "projet": "Sujet : ESP8266",
+     "etat": "prête"
     },
     {
      "titre": "Générer la voix : Impression 3D dans la construction",
@@ -234,16 +234,6 @@
     {
      "titre": "Générer la voix : Culture maker",
      "projet": "Sujet : Culture maker",
-     "etat": "en attente"
-    },
-    {
-     "titre": "Générer la voix : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
-     "projet": "Sujet : UltiMaker",
-     "etat": "en attente"
-    },
-    {
-     "titre": "Générer la voix : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
-     "projet": "Sujet : Défauts des joints soudés",
      "etat": "en attente"
     },
     {
@@ -616,27 +606,27 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "script",
+   "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Écriture du script] 5 script(s) relu(s), 3 avec défauts : esp8266 : 10 plans : trop long (8 maximum) (+1) | risques-pour-la-sante-et-la-securite-lies-a-l-impr : 9 plans : trop long (8 maximum) (+1)",
-   "passages": 63,
-   "dernier_a": "18/10 09:46"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 64,
+   "dernier_a": "18/10 09:52"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Analyste] 31 titres lus, 0 idées retenues",
-   "passages": 63,
-   "dernier_a": "18/10 09:46"
+   "dernier": "[poste Publication YouTube, avec Analyste] 4 publications programmées, calendrier sain",
+   "passages": 64,
+   "dernier_a": "18/10 09:52"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script, avec Éclaireur] 5 accroche(s) analysée(s), 5 à améliorer : capteur : l'accroche n'interpelle pas (ni question, ni « tu », ni chiffre) | defauts-des-joints-soudes : l'accroche n'interpelle pas (ni question, ni « tu », ni chiffre)",
@@ -669,9 +659,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Éclaireur, Iconographe, Accroche, Miniaturiste] 31 titres lus, 0 idées retenues",
-   "passages": 52,
-   "dernier_a": "18/10 09:09"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 53,
+   "dernier_a": "18/10 09:49"
   },
   {
    "cle": "accroche",
@@ -719,25 +709,25 @@
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 18658
+   "dans_s": 18358
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 83458
+   "dans_s": 83158
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 105058
+   "dans_s": 104758
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 169858
+   "dans_s": 169558
   }
  ],
  "audience": {
@@ -944,11 +934,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 7,
-  "PENDING": 43,
-  "DEFERRED": 12,
-  "SUCCESS": 866,
+  "RUNNING": 2,
+  "READY": 11,
+  "PENDING": 38,
+  "DEFERRED": 4,
+  "SUCCESS": 874,
   "FAILED": 28
  }
 }
