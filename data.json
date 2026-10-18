@@ -1,15 +1,15 @@
 {
- "now": 1792289340.581673,
- "heure": "04:09:00",
+ "now": 1792289640.594691,
+ "heure": "04:14:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Culture maker",
-  "battement_s": 2
+  "activite": "en attente de travail exécutable",
+  "battement_s": 5
  },
  "modele": {
   "ok": false,
-  "reprise": "18/10 04:17",
-  "erreur": "quota Groq atteint, pause 483 s",
+  "reprise": "18/10 04:25",
+  "erreur": "quota Groq atteint, pause 986 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -34,13 +34,9 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Culture maker",
-    "projet": "Sujet : Culture maker",
-    "depuis": 17
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -202,8 +198,8 @@
    "poste_prefere": "idee",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 18,
-   "dernier_a": "18/10 04:00"
+   "passages": 19,
+   "dernier_a": "18/10 04:11"
   },
   {
    "cle": "archiviste",
@@ -212,8 +208,8 @@
    "poste_prefere": "recherche",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 19,
-   "dernier_a": "18/10 04:00"
+   "passages": 20,
+   "dernier_a": "18/10 04:11"
   },
   {
    "cle": "plume",
@@ -222,8 +218,8 @@
    "poste_prefere": "script",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 script(s) relu(s), aucun défaut",
-   "passages": 19,
-   "dernier_a": "18/10 04:01"
+   "passages": 20,
+   "dernier_a": "18/10 04:11"
   },
   {
    "cle": "iconographe",
@@ -232,8 +228,8 @@
    "poste_prefere": "images",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 17,
-   "dernier_a": "18/10 04:01"
+   "passages": 18,
+   "dernier_a": "18/10 04:11"
   },
   {
    "cle": "analyste",
@@ -242,8 +238,8 @@
    "poste_prefere": "publication",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 19,
-   "dernier_a": "18/10 04:01"
+   "passages": 20,
+   "dernier_a": "18/10 04:11"
   },
   {
    "cle": "tendances",
@@ -252,8 +248,8 @@
    "poste_prefere": "idee",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 17,
-   "dernier_a": "18/10 04:01"
+   "passages": 18,
+   "dernier_a": "18/10 04:11"
   },
   {
    "cle": "accroche",
@@ -262,8 +258,8 @@
    "poste_prefere": "script",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 17,
-   "dernier_a": "18/10 04:01"
+   "passages": 18,
+   "dernier_a": "18/10 04:11"
   },
   {
    "cle": "miniaturiste",
@@ -272,8 +268,8 @@
    "poste_prefere": "images",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 17,
-   "dernier_a": "18/10 04:01"
+   "passages": 18,
+   "dernier_a": "18/10 04:11"
   },
   {
    "cle": "referenceur",
@@ -282,8 +278,8 @@
    "poste_prefere": "publication",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 18,
-   "dernier_a": "18/10 04:01"
+   "passages": 19,
+   "dernier_a": "18/10 04:11"
   },
   {
    "cle": "programmateur",
@@ -292,8 +288,8 @@
    "poste_prefere": "publication",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 18,
-   "dernier_a": "18/10 04:01"
+   "passages": 19,
+   "dernier_a": "18/10 04:11"
   }
  ],
  "programmees": [
@@ -301,37 +297,37 @@
    "titre": "Publier : RISC-V version corrigée (noms propres), 17/10 18 h",
    "quand": "18/10 04:32",
    "ts": 1792290776.325155,
-   "dans_s": 1435
+   "dans_s": 1135
   },
   {
    "titre": "Publier : Risques de l'impression 3D (jugée publiable, le 18/10 9 h)",
    "quand": "18/10 09:00",
    "ts": 1792306800.0,
-   "dans_s": 17459
+   "dans_s": 17159
   },
   {
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 39059
+   "dans_s": 38759
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 103859
+   "dans_s": 103559
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 125459
+   "dans_s": 125159
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 190259
+   "dans_s": 189959
   }
  ],
  "publiees": [
@@ -478,11 +474,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
+  "RUNNING": 0,
   "READY": 0,
   "PENDING": 20,
-  "DEFERRED": 8,
-  "SUCCESS": 598,
+  "DEFERRED": 9,
+  "SUCCESS": 608,
   "FAILED": 28
  }
 }
