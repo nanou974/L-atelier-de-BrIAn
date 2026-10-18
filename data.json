@@ -1,15 +1,15 @@
 {
- "now": 1792320540.3725555,
- "heure": "12:49:00",
+ "now": 1792320840.378289,
+ "heure": "12:54:00",
  "moteur": {
   "etat": "actif",
   "activite": "Éclaireur : passage continu",
-  "battement_s": 4
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
-  "reprise": "18/10 12:49",
-  "erreur": "quota Groq atteint, pause 731 s",
+  "reprise": "18/10 13:04",
+  "erreur": "quota Groq atteint, pause 834 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,12 +65,12 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 18/10 12:49"
+     "etat": "programmée 18/10 13:04"
     },
     {
      "titre": "Recherche documentaire : Culture maker",
      "projet": "Sujet : Culture maker",
-     "etat": "programmée 18/10 12:49"
+     "etat": "programmée 18/10 13:04"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -108,7 +108,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 18/10 12:49"
+     "etat": "programmée 18/10 13:04"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -500,8 +500,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 76,
-   "dernier_a": "18/10 12:42"
+   "passages": 77,
+   "dernier_a": "18/10 12:49"
   },
   {
    "cle": "archiviste",
@@ -510,15 +510,15 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 76,
-   "dernier_a": "18/10 12:44"
+   "passages": 77,
+   "dernier_a": "18/10 12:52"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube] 4 publications programmées, calendrier sain",
    "passages": 70,
    "dernier_a": "18/10 12:44"
@@ -599,25 +599,25 @@
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 7859
+   "dans_s": 7559
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 72659
+   "dans_s": 72359
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 94259
+   "dans_s": 93959
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 159059
+   "dans_s": 158759
   }
  ],
  "audience": {
@@ -831,10 +831,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 18,
   "DEFERRED": 7,
-  "SUCCESS": 897,
+  "SUCCESS": 898,
   "FAILED": 28
  }
 }
