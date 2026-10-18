@@ -1,15 +1,15 @@
 {
- "now": 1792327140.5540743,
- "heure": "14:39:00",
+ "now": 1792327440.560198,
+ "heure": "14:44:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Robocasting + Iconographe : passage continu",
-  "battement_s": 1
+  "activite": "Archiviste : passage continu",
+  "battement_s": 4
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": "quota Groq atteint, pause 389 s",
+  "ok": false,
+  "reprise": "18/10 14:49",
+  "erreur": "quota Groq atteint, pause 599 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -51,7 +51,7 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "attente",
+   "etat": "repos",
    "courant": null,
    "file": 2,
    "attend_humain": 0,
@@ -65,12 +65,12 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "prête"
+     "etat": "programmée 18/10 14:49"
     },
     {
      "titre": "Recherche documentaire : Culture maker",
      "projet": "Sujet : Culture maker",
-     "etat": "prête"
+     "etat": "programmée 18/10 14:49"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -94,13 +94,9 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Écrire le script : Robocasting",
-    "projet": "Sujet : Robocasting",
-    "depuis": 11
-   },
-   "file": 2,
+   "etat": "repos",
+   "courant": null,
+   "file": 3,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -112,8 +108,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "en cours",
-     "depuis": 11
+     "etat": "programmée 18/10 14:49"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -505,8 +500,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 93,
-   "dernier_a": "18/10 14:35"
+   "passages": 94,
+   "dernier_a": "18/10 14:43"
   },
   {
    "cle": "archiviste",
@@ -534,9 +529,9 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 65,
-   "dernier_a": "18/10 13:52"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 66,
+   "dernier_a": "18/10 14:40"
   },
   {
    "cle": "analyste",
@@ -604,25 +599,25 @@
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 1259
+   "dans_s": 959
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 66059
+   "dans_s": 65759
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 87659
+   "dans_s": 87359
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 152459
+   "dans_s": 152159
   }
  ],
  "audience": {
@@ -835,11 +830,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 9,
+  "RUNNING": 1,
+  "READY": 8,
   "PENDING": 18,
-  "DEFERRED": 4,
-  "SUCCESS": 899,
+  "DEFERRED": 7,
+  "SUCCESS": 898,
   "FAILED": 28
  }
 }
