@@ -1,9 +1,9 @@
 {
- "now": 1792328341.125178,
- "heure": "14:59:01",
+ "now": 1792328640.6775277,
+ "heure": "15:04:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Iconographe : passage continu",
+  "activite": "Éclaireur : passage continu",
   "battement_s": 1
  },
  "modele": {
@@ -402,20 +402,15 @@
    "desc": "Envoie la vidéo, la miniature et la description sur la chaîne.",
    "etat": "repos",
    "courant": null,
-   "file": 8,
+   "file": 6,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Miniature : Risques de l'impression 3D (corrigée)",
-    "quand": "18/10 10:57"
+    "titre": "Miniature : Capteur",
+    "quand": "18/10 15:00"
    },
-   "total_fait": 35,
+   "total_fait": 37,
    "taches": [
-    {
-     "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
-     "projet": "Sujet : Capteur",
-     "etat": "programmée 18/10 15:00"
-    },
     {
      "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
      "projet": "Sujet : Défauts des joints soudés",
@@ -432,29 +427,34 @@
      "etat": "programmée 19/10 09:00"
     },
     {
-     "titre": "Miniature : Capteur",
-     "projet": "Sujet : Capteur",
-     "etat": "en attente"
-    },
-    {
      "titre": "Miniature : Défauts des joints soudés",
      "projet": "Sujet : Défauts des joints soudés",
      "etat": "en attente"
     },
     {
+     "titre": "Miniature : ESP8266",
+     "projet": "Sujet : ESP8266",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Miniature : UltiMaker",
+     "projet": "Sujet : UltiMaker",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Miniature : Capteur",
+     "projet": "Sujet : Capteur",
+     "etat": "terminée 18/10 15:00"
+    },
+    {
+     "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
+     "projet": "Sujet : Capteur",
+     "etat": "terminée 18/10 15:00"
+    },
+    {
      "titre": "Miniature : Risques de l'impression 3D (corrigée)",
      "projet": "Publication",
      "etat": "terminée 18/10 10:57"
-    },
-    {
-     "titre": "Publier : Risques de l'impression 3D (version corrigée : ouverture + troidé, remplace celle de ce matin)",
-     "projet": "Publication",
-     "etat": "terminée 18/10 10:57"
-    },
-    {
-     "titre": "Miniature : RISC-V (corrigée)",
-     "projet": "Sujet : RISC-V",
-     "etat": "terminée 18/10 09:40"
     }
    ]
   },
@@ -516,12 +516,12 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 84,
-   "dernier_a": "18/10 14:54"
+   "dernier": "[poste Publication YouTube, avec Archiviste] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 85,
+   "dernier_a": "18/10 14:59"
   },
   {
    "cle": "iconographe",
@@ -529,19 +529,19 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 66,
-   "dernier_a": "18/10 14:40"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 67,
+   "dernier_a": "18/10 14:59"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "publication",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube] 17 fiches vérifiées, 17 avec remarques ; à corriger avant envoi : capteur : plus de 3 hashtags dans la description | defauts-des-joints-soudes : plus de 3 hashtags dans la description",
-   "passages": 59,
-   "dernier_a": "18/10 09:47"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 60,
+   "dernier_a": "18/10 15:02"
   },
   {
    "cle": "tendances",
@@ -596,28 +596,22 @@
  ],
  "programmees": [
   {
-   "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
-   "quand": "18/10 15:00",
-   "ts": 1792328400.0,
-   "dans_s": 58
-  },
-  {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 64858
+   "dans_s": 64559
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 86458
+   "dans_s": 86159
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 151258
+   "dans_s": 150959
   }
  ],
  "audience": {
@@ -627,6 +621,13 @@
   "maj": "14:56"
  },
  "publiees": [
+  {
+   "slug": "capteur",
+   "title": "Capteur : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=yEFqshq0F3A",
+   "at": "2026-10-18T15:00:12",
+   "miniature": true
+  },
   {
    "slug": "risques-pour-la-sante-et-la-securite-lies-a-l-impr",
    "title": "Risques pour la santé et la sécurité liés à l'impression 3D : l'histoire en bref #Shorts",
@@ -676,20 +677,16 @@
    "vues": 323,
    "likes": 9,
    "commentaires": 0
-  },
-  {
-   "slug": "depot-de-fil-fondu",
-   "title": "Dépôt de fil fondu : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg",
-   "at": "2026-10-16T19:43:35",
-   "miniature": true,
-   "vues": 147,
-   "likes": 3,
-   "commentaires": 0
   }
  ],
- "nb_publiees": 14,
+ "nb_publiees": 15,
  "notifications": [
+  {
+   "ts": "2026-10-18T15:00:12",
+   "type": "publication",
+   "texte": "Publiée : Capteur : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=yEFqshq0F3A"
+  },
   {
    "ts": "2026-10-18T10:57:13",
    "type": "publication",
@@ -821,20 +818,14 @@
    "type": "publication",
    "texte": "Publiée : RepRap : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=U5r3ctltLRU"
-  },
-  {
-   "ts": "2026-10-15T10:25:37",
-   "type": "publication",
-   "texte": "Publiée : Basic (langage) : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=dDI4udv_xDI"
   }
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 7,
-  "PENDING": 18,
-  "DEFERRED": 7,
-  "SUCCESS": 899,
+  "READY": 8,
+  "PENDING": 17,
+  "DEFERRED": 6,
+  "SUCCESS": 900,
   "FAILED": 28
  }
 }
