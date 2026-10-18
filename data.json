@@ -1,15 +1,15 @@
 {
- "now": 1792317540.461906,
- "heure": "11:59:01",
+ "now": 1792317840.3336036,
+ "heure": "12:04:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Générer la voix : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266 + Éclaireur : passage continu",
-  "battement_s": 0
+  "activite": "Rendre la vidéo : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266 + Éclaireur : passage continu",
+  "battement_s": 5
  },
  "modele": {
   "ok": false,
-  "reprise": "18/10 12:00",
-  "erreur": "quota Groq atteint, pause 429 s",
+  "reprise": "18/10 12:11",
+  "erreur": "quota Groq atteint, pause 603 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,12 +65,12 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 18/10 12:00"
+     "etat": "programmée 18/10 12:11"
     },
     {
      "titre": "Recherche documentaire : Culture maker",
      "projet": "Sujet : Culture maker",
-     "etat": "programmée 18/10 12:00"
+     "etat": "programmée 18/10 12:11"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -108,7 +108,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 18/10 12:00"
+     "etat": "programmée 18/10 12:11"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -185,27 +185,17 @@
    "titre": "Studio voix",
    "icone": "🎙️",
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Générer la voix : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
-    "projet": "Sujet : ESP8266",
-    "depuis": 477
-   },
+   "etat": "repos",
+   "courant": null,
    "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Générer la voix : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
-    "quand": "18/10 11:14"
+    "titre": "Générer la voix : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
+    "quand": "18/10 12:01"
    },
-   "total_fait": 55,
+   "total_fait": 56,
    "taches": [
-    {
-     "titre": "Générer la voix : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
-     "projet": "Sujet : ESP8266",
-     "etat": "en cours",
-     "depuis": 477
-    },
     {
      "titre": "Générer la voix : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
@@ -217,6 +207,11 @@
      "etat": "en attente"
     },
     {
+     "titre": "Générer la voix : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
+     "projet": "Sujet : ESP8266",
+     "etat": "terminée 18/10 12:01"
+    },
+    {
      "titre": "Générer la voix : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
      "projet": "Sujet : Défauts des joints soudés",
      "etat": "terminée 18/10 11:14"
@@ -225,11 +220,6 @@
      "titre": "Générer la voix : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
      "projet": "Sujet : UltiMaker",
      "etat": "terminée 18/10 11:03"
-    },
-    {
-     "titre": "Générer la voix : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
-     "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
-     "etat": "terminée 18/10 10:14"
     }
    ]
   },
@@ -240,14 +230,14 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 3,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Aligner la narration : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
-    "quand": "18/10 11:15"
+    "titre": "Aligner la narration : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
+    "quand": "18/10 12:03"
    },
-   "total_fait": 51,
+   "total_fait": 52,
    "taches": [
     {
      "titre": "Aligner la narration : Impression 3D dans la construction",
@@ -262,7 +252,7 @@
     {
      "titre": "Aligner la narration : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
      "projet": "Sujet : ESP8266",
-     "etat": "en attente"
+     "etat": "terminée 18/10 12:03"
     },
     {
      "titre": "Aligner la narration : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
@@ -273,11 +263,6 @@
      "titre": "Aligner la narration : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
      "projet": "Sujet : UltiMaker",
      "etat": "terminée 18/10 11:04"
-    },
-    {
-     "titre": "Aligner la narration : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
-     "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
-     "etat": "terminée 18/10 10:15"
     }
    ]
   },
@@ -286,9 +271,13 @@
    "titre": "Montage vidéo",
    "icone": "🎬",
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
-   "etat": "repos",
-   "courant": null,
-   "file": 3,
+   "etat": "actif",
+   "courant": {
+    "titre": "Rendre la vidéo : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
+    "projet": "Sujet : ESP8266",
+    "depuis": 20
+   },
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -298,6 +287,12 @@
    "total_fait": 73,
    "taches": [
     {
+     "titre": "Rendre la vidéo : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
+     "projet": "Sujet : ESP8266",
+     "etat": "en cours",
+     "depuis": 20
+    },
+    {
      "titre": "Rendre la vidéo : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
      "etat": "en attente"
@@ -305,11 +300,6 @@
     {
      "titre": "Rendre la vidéo : Culture maker",
      "projet": "Sujet : Culture maker",
-     "etat": "en attente"
-    },
-    {
-     "titre": "Rendre la vidéo : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
-     "projet": "Sujet : ESP8266",
      "etat": "en attente"
     },
     {
@@ -500,10 +490,15 @@
    "alerte": null,
    "derniere": {
     "titre": "Tester la disponibilité du LLM Groq (borné)",
-    "quand": "18/10 06:01"
+    "quand": "18/10 12:02"
    },
-   "total_fait": 26,
+   "total_fait": 27,
    "taches": [
+    {
+     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "projet": "Maintenance",
+     "etat": "terminée 18/10 12:02"
+    },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
@@ -511,11 +506,6 @@
     },
     {
      "titre": "Contrôler l'espace disque",
-     "projet": "Maintenance",
-     "etat": "terminée 18/10 00:00"
-    },
-    {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
      "etat": "terminée 18/10 00:00"
     }
@@ -529,26 +519,26 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste, Iconographe] 31 titres lus, 0 idées retenues",
-   "passages": 68,
-   "dernier_a": "18/10 11:53"
+   "dernier": "[poste Trouver une idée, avec Iconographe] 31 titres lus, 0 idées retenues",
+   "passages": 69,
+   "dernier_a": "18/10 11:59"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Plume] 14 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (323 vues)",
-   "passages": 68,
-   "dernier_a": "18/10 11:54"
+   "dernier": "[poste Trouver une idée, avec Iconographe] 31 titres lus, 0 idées retenues",
+   "passages": 69,
+   "dernier_a": "18/10 12:01"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube, avec Archiviste] 1 commentaire(s) suivis, 0 nouveau(x)",
    "passages": 65,
    "dernier_a": "18/10 11:54"
@@ -616,7 +606,7 @@
   {
    "cle": "programmateur",
    "nom": "Programmateur",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "publication",
    "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Éclaireur, Plume, Référenceur] 31 titres lus, 0 idées retenues",
@@ -629,25 +619,25 @@
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 10859
+   "dans_s": 10559
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 75659
+   "dans_s": 75359
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 97259
+   "dans_s": 96959
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 162059
+   "dans_s": 161759
   }
  ],
  "audience": {
@@ -862,9 +852,9 @@
  "compteurs": {
   "RUNNING": 2,
   "READY": 9,
-  "PENDING": 22,
+  "PENDING": 20,
   "DEFERRED": 7,
-  "SUCCESS": 891,
+  "SUCCESS": 894,
   "FAILED": 28
  }
 }
