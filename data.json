@@ -1,10 +1,10 @@
 {
- "now": 1792317240.9740515,
- "heure": "11:54:01",
+ "now": 1792317540.461906,
+ "heure": "11:59:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Culture maker + Générer la voix : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
-  "battement_s": 5
+  "activite": "Générer la voix : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266 + Éclaireur : passage continu",
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
@@ -51,13 +51,9 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Culture maker",
-    "projet": "Sujet : Culture maker",
-    "depuis": 43
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -67,14 +63,13 @@
    "total_fait": 26,
    "taches": [
     {
-     "titre": "Recherche documentaire : Culture maker",
-     "projet": "Sujet : Culture maker",
-     "etat": "en cours",
-     "depuis": 43
-    },
-    {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
+     "etat": "programmée 18/10 12:00"
+    },
+    {
+     "titre": "Recherche documentaire : Culture maker",
+     "projet": "Sujet : Culture maker",
      "etat": "programmée 18/10 12:00"
     },
     {
@@ -194,7 +189,7 @@
    "courant": {
     "titre": "Générer la voix : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
     "projet": "Sujet : ESP8266",
-    "depuis": 177
+    "depuis": 477
    },
    "file": 2,
    "attend_humain": 0,
@@ -209,7 +204,7 @@
      "titre": "Générer la voix : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
      "projet": "Sujet : ESP8266",
      "etat": "en cours",
-     "depuis": 177
+     "depuis": 477
     },
     {
      "titre": "Générer la voix : Impression 3D dans la construction",
@@ -390,13 +385,13 @@
    "etat": "repos",
    "courant": null,
    "file": 3,
-   "attend_humain": 1,
+   "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
-    "quand": "18/10 11:35"
+    "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
+    "quand": "18/10 11:56"
    },
-   "total_fait": 43,
+   "total_fait": 44,
    "taches": [
     {
      "titre": "Revue finale (dossier, script, vidéo) : Impression 3D dans la construction",
@@ -414,6 +409,11 @@
      "etat": "en attente"
     },
     {
+     "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
+     "projet": "Sujet : Défauts des joints soudés",
+     "etat": "terminée 18/10 11:56"
+    },
+    {
      "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
      "projet": "Sujet : UltiMaker",
      "etat": "terminée 18/10 11:35"
@@ -422,11 +422,6 @@
      "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
      "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
      "etat": "terminée 18/10 10:56"
-    },
-    {
-     "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : capteur",
-     "projet": "Sujet : Capteur",
-     "etat": "terminée 18/10 10:35"
     }
    ]
   },
@@ -541,32 +536,32 @@
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Iconographe] 31 titres lus, 0 idées retenues",
-   "passages": 67,
-   "dernier_a": "18/10 11:51"
+   "dernier": "[poste Publication YouTube, avec Plume] 14 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (323 vues)",
+   "passages": 68,
+   "dernier_a": "18/10 11:54"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube] 4 publications programmées, calendrier sain",
-   "passages": 64,
-   "dernier_a": "18/10 11:37"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, avec Archiviste] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 65,
+   "dernier_a": "18/10 11:54"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 60,
-   "dernier_a": "18/10 11:40"
+   "passages": 61,
+   "dernier_a": "18/10 11:56"
   },
   {
    "cle": "analyste",
@@ -591,7 +586,7 @@
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "veille",
    "dernier": "[poste Publication YouTube, avec Archiviste, Analyste] 1 commentaire(s) suivis, 0 nouveau(x)",
@@ -611,7 +606,7 @@
   {
    "cle": "referenceur",
    "nom": "Référenceur",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "publication",
    "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Éclaireur, Plume] 31 titres lus, 0 idées retenues",
@@ -634,32 +629,32 @@
    "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
    "quand": "18/10 15:00",
    "ts": 1792328400.0,
-   "dans_s": 11159
+   "dans_s": 10859
   },
   {
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 75959
+   "dans_s": 75659
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 97559
+   "dans_s": 97259
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 162359
+   "dans_s": 162059
   }
  ],
  "audience": {
-  "vues": 1121,
-  "likes": 27,
-  "commentaires": 2,
-  "maj": "08:48"
+  "vues": 1588,
+  "likes": 34,
+  "commentaires": 0,
+  "maj": "11:54"
  },
  "publiees": [
   {
@@ -667,21 +662,30 @@
    "title": "Risques pour la santé et la sécurité liés à l'impression 3D : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=1HW5H4d5bzQ",
    "at": "2026-10-18T10:57:13",
-   "miniature": true
+   "miniature": true,
+   "vues": 223,
+   "likes": 4,
+   "commentaires": 0
   },
   {
    "slug": "risc-v",
    "title": "RISC-V : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=RJ2JFpAB8Ew",
    "at": "2026-10-18T09:37:12",
-   "miniature": true
+   "miniature": true,
+   "vues": 2,
+   "likes": 0,
+   "commentaires": 0
   },
   {
    "slug": "risques-pour-la-sante-et-la-securite-lies-a-l-impr.old-version",
    "title": "Risques pour la santé et la sécurité liés à l'impression 3D : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=5JBt9S1Z8Z8",
    "at": "2026-10-18T09:00:12",
-   "miniature": true
+   "miniature": true,
+   "vues": 228,
+   "likes": 3,
+   "commentaires": 0
   },
   {
    "slug": "fichier-de-stereolithographie",
@@ -699,9 +703,9 @@
    "url": "https://www.youtube.com/watch?v=Rdp9AgvQvA0",
    "at": "2026-10-17T09:00:09",
    "miniature": true,
-   "vues": 317,
+   "vues": 323,
    "likes": 9,
-   "commentaires": 2
+   "commentaires": 0
   },
   {
    "slug": "depot-de-fil-fondu",
@@ -716,12 +720,6 @@
  ],
  "nb_publiees": 14,
  "notifications": [
-  {
-   "ts": "2026-10-18T11:51:03",
-   "type": "à juger",
-   "texte": "Vidéo prête à juger : Défauts des joints soudés",
-   "url": null
-  },
   {
    "ts": "2026-10-18T10:57:13",
    "type": "publication",
@@ -865,7 +863,7 @@
   "RUNNING": 2,
   "READY": 9,
   "PENDING": 22,
-  "DEFERRED": 6,
+  "DEFERRED": 7,
   "SUCCESS": 891,
   "FAILED": 28
  }
