@@ -1,15 +1,15 @@
 {
- "now": 1792343341.1126366,
- "heure": "19:09:01",
+ "now": 1792343641.1394427,
+ "heure": "19:14:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 1
+  "activite": "Iconographe : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "18/10 19:11",
-  "erreur": "quota Groq atteint, pause 417 s",
+  "reprise": "18/10 19:26",
+  "erreur": "quota Groq atteint, pause 866 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -53,7 +53,7 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -65,12 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 18/10 19:11"
-    },
-    {
-     "titre": "Recherche documentaire : Culture maker",
-     "projet": "Sujet : Culture maker",
-     "etat": "programmée 18/10 19:11"
+     "etat": "programmée 18/10 19:26"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -96,7 +91,7 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "repos",
    "courant": null,
-   "file": 3,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -108,16 +103,11 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 18/10 19:11"
+     "etat": "programmée 18/10 19:26"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en attente"
-    },
-    {
-     "titre": "Écrire le script : Culture maker",
-     "projet": "Sujet : Culture maker",
      "etat": "en attente"
     },
     {
@@ -144,7 +134,7 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -156,11 +146,6 @@
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en attente"
-    },
-    {
-     "titre": "Réunir de vraies illustrations libres : Culture maker",
-     "projet": "Sujet : Culture maker",
      "etat": "en attente"
     },
     {
@@ -187,7 +172,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -199,11 +184,6 @@
     {
      "titre": "Générer la voix : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en attente"
-    },
-    {
-     "titre": "Générer la voix : Culture maker",
-     "projet": "Sujet : Culture maker",
      "etat": "en attente"
     },
     {
@@ -230,7 +210,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -242,11 +222,6 @@
     {
      "titre": "Aligner la narration : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en attente"
-    },
-    {
-     "titre": "Aligner la narration : Culture maker",
-     "projet": "Sujet : Culture maker",
      "etat": "en attente"
     },
     {
@@ -273,7 +248,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -285,11 +260,6 @@
     {
      "titre": "Rendre la vidéo : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en attente"
-    },
-    {
-     "titre": "Rendre la vidéo : Culture maker",
-     "projet": "Sujet : Culture maker",
      "etat": "en attente"
     },
     {
@@ -316,7 +286,7 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -328,11 +298,6 @@
     {
      "titre": "QA automatique : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en attente"
-    },
-    {
-     "titre": "QA automatique : Culture maker",
-     "projet": "Sujet : Culture maker",
      "etat": "en attente"
     },
     {
@@ -359,7 +324,7 @@
    "desc": "Décide si la vidéo mérite d'être publiée.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -371,11 +336,6 @@
     {
      "titre": "Revue finale (dossier, script, vidéo) : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en attente"
-    },
-    {
-     "titre": "Revue finale (dossier, script, vidéo) : Culture maker",
-     "projet": "Sujet : Culture maker",
      "etat": "en attente"
     },
     {
@@ -500,18 +460,18 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 134,
-   "dernier_a": "18/10 19:02"
+   "passages": 135,
+   "dernier_a": "18/10 19:10"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 132,
-   "dernier_a": "18/10 19:08"
+   "dernier": "[poste Publication YouTube] 3 publications programmées, calendrier sain",
+   "passages": 133,
+   "dernier_a": "18/10 19:13"
   },
   {
    "cle": "plume",
@@ -520,15 +480,15 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 107,
-   "dernier_a": "18/10 19:05"
+   "passages": 108,
+   "dernier_a": "18/10 19:13"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Publication YouTube, avec Archiviste] 3 publications programmées, calendrier sain",
    "passages": 76,
    "dernier_a": "18/10 18:09"
@@ -599,19 +559,19 @@
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 49858
+   "dans_s": 49558
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 71458
+   "dans_s": 71158
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 136258
+   "dans_s": 135958
   }
  ],
  "audience": {
@@ -825,10 +785,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
-  "PENDING": 17,
-  "DEFERRED": 6,
-  "SUCCESS": 901,
+  "READY": 7,
+  "PENDING": 10,
+  "DEFERRED": 5,
+  "SUCCESS": 902,
   "FAILED": 28
  }
 }
