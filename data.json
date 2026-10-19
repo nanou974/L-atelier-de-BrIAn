@@ -1,15 +1,15 @@
 {
- "now": 1792447141.155168,
- "heure": "23:59:01",
+ "now": 1792447441.1259544,
+ "heure": "00:04:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Plume : passage continu",
+  "activite": "Éclaireur : passage continu",
   "battement_s": 1
  },
  "modele": {
   "ok": false,
-  "reprise": "20/10 00:00",
-  "erreur": "quota Groq atteint, pause 629 s",
+  "reprise": "20/10 00:06",
+  "erreur": "quota Groq atteint, pause 383 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 00:00"
+     "etat": "programmée 20/10 00:06"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 00:00"
+     "etat": "programmée 20/10 00:07"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -409,25 +409,25 @@
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Tester la disponibilité du LLM Groq (borné)",
-    "quand": "19/10 18:00"
+    "titre": "Contrôler l'espace disque",
+    "quand": "20/10 00:02"
    },
-   "total_fait": 34,
+   "total_fait": 37,
    "taches": [
     {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "titre": "Contrôler l'espace disque",
      "projet": "Maintenance",
-     "etat": "terminée 19/10 18:00"
+     "etat": "terminée 20/10 00:02"
     },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
-     "etat": "terminée 19/10 12:00"
+     "etat": "terminée 20/10 00:02"
     },
     {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "titre": "Vérifier l'intégrité des médias sources",
      "projet": "Maintenance",
-     "etat": "terminée 19/10 06:01"
+     "etat": "terminée 20/10 00:02"
     }
    ]
   }
@@ -460,15 +460,15 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 277,
-   "dernier_a": "19/10 23:48"
+   "passages": 278,
+   "dernier_a": "20/10 00:01"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
    "passages": 168,
    "dernier_a": "19/10 23:51"
@@ -539,7 +539,7 @@
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 32458
+   "dans_s": 32158
   }
  ],
  "audience": {
@@ -753,10 +753,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 7,
+  "READY": 9,
   "PENDING": 8,
   "DEFERRED": 3,
-  "SUCCESS": 912,
+  "SUCCESS": 913,
   "FAILED": 28
  }
 }
