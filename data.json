@@ -1,15 +1,15 @@
 {
- "now": 1792393140.6017826,
- "heure": "08:59:00",
+ "now": 1792393440.6183755,
+ "heure": "09:04:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
-  "battement_s": 2
+  "activite": "Iconographe : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
-  "reprise": "19/10 08:59",
-  "erreur": "quota Groq atteint, pause 681 s",
+  "reprise": "19/10 09:04",
+  "erreur": "quota Groq atteint, pause 299 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 19/10 08:59"
+     "etat": "programmée 19/10 09:05"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 19/10 08:59"
+     "etat": "programmée 19/10 09:05"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -362,14 +362,14 @@
    "desc": "Envoie la vidéo, la miniature et la description sur la chaîne.",
    "etat": "repos",
    "courant": null,
-   "file": 6,
+   "file": 4,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Miniature : Capteur",
-    "quand": "18/10 15:00"
+    "titre": "Miniature : UltiMaker",
+    "quand": "19/10 09:01"
    },
-   "total_fait": 37,
+   "total_fait": 39,
    "taches": [
     {
      "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
@@ -380,11 +380,6 @@
      "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
      "projet": "Sujet : ESP8266",
      "etat": "programmée 20/10 09:00"
-    },
-    {
-     "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
-     "projet": "Sujet : UltiMaker",
-     "etat": "programmée 19/10 09:00"
     },
     {
      "titre": "Miniature : Défauts des joints soudés",
@@ -399,22 +394,17 @@
     {
      "titre": "Miniature : UltiMaker",
      "projet": "Sujet : UltiMaker",
-     "etat": "en attente"
+     "etat": "terminée 19/10 09:01"
+    },
+    {
+     "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
+     "projet": "Sujet : UltiMaker",
+     "etat": "terminée 19/10 09:01"
     },
     {
      "titre": "Miniature : Capteur",
      "projet": "Sujet : Capteur",
      "etat": "terminée 18/10 15:00"
-    },
-    {
-     "titre": "Publier : Capteur (jugée publiable, le 18/10 15 h)",
-     "projet": "Sujet : Capteur",
-     "etat": "terminée 18/10 15:00"
-    },
-    {
-     "titre": "Miniature : Risques de l'impression 3D (corrigée)",
-     "projet": "Publication",
-     "etat": "terminée 18/10 10:57"
     }
    ]
   },
@@ -456,39 +446,39 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 27 titres lus, 0 idées retenues",
-   "passages": 267,
-   "dernier_a": "19/10 08:56"
+   "dernier": "[poste Publication YouTube] 18 fiches vérifiées, 18 avec remarques ; à corriger avant envoi : defauts-des-joints-soudes : plus de 3 hashtags dans la description | esp8266 : plus de 3 hashtags dans la description",
+   "passages": 268,
+   "dernier_a": "19/10 09:02"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "images",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 253,
-   "dernier_a": "19/10 08:54"
+   "dernier": "[poste Images] 14 miniatures notées, meilleure : contour-crafting",
+   "passages": 255,
+   "dernier_a": "19/10 09:02"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube, avec Archiviste] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 184,
-   "dernier_a": "19/10 08:44"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 185,
+   "dernier_a": "19/10 09:02"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
    "passages": 112,
    "dernier_a": "19/10 08:46"
@@ -556,22 +546,16 @@
  ],
  "programmees": [
   {
-   "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
-   "quand": "19/10 09:00",
-   "ts": 1792393200.0,
-   "dans_s": 59
-  },
-  {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 21659
+   "dans_s": 21359
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 86459
+   "dans_s": 86159
   }
  ],
  "audience": {
@@ -581,6 +565,13 @@
   "maj": "06:17"
  },
  "publiees": [
+  {
+   "slug": "ultimaker",
+   "title": "UltiMaker : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=FsY8HKNpHVE",
+   "at": "2026-10-19T09:01:11",
+   "miniature": true
+  },
   {
    "slug": "capteur",
    "title": "Capteur : l'histoire en bref #Shorts",
@@ -630,20 +621,16 @@
    "vues": 298,
    "likes": 4,
    "commentaires": 0
-  },
-  {
-   "slug": "risc-v.old-version",
-   "title": "RISC-V : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=Rdp9AgvQvA0",
-   "at": "2026-10-17T09:00:09",
-   "miniature": true,
-   "vues": 322,
-   "likes": 9,
-   "commentaires": 0
   }
  ],
- "nb_publiees": 15,
+ "nb_publiees": 16,
  "notifications": [
+  {
+   "ts": "2026-10-19T09:01:11",
+   "type": "publication",
+   "texte": "Publiée : UltiMaker : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=FsY8HKNpHVE"
+  },
   {
    "ts": "2026-10-18T15:00:12",
    "type": "publication",
@@ -775,20 +762,14 @@
    "type": "publication",
    "texte": "Publiée : Potentiomètre numérique : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=CLLtzKp5WmQ"
-  },
-  {
-   "ts": "2026-10-15T17:56:51",
-   "type": "publication",
-   "texte": "Publiée : RepRap : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=U5r3ctltLRU"
   }
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
-  "PENDING": 10,
-  "DEFERRED": 5,
-  "SUCCESS": 905,
+  "READY": 9,
+  "PENDING": 9,
+  "DEFERRED": 4,
+  "SUCCESS": 906,
   "FAILED": 28
  }
 }
