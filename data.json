@@ -1,15 +1,15 @@
 {
- "now": 1792449841.207166,
- "heure": "00:44:01",
+ "now": 1792450141.0943575,
+ "heure": "00:49:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
-  "battement_s": 1
+  "activite": "Analyste : passage continu",
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
-  "reprise": "20/10 00:45",
-  "erreur": "quota Groq atteint, pause 1153 s",
+  "reprise": "20/10 00:53",
+  "erreur": "quota Groq atteint, pause 445 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 00:45"
+     "etat": "programmée 20/10 00:53"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 00:45"
+     "etat": "programmée 20/10 00:53"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -436,22 +436,22 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume, Accroche] 31 titres lus, 0 idées retenues",
-   "passages": 422,
-   "dernier_a": "20/10 00:42"
+   "dernier": "[poste Publication YouTube, avec Analyste] 17 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
+   "passages": 423,
+   "dernier_a": "20/10 00:47"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Iconographe, Analyste] 18 fiches vérifiées, 18 avec remarques ; à corriger avant envoi : esp8266 : plus de 3 hashtags dans la description",
-   "passages": 390,
-   "dernier_a": "20/10 00:37"
+   "dernier": "[poste Publication YouTube, avec Éclaireur] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 392,
+   "dernier_a": "20/10 00:47"
   },
   {
    "cle": "plume",
@@ -459,26 +459,26 @@
    "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Accroche] 31 titres lus, 0 idées retenues",
-   "passages": 282,
-   "dernier_a": "20/10 00:40"
+   "dernier": "[poste Trouver une idée, avec Archiviste, Accroche] 31 titres lus, 0 idées retenues",
+   "passages": 283,
+   "dernier_a": "20/10 00:47"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "publication",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube, avec Plume] 1 publications programmées, alertes : ESP8266 (version noms propres, le 20/10 9 h) : description pas prête à moins de 12 h de l'envoi",
-   "passages": 170,
-   "dernier_a": "20/10 00:22"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, avec Éclaireur] 18 fiches vérifiées, 18 avec remarques ; à corriger avant envoi : esp8266 : plus de 3 hashtags dans la description",
+   "passages": 171,
+   "dernier_a": "20/10 00:47"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "publication",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Publication YouTube, avec Plume, Iconographe] 1 commentaire(s) suivis, 0 nouveau(x)",
    "passages": 83,
    "dernier_a": "20/10 00:22"
@@ -539,14 +539,14 @@
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 29758
+   "dans_s": 29458
   }
  ],
  "audience": {
-  "vues": 1896,
+  "vues": 1908,
   "likes": 38,
   "commentaires": 0,
-  "maj": "21:39"
+  "maj": "00:47"
  },
  "publiees": [
   {
@@ -555,7 +555,7 @@
    "url": "https://www.youtube.com/watch?v=NcVFxVcU7Xc",
    "at": "2026-10-19T15:00:09",
    "miniature": true,
-   "vues": 27,
+   "vues": 32,
    "likes": 0,
    "commentaires": 0
   },
@@ -565,7 +565,7 @@
    "url": "https://www.youtube.com/watch?v=FsY8HKNpHVE",
    "at": "2026-10-19T09:01:11",
    "miniature": true,
-   "vues": 133,
+   "vues": 140,
    "likes": 1,
    "commentaires": 0
   },
@@ -753,10 +753,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 5,
   "PENDING": 8,
   "DEFERRED": 3,
-  "SUCCESS": 914,
+  "SUCCESS": 917,
   "FAILED": 28
  }
 }
