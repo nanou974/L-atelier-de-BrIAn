@@ -1,15 +1,15 @@
 {
- "now": 1792450141.0943575,
- "heure": "00:49:01",
+ "now": 1792450441.1053483,
+ "heure": "00:54:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Analyste : passage continu",
-  "battement_s": 2
+  "activite": "Écrire le script : Robocasting + Plume : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "20/10 00:53",
-  "erreur": "quota Groq atteint, pause 445 s",
+  "reprise": "20/10 01:04",
+  "erreur": "quota Groq atteint, pause 645 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -51,7 +51,7 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
    "file": 1,
    "attend_humain": 0,
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 00:53"
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -89,9 +89,13 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Écrire le script : Robocasting",
+    "projet": "Sujet : Robocasting",
+    "depuis": 8
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -103,7 +107,8 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 00:53"
+     "etat": "en cours",
+     "depuis": 8
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -436,12 +441,12 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Analyste] 17 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
-   "passages": 423,
-   "dernier_a": "20/10 00:47"
+   "dernier": "[poste Trouver une idée, avec Plume, Analyste] 31 titres lus, 0 idées retenues",
+   "passages": 424,
+   "dernier_a": "20/10 00:52"
   },
   {
    "cle": "archiviste",
@@ -449,9 +454,9 @@
    "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Éclaireur] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 392,
-   "dernier_a": "20/10 00:47"
+   "dernier": "[poste Publication YouTube] 18 fiches vérifiées, 18 avec remarques ; à corriger avant envoi : esp8266 : plus de 3 hashtags dans la description",
+   "passages": 393,
+   "dernier_a": "20/10 00:52"
   },
   {
    "cle": "plume",
@@ -479,9 +484,9 @@
    "poste": "idee",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Plume, Iconographe] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 83,
-   "dernier_a": "20/10 00:22"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 84,
+   "dernier_a": "20/10 00:50"
   },
   {
    "cle": "tendances",
@@ -539,7 +544,7 @@
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 29458
+   "dans_s": 29158
   }
  ],
  "audience": {
@@ -752,11 +757,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 5,
+  "RUNNING": 2,
+  "READY": 8,
   "PENDING": 8,
-  "DEFERRED": 3,
-  "SUCCESS": 917,
+  "DEFERRED": 1,
+  "SUCCESS": 915,
   "FAILED": 28
  }
 }
