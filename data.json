@@ -1,14 +1,14 @@
 {
- "now": 1792415641.199649,
- "heure": "15:14:01",
+ "now": 1792415941.1383379,
+ "heure": "15:19:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Analyste : passage continu",
-  "battement_s": 4
+  "activite": "Recherche documentaire : Impression 3D dans la construction + Archiviste : passage continu",
+  "battement_s": 1
  },
  "modele": {
-  "ok": false,
-  "reprise": "19/10 15:18",
+  "ok": true,
+  "reprise": null,
   "erreur": "quota Groq atteint, pause 369 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
@@ -51,9 +51,13 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : Impression 3D dans la construction",
+    "projet": "Sujet : Impression 3D dans la construction",
+    "depuis": 21
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -65,7 +69,8 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 19/10 15:18"
+     "etat": "en cours",
+     "depuis": 21
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -89,7 +94,7 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
    "file": 2,
    "attend_humain": 0,
@@ -103,7 +108,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 19/10 15:18"
+     "etat": "prête"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -439,9 +444,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 329,
-   "dernier_a": "19/10 15:11"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 330,
+   "dernier_a": "19/10 15:18"
   },
   {
    "cle": "archiviste",
@@ -480,8 +485,8 @@
    "poste_prefere": "publication",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 71,
-   "dernier_a": "19/10 15:03"
+   "passages": 72,
+   "dernier_a": "19/10 15:16"
   },
   {
    "cle": "tendances",
@@ -539,7 +544,7 @@
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 63958
+   "dans_s": 63658
   }
  ],
  "audience": {
@@ -749,11 +754,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 6,
+  "RUNNING": 2,
+  "READY": 9,
   "PENDING": 8,
-  "DEFERRED": 3,
-  "SUCCESS": 912,
+  "DEFERRED": 1,
+  "SUCCESS": 910,
   "FAILED": 28
  }
 }
