@@ -1,15 +1,15 @@
 {
- "now": 1792448041.1215146,
- "heure": "00:14:01",
+ "now": 1792448341.1396573,
+ "heure": "00:19:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Iconographe : passage continu",
-  "battement_s": 2
+  "activite": "Archiviste : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "20/10 00:17",
-  "erreur": "quota Groq atteint, pause 608 s",
+  "reprise": "20/10 00:25",
+  "erreur": "quota Groq atteint, pause 437 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 00:17"
+     "etat": "programmée 20/10 00:25"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 00:17"
+     "etat": "programmée 20/10 00:25"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -440,8 +440,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 417,
-   "dernier_a": "20/10 00:09"
+   "passages": 418,
+   "dernier_a": "20/10 00:16"
   },
   {
    "cle": "archiviste",
@@ -469,9 +469,9 @@
    "poste": "idee",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 168,
-   "dernier_a": "19/10 23:51"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 169,
+   "dernier_a": "20/10 00:14"
   },
   {
    "cle": "analyste",
@@ -539,7 +539,7 @@
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 31558
+   "dans_s": 31258
   }
  ],
  "audience": {
@@ -753,10 +753,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 7,
+  "READY": 9,
   "PENDING": 8,
   "DEFERRED": 3,
-  "SUCCESS": 915,
+  "SUCCESS": 913,
   "FAILED": 28
  }
 }
