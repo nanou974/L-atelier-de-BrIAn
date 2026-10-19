@@ -1,15 +1,15 @@
 {
- "now": 1792377241.0706737,
- "heure": "04:34:01",
+ "now": 1792377541.0747993,
+ "heure": "04:39:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
-  "battement_s": 0
+  "activite": "Recherche documentaire : Impression 3D dans la construction + Plume : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "19/10 04:37",
-  "erreur": "quota Groq atteint, pause 413 s",
+  "reprise": "19/10 04:48",
+  "erreur": "quota Groq atteint, pause 644 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -51,9 +51,13 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : Impression 3D dans la construction",
+    "projet": "Sujet : Impression 3D dans la construction",
+    "depuis": 49
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -65,7 +69,8 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 19/10 04:38"
+     "etat": "en cours",
+     "depuis": 49
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +108,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 19/10 04:38"
+     "etat": "programmée 19/10 04:49"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -459,9 +464,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 224,
-   "dernier_a": "19/10 04:30"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 225,
+   "dernier_a": "19/10 04:38"
   },
   {
    "cle": "archiviste",
@@ -469,9 +474,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
-   "passages": 214,
-   "dernier_a": "19/10 04:28"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 215,
+   "dernier_a": "19/10 04:36"
   },
   {
    "cle": "plume",
@@ -559,19 +564,19 @@
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 15958
+   "dans_s": 15658
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 37558
+   "dans_s": 37258
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 102358
+   "dans_s": 102058
   }
  ],
  "audience": {
@@ -784,11 +789,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 8,
+  "RUNNING": 2,
+  "READY": 7,
   "PENDING": 10,
-  "DEFERRED": 5,
-  "SUCCESS": 904,
+  "DEFERRED": 4,
+  "SUCCESS": 905,
   "FAILED": 28
  }
 }
