@@ -1,15 +1,15 @@
 {
- "now": 1792393440.6183755,
- "heure": "09:04:00",
+ "now": 1792393740.6298022,
+ "heure": "09:09:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Iconographe : passage continu",
-  "battement_s": 4
+  "activite": "Plume : passage continu",
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
-  "reprise": "19/10 09:04",
-  "erreur": "quota Groq atteint, pause 299 s",
+  "reprise": "19/10 09:23",
+  "erreur": "quota Groq atteint, pause 1048 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 19/10 09:05"
+     "etat": "programmée 19/10 09:23"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 19/10 09:05"
+     "etat": "programmée 19/10 09:23"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -446,22 +446,22 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 18 fiches vérifiées, 18 avec remarques ; à corriger avant envoi : defauts-des-joints-soudes : plus de 3 hashtags dans la description | esp8266 : plus de 3 hashtags dans la description",
-   "passages": 268,
-   "dernier_a": "19/10 09:02"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 269,
+   "dernier_a": "19/10 09:07"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Images] 14 miniatures notées, meilleure : contour-crafting",
-   "passages": 255,
-   "dernier_a": "19/10 09:02"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 256,
+   "dernier_a": "19/10 09:07"
   },
   {
    "cle": "plume",
@@ -479,9 +479,9 @@
    "poste": "idee",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
-   "passages": 112,
-   "dernier_a": "19/10 08:46"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 113,
+   "dernier_a": "19/10 09:04"
   },
   {
    "cle": "analyste",
@@ -549,13 +549,13 @@
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 21359
+   "dans_s": 21059
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 86159
+   "dans_s": 85859
   }
  ],
  "audience": {
@@ -766,10 +766,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 7,
   "PENDING": 9,
   "DEFERRED": 4,
-  "SUCCESS": 906,
+  "SUCCESS": 908,
   "FAILED": 28
  }
 }
