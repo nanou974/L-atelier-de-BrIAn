@@ -1,15 +1,15 @@
 {
- "now": 1792405282.898373,
- "heure": "12:21:23",
+ "now": 1792405441.8292232,
+ "heure": "12:24:02",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
-  "battement_s": 9
+  "activite": "Recherche documentaire : Impression 3D dans la construction + Plume : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "19/10 12:23",
-  "erreur": "quota Groq atteint, pause 850 s",
+  "reprise": "19/10 12:33",
+  "erreur": "quota Groq atteint, pause 590 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -51,9 +51,13 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : Impression 3D dans la construction",
+    "projet": "Sujet : Impression 3D dans la construction",
+    "depuis": 23
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -65,7 +69,8 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 19/10 12:23"
+     "etat": "en cours",
+     "depuis": 23
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +108,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 19/10 12:23"
+     "etat": "programmée 19/10 12:33"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -446,12 +451,12 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 27 titres lus, 0 idées retenues",
-   "passages": 300,
-   "dernier_a": "19/10 12:19"
+   "dernier": "[poste Publication YouTube] 16 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
+   "passages": 301,
+   "dernier_a": "19/10 12:22"
   },
   {
    "cle": "archiviste",
@@ -459,9 +464,9 @@
    "poste": "recherche",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
-   "passages": 282,
-   "dernier_a": "19/10 12:14"
+   "dernier": "[poste Trouver une idée, avec Plume] 27 titres lus, 0 idées retenues",
+   "passages": 283,
+   "dernier_a": "19/10 12:22"
   },
   {
    "cle": "plume",
@@ -549,20 +554,20 @@
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 9517
+   "dans_s": 9358
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 74317
+   "dans_s": 74158
   }
  ],
  "audience": {
-  "vues": 1781,
-  "likes": 37,
+  "vues": 1832,
+  "likes": 38,
   "commentaires": 0,
-  "maj": "09:19"
+  "maj": "12:22"
  },
  "publiees": [
   {
@@ -571,8 +576,8 @@
    "url": "https://www.youtube.com/watch?v=FsY8HKNpHVE",
    "at": "2026-10-19T09:01:11",
    "miniature": true,
-   "vues": 52,
-   "likes": 0,
+   "vues": 100,
+   "likes": 1,
    "commentaires": 0
   },
   {
@@ -591,7 +596,7 @@
    "url": "https://www.youtube.com/watch?v=1HW5H4d5bzQ",
    "at": "2026-10-18T10:57:13",
    "miniature": true,
-   "vues": 307,
+   "vues": 310,
    "likes": 6,
    "commentaires": 0
   },
@@ -768,11 +773,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 8,
+  "RUNNING": 2,
+  "READY": 7,
   "PENDING": 9,
-  "DEFERRED": 4,
-  "SUCCESS": 908,
+  "DEFERRED": 3,
+  "SUCCESS": 909,
   "FAILED": 28
  }
 }
