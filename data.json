@@ -1,15 +1,15 @@
 {
- "now": 1792399440.8672147,
- "heure": "10:44:01",
+ "now": 1792399740.8890798,
+ "heure": "10:49:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 1
+  "activite": "Archiviste : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
-  "reprise": "19/10 10:46",
-  "erreur": "quota Groq atteint, pause 401 s",
+  "reprise": "19/10 10:57",
+  "erreur": "quota Groq atteint, pause 613 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 19/10 10:46"
+     "etat": "programmée 19/10 10:57"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 19/10 10:46"
+     "etat": "programmée 19/10 10:57"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -450,8 +450,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 27 titres lus, 0 idées retenues",
-   "passages": 284,
-   "dernier_a": "19/10 10:38"
+   "passages": 285,
+   "dernier_a": "19/10 10:44"
   },
   {
    "cle": "archiviste",
@@ -470,8 +470,8 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
-   "passages": 194,
-   "dernier_a": "19/10 10:36"
+   "passages": 195,
+   "dernier_a": "19/10 10:46"
   },
   {
    "cle": "iconographe",
@@ -549,13 +549,13 @@
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 15359
+   "dans_s": 15059
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 80159
+   "dans_s": 79859
   }
  ],
  "audience": {
@@ -769,10 +769,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 9,
   "PENDING": 9,
   "DEFERRED": 4,
-  "SUCCESS": 907,
+  "SUCCESS": 906,
   "FAILED": 28
  }
 }
