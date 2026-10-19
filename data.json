@@ -1,15 +1,15 @@
 {
- "now": 1792416241.1738057,
- "heure": "15:24:01",
+ "now": 1792416541.1641777,
+ "heure": "15:29:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 3
+  "activite": "Recherche documentaire : Impression 3D dans la construction + Éclaireur : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
-  "reprise": "19/10 15:28",
-  "erreur": "quota Groq atteint, pause 542 s",
+  "reprise": "19/10 15:38",
+  "erreur": "quota Groq atteint, pause 603 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -51,9 +51,13 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : Impression 3D dans la construction",
+    "projet": "Sujet : Impression 3D dans la construction",
+    "depuis": 25
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -65,7 +69,8 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 19/10 15:28"
+     "etat": "en cours",
+     "depuis": 25
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +108,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 19/10 15:28"
+     "etat": "programmée 19/10 15:38"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -440,8 +445,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 330,
-   "dernier_a": "19/10 15:18"
+   "passages": 331,
+   "dernier_a": "19/10 15:24"
   },
   {
    "cle": "archiviste",
@@ -450,28 +455,28 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 308,
-   "dernier_a": "19/10 15:21"
+   "passages": 309,
+   "dernier_a": "19/10 15:26"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube, avec Iconographe] 18 fiches vérifiées, 18 avec remarques ; à corriger avant envoi : esp8266 : plus de 3 hashtags dans la description",
-   "passages": 224,
-   "dernier_a": "19/10 15:13"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, avec Iconographe] 17 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
+   "passages": 225,
+   "dernier_a": "19/10 15:24"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "publication",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube, avec Plume] 1 publications programmées, calendrier sain",
-   "passages": 130,
-   "dernier_a": "19/10 15:13"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, avec Plume] 18 fiches vérifiées, 18 avec remarques ; à corriger avant envoi : esp8266 : plus de 3 hashtags dans la description",
+   "passages": 131,
+   "dernier_a": "19/10 15:24"
   },
   {
    "cle": "analyste",
@@ -479,9 +484,9 @@
    "poste": "publication",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 72,
-   "dernier_a": "19/10 15:16"
+   "dernier": "[poste Publication YouTube, avec Plume] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 73,
+   "dernier_a": "19/10 15:26"
   },
   {
    "cle": "tendances",
@@ -539,14 +544,14 @@
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 63358
+   "dans_s": 63058
   }
  ],
  "audience": {
-  "vues": 1832,
+  "vues": 1861,
   "likes": 38,
   "commentaires": 0,
-  "maj": "12:22"
+  "maj": "15:24"
  },
  "publiees": [
   {
@@ -554,7 +559,10 @@
    "title": "Défauts des joints soudés : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=NcVFxVcU7Xc",
    "at": "2026-10-19T15:00:09",
-   "miniature": true
+   "miniature": true,
+   "vues": 2,
+   "likes": 0,
+   "commentaires": 0
   },
   {
    "slug": "ultimaker",
@@ -562,7 +570,7 @@
    "url": "https://www.youtube.com/watch?v=FsY8HKNpHVE",
    "at": "2026-10-19T09:01:11",
    "miniature": true,
-   "vues": 100,
+   "vues": 123,
    "likes": 1,
    "commentaires": 0
   },
@@ -572,7 +580,7 @@
    "url": "https://www.youtube.com/watch?v=yEFqshq0F3A",
    "at": "2026-10-18T15:00:12",
    "miniature": true,
-   "vues": 4,
+   "vues": 5,
    "likes": 1,
    "commentaires": 0
   },
@@ -582,7 +590,7 @@
    "url": "https://www.youtube.com/watch?v=1HW5H4d5bzQ",
    "at": "2026-10-18T10:57:13",
    "miniature": true,
-   "vues": 310,
+   "vues": 311,
    "likes": 6,
    "commentaires": 0
   },
@@ -749,11 +757,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 8,
+  "RUNNING": 2,
+  "READY": 9,
   "PENDING": 8,
-  "DEFERRED": 3,
-  "SUCCESS": 910,
+  "DEFERRED": 2,
+  "SUCCESS": 909,
   "FAILED": 28
  }
 }
