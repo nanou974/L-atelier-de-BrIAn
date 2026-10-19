@@ -1,10 +1,10 @@
 {
- "now": 1792437840.7333374,
- "heure": "21:24:00",
+ "now": 1792438140.7577777,
+ "heure": "21:29:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Robocasting + Archiviste : passage continu",
-  "battement_s": 2
+  "activite": "Archiviste : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en attente"
+     "etat": "programmée 19/10 21:30"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -89,13 +89,9 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Écrire le script : Robocasting",
-    "projet": "Sujet : Robocasting",
-    "depuis": 1
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -107,8 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "en cours",
-     "depuis": 1
+     "etat": "programmée 19/10 21:30"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -444,9 +439,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste, Plume] 31 titres lus, 0 idées retenues",
-   "passages": 390,
-   "dernier_a": "19/10 21:19"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 391,
+   "dernier_a": "19/10 21:26"
   },
   {
    "cle": "archiviste",
@@ -454,16 +449,16 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 360,
-   "dernier_a": "19/10 21:16"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 361,
+   "dernier_a": "19/10 21:24"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube] 18 fiches vérifiées, 18 avec remarques ; à corriger avant envoi : esp8266 : plus de 3 hashtags dans la description",
    "passages": 262,
    "dernier_a": "19/10 21:19"
@@ -544,7 +539,7 @@
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 41759
+   "dans_s": 41459
   }
  ],
  "audience": {
@@ -757,10 +752,10 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
+  "RUNNING": 1,
   "READY": 9,
   "PENDING": 8,
-  "DEFERRED": 2,
+  "DEFERRED": 3,
   "SUCCESS": 910,
   "FAILED": 28
  }
