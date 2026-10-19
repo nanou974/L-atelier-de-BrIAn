@@ -1,15 +1,15 @@
 {
- "now": 1792436340.7182314,
- "heure": "20:59:00",
+ "now": 1792436640.7164042,
+ "heure": "21:04:00",
  "moteur": {
   "etat": "actif",
   "activite": "Éclaireur : passage continu",
-  "battement_s": 5
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
-  "reprise": "19/10 21:02",
-  "erreur": "quota Groq atteint, pause 609 s",
+  "reprise": "19/10 21:13",
+  "erreur": "quota Groq atteint, pause 625 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 19/10 21:03"
+     "etat": "programmée 19/10 21:13"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 19/10 21:03"
+     "etat": "programmée 19/10 21:13"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -440,8 +440,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 386,
-   "dernier_a": "19/10 20:55"
+   "passages": 387,
+   "dernier_a": "19/10 21:00"
   },
   {
    "cle": "archiviste",
@@ -456,19 +456,19 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube] 18 fiches vérifiées, 18 avec remarques ; à corriger avant envoi : esp8266 : plus de 3 hashtags dans la description",
-   "passages": 259,
-   "dernier_a": "19/10 20:50"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 260,
+   "dernier_a": "19/10 21:03"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
    "passages": 154,
    "dernier_a": "19/10 20:53"
@@ -539,7 +539,7 @@
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 43259
+   "dans_s": 42959
   }
  ],
  "audience": {
