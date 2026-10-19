@@ -1,10 +1,10 @@
 {
- "now": 1792448941.1656222,
- "heure": "00:29:01",
+ "now": 1792449241.1479871,
+ "heure": "00:34:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 3
+  "activite": "Plume : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
@@ -439,9 +439,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 419,
-   "dernier_a": "20/10 00:22"
+   "dernier": "[poste Trouver une idée, avec Archiviste, Accroche] 31 titres lus, 0 idées retenues",
+   "passages": 420,
+   "dernier_a": "20/10 00:30"
   },
   {
    "cle": "archiviste",
@@ -449,14 +449,14 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Accroche] 31 titres lus, 0 idées retenues",
-   "passages": 388,
-   "dernier_a": "20/10 00:27"
+   "dernier": "[poste Trouver une idée, avec Accroche] 27 titres lus, 0 idées retenues",
+   "passages": 389,
+   "dernier_a": "20/10 00:32"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Publication YouTube] 18 fiches vérifiées, 18 avec remarques ; à corriger avant envoi : esp8266 : plus de 3 hashtags dans la description",
@@ -468,7 +468,7 @@
    "nom": "Iconographe",
    "poste": "publication",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube, avec Plume] 1 publications programmées, alertes : ESP8266 (version noms propres, le 20/10 9 h) : description pas prête à moins de 12 h de l'envoi",
    "passages": 170,
    "dernier_a": "20/10 00:22"
@@ -478,7 +478,7 @@
    "nom": "Analyste",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube, avec Plume, Iconographe] 1 commentaire(s) suivis, 0 nouveau(x)",
    "passages": 83,
    "dernier_a": "20/10 00:22"
@@ -488,7 +488,7 @@
    "nom": "Tendances",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Archiviste] 4 sujets mesurés, en hausse : Impression 4D ×1.04, PirateBox ×0.97",
    "passages": 54,
    "dernier_a": "20/10 00:22"
@@ -498,7 +498,7 @@
    "nom": "Accroche",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
    "passages": 52,
    "dernier_a": "20/10 00:24"
@@ -539,7 +539,7 @@
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 30658
+   "dans_s": 30358
   }
  ],
  "audience": {
@@ -753,10 +753,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 8,
   "DEFERRED": 3,
-  "SUCCESS": 913,
+  "SUCCESS": 914,
   "FAILED": 28
  }
 }
