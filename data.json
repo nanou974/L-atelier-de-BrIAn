@@ -1,15 +1,15 @@
 {
- "now": 1792440540.8479362,
- "heure": "22:09:01",
+ "now": 1792440840.8372655,
+ "heure": "22:14:01",
  "moteur": {
   "etat": "actif",
   "activite": "Éclaireur : passage continu",
-  "battement_s": 3
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
-  "reprise": "19/10 22:09",
-  "erreur": "quota Groq atteint, pause 408 s",
+  "reprise": "19/10 22:19",
+  "erreur": "quota Groq atteint, pause 603 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 19/10 22:09"
+     "etat": "programmée 19/10 22:19"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 19/10 22:09"
+     "etat": "programmée 19/10 22:19"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -439,9 +439,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 397,
-   "dernier_a": "19/10 22:05"
+   "dernier": "[poste Trouver une idée, avec Archiviste, Plume] 31 titres lus, 0 idées retenues",
+   "passages": 398,
+   "dernier_a": "19/10 22:10"
   },
   {
    "cle": "archiviste",
@@ -449,9 +449,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 368,
-   "dernier_a": "19/10 22:07"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 369,
+   "dernier_a": "19/10 22:13"
   },
   {
    "cle": "plume",
@@ -478,7 +478,7 @@
    "nom": "Analyste",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
    "passages": 81,
    "dernier_a": "19/10 22:02"
@@ -539,7 +539,7 @@
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 39059
+   "dans_s": 38759
   }
  ],
  "audience": {
@@ -753,10 +753,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 8,
   "DEFERRED": 3,
-  "SUCCESS": 910,
+  "SUCCESS": 911,
   "FAILED": 28
  }
 }
