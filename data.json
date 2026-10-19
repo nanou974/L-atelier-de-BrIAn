@@ -1,15 +1,15 @@
 {
- "now": 1792424040.386233,
- "heure": "17:34:00",
+ "now": 1792424340.3881242,
+ "heure": "17:39:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Iconographe : passage continu",
-  "battement_s": 1
+  "activite": "Archiviste : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
-  "reprise": "19/10 17:36",
-  "erreur": "quota Groq atteint, pause 607 s",
+  "reprise": "19/10 17:43",
+  "erreur": "quota Groq atteint, pause 405 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 19/10 17:36"
+     "etat": "programmée 19/10 17:43"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 19/10 17:36"
+     "etat": "programmée 19/10 17:43"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -439,9 +439,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 352,
-   "dernier_a": "19/10 17:30"
+   "dernier": "[poste Trouver une idée, avec Archiviste, Iconographe] 31 titres lus, 0 idées retenues",
+   "passages": 353,
+   "dernier_a": "19/10 17:38"
   },
   {
    "cle": "archiviste",
@@ -469,9 +469,9 @@
    "poste": "idee",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Archiviste] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 137,
-   "dernier_a": "19/10 17:25"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 138,
+   "dernier_a": "19/10 17:35"
   },
   {
    "cle": "analyste",
@@ -539,7 +539,7 @@
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 55559
+   "dans_s": 55259
   }
  ],
  "audience": {
@@ -753,10 +753,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 7,
+  "READY": 8,
   "PENDING": 8,
   "DEFERRED": 3,
-  "SUCCESS": 911,
+  "SUCCESS": 910,
   "FAILED": 28
  }
 }
