@@ -1,15 +1,15 @@
 {
- "now": 1792452841.1776679,
- "heure": "01:34:01",
+ "now": 1792453141.168939,
+ "heure": "01:39:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
-  "battement_s": 2
+  "activite": "Éclaireur : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
-  "reprise": "20/10 01:37",
-  "erreur": "quota Groq atteint, pause 617 s",
+  "reprise": "20/10 01:44",
+  "erreur": "quota Groq atteint, pause 418 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 01:37"
+     "etat": "programmée 20/10 01:44"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 01:37"
+     "etat": "programmée 20/10 01:44"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -449,29 +449,29 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 398,
-   "dernier_a": "20/10 01:26"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 399,
+   "dernier_a": "20/10 01:34"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 289,
-   "dernier_a": "20/10 01:29"
+   "dernier": "[poste Publication YouTube] 18 fiches vérifiées, 18 avec remarques ; à corriger avant envoi : esp8266 : plus de 3 hashtags dans la description",
+   "passages": 290,
+   "dernier_a": "20/10 01:34"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Éclaireur, Plume] 31 titres lus, 0 idées retenues",
-   "passages": 174,
-   "dernier_a": "20/10 01:16"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 175,
+   "dernier_a": "20/10 01:36"
   },
   {
    "cle": "analyste",
@@ -539,7 +539,7 @@
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 26758
+   "dans_s": 26458
   }
  ],
  "audience": {
@@ -753,10 +753,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 9,
   "PENDING": 8,
   "DEFERRED": 3,
-  "SUCCESS": 914,
+  "SUCCESS": 913,
   "FAILED": 28
  }
 }
