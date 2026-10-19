@@ -1,15 +1,15 @@
 {
- "now": 1792373640.9347758,
- "heure": "03:34:01",
+ "now": 1792373940.9422092,
+ "heure": "03:39:01",
  "moteur": {
   "etat": "actif",
   "activite": "Éclaireur : passage continu",
-  "battement_s": 3
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
-  "reprise": "19/10 03:35",
-  "erreur": "quota Groq atteint, pause 1047 s",
+  "reprise": "19/10 03:46",
+  "erreur": "quota Groq atteint, pause 641 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 19/10 03:35"
+     "etat": "programmée 19/10 03:46"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 19/10 03:35"
+     "etat": "programmée 19/10 03:46"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -459,9 +459,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste, Plume] 31 titres lus, 0 idées retenues",
-   "passages": 214,
-   "dernier_a": "19/10 03:29"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 215,
+   "dernier_a": "19/10 03:34"
   },
   {
    "cle": "archiviste",
@@ -469,16 +469,16 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 205,
-   "dernier_a": "19/10 03:32"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 206,
+   "dernier_a": "19/10 03:37"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
    "passages": 157,
    "dernier_a": "19/10 03:27"
@@ -559,19 +559,19 @@
    "titre": "Publier : UltiMaker (noms propres corrigés), 19/10 9 h",
    "quand": "19/10 09:00",
    "ts": 1792393200.0,
-   "dans_s": 19559
+   "dans_s": 19259
   },
   {
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 41159
+   "dans_s": 40859
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 105959
+   "dans_s": 105659
   }
  ],
  "audience": {
@@ -785,10 +785,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 10,
   "DEFERRED": 5,
-  "SUCCESS": 903,
+  "SUCCESS": 904,
   "FAILED": 28
  }
 }
