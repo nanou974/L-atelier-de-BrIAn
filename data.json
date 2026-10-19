@@ -1,10 +1,10 @@
 {
- "now": 1792403640.8549166,
- "heure": "11:54:01",
+ "now": 1792403940.8930008,
+ "heure": "11:59:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Iconographe : passage continu",
-  "battement_s": 1
+  "activite": "Recherche documentaire : Impression 3D dans la construction + Archiviste : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
@@ -51,9 +51,13 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : Impression 3D dans la construction",
+    "projet": "Sujet : Impression 3D dans la construction",
+    "depuis": 2
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -65,7 +69,8 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 19/10 11:58"
+     "etat": "en cours",
+     "depuis": 2
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -449,14 +454,14 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 27 titres lus, 0 idées retenues",
-   "passages": 296,
-   "dernier_a": "19/10 11:53"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 297,
+   "dernier_a": "19/10 11:58"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "recherche",
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Éclaireur, Plume] 27 titres lus, 0 idées retenues",
@@ -479,9 +484,9 @@
    "poste": "idee",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 120,
-   "dernier_a": "19/10 11:25"
+   "dernier": "[poste Trouver une idée, avec Éclaireur] 27 titres lus, 0 idées retenues",
+   "passages": 121,
+   "dernier_a": "19/10 11:56"
   },
   {
    "cle": "analyste",
@@ -549,13 +554,13 @@
    "titre": "Publier : Défauts des joints soudés (jugée publiable, le 19/10 15 h)",
    "quand": "19/10 15:00",
    "ts": 1792414800.0,
-   "dans_s": 11159
+   "dans_s": 10859
   },
   {
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 75959
+   "dans_s": 75659
   }
  ],
  "audience": {
@@ -768,11 +773,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 7,
+  "RUNNING": 2,
+  "READY": 8,
   "PENDING": 9,
-  "DEFERRED": 4,
-  "SUCCESS": 908,
+  "DEFERRED": 3,
+  "SUCCESS": 907,
   "FAILED": 28
  }
 }
