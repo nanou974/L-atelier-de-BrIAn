@@ -1,15 +1,15 @@
 {
- "now": 1792431240.5563166,
- "heure": "19:34:00",
+ "now": 1792431540.5489724,
+ "heure": "19:39:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
-  "battement_s": 2
+  "activite": "Analyste : passage continu",
+  "battement_s": 5
  },
  "modele": {
   "ok": false,
-  "reprise": "19/10 19:36",
-  "erreur": "quota Groq atteint, pause 384 s",
+  "reprise": "19/10 19:46",
+  "erreur": "quota Groq atteint, pause 601 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 19/10 19:36"
+     "etat": "programmée 19/10 19:46"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 19/10 19:36"
+     "etat": "programmée 19/10 19:46"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -436,12 +436,12 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 372,
-   "dernier_a": "19/10 19:31"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 373,
+   "dernier_a": "19/10 19:34"
   },
   {
    "cle": "archiviste",
@@ -449,9 +449,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Analyste] 18 fiches vérifiées, 18 avec remarques ; à corriger avant envoi : esp8266 : plus de 3 hashtags dans la description",
-   "passages": 345,
-   "dernier_a": "19/10 19:26"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 346,
+   "dernier_a": "19/10 19:34"
   },
   {
    "cle": "plume",
@@ -460,25 +460,25 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 250,
-   "dernier_a": "19/10 19:26"
+   "passages": 251,
+   "dernier_a": "19/10 19:36"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 147,
-   "dernier_a": "19/10 19:28"
+   "dernier": "[poste Publication YouTube, avec Éclaireur] 18 fiches vérifiées, 18 avec remarques ; à corriger avant envoi : esp8266 : plus de 3 hashtags dans la description",
+   "passages": 148,
+   "dernier_a": "19/10 19:36"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "publication",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Publication YouTube, avec Archiviste] 18 fiches vérifiées, 18 avec remarques ; à corriger avant envoi : esp8266 : plus de 3 hashtags dans la description",
    "passages": 78,
    "dernier_a": "19/10 19:08"
@@ -539,7 +539,7 @@
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 48359
+   "dans_s": 48059
   }
  ],
  "audience": {
@@ -753,10 +753,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 7,
   "PENDING": 8,
   "DEFERRED": 3,
-  "SUCCESS": 910,
+  "SUCCESS": 912,
   "FAILED": 28
  }
 }
