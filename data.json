@@ -1,14 +1,14 @@
 {
- "now": 1792464840.526254,
- "heure": "04:54:00",
+ "now": 1792465140.5284145,
+ "heure": "04:59:00",
  "moteur": {
   "etat": "actif",
   "activite": "Éclaireur : passage continu",
-  "battement_s": 2
+  "battement_s": 5
  },
  "modele": {
-  "ok": false,
-  "reprise": "20/10 04:58",
+  "ok": true,
+  "reprise": null,
   "erreur": "quota Groq atteint, pause 394 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
@@ -439,9 +439,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 462,
-   "dernier_a": "20/10 04:46"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 463,
+   "dernier_a": "20/10 04:54"
   },
   {
    "cle": "archiviste",
@@ -450,15 +450,15 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 429,
-   "dernier_a": "20/10 04:51"
+   "passages": 430,
+   "dernier_a": "20/10 04:57"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
    "passages": 310,
    "dernier_a": "20/10 04:49"
@@ -539,7 +539,7 @@
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 14759
+   "dans_s": 14459
   }
  ],
  "audience": {
@@ -753,10 +753,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 8,
   "DEFERRED": 3,
-  "SUCCESS": 913,
+  "SUCCESS": 914,
   "FAILED": 28
  }
 }
