@@ -1,15 +1,15 @@
 {
- "now": 1792508340.8388045,
- "heure": "16:59:01",
+ "now": 1792508640.8156586,
+ "heure": "17:04:01",
  "moteur": {
   "etat": "actif",
   "activite": "Éclaireur : passage continu",
-  "battement_s": 4
+  "battement_s": 0
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": "quota Groq atteint, pause 550 s",
+  "ok": false,
+  "reprise": "20/10 17:16",
+  "erreur": "quota Groq atteint, pause 1048 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 16:59"
+     "etat": "programmée 20/10 17:16"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 16:59"
+     "etat": "programmée 20/10 17:14"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -430,8 +430,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 579,
-   "dernier_a": "20/10 16:54"
+   "passages": 580,
+   "dernier_a": "20/10 16:59"
   },
   {
    "cle": "archiviste",
@@ -439,16 +439,16 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
-   "passages": 535,
-   "dernier_a": "20/10 16:52"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 536,
+   "dernier_a": "20/10 17:02"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
    "passages": 384,
    "dernier_a": "20/10 16:54"
@@ -736,10 +736,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 7,
   "DEFERRED": 2,
-  "SUCCESS": 917,
+  "SUCCESS": 918,
   "FAILED": 28
  }
 }
