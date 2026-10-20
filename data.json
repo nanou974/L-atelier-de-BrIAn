@@ -1,14 +1,14 @@
 {
- "now": 1792474440.821966,
- "heure": "07:34:01",
+ "now": 1792474740.818194,
+ "heure": "07:39:01",
  "moteur": {
   "etat": "actif",
   "activite": "Éclaireur : passage continu",
-  "battement_s": 1
+  "battement_s": 4
  },
  "modele": {
-  "ok": false,
-  "reprise": "20/10 07:38",
+  "ok": true,
+  "reprise": null,
   "erreur": "quota Groq atteint, pause 439 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 07:38"
+     "etat": "en attente"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 07:38"
+     "etat": "en attente"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -440,25 +440,25 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 487,
-   "dernier_a": "20/10 07:27"
+   "passages": 488,
+   "dernier_a": "20/10 07:34"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 452,
-   "dernier_a": "20/10 07:27"
+   "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
+   "passages": 453,
+   "dernier_a": "20/10 07:37"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 327,
    "dernier_a": "20/10 07:29"
@@ -539,7 +539,7 @@
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 5159
+   "dans_s": 4859
   }
  ],
  "audience": {
@@ -753,10 +753,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 8,
   "DEFERRED": 3,
-  "SUCCESS": 914,
+  "SUCCESS": 915,
   "FAILED": 28
  }
 }
