@@ -1,15 +1,15 @@
 {
- "now": 1792472940.8278687,
- "heure": "07:09:01",
+ "now": 1792473240.801188,
+ "heure": "07:14:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Plume : passage continu",
-  "battement_s": 0
+  "activite": "Éclaireur : passage continu",
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
-  "reprise": "20/10 07:09",
-  "erreur": "quota Groq atteint, pause 658 s",
+  "reprise": "20/10 07:21",
+  "erreur": "quota Groq atteint, pause 674 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 07:09"
+     "etat": "programmée 20/10 07:21"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 07:13"
+     "etat": "programmée 20/10 07:21"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -459,16 +459,16 @@
    "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 324,
-   "dernier_a": "20/10 06:56"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 325,
+   "dernier_a": "20/10 07:11"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
    "passages": 193,
    "dernier_a": "20/10 07:01"
@@ -539,7 +539,7 @@
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 6659
+   "dans_s": 6359
   }
  ],
  "audience": {
@@ -753,10 +753,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 7,
+  "READY": 9,
   "PENDING": 8,
   "DEFERRED": 3,
-  "SUCCESS": 916,
+  "SUCCESS": 914,
   "FAILED": 28
  }
 }
