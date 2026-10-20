@@ -1,15 +1,15 @@
 {
- "now": 1792487041.2987516,
- "heure": "11:04:01",
+ "now": 1792487341.3373196,
+ "heure": "11:09:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
+  "activite": "Plume : passage continu",
   "battement_s": 2
  },
  "modele": {
   "ok": false,
-  "reprise": "20/10 11:04",
-  "erreur": "quota Groq atteint, pause 229 s",
+  "reprise": "20/10 11:18",
+  "erreur": "quota Groq atteint, pause 620 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 11:04"
+     "etat": "programmée 20/10 11:18"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 11:04"
+     "etat": "programmée 20/10 11:18"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -430,25 +430,25 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 523,
-   "dernier_a": "20/10 11:03"
+   "passages": 524,
+   "dernier_a": "20/10 11:08"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 483,
-   "dernier_a": "20/10 11:00"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 485,
+   "dernier_a": "20/10 11:08"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
    "passages": 347,
    "dernier_a": "20/10 10:55"
@@ -736,10 +736,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 7,
   "PENDING": 7,
   "DEFERRED": 2,
-  "SUCCESS": 917,
+  "SUCCESS": 918,
   "FAILED": 28
  }
 }
