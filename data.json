@@ -1,15 +1,15 @@
 {
- "now": 1792469040.6819618,
- "heure": "06:04:00",
+ "now": 1792469340.7197871,
+ "heure": "06:09:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 5
+  "activite": "Plume : passage continu",
+  "battement_s": 3
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": "quota Groq atteint, pause 385 s",
+  "ok": false,
+  "reprise": "20/10 06:14",
+  "erreur": "quota Groq atteint, pause 641 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en attente"
+     "etat": "programmée 20/10 06:12"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "en attente"
+     "etat": "programmée 20/10 06:14"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -449,9 +449,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
-   "passages": 439,
-   "dernier_a": "20/10 05:59"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 440,
+   "dernier_a": "20/10 06:06"
   },
   {
    "cle": "plume",
@@ -539,7 +539,7 @@
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 10559
+   "dans_s": 10259
   }
  ],
  "audience": {
@@ -753,10 +753,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 8,
   "DEFERRED": 3,
-  "SUCCESS": 914,
+  "SUCCESS": 915,
   "FAILED": 28
  }
 }
