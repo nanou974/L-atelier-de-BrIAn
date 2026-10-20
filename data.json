@@ -1,10 +1,10 @@
 {
- "now": 1792490940.4430802,
- "heure": "12:09:00",
+ "now": 1792491240.772142,
+ "heure": "12:14:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Impression 3D dans la construction + Archiviste : passage continu",
-  "battement_s": 3
+  "activite": "Iconographe : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
@@ -51,13 +51,9 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Impression 3D dans la construction",
-    "projet": "Sujet : Impression 3D dans la construction",
-    "depuis": 39
-   },
-   "file": 0,
+   "etat": "repos",
+   "courant": null,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -69,8 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en cours",
-     "depuis": 39
+     "etat": "programmée 20/10 12:19"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -435,8 +430,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 533,
-   "dernier_a": "20/10 12:07"
+   "passages": 534,
+   "dernier_a": "20/10 12:13"
   },
   {
    "cle": "archiviste",
@@ -445,25 +440,25 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 493,
-   "dernier_a": "20/10 12:02"
+   "passages": 494,
+   "dernier_a": "20/10 12:11"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 354,
-   "dernier_a": "20/10 12:05"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 355,
+   "dernier_a": "20/10 12:13"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 205,
    "dernier_a": "20/10 11:55"
@@ -740,11 +735,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 8,
+  "RUNNING": 1,
+  "READY": 7,
   "PENDING": 7,
-  "DEFERRED": 1,
-  "SUCCESS": 918,
+  "DEFERRED": 2,
+  "SUCCESS": 919,
   "FAILED": 28
  }
 }
