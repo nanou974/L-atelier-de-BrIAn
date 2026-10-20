@@ -1,15 +1,15 @@
 {
- "now": 1792511940.8875546,
- "heure": "17:59:01",
+ "now": 1792512240.90501,
+ "heure": "18:04:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Plume : passage continu",
-  "battement_s": 1
+  "activite": "Éclaireur : passage continu",
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
-  "reprise": "20/10 18:02",
-  "erreur": "quota Groq atteint, pause 381 s",
+  "reprise": "20/10 18:11",
+  "erreur": "quota Groq atteint, pause 550 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 18:02"
+     "etat": "programmée 20/10 18:12"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 18:02"
+     "etat": "programmée 20/10 18:12"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -400,10 +400,15 @@
    "alerte": null,
    "derniere": {
     "titre": "Tester la disponibilité du LLM Groq (borné)",
-    "quand": "20/10 12:01"
+    "quand": "20/10 18:00"
    },
-   "total_fait": 39,
+   "total_fait": 40,
    "taches": [
+    {
+     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "projet": "Maintenance",
+     "etat": "terminée 20/10 18:00"
+    },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
@@ -413,11 +418,6 @@
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
      "etat": "terminée 20/10 06:01"
-    },
-    {
-     "titre": "Contrôler l'espace disque",
-     "projet": "Maintenance",
-     "etat": "terminée 20/10 00:02"
     }
    ]
   }
@@ -450,8 +450,8 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 390,
-   "dernier_a": "20/10 17:51"
+   "passages": 391,
+   "dernier_a": "20/10 18:01"
   },
   {
    "cle": "iconographe",
@@ -736,7 +736,7 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 9,
   "PENDING": 7,
   "DEFERRED": 2,
   "SUCCESS": 918,
