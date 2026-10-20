@@ -1,15 +1,15 @@
 {
- "now": 1792505040.7533584,
- "heure": "16:04:01",
+ "now": 1792505340.7554655,
+ "heure": "16:09:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Plume : passage continu",
+  "activite": "Iconographe : passage continu",
   "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "20/10 16:04",
-  "erreur": "quota Groq atteint, pause 425 s",
+  "reprise": "20/10 16:19",
+  "erreur": "quota Groq atteint, pause 858 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 16:04"
+     "etat": "programmée 20/10 16:19"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 16:04"
+     "etat": "programmée 20/10 16:19"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -430,8 +430,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 570,
-   "dernier_a": "20/10 16:01"
+   "passages": 571,
+   "dernier_a": "20/10 16:07"
   },
   {
    "cle": "archiviste",
@@ -439,9 +439,9 @@
    "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 18 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
-   "passages": 528,
-   "dernier_a": "20/10 16:01"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 529,
+   "dernier_a": "20/10 16:07"
   },
   {
    "cle": "plume",
@@ -450,15 +450,15 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 378,
-   "dernier_a": "20/10 15:59"
+   "passages": 379,
+   "dernier_a": "20/10 16:04"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
    "passages": 215,
    "dernier_a": "20/10 15:36"
@@ -736,10 +736,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 7,
   "PENDING": 7,
   "DEFERRED": 2,
-  "SUCCESS": 917,
+  "SUCCESS": 919,
   "FAILED": 28
  }
 }
