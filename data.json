@@ -1,10 +1,10 @@
 {
- "now": 1792499940.6555138,
- "heure": "14:39:00",
+ "now": 1792500240.6100376,
+ "heure": "14:44:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Impression 3D dans la construction + Éclaireur : passage continu",
-  "battement_s": 3
+  "activite": "Plume : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
@@ -51,13 +51,9 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Impression 3D dans la construction",
-    "projet": "Sujet : Impression 3D dans la construction",
-    "depuis": 23
-   },
-   "file": 0,
+   "etat": "repos",
+   "courant": null,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -69,8 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en cours",
-     "depuis": 23
+     "etat": "programmée 20/10 14:48"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -434,9 +429,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 556,
-   "dernier_a": "20/10 14:31"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 557,
+   "dernier_a": "20/10 14:39"
   },
   {
    "cle": "archiviste",
@@ -445,8 +440,8 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 515,
-   "dernier_a": "20/10 14:36"
+   "passages": 516,
+   "dernier_a": "20/10 14:42"
   },
   {
    "cle": "plume",
@@ -740,11 +735,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 9,
+  "RUNNING": 1,
+  "READY": 8,
   "PENDING": 7,
-  "DEFERRED": 1,
-  "SUCCESS": 917,
+  "DEFERRED": 2,
+  "SUCCESS": 918,
   "FAILED": 28
  }
 }
