@@ -1,15 +1,15 @@
 {
- "now": 1792515841.0133226,
- "heure": "19:04:01",
+ "now": 1792516140.9686358,
+ "heure": "19:09:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
+  "activite": "Plume : passage continu",
   "battement_s": 0
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": "quota Groq atteint, pause 1241 s",
+  "ok": false,
+  "reprise": "20/10 19:14",
+  "erreur": "quota Groq atteint, pause 599 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 19:04"
+     "etat": "programmée 20/10 19:14"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 19:04"
+     "etat": "programmée 20/10 19:14"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -430,23 +430,23 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 600,
-   "dernier_a": "20/10 19:00"
+   "passages": 601,
+   "dernier_a": "20/10 19:08"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 552,
-   "dernier_a": "20/10 18:57"
+   "dernier": "[poste Publication YouTube, avec Plume] 18 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
+   "passages": 554,
+   "dernier_a": "20/10 19:08"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
@@ -526,10 +526,10 @@
  ],
  "programmees": [],
  "audience": {
-  "vues": 1977,
+  "vues": 1990,
   "likes": 38,
   "commentaires": 0,
-  "maj": "16:01"
+  "maj": "19:08"
  },
  "publiees": [
   {
@@ -538,7 +538,7 @@
    "url": "https://www.youtube.com/watch?v=3CAS6mxeStA",
    "at": "2026-10-20T09:00:09",
    "miniature": true,
-   "vues": 51,
+   "vues": 62,
    "likes": 0,
    "commentaires": 0
   },
@@ -568,7 +568,7 @@
    "url": "https://www.youtube.com/watch?v=yEFqshq0F3A",
    "at": "2026-10-18T15:00:12",
    "miniature": true,
-   "vues": 11,
+   "vues": 12,
    "likes": 1,
    "commentaires": 0
   },
@@ -588,7 +588,7 @@
    "url": "https://www.youtube.com/watch?v=RJ2JFpAB8Ew",
    "at": "2026-10-18T09:37:12",
    "miniature": true,
-   "vues": 9,
+   "vues": 10,
    "likes": 0,
    "commentaires": 0
   }
@@ -736,10 +736,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 7,
   "PENDING": 7,
   "DEFERRED": 2,
-  "SUCCESS": 919,
+  "SUCCESS": 920,
   "FAILED": 28
  }
 }
