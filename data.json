@@ -1,15 +1,15 @@
 {
- "now": 1792483141.2055452,
- "heure": "09:59:01",
+ "now": 1792483441.2404616,
+ "heure": "10:04:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Plume : passage continu",
+  "activite": "Iconographe : passage continu",
   "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "20/10 10:02",
-  "erreur": "quota Groq atteint, pause 582 s",
+  "reprise": "20/10 10:09",
+  "erreur": "quota Groq atteint, pause 429 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 10:02"
+     "etat": "programmée 20/10 10:09"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 10:02"
+     "etat": "programmée 20/10 10:09"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -430,8 +430,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 511,
-   "dernier_a": "20/10 09:56"
+   "passages": 512,
+   "dernier_a": "20/10 10:01"
   },
   {
    "cle": "archiviste",
@@ -439,9 +439,9 @@
    "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 18 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
-   "passages": 474,
-   "dernier_a": "20/10 09:56"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 475,
+   "dernier_a": "20/10 10:01"
   },
   {
    "cle": "plume",
@@ -456,9 +456,9 @@
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Publication YouTube, avec Plume] 1 commentaire(s) suivis, 0 nouveau(x)",
    "passages": 200,
    "dernier_a": "20/10 09:28"
@@ -736,10 +736,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 9,
   "PENDING": 7,
   "DEFERRED": 2,
-  "SUCCESS": 917,
+  "SUCCESS": 916,
   "FAILED": 28
  }
 }
