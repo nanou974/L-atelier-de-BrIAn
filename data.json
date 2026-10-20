@@ -1,15 +1,15 @@
 {
- "now": 1792532341.3797998,
- "heure": "23:39:01",
+ "now": 1792532641.3457673,
+ "heure": "23:44:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
+  "activite": "Analyste : passage continu",
   "battement_s": 2
  },
  "modele": {
   "ok": false,
-  "reprise": "20/10 23:41",
-  "erreur": "quota Groq atteint, pause 670 s",
+  "reprise": "20/10 23:52",
+  "erreur": "quota Groq atteint, pause 606 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 23:41"
+     "etat": "programmée 20/10 23:52"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 23:41"
+     "etat": "programmée 20/10 23:52"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -430,8 +430,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 643,
-   "dernier_a": "20/10 23:32"
+   "passages": 644,
+   "dernier_a": "20/10 23:40"
   },
   {
    "cle": "archiviste",
@@ -440,35 +440,35 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 592,
-   "dernier_a": "20/10 23:37"
+   "passages": 593,
+   "dernier_a": "20/10 23:42"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 426,
-   "dernier_a": "20/10 23:35"
+   "dernier": "[poste Publication YouTube] 0 publications programmées, calendrier sain",
+   "passages": 427,
+   "dernier_a": "20/10 23:42"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 234,
-   "dernier_a": "20/10 22:54"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, avec Plume] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 235,
+   "dernier_a": "20/10 23:42"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Éclaireur, Archiviste] 27 titres lus, 0 idées retenues",
    "passages": 87,
    "dernier_a": "20/10 09:30"
@@ -736,10 +736,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 6,
   "PENDING": 7,
   "DEFERRED": 2,
-  "SUCCESS": 919,
+  "SUCCESS": 921,
   "FAILED": 28
  }
 }
