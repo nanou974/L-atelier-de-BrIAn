@@ -1,9 +1,9 @@
 {
- "now": 1792490340.4317586,
- "heure": "11:59:00",
+ "now": 1792490640.425369,
+ "heure": "12:04:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
+  "activite": "Plume : passage continu",
   "battement_s": 3
  },
  "modele": {
@@ -400,10 +400,15 @@
    "alerte": null,
    "derniere": {
     "titre": "Tester la disponibilité du LLM Groq (borné)",
-    "quand": "20/10 06:01"
+    "quand": "20/10 12:01"
    },
-   "total_fait": 38,
+   "total_fait": 39,
    "taches": [
+    {
+     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "projet": "Maintenance",
+     "etat": "terminée 20/10 12:01"
+    },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
@@ -411,11 +416,6 @@
     },
     {
      "titre": "Contrôler l'espace disque",
-     "projet": "Maintenance",
-     "etat": "terminée 20/10 00:02"
-    },
-    {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
      "etat": "terminée 20/10 00:02"
     }
@@ -430,18 +430,18 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 531,
-   "dernier_a": "20/10 11:52"
+   "passages": 532,
+   "dernier_a": "20/10 12:00"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 492,
-   "dernier_a": "20/10 11:52"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 493,
+   "dernier_a": "20/10 12:02"
   },
   {
    "cle": "plume",
@@ -456,9 +456,9 @@
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "idee",
+   "poste": "images",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 205,
    "dernier_a": "20/10 11:55"
@@ -739,7 +739,7 @@
   "READY": 8,
   "PENDING": 7,
   "DEFERRED": 2,
-  "SUCCESS": 917,
+  "SUCCESS": 918,
   "FAILED": 28
  }
 }
