@@ -1,14 +1,14 @@
 {
- "now": 1792468740.694418,
- "heure": "05:59:00",
+ "now": 1792469040.6819618,
+ "heure": "06:04:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
-  "battement_s": 3
+  "activite": "Éclaireur : passage continu",
+  "battement_s": 5
  },
  "modele": {
-  "ok": false,
-  "reprise": "20/10 06:03",
+  "ok": true,
+  "reprise": null,
   "erreur": "quota Groq atteint, pause 385 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 06:03"
+     "etat": "en attente"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 06:04"
+     "etat": "en attente"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -409,11 +409,16 @@
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Contrôler l'espace disque",
-    "quand": "20/10 00:02"
+    "titre": "Tester la disponibilité du LLM Groq (borné)",
+    "quand": "20/10 06:01"
    },
-   "total_fait": 37,
+   "total_fait": 38,
    "taches": [
+    {
+     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "projet": "Maintenance",
+     "etat": "terminée 20/10 06:01"
+    },
     {
      "titre": "Contrôler l'espace disque",
      "projet": "Maintenance",
@@ -421,11 +426,6 @@
     },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
-     "projet": "Maintenance",
-     "etat": "terminée 20/10 00:02"
-    },
-    {
-     "titre": "Vérifier l'intégrité des médias sources",
      "projet": "Maintenance",
      "etat": "terminée 20/10 00:02"
     }
@@ -439,9 +439,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
-   "passages": 473,
-   "dernier_a": "20/10 05:56"
+   "dernier": "[poste Trouver une idée, avec Plume] 27 titres lus, 0 idées retenues",
+   "passages": 474,
+   "dernier_a": "20/10 06:04"
   },
   {
    "cle": "archiviste",
@@ -456,12 +456,12 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 316,
-   "dernier_a": "20/10 05:40"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 317,
+   "dernier_a": "20/10 06:01"
   },
   {
    "cle": "iconographe",
@@ -539,7 +539,7 @@
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 10859
+   "dans_s": 10559
   }
  ],
  "audience": {
@@ -753,7 +753,7 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 9,
   "PENDING": 8,
   "DEFERRED": 3,
   "SUCCESS": 914,
