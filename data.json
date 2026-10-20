@@ -1,15 +1,15 @@
 {
- "now": 1792509240.8219986,
- "heure": "17:14:01",
+ "now": 1792509540.8323636,
+ "heure": "17:19:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
-  "battement_s": 1
+  "activite": "Iconographe : passage continu",
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
-  "reprise": "20/10 17:16",
-  "erreur": "quota Groq atteint, pause 1048 s",
+  "reprise": "20/10 17:28",
+  "erreur": "quota Groq atteint, pause 646 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 17:16"
+     "etat": "programmée 20/10 17:28"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 17:14"
+     "etat": "programmée 20/10 17:24"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -426,12 +426,12 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 582,
-   "dernier_a": "20/10 17:12"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 583,
+   "dernier_a": "20/10 17:17"
   },
   {
    "cle": "archiviste",
@@ -440,18 +440,18 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 537,
-   "dernier_a": "20/10 17:09"
+   "passages": 538,
+   "dernier_a": "20/10 17:14"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube] 0 publications programmées, calendrier sain",
-   "passages": 385,
-   "dernier_a": "20/10 17:04"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 386,
+   "dernier_a": "20/10 17:17"
   },
   {
    "cle": "iconographe",
@@ -736,10 +736,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 7,
   "PENDING": 7,
   "DEFERRED": 2,
-  "SUCCESS": 918,
+  "SUCCESS": 919,
   "FAILED": 28
  }
 }
