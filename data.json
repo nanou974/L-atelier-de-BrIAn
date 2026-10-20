@@ -1,14 +1,14 @@
 {
- "now": 1792522441.1174536,
- "heure": "20:54:01",
+ "now": 1792522741.1368072,
+ "heure": "20:59:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 3
+  "activite": "Recherche documentaire : Impression 3D dans la construction + Archiviste : passage continu",
+  "battement_s": 4
  },
  "modele": {
-  "ok": false,
-  "reprise": "20/10 20:58",
+  "ok": true,
+  "reprise": null,
   "erreur": "quota Groq atteint, pause 420 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
@@ -51,9 +51,13 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : Impression 3D dans la construction",
+    "projet": "Sujet : Impression 3D dans la construction",
+    "depuis": 24
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -65,7 +69,8 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 20:58"
+     "etat": "en cours",
+     "depuis": 24
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -89,7 +94,7 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
    "file": 2,
    "attend_humain": 0,
@@ -103,7 +108,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 20:58"
+     "etat": "prête"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -429,9 +434,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 617,
-   "dernier_a": "20/10 20:50"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 618,
+   "dernier_a": "20/10 20:55"
   },
   {
    "cle": "archiviste",
@@ -448,17 +453,17 @@
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 409,
-   "dernier_a": "20/10 20:45"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 410,
+   "dernier_a": "20/10 20:58"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 228,
    "dernier_a": "20/10 20:48"
@@ -735,10 +740,10 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 8,
+  "RUNNING": 2,
+  "READY": 9,
   "PENDING": 7,
-  "DEFERRED": 2,
+  "DEFERRED": 0,
   "SUCCESS": 919,
   "FAILED": 28
  }
