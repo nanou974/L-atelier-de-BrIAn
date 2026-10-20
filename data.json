@@ -1,15 +1,15 @@
 {
- "now": 1792538040.5002131,
- "heure": "01:14:00",
+ "now": 1792538340.4930105,
+ "heure": "01:19:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Iconographe : passage continu",
+  "activite": "Éclaireur : passage continu",
   "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "21/10 01:15",
-  "erreur": "quota Groq atteint, pause 670 s",
+  "reprise": "21/10 01:43",
+  "erreur": "quota Groq atteint, pause 1623 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 21/10 01:15"
+     "etat": "programmée 21/10 01:43"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 21/10 01:15"
+     "etat": "programmée 21/10 01:43"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -426,7 +426,7 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Publication YouTube] 18 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
@@ -460,18 +460,18 @@
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 238,
-   "dernier_a": "21/10 00:47"
+   "passages": 239,
+   "dernier_a": "21/10 01:15"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 88,
-   "dernier_a": "20/10 23:45"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée, avec Archiviste] 27 titres lus, 0 idées retenues",
+   "passages": 89,
+   "dernier_a": "21/10 01:18"
   },
   {
    "cle": "tendances",
@@ -736,10 +736,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 6,
+  "READY": 8,
   "PENDING": 7,
   "DEFERRED": 2,
-  "SUCCESS": 924,
+  "SUCCESS": 922,
   "FAILED": 28
  }
 }
