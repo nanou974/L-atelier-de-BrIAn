@@ -1,15 +1,15 @@
 {
- "now": 1792529041.2567892,
- "heure": "22:44:01",
+ "now": 1792529341.2819843,
+ "heure": "22:49:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 4
+  "activite": "Archiviste : passage continu",
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
-  "reprise": "20/10 22:46",
-  "erreur": "quota Groq atteint, pause 550 s",
+  "reprise": "20/10 22:49",
+  "erreur": "quota Groq atteint, pause 175 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 22:46"
+     "etat": "programmée 20/10 22:50"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 22:47"
+     "etat": "programmée 20/10 22:50"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -429,9 +429,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 634,
-   "dernier_a": "20/10 22:38"
+   "dernier": "[poste Trouver une idée, avec Archiviste, Plume] 31 titres lus, 0 idées retenues",
+   "passages": 635,
+   "dernier_a": "20/10 22:46"
   },
   {
    "cle": "archiviste",
@@ -736,10 +736,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 9,
   "PENDING": 7,
   "DEFERRED": 2,
-  "SUCCESS": 919,
+  "SUCCESS": 918,
   "FAILED": 28
  }
 }
