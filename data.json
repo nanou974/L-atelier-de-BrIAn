@@ -1,15 +1,15 @@
 {
- "now": 1792501740.6831903,
- "heure": "15:09:00",
+ "now": 1792502040.6796172,
+ "heure": "15:14:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Iconographe : passage continu",
+  "activite": "Archiviste : passage continu",
   "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "20/10 15:10",
-  "erreur": "quota Groq atteint, pause 866 s",
+  "reprise": "20/10 15:20",
+  "erreur": "quota Groq atteint, pause 583 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 15:10"
+     "etat": "programmée 20/10 15:20"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 15:10"
+     "etat": "programmée 20/10 15:20"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -429,14 +429,14 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste, Plume] 31 titres lus, 0 idées retenues",
-   "passages": 561,
-   "dernier_a": "20/10 15:07"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 562,
+   "dernier_a": "20/10 15:13"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
@@ -448,7 +448,7 @@
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
    "passages": 373,
    "dernier_a": "20/10 15:05"
@@ -459,9 +459,9 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 213,
-   "dernier_a": "20/10 14:57"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 214,
+   "dernier_a": "20/10 15:10"
   },
   {
    "cle": "analyste",
@@ -736,10 +736,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 7,
+  "READY": 8,
   "PENDING": 7,
   "DEFERRED": 2,
-  "SUCCESS": 919,
+  "SUCCESS": 918,
   "FAILED": 28
  }
 }
