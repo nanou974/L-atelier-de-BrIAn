@@ -1,15 +1,15 @@
 {
- "now": 1792495440.4983177,
- "heure": "13:24:00",
+ "now": 1792495740.5808368,
+ "heure": "13:29:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
-  "battement_s": 5
+  "activite": "Recherche documentaire : Impression 3D dans la construction + Plume : passage continu",
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
-  "reprise": "20/10 13:28",
-  "erreur": "quota Groq atteint, pause 640 s",
+  "reprise": "20/10 13:35",
+  "erreur": "quota Groq atteint, pause 372 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -51,9 +51,13 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : Impression 3D dans la construction",
+    "projet": "Sujet : Impression 3D dans la construction",
+    "depuis": 0
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -65,7 +69,8 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 13:28"
+     "etat": "en cours",
+     "depuis": 0
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +108,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 13:28"
+     "etat": "programmée 20/10 13:35"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -429,9 +434,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste, Plume] 31 titres lus, 0 idées retenues",
-   "passages": 545,
-   "dernier_a": "20/10 13:22"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 546,
+   "dernier_a": "20/10 13:27"
   },
   {
    "cle": "archiviste",
@@ -439,9 +444,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 503,
-   "dernier_a": "20/10 13:15"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 504,
+   "dernier_a": "20/10 13:25"
   },
   {
    "cle": "plume",
@@ -735,10 +740,10 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
+  "RUNNING": 2,
   "READY": 8,
   "PENDING": 7,
-  "DEFERRED": 2,
+  "DEFERRED": 1,
   "SUCCESS": 918,
   "FAILED": 28
  }
