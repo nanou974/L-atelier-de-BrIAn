@@ -1,9 +1,9 @@
 {
- "now": 1792510740.872835,
- "heure": "17:39:01",
+ "now": 1792511040.8572276,
+ "heure": "17:44:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Impression 3D dans la construction + Éclaireur : passage continu",
+  "activite": "Éclaireur : passage continu",
   "battement_s": 4
  },
  "modele": {
@@ -51,13 +51,9 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Impression 3D dans la construction",
-    "projet": "Sujet : Impression 3D dans la construction",
-    "depuis": 34
-   },
-   "file": 0,
+   "etat": "repos",
+   "courant": null,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -69,8 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en cours",
-     "depuis": 34
+     "etat": "programmée 20/10 17:45"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -435,18 +430,18 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 586,
-   "dernier_a": "20/10 17:33"
+   "passages": 587,
+   "dernier_a": "20/10 17:40"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Éclaireur, Plume] 31 titres lus, 0 idées retenues",
-   "passages": 540,
-   "dernier_a": "20/10 17:35"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 541,
+   "dernier_a": "20/10 17:40"
   },
   {
    "cle": "plume",
@@ -455,8 +450,8 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
-   "passages": 388,
-   "dernier_a": "20/10 17:38"
+   "passages": 389,
+   "dernier_a": "20/10 17:43"
   },
   {
    "cle": "iconographe",
@@ -740,10 +735,10 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
+  "RUNNING": 1,
   "READY": 8,
   "PENDING": 7,
-  "DEFERRED": 1,
+  "DEFERRED": 2,
   "SUCCESS": 918,
   "FAILED": 28
  }
