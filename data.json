@@ -1,15 +1,15 @@
 {
- "now": 1792466040.5664642,
- "heure": "05:14:00",
+ "now": 1792466340.5669625,
+ "heure": "05:19:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Plume : passage continu",
-  "battement_s": 1
+  "activite": "Archiviste : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
-  "reprise": "20/10 05:16",
-  "erreur": "quota Groq atteint, pause 389 s",
+  "reprise": "20/10 05:27",
+  "erreur": "quota Groq atteint, pause 638 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 20/10 05:16"
+     "etat": "programmée 20/10 05:27"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 20/10 05:16"
+     "etat": "programmée 20/10 05:27"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -440,13 +440,13 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 466,
-   "dernier_a": "20/10 05:12"
+   "passages": 467,
+   "dernier_a": "20/10 05:18"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Publication YouTube] 1 publications programmées, calendrier sain",
@@ -460,8 +460,8 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 312,
-   "dernier_a": "20/10 05:10"
+   "passages": 313,
+   "dernier_a": "20/10 05:15"
   },
   {
    "cle": "iconographe",
@@ -539,7 +539,7 @@
    "titre": "Publier : ESP8266 (version noms propres, le 20/10 9 h)",
    "quand": "20/10 09:00",
    "ts": 1792479600.0,
-   "dans_s": 13559
+   "dans_s": 13259
   }
  ],
  "audience": {
@@ -753,10 +753,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 7,
+  "READY": 8,
   "PENDING": 8,
   "DEFERRED": 3,
-  "SUCCESS": 915,
+  "SUCCESS": 914,
   "FAILED": 28
  }
 }
