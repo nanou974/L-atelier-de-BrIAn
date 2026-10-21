@@ -1,14 +1,14 @@
 {
- "now": 1792569240.4084604,
- "heure": "09:54:00",
+ "now": 1792569540.4166577,
+ "heure": "09:59:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Iconographe : passage continu",
+  "activite": "Écrire le script : Robocasting + Archiviste : passage continu",
   "battement_s": 4
  },
  "modele": {
-  "ok": false,
-  "reprise": "21/10 09:58",
+  "ok": true,
+  "reprise": null,
   "erreur": "quota Groq atteint, pause 396 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
@@ -84,9 +84,13 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Écrire le script : Robocasting",
+    "projet": "Sujet : Robocasting",
+    "depuis": 35
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -98,12 +102,13 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 21/10 09:58"
+     "etat": "en cours",
+     "depuis": 35
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 21/10 09:58"
+     "etat": "prête"
     },
     {
      "titre": "Écrire le script : NodeMCU",
@@ -424,14 +429,14 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 745,
-   "dernier_a": "21/10 09:49"
+   "dernier": "[poste Trouver une idée, avec Plume, Iconographe] 31 titres lus, 0 idées retenues",
+   "passages": 746,
+   "dernier_a": "21/10 09:57"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
@@ -454,9 +459,9 @@
    "poste": "idee",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Plume] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 254,
-   "dernier_a": "21/10 09:24"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 255,
+   "dernier_a": "21/10 09:54"
   },
   {
    "cle": "analyste",
@@ -730,11 +735,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 7,
+  "RUNNING": 2,
+  "READY": 10,
   "PENDING": 6,
-  "DEFERRED": 2,
-  "SUCCESS": 925,
+  "DEFERRED": 0,
+  "SUCCESS": 923,
   "FAILED": 28
  }
 }
