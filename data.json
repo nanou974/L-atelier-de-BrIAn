@@ -1,15 +1,15 @@
 {
- "now": 1792622940.7456048,
- "heure": "00:49:00",
+ "now": 1792623240.731196,
+ "heure": "00:54:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 2
+  "activite": "Écrire le script : Robocasting + Iconographe : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
-  "reprise": "22/10 00:53",
-  "erreur": "quota Groq atteint, pause 306 s",
+  "reprise": "22/10 00:55",
+  "erreur": "quota Groq atteint, pause 79 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -84,9 +84,13 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Écrire le script : Robocasting",
+    "projet": "Sujet : Robocasting",
+    "depuis": 34
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -98,12 +102,13 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 22/10 00:53"
+     "etat": "en cours",
+     "depuis": 34
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 22/10 00:53"
+     "etat": "prête"
     },
     {
      "titre": "Écrire le script : NodeMCU",
@@ -424,36 +429,36 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
-   "passages": 894,
-   "dernier_a": "22/10 00:44"
+   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
+   "passages": 895,
+   "dernier_a": "22/10 00:49"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 0 publications programmées, calendrier sain",
-   "passages": 823,
-   "dernier_a": "22/10 00:44"
+   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
+   "passages": 824,
+   "dernier_a": "22/10 00:51"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 578,
-   "dernier_a": "22/10 00:46"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 579,
+   "dernier_a": "22/10 00:51"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 299,
    "dernier_a": "22/10 00:36"
@@ -730,11 +735,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 9,
+  "RUNNING": 2,
+  "READY": 8,
   "PENDING": 6,
-  "DEFERRED": 2,
-  "SUCCESS": 928,
+  "DEFERRED": 0,
+  "SUCCESS": 930,
   "FAILED": 28
  }
 }
