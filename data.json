@@ -1,15 +1,15 @@
 {
- "now": 1792582440.9538145,
- "heure": "13:34:01",
+ "now": 1792582740.7721674,
+ "heure": "13:39:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 5
+  "activite": "Iconographe : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
-  "reprise": "21/10 13:34",
-  "erreur": "quota Groq atteint, pause 594 s",
+  "reprise": "21/10 13:41",
+  "erreur": "quota Groq atteint, pause 388 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -98,12 +98,12 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 21/10 13:34"
+     "etat": "programmée 21/10 13:41"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 21/10 13:34"
+     "etat": "programmée 21/10 13:41"
     },
     {
      "titre": "Écrire le script : NodeMCU",
@@ -425,18 +425,18 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 781,
-   "dernier_a": "21/10 13:29"
+   "passages": 782,
+   "dernier_a": "21/10 13:34"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 717,
-   "dernier_a": "21/10 13:32"
+   "dernier": "[poste Publication YouTube] 18 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
+   "passages": 718,
+   "dernier_a": "21/10 13:34"
   },
   {
    "cle": "plume",
@@ -445,15 +445,15 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 508,
-   "dernier_a": "21/10 13:27"
+   "passages": 509,
+   "dernier_a": "21/10 13:37"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
    "passages": 265,
    "dernier_a": "21/10 13:17"
@@ -524,7 +524,7 @@
   "vues": 1985,
   "likes": 38,
   "commentaires": 0,
-  "maj": "10:29"
+  "maj": "13:34"
  },
  "publiees": [
   {
@@ -731,10 +731,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 6,
   "DEFERRED": 2,
-  "SUCCESS": 924,
+  "SUCCESS": 925,
   "FAILED": 28
  }
 }
