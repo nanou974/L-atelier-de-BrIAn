@@ -1,14 +1,14 @@
 {
- "now": 1792549740.8762772,
- "heure": "04:29:01",
+ "now": 1792550041.0691538,
+ "heure": "04:34:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Iconographe : passage continu",
+  "activite": "Recherche documentaire : Impression 3D dans la construction + Plume : passage continu",
   "battement_s": 2
  },
  "modele": {
-  "ok": false,
-  "reprise": "21/10 04:33",
+  "ok": true,
+  "reprise": null,
   "erreur": "quota Groq atteint, pause 609 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
@@ -51,9 +51,13 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : Impression 3D dans la construction",
+    "projet": "Sujet : Impression 3D dans la construction",
+    "depuis": 28
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -65,7 +69,8 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 21/10 04:33"
+     "etat": "en cours",
+     "depuis": 28
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -89,7 +94,7 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
    "file": 2,
    "attend_humain": 0,
@@ -103,7 +108,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 21/10 04:33"
+     "etat": "prête"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -430,8 +435,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 691,
-   "dernier_a": "21/10 04:25"
+   "passages": 692,
+   "dernier_a": "21/10 04:32"
   },
   {
    "cle": "archiviste",
@@ -439,9 +444,9 @@
    "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 18 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
-   "passages": 634,
-   "dernier_a": "21/10 04:25"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 635,
+   "dernier_a": "21/10 04:32"
   },
   {
    "cle": "plume",
@@ -459,9 +464,9 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 245,
-   "dernier_a": "21/10 04:12"
+   "dernier": "[poste Trouver une idée, avec Plume] 27 titres lus, 0 idées retenues",
+   "passages": 246,
+   "dernier_a": "21/10 04:30"
   },
   {
    "cle": "analyste",
@@ -735,11 +740,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
+  "RUNNING": 2,
   "READY": 8,
   "PENDING": 7,
-  "DEFERRED": 2,
-  "SUCCESS": 922,
+  "DEFERRED": 0,
+  "SUCCESS": 923,
   "FAILED": 28
  }
 }
