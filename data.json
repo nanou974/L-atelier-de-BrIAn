@@ -1,15 +1,15 @@
 {
- "now": 1792559641.117153,
- "heure": "07:14:01",
+ "now": 1792559941.1522307,
+ "heure": "07:19:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 4
+  "activite": "Iconographe : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "21/10 07:16",
-  "erreur": "quota Groq atteint, pause 616 s",
+  "reprise": "21/10 07:29",
+  "erreur": "quota Groq atteint, pause 766 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -98,12 +98,12 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 21/10 07:16"
+     "etat": "programmée 21/10 07:29"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 21/10 07:16"
+     "etat": "programmée 21/10 07:29"
     },
     {
      "titre": "Écrire le script : NodeMCU",
@@ -425,35 +425,35 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 718,
-   "dernier_a": "21/10 07:09"
+   "passages": 719,
+   "dernier_a": "21/10 07:14"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 0 publications programmées, calendrier sain",
-   "passages": 658,
-   "dernier_a": "21/10 07:09"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 659,
+   "dernier_a": "21/10 07:17"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 473,
-   "dernier_a": "21/10 07:12"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 474,
+   "dernier_a": "21/10 07:17"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Publication YouTube, avec Plume] 1 commentaire(s) suivis, 0 nouveau(x)",
    "passages": 249,
    "dernier_a": "21/10 06:04"
@@ -731,10 +731,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 7,
   "PENDING": 6,
   "DEFERRED": 2,
-  "SUCCESS": 924,
+  "SUCCESS": 925,
   "FAILED": 28
  }
 }
