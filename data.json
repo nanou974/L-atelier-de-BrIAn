@@ -1,15 +1,15 @@
 {
- "now": 1792619940.7829442,
- "heure": "23:59:01",
+ "now": 1792620240.6491723,
+ "heure": "00:04:00",
  "moteur": {
   "etat": "actif",
   "activite": "Éclaireur : passage continu",
-  "battement_s": 3
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
-  "reprise": "22/10 00:00",
-  "erreur": "quota Groq atteint, pause 1299 s",
+  "reprise": "22/10 00:11",
+  "erreur": "quota Groq atteint, pause 638 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -98,12 +98,12 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 22/10 00:00"
+     "etat": "programmée 22/10 00:11"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 22/10 00:00"
+     "etat": "programmée 22/10 00:11"
     },
     {
      "titre": "Écrire le script : NodeMCU",
@@ -394,25 +394,25 @@
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Tester la disponibilité du LLM Groq (borné)",
-    "quand": "21/10 18:00"
+    "titre": "Contrôler l'espace disque",
+    "quand": "22/10 00:01"
    },
-   "total_fait": 46,
+   "total_fait": 49,
    "taches": [
     {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "titre": "Contrôler l'espace disque",
      "projet": "Maintenance",
-     "etat": "terminée 21/10 18:00"
+     "etat": "terminée 22/10 00:01"
     },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
-     "etat": "terminée 21/10 12:00"
+     "etat": "terminée 22/10 00:01"
     },
     {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "titre": "Vérifier l'intégrité des médias sources",
      "projet": "Maintenance",
-     "etat": "terminée 21/10 06:01"
+     "etat": "terminée 22/10 00:01"
     }
    ]
   }
@@ -424,9 +424,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 886,
-   "dernier_a": "21/10 23:52"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 887,
+   "dernier_a": "21/10 23:59"
   },
   {
    "cle": "archiviste",
@@ -434,9 +434,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 815,
-   "dernier_a": "21/10 23:54"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 816,
+   "dernier_a": "22/10 00:02"
   },
   {
    "cle": "plume",
@@ -731,10 +731,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 6,
   "DEFERRED": 2,
-  "SUCCESS": 925,
+  "SUCCESS": 929,
   "FAILED": 28
  }
 }
