@@ -1,15 +1,15 @@
 {
- "now": 1792592941.0760703,
- "heure": "16:29:01",
+ "now": 1792593240.9958873,
+ "heure": "16:34:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Iconographe : passage continu",
-  "battement_s": 0
+  "activite": "Écrire le script : Impression 3D dans la construction + Archiviste : passage continu",
+  "battement_s": 5
  },
  "modele": {
   "ok": false,
-  "reprise": "21/10 16:33",
-  "erreur": "quota Groq atteint, pause 419 s",
+  "reprise": "21/10 16:44",
+  "erreur": "quota Groq atteint, pause 612 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -84,9 +84,13 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Écrire le script : Impression 3D dans la construction",
+    "projet": "Sujet : Impression 3D dans la construction",
+    "depuis": 5
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -96,14 +100,15 @@
    "total_fait": 31,
    "taches": [
     {
-     "titre": "Écrire le script : Robocasting",
-     "projet": "Sujet : Robocasting",
-     "etat": "programmée 21/10 16:33"
-    },
-    {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 21/10 16:33"
+     "etat": "en cours",
+     "depuis": 5
+    },
+    {
+     "titre": "Écrire le script : Robocasting",
+     "projet": "Sujet : Robocasting",
+     "etat": "programmée 21/10 16:44"
     },
     {
      "titre": "Écrire le script : NodeMCU",
@@ -425,8 +430,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 811,
-   "dernier_a": "21/10 16:26"
+   "passages": 812,
+   "dernier_a": "21/10 16:33"
   },
   {
    "cle": "archiviste",
@@ -454,9 +459,9 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 271,
-   "dernier_a": "21/10 16:12"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 272,
+   "dernier_a": "21/10 16:31"
   },
   {
    "cle": "analyste",
@@ -730,11 +735,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 6,
+  "RUNNING": 2,
+  "READY": 8,
   "PENDING": 6,
-  "DEFERRED": 2,
-  "SUCCESS": 927,
+  "DEFERRED": 1,
+  "SUCCESS": 925,
   "FAILED": 28
  }
 }
