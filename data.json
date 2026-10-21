@@ -1,15 +1,15 @@
 {
- "now": 1792583940.790729,
- "heure": "13:59:01",
+ "now": 1792584240.7933414,
+ "heure": "14:04:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 3
+  "activite": "Archiviste : passage continu",
+  "battement_s": 4
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": "quota Groq atteint, pause 409 s",
+  "ok": false,
+  "reprise": "21/10 14:08",
+  "erreur": "quota Groq atteint, pause 589 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -98,12 +98,12 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "en attente"
+     "etat": "programmée 21/10 14:09"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en attente"
+     "etat": "programmée 21/10 14:09"
     },
     {
      "titre": "Écrire le script : NodeMCU",
@@ -424,9 +424,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 785,
-   "dernier_a": "21/10 13:54"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 786,
+   "dernier_a": "21/10 13:59"
   },
   {
    "cle": "archiviste",
@@ -443,17 +443,17 @@
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 511,
-   "dernier_a": "21/10 13:49"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 512,
+   "dernier_a": "21/10 14:02"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 267,
    "dernier_a": "21/10 13:52"
