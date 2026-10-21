@@ -1,15 +1,15 @@
 {
- "now": 1792616340.5957193,
- "heure": "22:59:00",
+ "now": 1792616641.0639324,
+ "heure": "23:04:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 4
+  "activite": "Plume : passage continu",
+  "battement_s": 0
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": "quota Groq atteint, pause 416 s",
+  "ok": false,
+  "reprise": "21/10 23:09",
+  "erreur": "quota Groq atteint, pause 623 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -98,12 +98,12 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 21/10 22:59"
+     "etat": "programmée 21/10 23:09"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 21/10 22:59"
+     "etat": "programmée 21/10 23:09"
     },
     {
      "titre": "Écrire le script : NodeMCU",
@@ -424,9 +424,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 877,
-   "dernier_a": "21/10 22:54"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 878,
+   "dernier_a": "21/10 23:00"
   },
   {
    "cle": "archiviste",
@@ -434,9 +434,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 806,
-   "dernier_a": "21/10 22:52"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 807,
+   "dernier_a": "21/10 23:02"
   },
   {
    "cle": "plume",
@@ -731,10 +731,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 6,
   "DEFERRED": 2,
-  "SUCCESS": 925,
+  "SUCCESS": 926,
   "FAILED": 28
  }
 }
