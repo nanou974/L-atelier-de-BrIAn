@@ -1,10 +1,10 @@
 {
- "now": 1792543140.6060677,
- "heure": "02:39:00",
+ "now": 1792543440.5951092,
+ "heure": "02:44:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Impression 3D dans la construction + Éclaireur : passage continu",
-  "battement_s": 1
+  "activite": "Éclaireur : passage continu",
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
@@ -51,13 +51,9 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Impression 3D dans la construction",
-    "projet": "Sujet : Impression 3D dans la construction",
-    "depuis": 22
-   },
-   "file": 0,
+   "etat": "repos",
+   "courant": null,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -69,8 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en cours",
-     "depuis": 22
+     "etat": "programmée 21/10 02:45"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -434,9 +429,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 673,
-   "dernier_a": "21/10 02:34"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 674,
+   "dernier_a": "21/10 02:39"
   },
   {
    "cle": "archiviste",
@@ -444,9 +439,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
-   "passages": 617,
-   "dernier_a": "21/10 02:32"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 618,
+   "dernier_a": "21/10 02:42"
   },
   {
    "cle": "plume",
@@ -740,11 +735,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 9,
+  "RUNNING": 1,
+  "READY": 8,
   "PENDING": 7,
-  "DEFERRED": 1,
-  "SUCCESS": 921,
+  "DEFERRED": 2,
+  "SUCCESS": 922,
   "FAILED": 28
  }
 }
