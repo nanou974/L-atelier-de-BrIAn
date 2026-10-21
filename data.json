@@ -1,6 +1,6 @@
 {
- "now": 1792576740.5843792,
- "heure": "11:59:00",
+ "now": 1792577040.582435,
+ "heure": "12:04:00",
  "moteur": {
   "etat": "actif",
   "activite": "Archiviste : passage continu",
@@ -395,10 +395,15 @@
    "alerte": null,
    "derniere": {
     "titre": "Tester la disponibilité du LLM Groq (borné)",
-    "quand": "21/10 06:01"
+    "quand": "21/10 12:00"
    },
-   "total_fait": 44,
+   "total_fait": 45,
    "taches": [
+    {
+     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "projet": "Maintenance",
+     "etat": "terminée 21/10 12:00"
+    },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
@@ -406,11 +411,6 @@
     },
     {
      "titre": "Contrôler l'espace disque",
-     "projet": "Maintenance",
-     "etat": "terminée 21/10 00:00"
-    },
-    {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
      "etat": "terminée 21/10 00:00"
     }
@@ -424,9 +424,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 766,
-   "dernier_a": "21/10 11:57"
+   "dernier": "[poste Trouver une idée, avec Archiviste, Plume] 31 titres lus, 0 idées retenues",
+   "passages": 767,
+   "dernier_a": "21/10 12:02"
   },
   {
    "cle": "archiviste",
@@ -434,16 +434,16 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 702,
-   "dernier_a": "21/10 11:52"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 703,
+   "dernier_a": "21/10 11:59"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 499,
    "dernier_a": "21/10 11:52"
@@ -453,7 +453,7 @@
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
    "passages": 262,
    "dernier_a": "21/10 11:54"
@@ -731,10 +731,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 6,
   "DEFERRED": 2,
-  "SUCCESS": 923,
+  "SUCCESS": 925,
   "FAILED": 28
  }
 }
