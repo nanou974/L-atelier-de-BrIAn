@@ -1,15 +1,15 @@
 {
- "now": 1792565941.3375347,
- "heure": "08:59:01",
+ "now": 1792566241.3063736,
+ "heure": "09:04:01",
  "moteur": {
   "etat": "actif",
   "activite": "Éclaireur : passage continu",
-  "battement_s": 0
+  "battement_s": 5
  },
  "modele": {
   "ok": false,
-  "reprise": "21/10 09:00",
-  "erreur": "quota Groq atteint, pause 591 s",
+  "reprise": "21/10 09:06",
+  "erreur": "quota Groq atteint, pause 391 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -98,12 +98,12 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 21/10 09:00"
+     "etat": "programmée 21/10 09:07"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 21/10 09:00"
+     "etat": "programmée 21/10 09:07"
     },
     {
      "titre": "Écrire le script : NodeMCU",
@@ -425,18 +425,18 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 735,
-   "dernier_a": "21/10 08:54"
+   "passages": 736,
+   "dernier_a": "21/10 08:59"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 675,
-   "dernier_a": "21/10 08:57"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 676,
+   "dernier_a": "21/10 08:59"
   },
   {
    "cle": "plume",
@@ -444,9 +444,9 @@
    "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 483,
-   "dernier_a": "21/10 08:52"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 484,
+   "dernier_a": "21/10 09:02"
   },
   {
    "cle": "iconographe",
@@ -731,10 +731,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 6,
   "DEFERRED": 2,
-  "SUCCESS": 923,
+  "SUCCESS": 924,
   "FAILED": 28
  }
 }
