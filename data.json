@@ -1,15 +1,15 @@
 {
- "now": 1792584540.8698947,
- "heure": "14:09:01",
+ "now": 1792584840.803363,
+ "heure": "14:14:01",
  "moteur": {
   "etat": "actif",
   "activite": "Éclaireur : passage continu",
-  "battement_s": 4
+  "battement_s": 3
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": "quota Groq atteint, pause 589 s",
+  "ok": false,
+  "reprise": "21/10 14:16",
+  "erreur": "quota Groq atteint, pause 422 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -98,12 +98,12 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 21/10 14:09"
+     "etat": "programmée 21/10 14:16"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 21/10 14:09"
+     "etat": "programmée 21/10 14:16"
     },
     {
      "titre": "Écrire le script : NodeMCU",
@@ -424,9 +424,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 787,
-   "dernier_a": "21/10 14:04"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 788,
+   "dernier_a": "21/10 14:09"
   },
   {
    "cle": "archiviste",
@@ -434,16 +434,16 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 722,
-   "dernier_a": "21/10 14:04"
+   "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
+   "passages": 723,
+   "dernier_a": "21/10 14:12"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
    "passages": 512,
    "dernier_a": "21/10 14:02"
@@ -731,10 +731,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 6,
   "DEFERRED": 2,
-  "SUCCESS": 924,
+  "SUCCESS": 925,
   "FAILED": 28
  }
 }
