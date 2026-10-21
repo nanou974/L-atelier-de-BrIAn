@@ -1,15 +1,15 @@
 {
- "now": 1792547041.0213737,
- "heure": "03:44:01",
+ "now": 1792547340.809582,
+ "heure": "03:49:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 2
+  "activite": "Plume : passage continu",
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
-  "reprise": "21/10 03:47",
-  "erreur": "quota Groq atteint, pause 831 s",
+  "reprise": "21/10 03:57",
+  "erreur": "quota Groq atteint, pause 604 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 21/10 03:47"
+     "etat": "programmée 21/10 03:57"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 21/10 03:47"
+     "etat": "programmée 21/10 03:57"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -429,19 +429,19 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 684,
-   "dernier_a": "21/10 03:41"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 685,
+   "dernier_a": "21/10 03:46"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 628,
-   "dernier_a": "21/10 03:41"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 629,
+   "dernier_a": "21/10 03:48"
   },
   {
    "cle": "plume",
@@ -736,10 +736,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 7,
+  "READY": 8,
   "PENDING": 7,
   "DEFERRED": 2,
-  "SUCCESS": 923,
+  "SUCCESS": 922,
   "FAILED": 28
  }
 }
