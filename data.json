@@ -1,15 +1,15 @@
 {
- "now": 1792613640.4447613,
- "heure": "22:14:00",
+ "now": 1792613940.447561,
+ "heure": "22:19:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Plume : passage continu",
-  "battement_s": 1
+  "activite": "Éclaireur : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
-  "reprise": "21/10 22:17",
-  "erreur": "quota Groq atteint, pause 620 s",
+  "reprise": "21/10 22:23",
+  "erreur": "quota Groq atteint, pause 391 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -98,12 +98,12 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 21/10 22:17"
+     "etat": "programmée 21/10 22:24"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 21/10 22:17"
+     "etat": "programmée 21/10 22:24"
     },
     {
      "titre": "Écrire le script : NodeMCU",
@@ -445,18 +445,18 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 562,
-   "dernier_a": "21/10 22:05"
+   "passages": 563,
+   "dernier_a": "21/10 22:15"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 292,
-   "dernier_a": "21/10 21:55"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 293,
+   "dernier_a": "21/10 22:18"
   },
   {
    "cle": "analyste",
@@ -731,10 +731,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 7,
+  "READY": 8,
   "PENDING": 6,
   "DEFERRED": 2,
-  "SUCCESS": 927,
+  "SUCCESS": 926,
   "FAILED": 28
  }
 }
