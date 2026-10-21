@@ -1,15 +1,15 @@
 {
- "now": 1792548240.9813037,
- "heure": "04:04:01",
+ "now": 1792548540.8623025,
+ "heure": "04:09:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Iconographe : passage continu",
-  "battement_s": 5
+  "activite": "Archiviste : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
-  "reprise": "21/10 04:05",
-  "erreur": "quota Groq atteint, pause 461 s",
+  "reprise": "21/10 04:16",
+  "erreur": "quota Groq atteint, pause 633 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 21/10 04:05"
+     "etat": "programmée 21/10 04:16"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 21/10 04:05"
+     "etat": "programmée 21/10 04:16"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -430,8 +430,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 27 titres lus, 0 idées retenues",
-   "passages": 687,
-   "dernier_a": "21/10 03:59"
+   "passages": 688,
+   "dernier_a": "21/10 04:07"
   },
   {
    "cle": "archiviste",
@@ -448,7 +448,7 @@
    "nom": "Plume",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube] 0 publications programmées, calendrier sain",
    "passages": 452,
    "dernier_a": "21/10 03:59"
@@ -459,9 +459,9 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 243,
-   "dernier_a": "21/10 03:18"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 244,
+   "dernier_a": "21/10 04:04"
   },
   {
    "cle": "analyste",
@@ -736,10 +736,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 7,
   "DEFERRED": 2,
-  "SUCCESS": 921,
+  "SUCCESS": 922,
   "FAILED": 28
  }
 }
