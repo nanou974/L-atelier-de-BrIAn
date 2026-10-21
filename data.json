@@ -1,15 +1,15 @@
 {
- "now": 1792612140.6269846,
- "heure": "21:49:00",
+ "now": 1792612440.6953518,
+ "heure": "21:54:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
+  "activite": "Iconographe : passage continu",
   "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "21/10 21:49",
-  "erreur": "quota Groq atteint, pause 1007 s",
+  "reprise": "21/10 21:59",
+  "erreur": "quota Groq atteint, pause 607 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -98,12 +98,12 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 21/10 21:49"
+     "etat": "programmée 21/10 21:59"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 21/10 21:49"
+     "etat": "programmée 21/10 21:59"
     },
     {
      "titre": "Écrire le script : NodeMCU",
@@ -425,8 +425,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 867,
-   "dernier_a": "21/10 21:47"
+   "passages": 868,
+   "dernier_a": "21/10 21:52"
   },
   {
    "cle": "archiviste",
@@ -434,26 +434,26 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 796,
-   "dernier_a": "21/10 21:42"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 797,
+   "dernier_a": "21/10 21:50"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 560,
-   "dernier_a": "21/10 21:45"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 561,
+   "dernier_a": "21/10 21:52"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 27 titres lus, 0 idées retenues",
    "passages": 291,
    "dernier_a": "21/10 21:32"
@@ -731,10 +731,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 7,
   "PENDING": 6,
   "DEFERRED": 2,
-  "SUCCESS": 926,
+  "SUCCESS": 927,
   "FAILED": 28
  }
 }
