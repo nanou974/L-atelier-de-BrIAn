@@ -1,15 +1,15 @@
 {
- "now": 1792545240.9368687,
- "heure": "03:14:01",
+ "now": 1792545540.857877,
+ "heure": "03:19:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Plume : passage continu",
-  "battement_s": 4
+  "activite": "Éclaireur : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "21/10 03:14",
-  "erreur": "quota Groq atteint, pause 652 s",
+  "reprise": "21/10 03:32",
+  "erreur": "quota Groq atteint, pause 1020 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -65,7 +65,7 @@
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 21/10 03:14"
+     "etat": "programmée 21/10 03:32"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -103,7 +103,7 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 21/10 03:14"
+     "etat": "programmée 21/10 03:32"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -450,18 +450,18 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 446,
-   "dernier_a": "21/10 02:52"
+   "passages": 447,
+   "dernier_a": "21/10 03:15"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 242,
-   "dernier_a": "21/10 02:55"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 243,
+   "dernier_a": "21/10 03:18"
   },
   {
    "cle": "analyste",
@@ -736,10 +736,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 7,
+  "READY": 8,
   "PENDING": 7,
   "DEFERRED": 2,
-  "SUCCESS": 923,
+  "SUCCESS": 922,
   "FAILED": 28
  }
 }
