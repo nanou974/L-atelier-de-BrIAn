@@ -1,15 +1,15 @@
 {
- "now": 1792563541.230141,
- "heure": "08:19:01",
+ "now": 1792563841.243889,
+ "heure": "08:24:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
-  "battement_s": 2
+  "activite": "Plume : passage continu",
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
-  "reprise": "21/10 08:22",
-  "erreur": "quota Groq atteint, pause 382 s",
+  "reprise": "21/10 08:24",
+  "erreur": "quota Groq atteint, pause 127 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -98,12 +98,12 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 21/10 08:22"
+     "etat": "programmée 21/10 08:24"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 21/10 08:22"
+     "etat": "programmée 21/10 08:35"
     },
     {
      "titre": "Écrire le script : NodeMCU",
@@ -424,19 +424,19 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste, Plume] 31 titres lus, 0 idées retenues",
-   "passages": 729,
-   "dernier_a": "21/10 08:14"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 730,
+   "dernier_a": "21/10 08:22"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 668,
-   "dernier_a": "21/10 08:12"
+   "dernier": "[poste Publication YouTube] 0 publications programmées, calendrier sain",
+   "passages": 670,
+   "dernier_a": "21/10 08:22"
   },
   {
    "cle": "plume",
@@ -731,10 +731,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 7,
   "PENDING": 6,
   "DEFERRED": 2,
-  "SUCCESS": 924,
+  "SUCCESS": 925,
   "FAILED": 28
  }
 }
