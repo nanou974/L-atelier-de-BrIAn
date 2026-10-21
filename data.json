@@ -1,15 +1,15 @@
 {
- "now": 1792554541.0460172,
- "heure": "05:49:01",
+ "now": 1792554841.0336678,
+ "heure": "05:54:01",
  "moteur": {
   "etat": "actif",
   "activite": "Archiviste : passage continu",
-  "battement_s": 4
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "21/10 05:49",
-  "erreur": "quota Groq atteint, pause 2160 s",
+  "reprise": "21/10 05:55",
+  "erreur": "quota Groq atteint, pause 312 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -53,19 +53,19 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Recherche documentaire : Robocasting",
-    "quand": "17/10 10:10"
+    "titre": "Recherche documentaire : Impression 3D dans la construction",
+    "quand": "21/10 05:50"
    },
-   "total_fait": 26,
+   "total_fait": 27,
    "taches": [
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 21/10 05:49"
+     "etat": "terminée 21/10 05:50"
     },
     {
      "titre": "Recherche documentaire : Robocasting",
@@ -76,11 +76,6 @@
      "titre": "Recherche documentaire : D-Shape",
      "projet": "Sujet : D-Shape",
      "etat": "terminée 17/10 02:38"
-    },
-    {
-     "titre": "Recherche documentaire : NodeMCU",
-     "projet": "Sujet : NodeMCU",
-     "etat": "terminée 17/10 02:19"
     }
    ]
   },
@@ -103,12 +98,12 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 21/10 05:49"
+     "etat": "programmée 21/10 05:56"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en attente"
+     "etat": "programmée 21/10 05:56"
     },
     {
      "titre": "Écrire le script : NodeMCU",
@@ -429,9 +424,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
-   "passages": 704,
-   "dernier_a": "21/10 05:46"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 705,
+   "dernier_a": "21/10 05:52"
   },
   {
    "cle": "archiviste",
@@ -439,16 +434,16 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 645,
-   "dernier_a": "21/10 05:39"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 646,
+   "dernier_a": "21/10 05:49"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
    "passages": 464,
    "dernier_a": "21/10 05:41"
@@ -458,7 +453,7 @@
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 248,
    "dernier_a": "21/10 05:44"
@@ -736,10 +731,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
-  "PENDING": 7,
+  "READY": 8,
+  "PENDING": 6,
   "DEFERRED": 2,
-  "SUCCESS": 921,
+  "SUCCESS": 923,
   "FAILED": 28
  }
 }
