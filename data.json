@@ -1,15 +1,15 @@
 {
- "now": 1792630740.9164553,
- "heure": "02:59:01",
+ "now": 1792631040.9282558,
+ "heure": "03:04:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Plume : passage continu",
-  "battement_s": 2
+  "activite": "Éclaireur : passage continu",
+  "battement_s": 5
  },
  "modele": {
   "ok": false,
-  "reprise": "22/10 03:02",
-  "erreur": "quota Groq atteint, pause 610 s",
+  "reprise": "22/10 03:10",
+  "erreur": "quota Groq atteint, pause 474 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -98,12 +98,12 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 22/10 03:02"
+     "etat": "programmée 22/10 03:10"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 22/10 03:02"
+     "etat": "programmée 22/10 03:10"
     },
     {
      "titre": "Écrire le script : NodeMCU",
@@ -434,9 +434,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 841,
-   "dernier_a": "22/10 02:54"
+   "dernier": "[poste Trouver une idée, avec Plume] 32 titres lus, 0 idées retenues",
+   "passages": 842,
+   "dernier_a": "22/10 03:01"
   },
   {
    "cle": "plume",
@@ -444,16 +444,16 @@
    "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 591,
-   "dernier_a": "22/10 02:48"
+   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
+   "passages": 592,
+   "dernier_a": "22/10 02:59"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
    "passages": 305,
    "dernier_a": "22/10 02:51"
@@ -731,10 +731,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 9,
   "PENDING": 6,
   "DEFERRED": 2,
-  "SUCCESS": 929,
+  "SUCCESS": 928,
   "FAILED": 28
  }
 }
