@@ -1,15 +1,15 @@
 {
- "now": 1792643940.3695903,
- "heure": "06:39:00",
+ "now": 1792644240.366555,
+ "heure": "06:44:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
-  "battement_s": 1
+  "activite": "Éclaireur : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "22/10 06:39",
-  "erreur": "quota Groq atteint, pause 518 s",
+  "reprise": "22/10 06:44",
+  "erreur": "quota Groq atteint, pause 333 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -98,7 +98,7 @@
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 22/10 06:39"
+     "etat": "programmée 22/10 06:45"
     },
     {
      "titre": "Écrire le script : Robocasting",
@@ -136,7 +136,7 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 22/10 06:39"
+     "etat": "programmée 22/10 06:45"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
@@ -434,29 +434,29 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 872,
-   "dernier_a": "22/10 06:31"
+   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
+   "passages": 873,
+   "dernier_a": "22/10 06:39"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "idee",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 614,
-   "dernier_a": "22/10 06:34"
+   "dernier": "[poste Écriture du script] 1 script(s) relu(s), 1 avec défauts : robocasting : 68 mots : trop court (70 minimum)",
+   "passages": 615,
+   "dernier_a": "22/10 06:39"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Images] robocasting : 3 images",
-   "passages": 315,
-   "dernier_a": "22/10 06:06"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
+   "passages": 316,
+   "dernier_a": "22/10 06:42"
   },
   {
    "cle": "analyste",
@@ -590,6 +590,12 @@
  ],
  "nb_publiees": 18,
  "notifications": [
+  {
+   "ts": "2026-10-22T06:39:10",
+   "type": "assistant",
+   "texte": "Plume : à revoir avant la voix : robocasting : 68 mots : trop court (70 minimum)",
+   "url": null
+  },
   {
    "ts": "2026-10-20T09:00:09",
    "type": "publication",
