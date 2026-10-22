@@ -1,15 +1,15 @@
 {
- "now": 1792643040.344752,
- "heure": "06:24:00",
+ "now": 1792643340.35664,
+ "heure": "06:29:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 5
+  "activite": "Réunir de vraies illustrations libres : Robocasting + Éclaireur : passage continu",
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
-  "reprise": "22/10 06:25",
-  "erreur": "quota Groq atteint, pause 556 s",
+  "reprise": "22/10 06:30",
+  "erreur": "quota Groq atteint, pause 86 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -98,7 +98,7 @@
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 22/10 06:25"
+     "etat": "programmée 22/10 06:30"
     },
     {
      "titre": "Écrire le script : Robocasting",
@@ -122,9 +122,13 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Réunir de vraies illustrations libres : Robocasting",
+    "projet": "Sujet : Robocasting",
+    "depuis": 212
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -136,7 +140,8 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 22/10 06:25"
+     "etat": "en cours",
+     "depuis": 212
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
@@ -424,19 +429,19 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste, Plume] 32 titres lus, 0 idées retenues",
-   "passages": 946,
-   "dernier_a": "22/10 06:19"
+   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
+   "passages": 947,
+   "dernier_a": "22/10 06:25"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 0 publications programmées, calendrier sain",
-   "passages": 870,
-   "dernier_a": "22/10 06:19"
+   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
+   "passages": 871,
+   "dernier_a": "22/10 06:28"
   },
   {
    "cle": "plume",
@@ -730,10 +735,10 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
+  "RUNNING": 2,
   "READY": 8,
   "PENDING": 6,
-  "DEFERRED": 2,
+  "DEFERRED": 1,
   "SUCCESS": 931,
   "FAILED": 28
  }
