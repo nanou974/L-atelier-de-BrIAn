@@ -1,15 +1,15 @@
 {
- "now": 1792649340.5244212,
- "heure": "08:09:00",
+ "now": 1792649640.5420432,
+ "heure": "08:14:00",
  "moteur": {
   "etat": "actif",
   "activite": "Éclaireur : passage continu",
-  "battement_s": 1
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "22/10 08:10",
-  "erreur": "quota Groq atteint, pause 274 s",
+  "reprise": "22/10 08:14",
+  "erreur": "quota Groq atteint, pause 165 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -98,7 +98,7 @@
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 22/10 08:10"
+     "etat": "programmée 22/10 08:14"
     },
     {
      "titre": "Écrire le script : Robocasting",
@@ -136,7 +136,7 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 22/10 08:10"
+     "etat": "programmée 22/10 08:14"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
@@ -424,19 +424,19 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
-   "passages": 962,
-   "dernier_a": "22/10 08:03"
+   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
+   "passages": 963,
+   "dernier_a": "22/10 08:09"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 883,
-   "dernier_a": "22/10 08:00"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube] 18 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
+   "passages": 884,
+   "dernier_a": "22/10 08:09"
   },
   {
    "cle": "plume",
@@ -453,10 +453,10 @@
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Plume] 32 titres lus, 0 idées retenues",
-   "passages": 319,
-   "dernier_a": "22/10 07:24"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
+   "passages": 320,
+   "dernier_a": "22/10 08:12"
   },
   {
    "cle": "analyste",
@@ -521,10 +521,10 @@
  ],
  "programmees": [],
  "audience": {
-  "vues": 1986,
+  "vues": 1987,
   "likes": 38,
   "commentaires": 0,
-  "maj": "04:53"
+  "maj": "08:09"
  },
  "publiees": [
   {
@@ -563,7 +563,7 @@
    "url": "https://www.youtube.com/watch?v=yEFqshq0F3A",
    "at": "2026-10-18T15:00:12",
    "miniature": true,
-   "vues": 15,
+   "vues": 16,
    "likes": 1,
    "commentaires": 0
   },
@@ -737,10 +737,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 9,
   "PENDING": 6,
   "DEFERRED": 2,
-  "SUCCESS": 931,
+  "SUCCESS": 930,
   "FAILED": 28
  }
 }
