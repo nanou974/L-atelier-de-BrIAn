@@ -1,15 +1,15 @@
 {
- "now": 1792632541.0050688,
- "heure": "03:29:01",
+ "now": 1792632841.0236945,
+ "heure": "03:34:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Robocasting + Plume : passage continu",
-  "battement_s": 3
+  "activite": "Éclaireur : passage continu",
+  "battement_s": 5
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": "quota Groq atteint, pause 391 s",
+  "ok": false,
+  "reprise": "22/10 03:40",
+  "erreur": "quota Groq atteint, pause 688 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -84,13 +84,9 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Écrire le script : Robocasting",
-    "projet": "Sujet : Robocasting",
-    "depuis": 8
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -102,13 +98,12 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "en cours",
-     "depuis": 8
+     "etat": "programmée 22/10 03:41"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "prête"
+     "etat": "programmée 22/10 03:41"
     },
     {
      "titre": "Écrire le script : NodeMCU",
@@ -436,12 +431,12 @@
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 846,
-   "dernier_a": "22/10 03:25"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 847,
+   "dernier_a": "22/10 03:30"
   },
   {
    "cle": "plume",
@@ -450,18 +445,18 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
-   "passages": 594,
-   "dernier_a": "22/10 03:22"
+   "passages": 595,
+   "dernier_a": "22/10 03:30"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Plume] 32 titres lus, 0 idées retenues",
-   "passages": 306,
-   "dernier_a": "22/10 03:12"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
+   "passages": 307,
+   "dernier_a": "22/10 03:33"
   },
   {
    "cle": "analyste",
@@ -735,10 +730,10 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 9,
+  "RUNNING": 1,
+  "READY": 8,
   "PENDING": 6,
-  "DEFERRED": 0,
+  "DEFERRED": 2,
   "SUCCESS": 929,
   "FAILED": 28
  }
