@@ -1,15 +1,15 @@
 {
- "now": 1792703041.0982516,
- "heure": "23:04:01",
+ "now": 1792703341.065804,
+ "heure": "23:09:01",
  "moteur": {
   "etat": "actif",
   "activite": "Archiviste : passage continu",
-  "battement_s": 5
+  "battement_s": 2
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": "quota Groq atteint, pause 474 s",
+  "ok": false,
+  "reprise": "22/10 23:15",
+  "erreur": "quota Groq atteint, pause 609 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -131,12 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 22/10 23:04"
+     "etat": "programmée 22/10 23:15"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 22/10 23:04"
+     "etat": "programmée 22/10 23:15"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -419,9 +419,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
-   "passages": 1095,
-   "dernier_a": "22/10 23:01"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
+   "passages": 1096,
+   "dernier_a": "22/10 23:08"
   },
   {
    "cle": "archiviste",
@@ -429,16 +429,16 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 1003,
-   "dernier_a": "22/10 22:56"
+   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
+   "passages": 1004,
+   "dernier_a": "22/10 23:04"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
    "passages": 692,
    "dernier_a": "22/10 22:59"
@@ -738,10 +738,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 933,
+  "SUCCESS": 934,
   "FAILED": 28
  }
 }
