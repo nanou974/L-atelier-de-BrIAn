@@ -1,15 +1,15 @@
 {
- "now": 1792656240.6945379,
- "heure": "10:04:00",
+ "now": 1792656540.6905024,
+ "heure": "10:09:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
-  "battement_s": 2
+  "activite": "Plume : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
-  "reprise": "22/10 10:07",
-  "erreur": "quota Groq atteint, pause 453 s",
+  "reprise": "22/10 10:15",
+  "erreur": "quota Groq atteint, pause 446 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -98,7 +98,7 @@
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 22/10 10:07"
+     "etat": "programmée 22/10 10:15"
     },
     {
      "titre": "Écrire le script : Robocasting",
@@ -425,25 +425,25 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
-   "passages": 980,
-   "dernier_a": "22/10 10:03"
+   "passages": 981,
+   "dernier_a": "22/10 10:08"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 899,
-   "dernier_a": "22/10 10:00"
+   "dernier": "[poste Publication YouTube, avec Plume] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 901,
+   "dernier_a": "22/10 10:08"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "script",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
    "passages": 632,
    "dernier_a": "22/10 09:47"
@@ -737,10 +737,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 7,
   "PENDING": 6,
   "DEFERRED": 2,
-  "SUCCESS": 931,
+  "SUCCESS": 932,
   "FAILED": 28
  }
 }
