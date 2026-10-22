@@ -1,15 +1,15 @@
 {
- "now": 1792648440.4969256,
- "heure": "07:54:00",
+ "now": 1792648740.508015,
+ "heure": "07:59:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Robocasting + Éclaireur : passage continu",
-  "battement_s": 3
+  "activite": "Archiviste : passage continu",
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
-  "reprise": "22/10 07:54",
-  "erreur": "quota Groq atteint, pause 156 s",
+  "reprise": "22/10 08:00",
+  "erreur": "quota Groq atteint, pause 253 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -98,7 +98,7 @@
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 22/10 07:54"
+     "etat": "programmée 22/10 08:00"
     },
     {
      "titre": "Écrire le script : Robocasting",
@@ -122,13 +122,9 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Réunir de vraies illustrations libres : Robocasting",
-    "projet": "Sujet : Robocasting",
-    "depuis": 229
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -140,8 +136,7 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "en cours",
-     "depuis": 229
+     "etat": "programmée 22/10 08:00"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
@@ -430,8 +425,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
-   "passages": 960,
-   "dernier_a": "22/10 07:46"
+   "passages": 961,
+   "dernier_a": "22/10 07:56"
   },
   {
    "cle": "archiviste",
@@ -448,7 +443,7 @@
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
    "passages": 621,
    "dernier_a": "22/10 07:49"
@@ -741,10 +736,10 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
+  "RUNNING": 1,
   "READY": 8,
   "PENDING": 6,
-  "DEFERRED": 1,
+  "DEFERRED": 2,
   "SUCCESS": 931,
   "FAILED": 28
  }
