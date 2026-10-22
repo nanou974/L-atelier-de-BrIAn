@@ -1,15 +1,15 @@
 {
- "now": 1792647540.4776218,
- "heure": "07:39:00",
+ "now": 1792647840.4884365,
+ "heure": "07:44:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 1
+  "activite": "Archiviste : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "22/10 07:43",
-  "erreur": "quota Groq atteint, pause 507 s",
+  "reprise": "22/10 07:50",
+  "erreur": "quota Groq atteint, pause 378 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -98,7 +98,7 @@
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 22/10 07:43"
+     "etat": "programmée 22/10 07:50"
     },
     {
      "titre": "Écrire le script : Robocasting",
@@ -136,7 +136,7 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 22/10 07:43"
+     "etat": "programmée 22/10 07:50"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
@@ -424,9 +424,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 32 titres lus, 0 idées retenues",
-   "passages": 958,
-   "dernier_a": "22/10 07:35"
+   "dernier": "[poste Trouver une idée, avec Archiviste, Plume] 32 titres lus, 0 idées retenues",
+   "passages": 959,
+   "dernier_a": "22/10 07:41"
   },
   {
    "cle": "archiviste",
@@ -443,7 +443,7 @@
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
    "passages": 620,
    "dernier_a": "22/10 07:32"
@@ -737,10 +737,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 9,
   "PENDING": 6,
   "DEFERRED": 2,
-  "SUCCESS": 931,
+  "SUCCESS": 930,
   "FAILED": 28
  }
 }
