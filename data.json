@@ -1,15 +1,15 @@
 {
- "now": 1792702141.0237882,
- "heure": "22:49:01",
+ "now": 1792702441.0146492,
+ "heure": "22:54:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Impression 3D dans la construction + Plume : passage continu",
-  "battement_s": 2
+  "activite": "Réunir de vraies illustrations libres : Robocasting + Éclaireur : passage continu",
+  "battement_s": 4
  },
  "modele": {
-  "ok": false,
-  "reprise": "22/10 22:53",
-  "erreur": "quota Groq atteint, pause 309 s",
+  "ok": true,
+  "reprise": null,
+  "erreur": null,
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -119,9 +119,9 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "actif",
    "courant": {
-    "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
-    "projet": "Sujet : Impression 3D dans la construction",
-    "depuis": 54
+    "titre": "Réunir de vraies illustrations libres : Robocasting",
+    "projet": "Sujet : Robocasting",
+    "depuis": 29
    },
    "file": 1,
    "attend_humain": 0,
@@ -133,15 +133,15 @@
    "total_fait": 39,
    "taches": [
     {
-     "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
-     "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en cours",
-     "depuis": 54
-    },
-    {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 22/10 22:53"
+     "etat": "en cours",
+     "depuis": 29
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
+     "projet": "Sujet : Impression 3D dans la construction",
+     "etat": "prête"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -444,9 +444,9 @@
    "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
-   "passages": 690,
-   "dernier_a": "22/10 22:44"
+   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
+   "passages": 691,
+   "dernier_a": "22/10 22:52"
   },
   {
    "cle": "iconographe",
@@ -743,10 +743,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 7,
+  "READY": 9,
   "PENDING": 5,
-  "DEFERRED": 1,
-  "SUCCESS": 935,
+  "DEFERRED": 0,
+  "SUCCESS": 934,
   "FAILED": 28
  }
 }
