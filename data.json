@@ -1,15 +1,15 @@
 {
- "now": 1792651140.5564542,
- "heure": "08:39:00",
+ "now": 1792651440.5588255,
+ "heure": "08:44:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Robocasting + Plume : passage continu",
-  "battement_s": 1
+  "activite": "Iconographe : passage continu",
+  "battement_s": 2
  },
  "modele": {
   "ok": true,
   "reprise": null,
-  "erreur": null,
+  "erreur": "quota Groq atteint, pause 297 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -84,7 +84,7 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "attente",
+   "etat": "repos",
    "courant": null,
    "file": 1,
    "attend_humain": 0,
@@ -98,7 +98,7 @@
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "prête"
+     "etat": "programmée 22/10 08:44"
     },
     {
      "titre": "Écrire le script : Robocasting",
@@ -122,13 +122,9 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Réunir de vraies illustrations libres : Robocasting",
-    "projet": "Sujet : Robocasting",
-    "depuis": 190
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -140,8 +136,7 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "en cours",
-     "depuis": 190
+     "etat": "programmée 22/10 08:44"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
@@ -426,12 +421,12 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
-   "passages": 967,
-   "dernier_a": "22/10 08:35"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 968,
+   "dernier_a": "22/10 08:39"
   },
   {
    "cle": "archiviste",
@@ -439,9 +434,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 887,
-   "dernier_a": "22/10 08:33"
+   "dernier": "[poste Trouver une idée, avec Plume] 32 titres lus, 0 idées retenues",
+   "passages": 888,
+   "dernier_a": "22/10 08:42"
   },
   {
    "cle": "plume",
@@ -449,16 +444,16 @@
    "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 0 publications programmées, calendrier sain",
-   "passages": 624,
-   "dernier_a": "22/10 08:27"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
+   "passages": 625,
+   "dernier_a": "22/10 08:39"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "idee",
+   "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
    "passages": 321,
    "dernier_a": "22/10 08:30"
@@ -741,11 +736,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 10,
+  "RUNNING": 1,
+  "READY": 8,
   "PENDING": 6,
-  "DEFERRED": 0,
-  "SUCCESS": 930,
+  "DEFERRED": 2,
+  "SUCCESS": 931,
   "FAILED": 28
  }
 }
