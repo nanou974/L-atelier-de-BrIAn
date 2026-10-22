@@ -1,10 +1,10 @@
 {
- "now": 1792682340.473931,
- "heure": "17:19:00",
+ "now": 1792682640.4732144,
+ "heure": "17:24:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Impression 3D dans la construction + Éclaireur : passage continu",
-  "battement_s": 0
+  "activite": "Plume : passage continu",
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
@@ -117,13 +117,9 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
-    "projet": "Sujet : Impression 3D dans la construction",
-    "depuis": 52
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -133,14 +129,13 @@
    "total_fait": 39,
    "taches": [
     {
-     "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
-     "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en cours",
-     "depuis": 52
-    },
-    {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
+     "etat": "programmée 22/10 17:27"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
+     "projet": "Sujet : Impression 3D dans la construction",
      "etat": "programmée 22/10 17:27"
     },
     {
@@ -425,25 +420,25 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
-   "passages": 1043,
-   "dernier_a": "22/10 17:15"
+   "passages": 1044,
+   "dernier_a": "22/10 17:22"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 957,
-   "dernier_a": "22/10 17:18"
+   "dernier": "[poste Publication YouTube] 16 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
+   "passages": 958,
+   "dernier_a": "22/10 17:22"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
    "passages": 666,
    "dernier_a": "22/10 17:03"
@@ -521,10 +516,10 @@
  ],
  "programmees": [],
  "audience": {
-  "vues": 1988,
+  "vues": 1989,
   "likes": 38,
   "commentaires": 0,
-  "maj": "14:12"
+  "maj": "17:22"
  },
  "publiees": [
   {
@@ -573,7 +568,7 @@
    "url": "https://www.youtube.com/watch?v=1HW5H4d5bzQ",
    "at": "2026-10-18T10:57:13",
    "miniature": true,
-   "vues": 311,
+   "vues": 312,
    "likes": 6,
    "commentaires": 0
   },
@@ -742,11 +737,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 8,
+  "RUNNING": 1,
+  "READY": 9,
   "PENDING": 5,
-  "DEFERRED": 1,
-  "SUCCESS": 933,
+  "DEFERRED": 2,
+  "SUCCESS": 932,
   "FAILED": 28
  }
 }
