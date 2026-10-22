@@ -1,15 +1,15 @@
 {
- "now": 1792649940.5430572,
- "heure": "08:19:00",
+ "now": 1792650240.5451574,
+ "heure": "08:24:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Plume : passage continu",
-  "battement_s": 1
+  "activite": "Archiviste : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "22/10 08:19",
-  "erreur": "quota Groq atteint, pause 225 s",
+  "reprise": "22/10 08:35",
+  "erreur": "quota Groq atteint, pause 808 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -98,7 +98,7 @@
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 22/10 08:20"
+     "etat": "programmée 22/10 08:35"
     },
     {
      "titre": "Écrire le script : Robocasting",
@@ -136,7 +136,7 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 22/10 08:20"
+     "etat": "programmée 22/10 08:35"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
@@ -425,13 +425,13 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 964,
-   "dernier_a": "22/10 08:16"
+   "passages": 965,
+   "dernier_a": "22/10 08:22"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
@@ -445,15 +445,15 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 622,
-   "dernier_a": "22/10 08:06"
+   "passages": 623,
+   "dernier_a": "22/10 08:19"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
    "passages": 320,
    "dernier_a": "22/10 08:12"
@@ -737,10 +737,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 6,
   "DEFERRED": 2,
-  "SUCCESS": 930,
+  "SUCCESS": 931,
   "FAILED": 28
  }
 }
