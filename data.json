@@ -1,14 +1,14 @@
 {
- "now": 1792632240.9818873,
- "heure": "03:24:01",
+ "now": 1792632541.0050688,
+ "heure": "03:29:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
-  "battement_s": 0
+  "activite": "Écrire le script : Robocasting + Plume : passage continu",
+  "battement_s": 3
  },
  "modele": {
-  "ok": false,
-  "reprise": "22/10 03:28",
+  "ok": true,
+  "reprise": null,
   "erreur": "quota Groq atteint, pause 391 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
@@ -84,9 +84,13 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Écrire le script : Robocasting",
+    "projet": "Sujet : Robocasting",
+    "depuis": 8
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -98,12 +102,13 @@
     {
      "titre": "Écrire le script : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 22/10 03:28"
+     "etat": "en cours",
+     "depuis": 8
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 22/10 03:28"
+     "etat": "prête"
     },
     {
      "titre": "Écrire le script : NodeMCU",
@@ -424,9 +429,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste, Plume] 32 titres lus, 0 idées retenues",
-   "passages": 919,
-   "dernier_a": "22/10 03:20"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
+   "passages": 920,
+   "dernier_a": "22/10 03:27"
   },
   {
    "cle": "archiviste",
@@ -434,9 +439,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 32 titres lus, 0 idées retenues",
-   "passages": 845,
-   "dernier_a": "22/10 03:17"
+   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
+   "passages": 846,
+   "dernier_a": "22/10 03:25"
   },
   {
    "cle": "plume",
@@ -730,10 +735,10 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 8,
+  "RUNNING": 2,
+  "READY": 9,
   "PENDING": 6,
-  "DEFERRED": 2,
+  "DEFERRED": 0,
   "SUCCESS": 929,
   "FAILED": 28
  }
