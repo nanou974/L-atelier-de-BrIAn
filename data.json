@@ -1,15 +1,15 @@
 {
- "now": 1792654140.6360261,
- "heure": "09:29:00",
+ "now": 1792654440.6663938,
+ "heure": "09:34:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Robocasting + Archiviste : passage continu",
-  "battement_s": 2
+  "activite": "Éclaireur : passage continu",
+  "battement_s": 4
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": null,
+  "ok": false,
+  "reprise": "22/10 09:52",
+  "erreur": "quota Groq atteint, pause 1196 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -84,7 +84,7 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "attente",
+   "etat": "repos",
    "courant": null,
    "file": 1,
    "attend_humain": 0,
@@ -98,7 +98,7 @@
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "prête"
+     "etat": "programmée 22/10 09:52"
     },
     {
      "titre": "Écrire le script : Robocasting",
@@ -122,13 +122,9 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Réunir de vraies illustrations libres : Robocasting",
-    "projet": "Sujet : Robocasting",
-    "depuis": 12
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -140,8 +136,7 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "en cours",
-     "depuis": 12
+     "etat": "programmée 22/10 09:52"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
@@ -439,9 +434,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 894,
-   "dernier_a": "22/10 09:23"
+   "dernier": "[poste Trouver une idée, avec Plume] 32 titres lus, 0 idées retenues",
+   "passages": 895,
+   "dernier_a": "22/10 09:32"
   },
   {
    "cle": "plume",
@@ -741,11 +736,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
+  "RUNNING": 1,
   "READY": 9,
   "PENDING": 6,
-  "DEFERRED": 0,
-  "SUCCESS": 931,
+  "DEFERRED": 2,
+  "SUCCESS": 930,
   "FAILED": 28
  }
 }
