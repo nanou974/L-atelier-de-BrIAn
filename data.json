@@ -1,15 +1,15 @@
 {
- "now": 1792680240.5033348,
- "heure": "16:44:00",
+ "now": 1792680540.7022388,
+ "heure": "16:49:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Robocasting + Plume : passage continu",
-  "battement_s": 0
+  "activite": "Archiviste : passage continu",
+  "battement_s": 2
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": null,
+  "ok": false,
+  "reprise": "22/10 16:50",
+  "erreur": "quota Groq atteint, pause 321 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -117,13 +117,9 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Réunir de vraies illustrations libres : Robocasting",
-    "projet": "Sujet : Robocasting",
-    "depuis": 25
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -135,13 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "en cours",
-     "depuis": 25
+     "etat": "programmée 22/10 16:50"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "prête"
+     "etat": "programmée 22/10 16:50"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -424,14 +419,14 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
-   "passages": 1038,
-   "dernier_a": "22/10 16:42"
+   "dernier": "[poste Trouver une idée, avec Plume] 32 titres lus, 0 idées retenues",
+   "passages": 1039,
+   "dernier_a": "22/10 16:48"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Publication YouTube, avec Plume] 1 commentaire(s) suivis, 0 nouveau(x)",
@@ -444,9 +439,9 @@
    "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 664,
-   "dernier_a": "22/10 16:20"
+   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
+   "passages": 665,
+   "dernier_a": "22/10 16:44"
   },
   {
    "cle": "iconographe",
@@ -742,11 +737,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
+  "RUNNING": 1,
   "READY": 8,
   "PENDING": 5,
-  "DEFERRED": 0,
-  "SUCCESS": 934,
+  "DEFERRED": 2,
+  "SUCCESS": 933,
   "FAILED": 28
  }
 }
