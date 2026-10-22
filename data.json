@@ -1,15 +1,15 @@
 {
- "now": 1792641840.320971,
- "heure": "06:04:00",
+ "now": 1792642140.321478,
+ "heure": "06:09:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Plume : passage continu",
-  "battement_s": 1
+  "activite": "Analyste : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "22/10 06:04",
-  "erreur": "quota Groq atteint, pause 1197 s",
+  "reprise": "22/10 06:12",
+  "erreur": "quota Groq atteint, pause 394 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -86,24 +86,24 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Écrire le script : NodeMCU",
-    "quand": "17/10 02:21"
+    "titre": "Écrire le script : Robocasting",
+    "quand": "22/10 06:04"
    },
-   "total_fait": 31,
+   "total_fait": 32,
    "taches": [
-    {
-     "titre": "Écrire le script : Robocasting",
-     "projet": "Sujet : Robocasting",
-     "etat": "programmée 22/10 06:04"
-    },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 22/10 06:04"
+     "etat": "programmée 22/10 06:12"
+    },
+    {
+     "titre": "Écrire le script : Robocasting",
+     "projet": "Sujet : Robocasting",
+     "etat": "terminée 22/10 06:04"
     },
     {
      "titre": "Écrire le script : NodeMCU",
@@ -114,11 +114,6 @@
      "titre": "Écrire le script : UltiMaker",
      "projet": "Sujet : UltiMaker",
      "etat": "terminée 16/10 23:46"
-    },
-    {
-     "titre": "Écrire le script : Capteur",
-     "projet": "Sujet : Capteur",
-     "etat": "terminée 16/10 23:23"
     }
    ]
   },
@@ -129,7 +124,7 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -138,6 +133,11 @@
    },
    "total_fait": 39,
    "taches": [
+    {
+     "titre": "Réunir de vraies illustrations libres : Robocasting",
+     "projet": "Sujet : Robocasting",
+     "etat": "programmée 22/10 06:12"
+    },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
@@ -431,12 +431,12 @@
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 32 titres lus, 0 idées retenues",
-   "passages": 867,
-   "dernier_a": "22/10 06:01"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 868,
+   "dernier_a": "22/10 06:06"
   },
   {
    "cle": "plume",
@@ -445,25 +445,25 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 611,
-   "dernier_a": "22/10 05:58"
+   "passages": 612,
+   "dernier_a": "22/10 06:06"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 314,
-   "dernier_a": "22/10 05:48"
+   "etat": "actif",
+   "dernier": "[poste Images] robocasting : 3 images",
+   "passages": 315,
+   "dernier_a": "22/10 06:06"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
    "passages": 100,
    "dernier_a": "21/10 20:20"
@@ -731,10 +731,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 7,
+  "READY": 9,
   "PENDING": 6,
   "DEFERRED": 2,
-  "SUCCESS": 931,
+  "SUCCESS": 930,
   "FAILED": 28
  }
 }
