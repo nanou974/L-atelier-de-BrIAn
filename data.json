@@ -1,14 +1,14 @@
 {
- "now": 1792646940.4631162,
- "heure": "07:29:00",
+ "now": 1792647240.4670525,
+ "heure": "07:34:00",
  "moteur": {
   "etat": "actif",
   "activite": "Éclaireur : passage continu",
-  "battement_s": 3
+  "battement_s": 5
  },
  "modele": {
-  "ok": false,
-  "reprise": "22/10 07:33",
+  "ok": true,
+  "reprise": null,
   "erreur": "quota Groq atteint, pause 894 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
@@ -425,8 +425,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 32 titres lus, 0 idées retenues",
-   "passages": 956,
-   "dernier_a": "22/10 07:21"
+   "passages": 957,
+   "dernier_a": "22/10 07:29"
   },
   {
    "cle": "archiviste",
@@ -434,9 +434,9 @@
    "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 0 publications programmées, calendrier sain",
-   "passages": 878,
-   "dernier_a": "22/10 07:21"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 879,
+   "dernier_a": "22/10 07:29"
   },
   {
    "cle": "plume",
@@ -445,15 +445,15 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 619,
-   "dernier_a": "22/10 07:27"
+   "passages": 620,
+   "dernier_a": "22/10 07:32"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Plume] 32 titres lus, 0 idées retenues",
    "passages": 319,
    "dernier_a": "22/10 07:24"
@@ -737,10 +737,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 6,
   "DEFERRED": 2,
-  "SUCCESS": 930,
+  "SUCCESS": 931,
   "FAILED": 28
  }
 }
