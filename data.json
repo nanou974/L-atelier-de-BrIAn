@@ -1,15 +1,15 @@
 {
- "now": 1792688340.629569,
- "heure": "18:59:00",
+ "now": 1792688640.6994696,
+ "heure": "19:04:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Impression 3D dans la construction + Archiviste : passage continu",
-  "battement_s": 1
+  "activite": "Réunir de vraies illustrations libres : Robocasting + Réunir de vraies illustrations libres : Impression 3D dans la construction",
+  "battement_s": 3
  },
  "modele": {
-  "ok": false,
-  "reprise": "22/10 19:00",
-  "erreur": "quota Groq atteint, pause 308 s",
+  "ok": true,
+  "reprise": null,
+  "erreur": null,
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -119,11 +119,11 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "actif",
    "courant": {
-    "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
-    "projet": "Sujet : Impression 3D dans la construction",
-    "depuis": 237
+    "titre": "Réunir de vraies illustrations libres : Robocasting",
+    "projet": "Sujet : Robocasting",
+    "depuis": 208
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -133,15 +133,16 @@
    "total_fait": 39,
    "taches": [
     {
+     "titre": "Réunir de vraies illustrations libres : Robocasting",
+     "projet": "Sujet : Robocasting",
+     "etat": "en cours",
+     "depuis": 208
+    },
+    {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
      "etat": "en cours",
-     "depuis": 237
-    },
-    {
-     "titre": "Réunir de vraies illustrations libres : Robocasting",
-     "projet": "Sujet : Robocasting",
-     "etat": "programmée 22/10 19:00"
+     "depuis": 54
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -425,8 +426,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 1058,
-   "dernier_a": "22/10 18:55"
+   "passages": 1059,
+   "dernier_a": "22/10 19:03"
   },
   {
    "cle": "archiviste",
@@ -435,8 +436,8 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 969,
-   "dernier_a": "22/10 18:50"
+   "passages": 970,
+   "dernier_a": "22/10 19:00"
   },
   {
    "cle": "plume",
@@ -745,8 +746,8 @@
   "RUNNING": 2,
   "READY": 9,
   "PENDING": 5,
-  "DEFERRED": 1,
-  "SUCCESS": 933,
+  "DEFERRED": 0,
+  "SUCCESS": 934,
   "FAILED": 28
  }
 }
