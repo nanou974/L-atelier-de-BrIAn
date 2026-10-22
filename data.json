@@ -1,15 +1,15 @@
 {
- "now": 1792671241.1758068,
- "heure": "14:14:01",
+ "now": 1792671541.1873205,
+ "heure": "14:19:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Plume : passage continu",
-  "battement_s": 0
+  "activite": "Archiviste : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "22/10 14:15",
-  "erreur": "quota Groq atteint, pause 1395 s",
+  "reprise": "22/10 14:20",
+  "erreur": "quota Groq atteint, pause 166 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -131,12 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 22/10 14:15"
+     "etat": "programmée 22/10 14:20"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 22/10 14:15"
+     "etat": "programmée 22/10 14:20"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -419,14 +419,14 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Iconographe] 32 titres lus, 0 idées retenues",
-   "passages": 1017,
-   "dernier_a": "22/10 14:12"
+   "dernier": "[poste Trouver une idée, avec Plume] 32 titres lus, 0 idées retenues",
+   "passages": 1018,
+   "dernier_a": "22/10 14:18"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Publication YouTube] 16 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
@@ -439,16 +439,16 @@
    "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script] 1 accroche(s) analysée(s), 1 à améliorer : impression-3d-dans-la-construction : l'accroche n'interpelle pas (ni question, ni « tu », ni chiffre)",
-   "passages": 653,
-   "dernier_a": "22/10 14:07"
+   "dernier": "[poste Trouver une idée, avec Iconographe] 32 titres lus, 0 idées retenues",
+   "passages": 654,
+   "dernier_a": "22/10 14:15"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
    "passages": 335,
    "dernier_a": "22/10 14:10"
@@ -738,10 +738,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 7,
+  "READY": 8,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 934,
+  "SUCCESS": 933,
   "FAILED": 28
  }
 }
