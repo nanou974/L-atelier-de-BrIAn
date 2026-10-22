@@ -1,15 +1,15 @@
 {
- "now": 1792667641.0550797,
- "heure": "13:14:01",
+ "now": 1792667941.086366,
+ "heure": "13:19:01",
  "moteur": {
   "etat": "actif",
   "activite": "Réunir de vraies illustrations libres : Robocasting + Archiviste : passage continu",
-  "battement_s": 2
+  "battement_s": 4
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": null,
+  "ok": false,
+  "reprise": "22/10 13:22",
+  "erreur": "quota Groq atteint, pause 237 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -121,7 +121,7 @@
    "courant": {
     "titre": "Réunir de vraies illustrations libres : Robocasting",
     "projet": "Sujet : Robocasting",
-    "depuis": 32
+    "depuis": 117
    },
    "file": 1,
    "attend_humain": 0,
@@ -136,12 +136,12 @@
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
      "etat": "en cours",
-     "depuis": 32
+     "depuis": 117
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "prête"
+     "etat": "programmée 22/10 13:22"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -425,8 +425,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
-   "passages": 1008,
-   "dernier_a": "22/10 13:11"
+   "passages": 1009,
+   "dernier_a": "22/10 13:18"
   },
   {
    "cle": "archiviste",
@@ -435,8 +435,8 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 925,
-   "dernier_a": "22/10 13:06"
+   "passages": 926,
+   "dernier_a": "22/10 13:14"
   },
   {
    "cle": "plume",
@@ -743,10 +743,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 8,
   "PENDING": 5,
-  "DEFERRED": 0,
-  "SUCCESS": 932,
+  "DEFERRED": 1,
+  "SUCCESS": 933,
   "FAILED": 28
  }
 }
