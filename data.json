@@ -1,10 +1,10 @@
 {
- "now": 1792641540.3015895,
- "heure": "05:59:00",
+ "now": 1792641840.320971,
+ "heure": "06:04:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
-  "battement_s": 4
+  "activite": "Plume : passage continu",
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
@@ -394,11 +394,16 @@
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Contrôler l'espace disque",
-    "quand": "22/10 00:01"
+    "titre": "Tester la disponibilité du LLM Groq (borné)",
+    "quand": "22/10 06:00"
    },
-   "total_fait": 49,
+   "total_fait": 50,
    "taches": [
+    {
+     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "projet": "Maintenance",
+     "etat": "terminée 22/10 06:00"
+    },
     {
      "titre": "Contrôler l'espace disque",
      "projet": "Maintenance",
@@ -406,11 +411,6 @@
     },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
-     "projet": "Maintenance",
-     "etat": "terminée 22/10 00:01"
-    },
-    {
-     "titre": "Vérifier l'intégrité des médias sources",
      "projet": "Maintenance",
      "etat": "terminée 22/10 00:01"
     }
@@ -424,9 +424,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 943,
-   "dernier_a": "22/10 05:56"
+   "dernier": "[poste Trouver une idée, avec Plume] 32 titres lus, 0 idées retenues",
+   "passages": 944,
+   "dernier_a": "22/10 06:03"
   },
   {
    "cle": "archiviste",
@@ -434,9 +434,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 866,
-   "dernier_a": "22/10 05:53"
+   "dernier": "[poste Trouver une idée, avec Plume] 32 titres lus, 0 idées retenues",
+   "passages": 867,
+   "dernier_a": "22/10 06:01"
   },
   {
    "cle": "plume",
@@ -731,10 +731,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 7,
   "PENDING": 6,
   "DEFERRED": 2,
-  "SUCCESS": 929,
+  "SUCCESS": 931,
   "FAILED": 28
  }
 }
