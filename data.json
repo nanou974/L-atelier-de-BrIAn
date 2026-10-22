@@ -1,15 +1,15 @@
 {
- "now": 1792664640.9938636,
- "heure": "12:24:01",
+ "now": 1792664941.0124142,
+ "heure": "12:29:01",
  "moteur": {
   "etat": "actif",
   "activite": "Éclaireur : passage continu",
-  "battement_s": 2
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "22/10 12:25",
-  "erreur": "quota Groq atteint, pause 186 s",
+  "reprise": "22/10 12:30",
+  "erreur": "quota Groq atteint, pause 142 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -131,12 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 22/10 12:25"
+     "etat": "programmée 22/10 12:30"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 22/10 12:25"
+     "etat": "programmée 22/10 12:30"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -420,8 +420,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
-   "passages": 1000,
-   "dernier_a": "22/10 12:17"
+   "passages": 1001,
+   "dernier_a": "22/10 12:25"
   },
   {
    "cle": "archiviste",
@@ -430,25 +430,25 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 919,
-   "dernier_a": "22/10 12:22"
+   "passages": 920,
+   "dernier_a": "22/10 12:28"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script] 1 script(s) relu(s), 1 avec défauts : impression-3d-dans-la-construction : noms à faire prononcer (lexique) : LSAM, Layer, Print, Thermwood, Vertical",
-   "passages": 644,
-   "dernier_a": "22/10 12:17"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 645,
+   "dernier_a": "22/10 12:28"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Images] impression-3d-dans-la-construction : 4 images",
    "passages": 332,
    "dernier_a": "22/10 12:18"
@@ -738,10 +738,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 7,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 933,
+  "SUCCESS": 934,
   "FAILED": 28
  }
 }
