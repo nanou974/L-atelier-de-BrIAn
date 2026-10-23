@@ -1,15 +1,15 @@
 {
- "now": 1792718040.4896226,
- "heure": "03:14:00",
+ "now": 1792718340.498529,
+ "heure": "03:19:00",
  "moteur": {
   "etat": "actif",
   "activite": "Archiviste : passage continu",
-  "battement_s": 2
+  "battement_s": 5
  },
  "modele": {
   "ok": false,
-  "reprise": "23/10 03:14",
-  "erreur": "quota Groq atteint, pause 210 s",
+  "reprise": "23/10 03:21",
+  "erreur": "quota Groq atteint, pause 189 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -131,12 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 23/10 03:14"
+     "etat": "programmée 23/10 03:21"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 23/10 03:14"
+     "etat": "programmée 23/10 03:21"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -420,8 +420,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
-   "passages": 1133,
-   "dernier_a": "23/10 03:10"
+   "passages": 1134,
+   "dernier_a": "23/10 03:18"
   },
   {
    "cle": "archiviste",
@@ -430,8 +430,8 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
-   "passages": 1033,
-   "dernier_a": "23/10 03:02"
+   "passages": 1034,
+   "dernier_a": "23/10 03:14"
   },
   {
    "cle": "plume",
@@ -448,7 +448,7 @@
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Archiviste] 27 titres lus, 0 idées retenues",
    "passages": 357,
    "dernier_a": "23/10 03:07"
@@ -738,10 +738,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 936,
+  "SUCCESS": 937,
   "FAILED": 28
  }
 }
