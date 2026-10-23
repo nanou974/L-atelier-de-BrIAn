@@ -1,15 +1,15 @@
 {
- "now": 1792742041.2161164,
- "heure": "09:54:01",
+ "now": 1792742341.2440062,
+ "heure": "09:59:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Robocasting + Iconographe : passage continu",
-  "battement_s": 5
+  "activite": "Réunir de vraies illustrations libres : Impression 3D dans la construction + Éclaireur : passage continu",
+  "battement_s": 3
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": null,
+  "ok": false,
+  "reprise": "23/10 10:03",
+  "erreur": "quota Groq atteint, pause 454 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -119,9 +119,9 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "actif",
    "courant": {
-    "titre": "Réunir de vraies illustrations libres : Robocasting",
-    "projet": "Sujet : Robocasting",
-    "depuis": 25
+    "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
+    "projet": "Sujet : Impression 3D dans la construction",
+    "depuis": 176
    },
    "file": 1,
    "attend_humain": 0,
@@ -133,15 +133,15 @@
    "total_fait": 39,
    "taches": [
     {
-     "titre": "Réunir de vraies illustrations libres : Robocasting",
-     "projet": "Sujet : Robocasting",
-     "etat": "en cours",
-     "depuis": 25
-    },
-    {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 176
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Robocasting",
+     "projet": "Sujet : Robocasting",
+     "etat": "programmée 23/10 10:03"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -433,7 +433,7 @@
    "nom": "Archiviste",
    "poste": "publication",
    "poste_prefere": "recherche",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
    "passages": 1084,
    "dernier_a": "23/10 09:50"
@@ -455,8 +455,8 @@
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 371,
-   "dernier_a": "23/10 09:37"
+   "passages": 372,
+   "dernier_a": "23/10 09:56"
   },
   {
    "cle": "analyste",
@@ -743,9 +743,9 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 5,
-  "DEFERRED": 0,
+  "DEFERRED": 1,
   "SUCCESS": 938,
   "FAILED": 28
  }
