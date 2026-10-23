@@ -1,14 +1,14 @@
 {
- "now": 1792783140.3252642,
- "heure": "21:19:00",
+ "now": 1792783440.3253412,
+ "heure": "21:24:00",
  "moteur": {
   "etat": "actif",
   "activite": "Éclaireur : passage continu",
-  "battement_s": 4
+  "battement_s": 2
  },
  "modele": {
-  "ok": false,
-  "reprise": "23/10 21:23",
+  "ok": true,
+  "reprise": null,
   "erreur": "quota Groq atteint, pause 587 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
@@ -131,7 +131,7 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 23/10 21:23"
+     "etat": "en attente"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
@@ -420,18 +420,18 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 1283,
-   "dernier_a": "23/10 21:12"
+   "passages": 1284,
+   "dernier_a": "23/10 21:19"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Iconographe] 32 titres lus, 0 idées retenues",
-   "passages": 1128,
-   "dernier_a": "23/10 20:11"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
+   "passages": 1129,
+   "dernier_a": "23/10 21:22"
   },
   {
    "cle": "plume",
@@ -738,10 +738,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 939,
+  "SUCCESS": 940,
   "FAILED": 28
  }
 }
