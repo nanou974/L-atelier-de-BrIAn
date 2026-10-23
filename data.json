@@ -1,15 +1,15 @@
 {
- "now": 1792781940.2911081,
- "heure": "20:59:00",
+ "now": 1792782240.2944186,
+ "heure": "21:04:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Plume : passage continu",
-  "battement_s": 4
+  "activite": "Réunir de vraies illustrations libres : Robocasting + Réunir de vraies illustrations libres : Impression 3D dans la construction",
+  "battement_s": 2
  },
  "modele": {
-  "ok": false,
-  "reprise": "23/10 21:02",
-  "erreur": "quota Groq atteint, pause 481 s",
+  "ok": true,
+  "reprise": null,
+  "erreur": null,
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -117,9 +117,13 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Réunir de vraies illustrations libres : Robocasting",
+    "projet": "Sujet : Robocasting",
+    "depuis": 94
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -131,12 +135,14 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 23/10 21:02"
+     "etat": "en cours",
+     "depuis": 94
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 23/10 21:02"
+     "etat": "en cours",
+     "depuis": 52
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -440,18 +446,18 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 783,
-   "dernier_a": "23/10 20:54"
+   "passages": 784,
+   "dernier_a": "23/10 21:00"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 394,
-   "dernier_a": "23/10 20:27"
+   "passages": 395,
+   "dernier_a": "23/10 21:03"
   },
   {
    "cle": "analyste",
@@ -585,12 +591,6 @@
  ],
  "nb_publiees": 18,
  "notifications": [
-  {
-   "ts": "2026-10-23T20:58:13",
-   "type": "alerte",
-   "texte": "Échec : Archiviste : passage continu",
-   "url": null
-  },
   {
    "ts": "2026-10-22T12:17:45",
    "type": "assistant",
@@ -734,14 +734,20 @@
    "type": "publication",
    "texte": "Publiée : Disque compact : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=NodSE53R2ck"
+  },
+  {
+   "ts": "2026-10-15T17:57:36",
+   "type": "publication",
+   "texte": "Publiée : Contour crafting : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=uE7b3v48llE"
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 7,
+  "RUNNING": 2,
+  "READY": 9,
   "PENDING": 5,
-  "DEFERRED": 2,
+  "DEFERRED": 0,
   "SUCCESS": 940,
-  "FAILED": 29
+  "FAILED": 28
  }
 }
