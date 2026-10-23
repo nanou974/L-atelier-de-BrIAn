@@ -1,15 +1,15 @@
 {
- "now": 1792730040.8796377,
- "heure": "06:34:01",
+ "now": 1792730340.9106522,
+ "heure": "06:39:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Robocasting + Réunir de vraies illustrations libres : Impression 3D dans la construction",
-  "battement_s": 3
+  "activite": "Archiviste : passage continu",
+  "battement_s": 0
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": null,
+  "ok": false,
+  "reprise": "23/10 06:42",
+  "erreur": "quota Groq atteint, pause 426 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -117,13 +117,9 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Réunir de vraies illustrations libres : Robocasting",
-    "projet": "Sujet : Robocasting",
-    "depuis": 136
-   },
-   "file": 0,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -135,14 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "en cours",
-     "depuis": 136
+     "etat": "programmée 23/10 06:42"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en cours",
-     "depuis": 116
+     "etat": "programmée 23/10 06:42"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -425,9 +419,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 1161,
-   "dernier_a": "23/10 06:27"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
+   "passages": 1162,
+   "dernier_a": "23/10 06:38"
   },
   {
    "cle": "archiviste",
@@ -444,7 +438,7 @@
    "nom": "Plume",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube] 0 publications programmées, calendrier sain",
    "passages": 724,
    "dernier_a": "23/10 06:29"
@@ -743,10 +737,10 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 9,
+  "RUNNING": 1,
+  "READY": 8,
   "PENDING": 5,
-  "DEFERRED": 0,
+  "DEFERRED": 2,
   "SUCCESS": 938,
   "FAILED": 28
  }
