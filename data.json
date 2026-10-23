@@ -1,10 +1,10 @@
 {
- "now": 1792727940.8179054,
- "heure": "05:59:01",
+ "now": 1792728240.830278,
+ "heure": "06:04:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Iconographe : passage continu",
-  "battement_s": 1
+  "activite": "Archiviste : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
@@ -389,11 +389,16 @@
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Contrôler l'espace disque",
-    "quand": "23/10 00:02"
+    "titre": "Tester la disponibilité du LLM Groq (borné)",
+    "quand": "23/10 06:01"
    },
-   "total_fait": 55,
+   "total_fait": 56,
    "taches": [
+    {
+     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "projet": "Maintenance",
+     "etat": "terminée 23/10 06:01"
+    },
     {
      "titre": "Contrôler l'espace disque",
      "projet": "Maintenance",
@@ -401,11 +406,6 @@
     },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
-     "projet": "Maintenance",
-     "etat": "terminée 23/10 00:02"
-    },
-    {
-     "titre": "Vérifier l'intégrité des médias sources",
      "projet": "Maintenance",
      "etat": "terminée 23/10 00:02"
     }
@@ -420,13 +420,13 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 32 titres lus, 0 idées retenues",
-   "passages": 1156,
-   "dernier_a": "23/10 05:54"
+   "passages": 1157,
+   "dernier_a": "23/10 06:01"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
@@ -449,9 +449,9 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 363,
-   "dernier_a": "23/10 05:30"
+   "dernier": "[poste Trouver une idée, avec Plume] 32 titres lus, 0 idées retenues",
+   "passages": 364,
+   "dernier_a": "23/10 05:59"
   },
   {
    "cle": "analyste",
@@ -738,7 +738,7 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 9,
   "PENDING": 5,
   "DEFERRED": 2,
   "SUCCESS": 937,
