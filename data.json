@@ -1,15 +1,15 @@
 {
- "now": 1792794240.6412249,
- "heure": "00:24:00",
+ "now": 1792794540.6486835,
+ "heure": "00:29:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
-  "battement_s": 1
+  "activite": "Éclaireur : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
-  "reprise": "24/10 00:25",
-  "erreur": "quota Groq atteint, pause 299 s",
+  "reprise": "24/10 00:35",
+  "erreur": "quota Groq atteint, pause 514 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -131,12 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 24/10 00:25"
+     "etat": "programmée 24/10 00:35"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 24/10 00:25"
+     "etat": "programmée 24/10 00:35"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -429,9 +429,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 1140,
-   "dernier_a": "24/10 00:01"
+   "dernier": "[poste Trouver une idée, avec Iconographe] 32 titres lus, 0 idées retenues",
+   "passages": 1141,
+   "dernier_a": "24/10 00:25"
   },
   {
    "cle": "plume",
@@ -448,7 +448,7 @@
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
    "passages": 404,
    "dernier_a": "24/10 00:18"
@@ -738,10 +738,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 9,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 943,
+  "SUCCESS": 942,
   "FAILED": 28
  }
 }
