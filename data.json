@@ -1,10 +1,10 @@
 {
- "now": 1792790040.52644,
- "heure": "23:14:00",
+ "now": 1792790340.6514153,
+ "heure": "23:19:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Plume : passage continu",
-  "battement_s": 4
+  "activite": "Iconographe : passage continu",
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
@@ -419,9 +419,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume, Iconographe] 32 titres lus, 0 idées retenues",
-   "passages": 1299,
-   "dernier_a": "23/10 23:11"
+   "dernier": "[poste Trouver une idée, avec Iconographe] 32 titres lus, 0 idées retenues",
+   "passages": 1300,
+   "dernier_a": "23/10 23:18"
   },
   {
    "cle": "archiviste",
@@ -436,12 +436,12 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 791,
-   "dernier_a": "23/10 23:03"
+   "dernier": "[poste Trouver une idée, avec Iconographe] 32 titres lus, 0 idées retenues",
+   "passages": 792,
+   "dernier_a": "23/10 23:16"
   },
   {
    "cle": "iconographe",
@@ -586,7 +586,13 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-10-23T23:13:14",
+   "ts": "2026-10-23T23:18:22",
+   "type": "alerte",
+   "texte": "Échec : Plume : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-23T23:18:17",
    "type": "alerte",
    "texte": "Échec : Archiviste : passage continu",
    "url": null
@@ -728,20 +734,14 @@
    "type": "publication",
    "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
-  },
-  {
-   "ts": "2026-10-16T16:08:27",
-   "type": "publication",
-   "texte": "Publiée : Disque compact : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=NodSE53R2ck"
   }
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 6,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 939,
-  "FAILED": 29
+  "SUCCESS": 940,
+  "FAILED": 30
  }
 }
