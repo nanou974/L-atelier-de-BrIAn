@@ -1,15 +1,15 @@
 {
- "now": 1792752240.50284,
- "heure": "12:44:00",
+ "now": 1792752540.515549,
+ "heure": "12:49:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
-  "battement_s": 1
+  "activite": "Réunir de vraies illustrations libres : Robocasting + Réunir de vraies illustrations libres : Impression 3D dans la construction",
+  "battement_s": 3
  },
  "modele": {
-  "ok": false,
-  "reprise": "23/10 12:46",
-  "erreur": "quota Groq atteint, pause 1393 s",
+  "ok": true,
+  "reprise": null,
+  "erreur": null,
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -117,9 +117,13 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Réunir de vraies illustrations libres : Robocasting",
+    "projet": "Sujet : Robocasting",
+    "depuis": 111
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -131,12 +135,14 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 23/10 12:46"
+     "etat": "en cours",
+     "depuis": 111
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 23/10 12:46"
+     "etat": "en cours",
+     "depuis": 152
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -419,9 +425,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Analyste] 32 titres lus, 0 idées retenues",
-   "passages": 1212,
-   "dernier_a": "23/10 12:42"
+   "dernier": "[poste Trouver une idée, avec Archiviste, Analyste] 32 titres lus, 0 idées retenues",
+   "passages": 1213,
+   "dernier_a": "23/10 12:47"
   },
   {
    "cle": "archiviste",
@@ -429,9 +435,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 32 titres lus, 0 idées retenues",
-   "passages": 1098,
-   "dernier_a": "23/10 12:14"
+   "dernier": "[poste Trouver une idée, avec Analyste] 32 titres lus, 0 idées retenues",
+   "passages": 1099,
+   "dernier_a": "23/10 12:45"
   },
   {
    "cle": "plume",
@@ -458,7 +464,7 @@
    "nom": "Analyste",
    "poste": "idee",
    "poste_prefere": "publication",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Iconographe] 32 titres lus, 0 idées retenues",
    "passages": 105,
    "dernier_a": "23/10 12:37"
@@ -468,7 +474,7 @@
    "nom": "Tendances",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Analyste] 4 sujets mesurés, en hausse : Loi de Moore ×0.84, Impression 4D ×0.73",
    "passages": 61,
    "dernier_a": "23/10 12:37"
@@ -478,7 +484,7 @@
    "nom": "Accroche",
    "poste": "script",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Analyste] 32 titres lus, 0 idées retenues",
    "passages": 58,
    "dernier_a": "23/10 12:40"
@@ -737,11 +743,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
+  "RUNNING": 2,
   "READY": 9,
   "PENDING": 5,
-  "DEFERRED": 2,
-  "SUCCESS": 938,
+  "DEFERRED": 0,
+  "SUCCESS": 939,
   "FAILED": 28
  }
 }
