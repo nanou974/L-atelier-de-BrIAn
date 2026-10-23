@@ -1,15 +1,15 @@
 {
- "now": 1792797240.714745,
- "heure": "01:14:00",
+ "now": 1792797540.7346678,
+ "heure": "01:19:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 4
+  "activite": "Archiviste : passage continu",
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
-  "reprise": "24/10 01:14",
-  "erreur": "quota Groq atteint, pause 411 s",
+  "reprise": "24/10 01:24",
+  "erreur": "quota Groq atteint, pause 431 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -131,12 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 24/10 01:14"
+     "etat": "programmée 24/10 01:24"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 24/10 01:14"
+     "etat": "programmée 24/10 01:24"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -419,9 +419,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Analyste] 31 titres lus, 0 idées retenues",
-   "passages": 1317,
-   "dernier_a": "24/10 01:11"
+   "dernier": "[poste Trouver une idée, avec Archiviste, Analyste] 31 titres lus, 0 idées retenues",
+   "passages": 1318,
+   "dernier_a": "24/10 01:16"
   },
   {
    "cle": "archiviste",
@@ -458,7 +458,7 @@
    "nom": "Analyste",
    "poste": "idee",
    "poste_prefere": "publication",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 108,
    "dernier_a": "24/10 01:07"
@@ -738,10 +738,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 9,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 943,
+  "SUCCESS": 942,
   "FAILED": 28
  }
 }
