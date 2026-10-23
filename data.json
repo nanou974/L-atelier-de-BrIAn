@@ -1,10 +1,10 @@
 {
- "now": 1792796340.670505,
- "heure": "00:59:00",
+ "now": 1792796640.700461,
+ "heure": "01:04:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Iconographe : passage continu",
-  "battement_s": 2
+  "activite": "Analyste : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
@@ -420,8 +420,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 1315,
-   "dernier_a": "24/10 00:56"
+   "passages": 1316,
+   "dernier_a": "24/10 01:03"
   },
   {
    "cle": "archiviste",
@@ -436,7 +436,7 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
@@ -449,16 +449,16 @@
    "poste": "idee",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 27 titres lus, 0 idées retenues",
-   "passages": 405,
-   "dernier_a": "24/10 00:39"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 406,
+   "dernier_a": "24/10 01:01"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "publication",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 32 titres lus, 0 idées retenues",
    "passages": 107,
    "dernier_a": "23/10 17:39"
@@ -585,6 +585,18 @@
  ],
  "nb_publiees": 18,
  "notifications": [
+  {
+   "ts": "2026-10-24T01:03:22",
+   "type": "alerte",
+   "texte": "Échec : Plume : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-24T01:03:16",
+   "type": "alerte",
+   "texte": "Échec : Archiviste : passage continu",
+   "url": null
+  },
   {
    "ts": "2026-10-22T12:17:45",
    "type": "assistant",
@@ -722,26 +734,14 @@
    "type": "publication",
    "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
-  },
-  {
-   "ts": "2026-10-16T16:08:27",
-   "type": "publication",
-   "texte": "Publiée : Disque compact : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=NodSE53R2ck"
-  },
-  {
-   "ts": "2026-10-15T17:57:36",
-   "type": "publication",
-   "texte": "Publiée : Contour crafting : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=uE7b3v48llE"
   }
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 5,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 943,
-  "FAILED": 28
+  "SUCCESS": 944,
+  "FAILED": 30
  }
 }
