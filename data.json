@@ -1,15 +1,15 @@
 {
- "now": 1792753440.5546782,
- "heure": "13:04:00",
+ "now": 1792753740.6268222,
+ "heure": "13:09:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Robocasting + Archiviste : passage continu",
-  "battement_s": 1
+  "activite": "Archiviste : passage continu",
+  "battement_s": 2
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": null,
+  "ok": false,
+  "reprise": "23/10 13:11",
+  "erreur": "quota Groq atteint, pause 417 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -117,13 +117,9 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Réunir de vraies illustrations libres : Robocasting",
-    "projet": "Sujet : Robocasting",
-    "depuis": 180
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -135,13 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "en cours",
-     "depuis": 180
+     "etat": "programmée 23/10 13:11"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "prête"
+     "etat": "programmée 23/10 13:11"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -424,9 +419,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste, Analyste] 32 titres lus, 0 idées retenues",
-   "passages": 1215,
-   "dernier_a": "23/10 13:00"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
+   "passages": 1216,
+   "dernier_a": "23/10 13:07"
   },
   {
    "cle": "archiviste",
@@ -434,9 +429,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Analyste] 32 titres lus, 0 idées retenues",
-   "passages": 1100,
-   "dernier_a": "23/10 12:55"
+   "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
+   "passages": 1101,
+   "dernier_a": "23/10 13:04"
   },
   {
    "cle": "plume",
@@ -463,7 +458,7 @@
    "nom": "Analyste",
    "poste": "idee",
    "poste_prefere": "publication",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
    "passages": 106,
    "dernier_a": "23/10 12:58"
@@ -742,11 +737,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 10,
+  "RUNNING": 1,
+  "READY": 8,
   "PENDING": 5,
-  "DEFERRED": 0,
-  "SUCCESS": 938,
+  "DEFERRED": 2,
+  "SUCCESS": 939,
   "FAILED": 28
  }
 }
