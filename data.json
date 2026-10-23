@@ -1,14 +1,14 @@
 {
- "now": 1792791840.6267357,
- "heure": "23:44:00",
+ "now": 1792792140.5834076,
+ "heure": "23:49:00",
  "moteur": {
   "etat": "actif",
   "activite": "Éclaireur : passage continu",
-  "battement_s": 0
+  "battement_s": 3
  },
  "modele": {
-  "ok": false,
-  "reprise": "23/10 23:48",
+  "ok": true,
+  "reprise": null,
   "erreur": "quota Groq atteint, pause 590 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
@@ -420,8 +420,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 32 titres lus, 0 idées retenues",
-   "passages": 1303,
-   "dernier_a": "23/10 23:37"
+   "passages": 1304,
+   "dernier_a": "23/10 23:45"
   },
   {
    "cle": "archiviste",
@@ -430,8 +430,8 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 32 titres lus, 0 idées retenues",
-   "passages": 1137,
-   "dernier_a": "23/10 23:42"
+   "passages": 1138,
+   "dernier_a": "23/10 23:47"
   },
   {
    "cle": "plume",
@@ -738,10 +738,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 9,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 940,
+  "SUCCESS": 939,
   "FAILED": 28
  }
 }
