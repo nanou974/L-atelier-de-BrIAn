@@ -1,15 +1,15 @@
 {
- "now": 1792882741.1790447,
- "heure": "00:59:01",
+ "now": 1792883041.1745403,
+ "heure": "01:04:01",
  "moteur": {
   "etat": "actif",
   "activite": "Réunir de vraies illustrations libres : Impression 3D dans la construction + Archiviste : passage continu",
-  "battement_s": 2
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
-  "reprise": "25/10 01:00",
-  "erreur": "quota Groq atteint, pause 269 s",
+  "reprise": "25/10 01:14",
+  "erreur": "quota Groq atteint, pause 683 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -121,7 +121,7 @@
    "courant": {
     "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
     "projet": "Sujet : Impression 3D dans la construction",
-    "depuis": 176
+    "depuis": 55
    },
    "file": 1,
    "attend_humain": 0,
@@ -136,12 +136,12 @@
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
      "etat": "en cours",
-     "depuis": 176
+     "depuis": 55
     },
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 25/10 01:00"
+     "etat": "programmée 25/10 01:14"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -425,8 +425,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 1520,
-   "dernier_a": "25/10 00:56"
+   "passages": 1521,
+   "dernier_a": "25/10 01:03"
   },
   {
    "cle": "archiviste",
@@ -435,8 +435,8 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1236,
-   "dernier_a": "25/10 00:53"
+   "passages": 1237,
+   "dernier_a": "25/10 01:00"
   },
   {
    "cle": "plume",
@@ -743,10 +743,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 5,
   "DEFERRED": 1,
-  "SUCCESS": 948,
+  "SUCCESS": 949,
   "FAILED": 28
  }
 }
