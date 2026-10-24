@@ -1,10 +1,10 @@
 {
- "now": 1792814341.2211804,
- "heure": "05:59:01",
+ "now": 1792814641.2240198,
+ "heure": "06:04:01",
  "moteur": {
   "etat": "actif",
   "activite": "Éclaireur : passage continu",
-  "battement_s": 3
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
@@ -389,11 +389,16 @@
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Contrôler l'espace disque",
-    "quand": "24/10 00:01"
+    "titre": "Tester la disponibilité du LLM Groq (borné)",
+    "quand": "24/10 06:02"
    },
-   "total_fait": 61,
+   "total_fait": 62,
    "taches": [
+    {
+     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "projet": "Maintenance",
+     "etat": "terminée 24/10 06:02"
+    },
     {
      "titre": "Contrôler l'espace disque",
      "projet": "Maintenance",
@@ -401,11 +406,6 @@
     },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
-     "projet": "Maintenance",
-     "etat": "terminée 24/10 00:01"
-    },
-    {
-     "titre": "Vérifier l'intégrité des médias sources",
      "projet": "Maintenance",
      "etat": "terminée 24/10 00:01"
     }
@@ -420,13 +420,13 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste, Analyste] 31 titres lus, 0 idées retenues",
-   "passages": 1357,
-   "dernier_a": "24/10 05:54"
+   "passages": 1358,
+   "dernier_a": "24/10 06:00"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Analyste] 31 titres lus, 0 idées retenues",
@@ -448,10 +448,10 @@
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 416,
-   "dernier_a": "24/10 05:33"
+   "passages": 417,
+   "dernier_a": "24/10 06:03"
   },
   {
    "cle": "analyste",
@@ -738,10 +738,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 942,
+  "SUCCESS": 944,
   "FAILED": 28
  }
 }
