@@ -1,15 +1,15 @@
 {
- "now": 1792846741.0974271,
- "heure": "14:59:01",
+ "now": 1792847041.130187,
+ "heure": "15:04:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Archiviste : passage continu",
-  "battement_s": 2
+  "activite": "Réunir de vraies illustrations libres : Robocasting + Réunir de vraies illustrations libres : Impression 3D dans la construction",
+  "battement_s": 0
  },
  "modele": {
-  "ok": false,
-  "reprise": "24/10 15:01",
-  "erreur": "quota Groq atteint, pause 756 s",
+  "ok": true,
+  "reprise": null,
+  "erreur": null,
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -117,9 +117,13 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Réunir de vraies illustrations libres : Robocasting",
+    "projet": "Sujet : Robocasting",
+    "depuis": 133
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -131,12 +135,14 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 24/10 15:01"
+     "etat": "en cours",
+     "depuis": 133
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 24/10 15:01"
+     "etat": "en cours",
+     "depuis": 117
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -419,9 +425,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste, Plume] 31 titres lus, 0 idées retenues",
-   "passages": 1432,
-   "dernier_a": "24/10 14:54"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 1433,
+   "dernier_a": "24/10 15:02"
   },
   {
    "cle": "archiviste",
@@ -429,9 +435,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Éclaireur, Plume] 31 titres lus, 0 idées retenues",
-   "passages": 1202,
-   "dernier_a": "24/10 14:52"
+   "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
+   "passages": 1203,
+   "dernier_a": "24/10 14:59"
   },
   {
    "cle": "plume",
@@ -737,11 +743,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 8,
+  "RUNNING": 2,
+  "READY": 10,
   "PENDING": 5,
-  "DEFERRED": 2,
-  "SUCCESS": 945,
+  "DEFERRED": 0,
+  "SUCCESS": 944,
   "FAILED": 28
  }
 }
