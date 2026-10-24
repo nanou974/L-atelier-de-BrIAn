@@ -1,15 +1,15 @@
 {
- "now": 1792874340.8702593,
- "heure": "22:39:01",
+ "now": 1792874640.9189947,
+ "heure": "22:44:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Robocasting + Éclaireur : passage continu",
-  "battement_s": 3
+  "activite": "Iconographe : passage continu",
+  "battement_s": 0
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": null,
+  "ok": false,
+  "reprise": "24/10 22:48",
+  "erreur": "quota Groq atteint, pause 455 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -117,13 +117,9 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Réunir de vraies illustrations libres : Robocasting",
-    "projet": "Sujet : Robocasting",
-    "depuis": 54
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -135,13 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "en cours",
-     "depuis": 54
+     "etat": "programmée 24/10 22:48"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "prête"
+     "etat": "programmée 24/10 22:48"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -425,8 +420,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Iconographe] 31 titres lus, 0 idées retenues",
-   "passages": 1499,
-   "dernier_a": "24/10 22:35"
+   "passages": 1500,
+   "dernier_a": "24/10 22:41"
   },
   {
    "cle": "archiviste",
@@ -441,7 +436,7 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Iconographe] 31 titres lus, 0 idées retenues",
@@ -453,7 +448,7 @@
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
    "passages": 454,
    "dernier_a": "24/10 22:25"
@@ -742,10 +737,10 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 10,
+  "RUNNING": 1,
+  "READY": 9,
   "PENDING": 5,
-  "DEFERRED": 0,
+  "DEFERRED": 2,
   "SUCCESS": 945,
   "FAILED": 28
  }
