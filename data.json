@@ -1,15 +1,15 @@
 {
- "now": 1792879141.0575993,
- "heure": "23:59:01",
+ "now": 1792879441.0713558,
+ "heure": "00:04:01",
  "moteur": {
   "etat": "actif",
   "activite": "Éclaireur : passage continu",
-  "battement_s": 2
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
-  "reprise": "24/10 23:59",
-  "erreur": "quota Groq atteint, pause 230 s",
+  "reprise": "25/10 00:04",
+  "erreur": "quota Groq atteint, pause 68 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -131,12 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 25/10 00:00"
+     "etat": "programmée 25/10 00:04"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 25/10 00:00"
+     "etat": "programmée 25/10 00:04"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -389,25 +389,25 @@
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Tester la disponibilité du LLM Groq (borné)",
-    "quand": "24/10 18:01"
+    "titre": "Contrôler l'espace disque",
+    "quand": "25/10 00:03"
    },
-   "total_fait": 64,
+   "total_fait": 67,
    "taches": [
     {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "titre": "Contrôler l'espace disque",
      "projet": "Maintenance",
-     "etat": "terminée 24/10 18:01"
+     "etat": "terminée 25/10 00:03"
     },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
-     "etat": "terminée 24/10 12:01"
+     "etat": "terminée 25/10 00:03"
     },
     {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "titre": "Vérifier l'intégrité des médias sources",
      "projet": "Maintenance",
-     "etat": "terminée 24/10 06:02"
+     "etat": "terminée 25/10 00:03"
     }
    ]
   }
@@ -420,8 +420,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 1511,
-   "dernier_a": "24/10 23:52"
+   "passages": 1512,
+   "dernier_a": "24/10 23:59"
   },
   {
    "cle": "archiviste",
@@ -440,8 +440,8 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 862,
-   "dernier_a": "24/10 23:57"
+   "passages": 863,
+   "dernier_a": "25/10 00:03"
   },
   {
    "cle": "iconographe",
@@ -738,10 +738,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 945,
+  "SUCCESS": 949,
   "FAILED": 28
  }
 }
