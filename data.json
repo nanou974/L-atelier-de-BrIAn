@@ -1,15 +1,15 @@
 {
- "now": 1792808941.0586936,
- "heure": "04:29:01",
+ "now": 1792809241.090901,
+ "heure": "04:34:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 3
+  "activite": "Réunir de vraies illustrations libres : Robocasting + Plume : passage continu",
+  "battement_s": 0
  },
  "modele": {
-  "ok": false,
-  "reprise": "24/10 04:31",
-  "erreur": "quota Groq atteint, pause 480 s",
+  "ok": true,
+  "reprise": null,
+  "erreur": null,
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -117,9 +117,13 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Réunir de vraies illustrations libres : Robocasting",
+    "projet": "Sujet : Robocasting",
+    "depuis": 169
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -131,12 +135,13 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 24/10 04:31"
+     "etat": "en cours",
+     "depuis": 169
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 24/10 04:31"
+     "etat": "prête"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -419,9 +424,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 27 titres lus, 0 idées retenues",
-   "passages": 1344,
-   "dernier_a": "24/10 04:26"
+   "dernier": "[poste Trouver une idée, avec Iconographe] 27 titres lus, 0 idées retenues",
+   "passages": 1345,
+   "dernier_a": "24/10 04:31"
   },
   {
    "cle": "archiviste",
@@ -436,7 +441,7 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
@@ -586,12 +591,6 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-10-24T04:26:14",
-   "type": "alerte",
-   "texte": "Échec : Plume : passage continu",
-   "url": null
-  },
-  {
    "ts": "2026-10-22T12:17:45",
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : impression-3d-dans-la-construction : noms à faire prononcer (lexique) : LSAM, Layer, Print, Thermwood, Vertical",
@@ -734,14 +733,20 @@
    "type": "publication",
    "texte": "Publiée : Disque compact : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=NodSE53R2ck"
+  },
+  {
+   "ts": "2026-10-15T17:57:36",
+   "type": "publication",
+   "texte": "Publiée : Contour crafting : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=uE7b3v48llE"
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 7,
+  "RUNNING": 2,
+  "READY": 10,
   "PENDING": 5,
-  "DEFERRED": 2,
-  "SUCCESS": 943,
-  "FAILED": 29
+  "DEFERRED": 0,
+  "SUCCESS": 942,
+  "FAILED": 28
  }
 }
