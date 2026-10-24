@@ -1,10 +1,10 @@
 {
- "now": 1792811941.1511667,
- "heure": "05:19:01",
+ "now": 1792812241.162111,
+ "heure": "05:24:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Robocasting + Archiviste : passage continu",
-  "battement_s": 4
+  "activite": "Réunir de vraies illustrations libres : Robocasting + Plume : passage continu",
+  "battement_s": 2
  },
  "modele": {
   "ok": true,
@@ -121,7 +121,7 @@
    "courant": {
     "titre": "Réunir de vraies illustrations libres : Robocasting",
     "projet": "Sujet : Robocasting",
-    "depuis": 142
+    "depuis": 99
    },
    "file": 1,
    "attend_humain": 0,
@@ -136,7 +136,7 @@
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
      "etat": "en cours",
-     "depuis": 142
+     "depuis": 99
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
@@ -424,26 +424,26 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 27 titres lus, 0 idées retenues",
-   "passages": 1352,
-   "dernier_a": "24/10 05:16"
+   "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
+   "passages": 1353,
+   "dernier_a": "24/10 05:22"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
-   "passages": 1161,
-   "dernier_a": "24/10 05:13"
+   "passages": 1162,
+   "dernier_a": "24/10 05:19"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "script",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Iconographe] 27 titres lus, 0 idées retenues",
    "passages": 808,
    "dernier_a": "24/10 04:35"
@@ -591,6 +591,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-10-24T05:22:11",
+   "type": "alerte",
+   "texte": "Échec : Archiviste : passage continu",
+   "url": null
+  },
+  {
    "ts": "2026-10-22T12:17:45",
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : impression-3d-dans-la-construction : noms à faire prononcer (lexique) : LSAM, Layer, Print, Thermwood, Vertical",
@@ -733,20 +739,14 @@
    "type": "publication",
    "texte": "Publiée : Disque compact : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=NodSE53R2ck"
-  },
-  {
-   "ts": "2026-10-15T17:57:36",
-   "type": "publication",
-   "texte": "Publiée : Contour crafting : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=uE7b3v48llE"
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 8,
   "PENDING": 5,
   "DEFERRED": 0,
-  "SUCCESS": 942,
-  "FAILED": 28
+  "SUCCESS": 943,
+  "FAILED": 29
  }
 }
