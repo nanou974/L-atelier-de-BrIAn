@@ -1,15 +1,15 @@
 {
- "now": 1792840740.949875,
- "heure": "13:19:01",
+ "now": 1792841040.979664,
+ "heure": "13:24:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 3
+  "activite": "Archiviste : passage continu",
+  "battement_s": 0
  },
  "modele": {
-  "ok": false,
-  "reprise": "24/10 13:19",
-  "erreur": "quota Groq atteint, pause 608 s",
+  "ok": true,
+  "reprise": null,
+  "erreur": "quota Groq atteint, pause 105 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -131,12 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 24/10 13:19"
+     "etat": "programmée 24/10 13:24"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 24/10 13:19"
+     "etat": "programmée 24/10 13:24"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -420,8 +420,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 1420,
-   "dernier_a": "24/10 13:15"
+   "passages": 1421,
+   "dernier_a": "24/10 13:21"
   },
   {
    "cle": "archiviste",
@@ -738,10 +738,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 9,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 945,
+  "SUCCESS": 944,
   "FAILED": 28
  }
 }
