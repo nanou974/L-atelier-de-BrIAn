@@ -1,10 +1,10 @@
 {
- "now": 1792853640.294375,
- "heure": "16:54:00",
+ "now": 1792853940.3100019,
+ "heure": "16:59:00",
  "moteur": {
   "etat": "actif",
   "activite": "Éclaireur : passage continu",
-  "battement_s": 1
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
@@ -419,9 +419,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1448,
-   "dernier_a": "24/10 16:48"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 1449,
+   "dernier_a": "24/10 16:54"
   },
   {
    "cle": "archiviste",
@@ -436,12 +436,12 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Iconographe] 31 titres lus, 0 idées retenues",
-   "passages": 835,
-   "dernier_a": "24/10 16:34"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée, avec Éclaireur, Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 836,
+   "dernier_a": "24/10 16:57"
   },
   {
    "cle": "iconographe",
@@ -488,7 +488,7 @@
    "nom": "Miniaturiste",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
    "passages": 51,
    "dernier_a": "24/10 16:46"
@@ -738,10 +738,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 9,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 945,
+  "SUCCESS": 944,
   "FAILED": 28
  }
 }
