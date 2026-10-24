@@ -1,15 +1,15 @@
 {
- "now": 1792816140.2917225,
- "heure": "06:29:00",
+ "now": 1792816440.2782998,
+ "heure": "06:34:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Robocasting + Iconographe : passage continu",
-  "battement_s": 3
+  "activite": "Réunir de vraies illustrations libres : Robocasting + Archiviste : passage continu",
+  "battement_s": 1
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": null,
+  "ok": false,
+  "reprise": "24/10 06:36",
+  "erreur": "quota Groq atteint, pause 288 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -121,7 +121,7 @@
    "courant": {
     "titre": "Réunir de vraies illustrations libres : Robocasting",
     "projet": "Sujet : Robocasting",
-    "depuis": 141
+    "depuis": 170
    },
    "file": 1,
    "attend_humain": 0,
@@ -136,12 +136,12 @@
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
      "etat": "en cours",
-     "depuis": 141
+     "depuis": 170
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "prête"
+     "etat": "programmée 24/10 06:37"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -424,9 +424,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste, Plume] 31 titres lus, 0 idées retenues",
-   "passages": 1361,
-   "dernier_a": "24/10 06:23"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 1362,
+   "dernier_a": "24/10 06:32"
   },
   {
    "cle": "archiviste",
@@ -454,9 +454,9 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 417,
-   "dernier_a": "24/10 06:03"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 418,
+   "dernier_a": "24/10 06:29"
   },
   {
    "cle": "analyste",
@@ -743,10 +743,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 8,
   "PENDING": 5,
-  "DEFERRED": 0,
-  "SUCCESS": 943,
+  "DEFERRED": 1,
+  "SUCCESS": 944,
   "FAILED": 28
  }
 }
