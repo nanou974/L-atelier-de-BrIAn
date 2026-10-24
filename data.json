@@ -1,10 +1,10 @@
 {
- "now": 1792849441.1618369,
- "heure": "15:44:01",
+ "now": 1792849741.1788588,
+ "heure": "15:49:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Impression 3D dans la construction + Archiviste : passage continu",
-  "battement_s": 3
+  "activite": "Éclaireur : passage continu",
+  "battement_s": 5
  },
  "modele": {
   "ok": false,
@@ -117,13 +117,9 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
-    "projet": "Sujet : Impression 3D dans la construction",
-    "depuis": 53
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -133,14 +129,13 @@
    "total_fait": 39,
    "taches": [
     {
-     "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
-     "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en cours",
-     "depuis": 53
-    },
-    {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
+     "etat": "programmée 24/10 15:50"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
+     "projet": "Sujet : Impression 3D dans la construction",
      "etat": "programmée 24/10 15:50"
     },
     {
@@ -434,16 +429,16 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Iconographe] 31 titres lus, 0 idées retenues",
-   "passages": 1204,
-   "dernier_a": "24/10 15:25"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 1205,
+   "dernier_a": "24/10 15:47"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 831,
    "dernier_a": "24/10 15:36"
@@ -473,7 +468,7 @@
    "nom": "Tendances",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
    "passages": 90,
    "dernier_a": "24/10 15:40"
@@ -742,11 +737,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 8,
+  "RUNNING": 1,
+  "READY": 9,
   "PENDING": 5,
-  "DEFERRED": 1,
-  "SUCCESS": 945,
+  "DEFERRED": 2,
+  "SUCCESS": 944,
   "FAILED": 28
  }
 }
