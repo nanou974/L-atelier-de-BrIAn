@@ -1,10 +1,10 @@
 {
- "now": 1792810141.0942743,
- "heure": "04:49:01",
+ "now": 1792810441.0945036,
+ "heure": "04:54:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 3
+  "activite": "Iconographe : passage continu",
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
@@ -420,18 +420,18 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Iconographe] 27 titres lus, 0 idées retenues",
-   "passages": 1347,
-   "dernier_a": "24/10 04:44"
+   "passages": 1348,
+   "dernier_a": "24/10 04:49"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Plume] 27 titres lus, 0 idées retenues",
-   "passages": 1157,
-   "dernier_a": "24/10 04:18"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée, avec Iconographe] 27 titres lus, 0 idées retenues",
+   "passages": 1158,
+   "dernier_a": "24/10 04:51"
   },
   {
    "cle": "plume",
@@ -586,6 +586,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-10-24T04:51:16",
+   "type": "alerte",
+   "texte": "Échec : Plume : passage continu",
+   "url": null
+  },
+  {
    "ts": "2026-10-22T12:17:45",
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : impression-3d-dans-la-construction : noms à faire prononcer (lexique) : LSAM, Layer, Print, Thermwood, Vertical",
@@ -728,20 +734,14 @@
    "type": "publication",
    "texte": "Publiée : Disque compact : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=NodSE53R2ck"
-  },
-  {
-   "ts": "2026-10-15T17:57:36",
-   "type": "publication",
-   "texte": "Publiée : Contour crafting : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=uE7b3v48llE"
   }
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 7,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 942,
-  "FAILED": 28
+  "SUCCESS": 943,
+  "FAILED": 29
  }
 }
