@@ -1,15 +1,15 @@
 {
- "now": 1792804140.9323907,
- "heure": "03:09:01",
+ "now": 1792804440.9575808,
+ "heure": "03:14:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Tendances : passage continu",
-  "battement_s": 4
+  "activite": "Réunir de vraies illustrations libres : Impression 3D dans la construction + Plume : passage continu",
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
-  "reprise": "24/10 03:10",
-  "erreur": "quota Groq atteint, pause 1105 s",
+  "reprise": "24/10 03:22",
+  "erreur": "quota Groq atteint, pause 579 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -117,9 +117,13 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
+    "projet": "Sujet : Impression 3D dans la construction",
+    "depuis": 53
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -129,14 +133,15 @@
    "total_fait": 39,
    "taches": [
     {
-     "titre": "Réunir de vraies illustrations libres : Robocasting",
-     "projet": "Sujet : Robocasting",
-     "etat": "programmée 24/10 03:10"
-    },
-    {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 24/10 03:10"
+     "etat": "en cours",
+     "depuis": 53
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Robocasting",
+     "projet": "Sujet : Robocasting",
+     "etat": "programmée 24/10 03:23"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -419,16 +424,16 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 27 titres lus, 0 idées retenues",
-   "passages": 1333,
-   "dernier_a": "24/10 03:04"
+   "dernier": "[poste Trouver une idée, avec Iconographe] 27 titres lus, 0 idées retenues",
+   "passages": 1334,
+   "dernier_a": "24/10 03:13"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
    "poste": "publication",
    "poste_prefere": "recherche",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 1152,
    "dernier_a": "24/10 03:02"
@@ -436,9 +441,9 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "script",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
    "passages": 804,
    "dernier_a": "24/10 02:57"
@@ -469,9 +474,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 27 titres lus, 0 idées retenues",
-   "passages": 73,
-   "dernier_a": "24/10 02:39"
+   "dernier": "[poste Trouver une idée, avec Iconographe] 31 titres lus, 0 idées retenues",
+   "passages": 74,
+   "dernier_a": "24/10 03:09"
   },
   {
    "cle": "accroche",
@@ -586,13 +591,7 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-10-24T03:07:19",
-   "type": "alerte",
-   "texte": "Échec : Analyste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-10-24T03:07:13",
+   "ts": "2026-10-24T03:13:22",
    "type": "alerte",
    "texte": "Échec : Archiviste : passage continu",
    "url": null
@@ -734,14 +733,20 @@
    "type": "publication",
    "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
+  },
+  {
+   "ts": "2026-10-16T16:08:27",
+   "type": "publication",
+   "texte": "Publiée : Disque compact : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=NodSE53R2ck"
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 6,
+  "RUNNING": 2,
+  "READY": 7,
   "PENDING": 5,
-  "DEFERRED": 2,
+  "DEFERRED": 1,
   "SUCCESS": 943,
-  "FAILED": 30
+  "FAILED": 29
  }
 }
