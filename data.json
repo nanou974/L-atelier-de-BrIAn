@@ -1,14 +1,14 @@
 {
- "now": 1792842841.0088828,
- "heure": "13:54:01",
+ "now": 1792843141.0235808,
+ "heure": "13:59:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Iconographe : passage continu",
-  "battement_s": 5
+  "activite": "Analyste : passage continu",
+  "battement_s": 3
  },
  "modele": {
-  "ok": false,
-  "reprise": "24/10 13:58",
+  "ok": true,
+  "reprise": null,
   "erreur": "quota Groq atteint, pause 582 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
@@ -136,7 +136,7 @@
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 24/10 13:59"
+     "etat": "en attente"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -420,8 +420,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Iconographe] 31 titres lus, 0 idées retenues",
-   "passages": 1424,
-   "dernier_a": "24/10 13:52"
+   "passages": 1425,
+   "dernier_a": "24/10 13:57"
   },
   {
    "cle": "archiviste",
@@ -446,19 +446,19 @@
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
-   "passages": 436,
-   "dernier_a": "24/10 13:48"
+   "passages": 437,
+   "dernier_a": "24/10 13:54"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "publication",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 109,
    "dernier_a": "24/10 05:36"
@@ -586,13 +586,19 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-10-24T13:52:13",
+   "ts": "2026-10-24T13:57:21",
+   "type": "alerte",
+   "texte": "Échec : Iconographe : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-24T13:57:16",
    "type": "alerte",
    "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-24T13:52:08",
+   "ts": "2026-10-24T13:57:10",
    "type": "alerte",
    "texte": "Échec : Archiviste : passage continu",
    "url": null
@@ -728,20 +734,14 @@
    "type": "publication",
    "texte": "Publiée : RISC-V : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=Rdp9AgvQvA0"
-  },
-  {
-   "ts": "2026-10-16T19:43:35",
-   "type": "publication",
-   "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
   }
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 6,
+  "READY": 5,
   "PENDING": 5,
   "DEFERRED": 2,
   "SUCCESS": 945,
-  "FAILED": 30
+  "FAILED": 31
  }
 }
