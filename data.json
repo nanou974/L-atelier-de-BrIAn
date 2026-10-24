@@ -1,15 +1,15 @@
 {
- "now": 1792833240.766001,
- "heure": "11:14:00",
+ "now": 1792833540.7878428,
+ "heure": "11:19:01",
  "moteur": {
   "etat": "actif",
   "activite": "Éclaireur : passage continu",
-  "battement_s": 3
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
-  "reprise": "24/10 11:14",
-  "erreur": "quota Groq atteint, pause 275 s",
+  "reprise": "24/10 11:19",
+  "erreur": "quota Groq atteint, pause 118 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -131,12 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 24/10 11:14"
+     "etat": "programmée 24/10 11:19"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 24/10 11:14"
+     "etat": "programmée 24/10 11:19"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -419,9 +419,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste, Iconographe] 31 titres lus, 0 idées retenues",
-   "passages": 1402,
-   "dernier_a": "24/10 11:07"
+   "dernier": "[poste Trouver une idée, avec Plume, Iconographe] 31 titres lus, 0 idées retenues",
+   "passages": 1403,
+   "dernier_a": "24/10 11:14"
   },
   {
    "cle": "archiviste",
@@ -436,9 +436,9 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Iconographe] 31 titres lus, 0 idées retenues",
    "passages": 823,
    "dernier_a": "24/10 11:10"
@@ -448,10 +448,10 @@
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 428,
-   "dernier_a": "24/10 10:53"
+   "passages": 429,
+   "dernier_a": "24/10 11:17"
   },
   {
    "cle": "analyste",
@@ -738,10 +738,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 943,
+  "SUCCESS": 944,
   "FAILED": 28
  }
 }
