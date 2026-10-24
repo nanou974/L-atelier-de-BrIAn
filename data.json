@@ -1,10 +1,10 @@
 {
- "now": 1792841340.974329,
- "heure": "13:29:01",
+ "now": 1792841640.996786,
+ "heure": "13:34:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Impression 3D dans la construction + Éclaireur : passage continu",
-  "battement_s": 2
+  "activite": "Iconographe : passage continu",
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
@@ -117,13 +117,9 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
-    "projet": "Sujet : Impression 3D dans la construction",
-    "depuis": 232
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -133,14 +129,13 @@
    "total_fait": 39,
    "taches": [
     {
-     "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
-     "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en cours",
-     "depuis": 232
-    },
-    {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
+     "etat": "programmée 24/10 13:37"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
+     "projet": "Sujet : Impression 3D dans la construction",
      "etat": "programmée 24/10 13:37"
     },
     {
@@ -424,16 +419,16 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 1421,
-   "dernier_a": "24/10 13:21"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 1422,
+   "dernier_a": "24/10 13:30"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 1198,
    "dernier_a": "24/10 13:25"
@@ -441,19 +436,19 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "script",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 827,
-   "dernier_a": "24/10 12:45"
+   "passages": 828,
+   "dernier_a": "24/10 13:32"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
    "passages": 434,
    "dernier_a": "24/10 12:49"
@@ -742,11 +737,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 9,
+  "RUNNING": 1,
+  "READY": 8,
   "PENDING": 5,
-  "DEFERRED": 1,
-  "SUCCESS": 944,
+  "DEFERRED": 2,
+  "SUCCESS": 945,
   "FAILED": 28
  }
 }
