@@ -1,15 +1,15 @@
 {
- "now": 1792843441.0290809,
- "heure": "14:04:01",
+ "now": 1792843741.035655,
+ "heure": "14:09:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 0
+  "activite": "Réunir de vraies illustrations libres : Robocasting + Réunir de vraies illustrations libres : Impression 3D dans la construction",
+  "battement_s": 2
  },
  "modele": {
-  "ok": false,
-  "reprise": "24/10 14:06",
-  "erreur": "quota Groq atteint, pause 272 s",
+  "ok": true,
+  "reprise": null,
+  "erreur": null,
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -117,9 +117,13 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Réunir de vraies illustrations libres : Robocasting",
+    "projet": "Sujet : Robocasting",
+    "depuis": 135
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -131,12 +135,14 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 24/10 14:06"
+     "etat": "en cours",
+     "depuis": 135
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 24/10 14:06"
+     "etat": "en cours",
+     "depuis": 53
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -419,9 +425,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Iconographe] 31 titres lus, 0 idées retenues",
-   "passages": 1425,
-   "dernier_a": "24/10 13:57"
+   "dernier": "[poste Trouver une idée, avec Analyste] 31 titres lus, 0 idées retenues",
+   "passages": 1426,
+   "dernier_a": "24/10 14:05"
   },
   {
    "cle": "archiviste",
@@ -456,9 +462,9 @@
   {
    "cle": "analyste",
    "nom": "Analyste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
    "passages": 110,
    "dernier_a": "24/10 13:59"
@@ -468,20 +474,20 @@
    "nom": "Tendances",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Archiviste, Iconographe] 31 titres lus, 0 idées retenues",
-   "passages": 85,
-   "dernier_a": "24/10 13:42"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée, avec Éclaireur] 4 sujets mesurés, en hausse : Materialise NV ×0.79, PirateBox ×0.65",
+   "passages": 86,
+   "dernier_a": "24/10 14:05"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "script",
+   "poste": "idee",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Plume] 27 titres lus, 0 idées retenues",
-   "passages": 60,
-   "dernier_a": "24/10 01:56"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
+   "passages": 61,
+   "dernier_a": "24/10 14:08"
   },
   {
    "cle": "miniaturiste",
@@ -737,11 +743,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
+  "RUNNING": 2,
   "READY": 9,
   "PENDING": 5,
-  "DEFERRED": 2,
-  "SUCCESS": 944,
+  "DEFERRED": 0,
+  "SUCCESS": 945,
   "FAILED": 28
  }
 }
