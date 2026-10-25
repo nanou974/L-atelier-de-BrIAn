@@ -1,10 +1,10 @@
 {
- "now": 1792960796.5001802,
- "heure": "21:40:01",
+ "now": 1792961040.5498838,
+ "heure": "21:44:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : HomeKit + Éclaireur : passage continu",
-  "battement_s": 10
+  "activite": "Archiviste : passage continu",
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
@@ -51,13 +51,9 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : HomeKit",
-    "projet": "Sujet : HomeKit",
-    "depuis": 824
-   },
-   "file": 1,
+   "etat": "alerte",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : PirateBox",
    "derniere": {
@@ -69,13 +65,12 @@
     {
      "titre": "Recherche documentaire : HomeKit",
      "projet": "Sujet : HomeKit",
-     "etat": "en cours",
-     "depuis": 824
+     "etat": "programmée 25/10 22:06"
     },
     {
      "titre": "Recherche documentaire : ZigBee",
      "projet": "Sujet : ZigBee",
-     "etat": "programmée 25/10 21:41"
+     "etat": "programmée 25/10 22:06"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -469,16 +464,16 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1687,
-   "dernier_a": "25/10 21:09"
+   "dernier": "[poste Trouver une idée, avec Iconographe] 31 titres lus, 0 idées retenues",
+   "passages": 1688,
+   "dernier_a": "25/10 21:42"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Publication YouTube, avec Éclaireur] 16 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
    "passages": 1297,
    "dernier_a": "25/10 21:25"
@@ -787,11 +782,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 9,
+  "RUNNING": 1,
+  "READY": 8,
   "PENDING": 14,
-  "DEFERRED": 1,
-  "SUCCESS": 951,
+  "DEFERRED": 2,
+  "SUCCESS": 952,
   "FAILED": 34
  }
 }
