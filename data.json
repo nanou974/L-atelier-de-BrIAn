@@ -1,10 +1,10 @@
 {
- "now": 1792966742.6001976,
- "heure": "23:19:04",
+ "now": 1792967097.996084,
+ "heure": "23:25:46",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Impression 4D + Recherche documentaire : Thread (protocole de réseau)",
-  "battement_s": 5
+  "activite": "Recherche documentaire : Thread (protocole de réseau) + Trouver des sujets candidats",
+  "battement_s": -17
  },
  "modele": {
   "ok": false,
@@ -18,9 +18,13 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "alerte",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Trouver des sujets candidats",
+    "projet": "Éditorial",
+    "depuis": 135
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
    "derniere": {
@@ -32,7 +36,8 @@
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 135
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -58,9 +63,9 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Impression 4D",
-    "projet": "Sujet : Impression 4D",
-    "depuis": 707
+    "titre": "Recherche documentaire : Thread (protocole de réseau)",
+    "projet": "Sujet : Thread (protocole de réseau)",
+    "depuis": 646
    },
    "file": 0,
    "attend_humain": 0,
@@ -72,16 +77,10 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : Impression 4D",
-     "projet": "Sujet : Impression 4D",
-     "etat": "en cours",
-     "depuis": 707
-    },
-    {
      "titre": "Recherche documentaire : Thread (protocole de réseau)",
      "projet": "Sujet : Thread (protocole de réseau)",
      "etat": "en cours",
-     "depuis": 291
+     "depuis": 646
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -107,7 +106,7 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -116,11 +115,6 @@
    },
    "total_fait": 33,
    "taches": [
-    {
-     "titre": "Écrire le script : Impression 4D",
-     "projet": "Sujet : Impression 4D",
-     "etat": "en attente"
-    },
     {
      "titre": "Écrire le script : Thread (protocole de réseau)",
      "projet": "Sujet : Thread (protocole de réseau)",
@@ -150,7 +144,7 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "alerte",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Réunir de vraies illustrations libres : Robocasting",
    "derniere": {
@@ -159,11 +153,6 @@
    },
    "total_fait": 39,
    "taches": [
-    {
-     "titre": "Réunir de vraies illustrations libres : Impression 4D",
-     "projet": "Sujet : Impression 4D",
-     "etat": "en attente"
-    },
     {
      "titre": "Réunir de vraies illustrations libres : Thread (protocole de réseau)",
      "projet": "Sujet : Thread (protocole de réseau)",
@@ -193,7 +182,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -202,11 +191,6 @@
    },
    "total_fait": 56,
    "taches": [
-    {
-     "titre": "Générer la voix : Impression 4D",
-     "projet": "Sujet : Impression 4D",
-     "etat": "en attente"
-    },
     {
      "titre": "Générer la voix : Thread (protocole de réseau)",
      "projet": "Sujet : Thread (protocole de réseau)",
@@ -236,7 +220,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -245,11 +229,6 @@
    },
    "total_fait": 52,
    "taches": [
-    {
-     "titre": "Aligner la narration : Impression 4D",
-     "projet": "Sujet : Impression 4D",
-     "etat": "en attente"
-    },
     {
      "titre": "Aligner la narration : Thread (protocole de réseau)",
      "projet": "Sujet : Thread (protocole de réseau)",
@@ -279,7 +258,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -288,11 +267,6 @@
    },
    "total_fait": 74,
    "taches": [
-    {
-     "titre": "Rendre la vidéo : Impression 4D",
-     "projet": "Sujet : Impression 4D",
-     "etat": "en attente"
-    },
     {
      "titre": "Rendre la vidéo : Thread (protocole de réseau)",
      "projet": "Sujet : Thread (protocole de réseau)",
@@ -322,7 +296,7 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -331,11 +305,6 @@
    },
    "total_fait": 59,
    "taches": [
-    {
-     "titre": "QA automatique : Impression 4D",
-     "projet": "Sujet : Impression 4D",
-     "etat": "en attente"
-    },
     {
      "titre": "QA automatique : Thread (protocole de réseau)",
      "projet": "Sujet : Thread (protocole de réseau)",
@@ -474,7 +443,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 1696,
    "dernier_a": "25/10 23:14"
@@ -642,6 +611,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-10-25T23:22:21",
+   "type": "alerte",
+   "texte": "Échec : Recherche documentaire : Impression 4D",
+   "url": null
+  },
+  {
    "ts": "2026-10-25T23:12:20",
    "type": "alerte",
    "texte": "Échec : Recherche documentaire : ZigBee",
@@ -784,20 +759,14 @@
    "type": "assistant",
    "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
    "url": null
-  },
-  {
-   "ts": "2026-10-18T01:24:12",
-   "type": "assistant",
-   "texte": "Référenceur : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
-   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
   "READY": 10,
-  "PENDING": 14,
+  "PENDING": 8,
   "DEFERRED": 0,
-  "SUCCESS": 952,
-  "FAILED": 36
+  "SUCCESS": 951,
+  "FAILED": 37
  }
 }
