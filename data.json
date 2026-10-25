@@ -1,10 +1,10 @@
 {
- "now": 1792958943.0328991,
- "heure": "21:09:04",
+ "now": 1792959936.3254967,
+ "heure": "21:25:40",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Materialise NV + Éclaireur : passage continu",
-  "battement_s": 0
+  "activite": "Recherche documentaire : HomeKit + Éclaireur : passage continu",
+  "battement_s": 2
  },
  "modele": {
   "ok": true,
@@ -53,11 +53,11 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Materialise NV",
-    "projet": "Sujet : Materialise NV",
-    "depuis": 711
+    "titre": "Recherche documentaire : HomeKit",
+    "projet": "Sujet : HomeKit",
+    "depuis": 987
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : PirateBox",
    "derniere": {
@@ -67,15 +67,10 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : Materialise NV",
-     "projet": "Sujet : Materialise NV",
-     "etat": "en cours",
-     "depuis": 711
-    },
-    {
      "titre": "Recherche documentaire : HomeKit",
      "projet": "Sujet : HomeKit",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 987
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -101,7 +96,7 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -110,11 +105,6 @@
    },
    "total_fait": 33,
    "taches": [
-    {
-     "titre": "Écrire le script : Materialise NV",
-     "projet": "Sujet : Materialise NV",
-     "etat": "en attente"
-    },
     {
      "titre": "Écrire le script : HomeKit",
      "projet": "Sujet : HomeKit",
@@ -144,7 +134,7 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "alerte",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Réunir de vraies illustrations libres : Robocasting",
    "derniere": {
@@ -153,11 +143,6 @@
    },
    "total_fait": 39,
    "taches": [
-    {
-     "titre": "Réunir de vraies illustrations libres : Materialise NV",
-     "projet": "Sujet : Materialise NV",
-     "etat": "en attente"
-    },
     {
      "titre": "Réunir de vraies illustrations libres : HomeKit",
      "projet": "Sujet : HomeKit",
@@ -187,7 +172,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -196,11 +181,6 @@
    },
    "total_fait": 56,
    "taches": [
-    {
-     "titre": "Générer la voix : Materialise NV",
-     "projet": "Sujet : Materialise NV",
-     "etat": "en attente"
-    },
     {
      "titre": "Générer la voix : HomeKit",
      "projet": "Sujet : HomeKit",
@@ -230,7 +210,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -239,11 +219,6 @@
    },
    "total_fait": 52,
    "taches": [
-    {
-     "titre": "Aligner la narration : Materialise NV",
-     "projet": "Sujet : Materialise NV",
-     "etat": "en attente"
-    },
     {
      "titre": "Aligner la narration : HomeKit",
      "projet": "Sujet : HomeKit",
@@ -273,7 +248,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -282,11 +257,6 @@
    },
    "total_fait": 74,
    "taches": [
-    {
-     "titre": "Rendre la vidéo : Materialise NV",
-     "projet": "Sujet : Materialise NV",
-     "etat": "en attente"
-    },
     {
      "titre": "Rendre la vidéo : HomeKit",
      "projet": "Sujet : HomeKit",
@@ -316,7 +286,7 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -325,11 +295,6 @@
    },
    "total_fait": 59,
    "taches": [
-    {
-     "titre": "QA automatique : Materialise NV",
-     "projet": "Sujet : Materialise NV",
-     "etat": "en attente"
-    },
     {
      "titre": "QA automatique : HomeKit",
      "projet": "Sujet : HomeKit",
@@ -466,12 +431,12 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Recherche] HomeKit : OK (23 phrases) ; ZigBee : OK (45 phrases) ; Asus Tinker Board : écarté (5 phrases, EN 1904)",
-   "passages": 1686,
-   "dernier_a": "25/10 20:56"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 1687,
+   "dernier_a": "25/10 21:09"
   },
   {
    "cle": "archiviste",
@@ -636,6 +601,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-10-25T21:12:15",
+   "type": "alerte",
+   "texte": "Échec : Recherche documentaire : Materialise NV",
+   "url": null
+  },
+  {
    "ts": "2026-10-25T21:07:29",
    "type": "alerte",
    "texte": "Échec : Recherche documentaire : Programmation de commande numérique",
@@ -778,20 +749,14 @@
    "type": "assistant",
    "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
    "url": null
-  },
-  {
-   "ts": "2026-10-17T18:35:09",
-   "type": "assistant",
-   "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Intelligence artificielle, Tesla (automobile)",
-   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
-  "PENDING": 14,
+  "READY": 9,
+  "PENDING": 8,
   "DEFERRED": 0,
   "SUCCESS": 951,
-  "FAILED": 33
+  "FAILED": 34
  }
 }
