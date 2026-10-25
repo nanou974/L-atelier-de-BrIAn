@@ -1,10 +1,10 @@
 {
- "now": 1792963797.8203003,
- "heure": "22:30:36",
+ "now": 1792964282.6715722,
+ "heure": "22:39:04",
  "moteur": {
-  "etat": "arrêté",
-  "activite": "Recherche documentaire : ZigBee + Éclaireur : passage continu",
-  "battement_s": 65
+  "etat": "actif",
+  "activite": "Recherche documentaire : Impression 4D + Archiviste : passage continu",
+  "battement_s": -21
  },
  "modele": {
   "ok": false,
@@ -51,9 +51,13 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "alerte",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : Impression 4D",
+    "projet": "Sujet : Impression 4D",
+    "depuis": 468
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : PirateBox",
    "derniere": {
@@ -65,12 +69,13 @@
     {
      "titre": "Recherche documentaire : Impression 4D",
      "projet": "Sujet : Impression 4D",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 468
     },
     {
      "titre": "Recherche documentaire : ZigBee",
      "projet": "Sujet : ZigBee",
-     "etat": "en attente"
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -139,7 +144,7 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "alerte",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": "Réunir de vraies illustrations libres : Robocasting",
    "derniere": {
@@ -151,6 +156,11 @@
     {
      "titre": "Réunir de vraies illustrations libres : ZigBee",
      "projet": "Sujet : ZigBee",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Impression 4D",
+     "projet": "Sujet : Impression 4D",
      "etat": "en attente"
     },
     {
@@ -177,7 +187,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -189,6 +199,11 @@
     {
      "titre": "Générer la voix : ZigBee",
      "projet": "Sujet : ZigBee",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Générer la voix : Impression 4D",
+     "projet": "Sujet : Impression 4D",
      "etat": "en attente"
     },
     {
@@ -215,7 +230,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -227,6 +242,11 @@
     {
      "titre": "Aligner la narration : ZigBee",
      "projet": "Sujet : ZigBee",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Aligner la narration : Impression 4D",
+     "projet": "Sujet : Impression 4D",
      "etat": "en attente"
     },
     {
@@ -253,7 +273,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -265,6 +285,11 @@
     {
      "titre": "Rendre la vidéo : ZigBee",
      "projet": "Sujet : ZigBee",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Rendre la vidéo : Impression 4D",
+     "projet": "Sujet : Impression 4D",
      "etat": "en attente"
     },
     {
@@ -291,7 +316,7 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -303,6 +328,11 @@
     {
      "titre": "QA automatique : ZigBee",
      "projet": "Sujet : ZigBee",
+     "etat": "en attente"
+    },
+    {
+     "titre": "QA automatique : Impression 4D",
+     "projet": "Sujet : Impression 4D",
      "etat": "en attente"
     },
     {
@@ -329,7 +359,7 @@
    "desc": "Décide si la vidéo mérite d'être publiée.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -341,6 +371,11 @@
     {
      "titre": "Revue finale (dossier, script, vidéo) : ZigBee",
      "projet": "Sujet : ZigBee",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Revue finale (dossier, script, vidéo) : Impression 4D",
+     "projet": "Sujet : Impression 4D",
      "etat": "en attente"
     },
     {
@@ -443,7 +478,7 @@
    "nom": "Archiviste",
    "poste": "idee",
    "poste_prefere": "recherche",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
    "passages": 1301,
    "dernier_a": "25/10 22:05"
@@ -601,12 +636,6 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-10-25T22:29:21",
-   "type": "alerte",
-   "texte": "Échec : Éclaireur : passage continu",
-   "url": null
-  },
-  {
    "ts": "2026-10-25T22:21:19",
    "type": "alerte",
    "texte": "Échec : Recherche documentaire : HomeKit",
@@ -749,14 +778,20 @@
    "type": "assistant",
    "texte": "Référenceur : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
    "url": null
+  },
+  {
+   "ts": "2026-10-17T18:38:45",
+   "type": "assistant",
+   "texte": "Plume : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
+   "url": null
   }
  ],
  "compteurs": {
-  "RUNNING": 0,
+  "RUNNING": 2,
   "READY": 10,
-  "PENDING": 8,
-  "DEFERRED": 1,
+  "PENDING": 14,
+  "DEFERRED": 0,
   "SUCCESS": 951,
-  "FAILED": 36
+  "FAILED": 35
  }
 }
