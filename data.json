@@ -1,15 +1,15 @@
 {
- "now": 1792959936.3254967,
- "heure": "21:25:40",
+ "now": 1792960505.1050606,
+ "heure": "21:35:40",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : HomeKit + Éclaireur : passage continu",
-  "battement_s": 2
+  "activite": "Recherche documentaire : HomeKit + Recherche documentaire : ZigBee",
+  "battement_s": -12
  },
  "modele": {
-  "ok": true,
+  "ok": false,
   "reprise": null,
-  "erreur": null,
+  "erreur": "Ollama HTTPError: HTTP Error 500: Internal Server Error",
   "moteur": "opencode openai/gpt-5.6-terra"
  },
  "stations": [
@@ -55,7 +55,7 @@
    "courant": {
     "titre": "Recherche documentaire : HomeKit",
     "projet": "Sujet : HomeKit",
-    "depuis": 987
+    "depuis": 532
    },
    "file": 0,
    "attend_humain": 0,
@@ -70,7 +70,13 @@
      "titre": "Recherche documentaire : HomeKit",
      "projet": "Sujet : HomeKit",
      "etat": "en cours",
-     "depuis": 987
+     "depuis": 532
+    },
+    {
+     "titre": "Recherche documentaire : ZigBee",
+     "projet": "Sujet : ZigBee",
+     "etat": "en cours",
+     "depuis": 83
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -96,7 +102,7 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -108,6 +114,11 @@
     {
      "titre": "Écrire le script : HomeKit",
      "projet": "Sujet : HomeKit",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Écrire le script : ZigBee",
+     "projet": "Sujet : ZigBee",
      "etat": "en attente"
     },
     {
@@ -134,7 +145,7 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "alerte",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": "Réunir de vraies illustrations libres : Robocasting",
    "derniere": {
@@ -146,6 +157,11 @@
     {
      "titre": "Réunir de vraies illustrations libres : HomeKit",
      "projet": "Sujet : HomeKit",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : ZigBee",
+     "projet": "Sujet : ZigBee",
      "etat": "en attente"
     },
     {
@@ -172,7 +188,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -184,6 +200,11 @@
     {
      "titre": "Générer la voix : HomeKit",
      "projet": "Sujet : HomeKit",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Générer la voix : ZigBee",
+     "projet": "Sujet : ZigBee",
      "etat": "en attente"
     },
     {
@@ -210,7 +231,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -222,6 +243,11 @@
     {
      "titre": "Aligner la narration : HomeKit",
      "projet": "Sujet : HomeKit",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Aligner la narration : ZigBee",
+     "projet": "Sujet : ZigBee",
      "etat": "en attente"
     },
     {
@@ -248,7 +274,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -260,6 +286,11 @@
     {
      "titre": "Rendre la vidéo : HomeKit",
      "projet": "Sujet : HomeKit",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Rendre la vidéo : ZigBee",
+     "projet": "Sujet : ZigBee",
      "etat": "en attente"
     },
     {
@@ -286,7 +317,7 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -298,6 +329,11 @@
     {
      "titre": "QA automatique : HomeKit",
      "projet": "Sujet : HomeKit",
+     "etat": "en attente"
+    },
+    {
+     "titre": "QA automatique : ZigBee",
+     "projet": "Sujet : ZigBee",
      "etat": "en attente"
     },
     {
@@ -334,13 +370,13 @@
    "total_fait": 45,
    "taches": [
     {
-     "titre": "Revue finale (dossier, script, vidéo) : Materialise NV",
-     "projet": "Sujet : Materialise NV",
+     "titre": "Revue finale (dossier, script, vidéo) : HomeKit",
+     "projet": "Sujet : HomeKit",
      "etat": "en attente"
     },
     {
-     "titre": "Revue finale (dossier, script, vidéo) : HomeKit",
-     "projet": "Sujet : HomeKit",
+     "titre": "Revue finale (dossier, script, vidéo) : ZigBee",
+     "projet": "Sujet : ZigBee",
      "etat": "en attente"
     },
     {
@@ -433,7 +469,7 @@
    "nom": "Éclaireur",
    "poste": "publication",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 1687,
    "dernier_a": "25/10 21:09"
@@ -441,32 +477,32 @@
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "recherche",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "veille",
-   "dernier": "[poste Recherche, avec Éclaireur] Thread (protocole de réseau) : OK (16 phrases) ; Shodan (site web) : OK (18 phrases)",
-   "passages": 1296,
-   "dernier_a": "25/10 20:56"
+   "dernier": "[poste Publication YouTube, avec Éclaireur] 16 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
+   "passages": 1297,
+   "dernier_a": "25/10 21:25"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "veille",
-   "dernier": "[poste Trouver une idée] 6 sujets mesurés, en hausse : HomeKit ×1.33, Thread (protocole de réseau) ×1.24",
-   "passages": 915,
-   "dernier_a": "25/10 20:57"
+   "dernier": "[poste Publication YouTube, avec Éclaireur, Archiviste] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 916,
+   "dernier_a": "25/10 21:25"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube] 0 publications programmées, calendrier sain",
-   "passages": 494,
-   "dernier_a": "25/10 20:57"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 495,
+   "dernier_a": "25/10 21:30"
   },
   {
    "cle": "analyste",
@@ -531,10 +567,10 @@
  ],
  "programmees": [],
  "audience": {
-  "vues": 1997,
+  "vues": 1999,
   "likes": 38,
   "commentaires": 0,
-  "maj": "18:15"
+  "maj": "21:25"
  },
  "publiees": [
   {
@@ -583,7 +619,7 @@
    "url": "https://www.youtube.com/watch?v=1HW5H4d5bzQ",
    "at": "2026-10-18T10:57:13",
    "miniature": true,
-   "vues": 313,
+   "vues": 314,
    "likes": 6,
    "commentaires": 0
   },
@@ -754,9 +790,9 @@
  "compteurs": {
   "RUNNING": 2,
   "READY": 9,
-  "PENDING": 8,
+  "PENDING": 14,
   "DEFERRED": 0,
-  "SUCCESS": 951,
+  "SUCCESS": 952,
   "FAILED": 34
  }
 }
