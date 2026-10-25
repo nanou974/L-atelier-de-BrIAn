@@ -1,14 +1,14 @@
 {
- "now": 1792949940.704351,
- "heure": "18:39:00",
+ "now": 1792950336.7211552,
+ "heure": "18:46:58",
  "moteur": {
   "etat": "actif",
-  "activite": "Iconographe : passage continu",
-  "battement_s": 1
+  "activite": "Réunir de vraies illustrations libres : Robocasting + Éclaireur : passage continu",
+  "battement_s": -14
  },
  "modele": {
   "ok": false,
-  "reprise": "25/10 18:42",
+  "reprise": null,
   "erreur": "Ollama TimeoutError: timed out",
   "moteur": "opencode openai/gpt-5.6-terra"
  },
@@ -117,9 +117,13 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Réunir de vraies illustrations libres : Robocasting",
+    "projet": "Sujet : Robocasting",
+    "depuis": 164
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -131,12 +135,13 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 25/10 18:42"
+     "etat": "en cours",
+     "depuis": 164
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 25/10 18:42"
+     "etat": "prête"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -419,29 +424,29 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Analyste] 31 titres lus, 0 idées retenues",
-   "passages": 1677,
-   "dernier_a": "25/10 18:37"
+   "dernier": "[poste Trouver une idée, avec Plume, Iconographe, Analyste] 31 titres lus, 0 idées retenues",
+   "passages": 1679,
+   "dernier_a": "25/10 18:46"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 1294,
-   "dernier_a": "25/10 18:37"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 1295,
+   "dernier_a": "25/10 18:40"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 913,
-   "dernier_a": "25/10 18:37"
+   "dernier": "[poste Trouver une idée, avec Iconographe, Analyste] 31 titres lus, 0 idées retenues",
+   "passages": 914,
+   "dernier_a": "25/10 18:42"
   },
   {
    "cle": "iconographe",
@@ -449,16 +454,16 @@
    "poste": "idee",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 492,
-   "dernier_a": "25/10 18:32"
+   "dernier": "[poste Trouver une idée, avec Analyste] 31 titres lus, 0 idées retenues",
+   "passages": 493,
+   "dernier_a": "25/10 18:40"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
    "poste": "idee",
    "poste_prefere": "publication",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 114,
    "dernier_a": "25/10 18:35"
@@ -737,11 +742,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 6,
+  "RUNNING": 2,
+  "READY": 10,
   "PENDING": 5,
-  "DEFERRED": 2,
-  "SUCCESS": 954,
+  "DEFERRED": 0,
+  "SUCCESS": 951,
   "FAILED": 28
  }
 }
