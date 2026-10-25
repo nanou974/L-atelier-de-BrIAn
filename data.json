@@ -1,16 +1,16 @@
 {
- "now": 1792944542.141588,
- "heure": "17:09:02",
+ "now": 1792944840.7736635,
+ "heure": "17:14:01",
  "moteur": {
   "etat": "actif",
   "activite": "en attente de travail exécutable",
-  "battement_s": 0
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
-  "reprise": "25/10 17:12",
-  "erreur": "quota Groq atteint, pause 577 s",
-  "moteur": "groq openai/gpt-oss-120b"
+  "reprise": "25/10 17:43",
+  "erreur": "Ollama URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
+  "moteur": "opencode openai/gpt-5.6-terra"
  },
  "stations": [
   {
@@ -131,12 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 25/10 17:13"
+     "etat": "programmée 25/10 17:18"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 25/10 17:13"
+     "etat": "programmée 25/10 17:18"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -416,12 +416,12 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1662,
-   "dernier_a": "25/10 16:46"
+   "passages": 1663,
+   "dernier_a": "25/10 17:12"
   },
   {
    "cle": "archiviste",
@@ -468,7 +468,7 @@
    "nom": "Tendances",
    "poste": "publication",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 144,
    "dernier_a": "25/10 17:02"
@@ -586,63 +586,57 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-10-25T17:08:49",
-   "type": "alerte",
-   "texte": "Échec : Tendances : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-10-25T17:08:44",
-   "type": "alerte",
-   "texte": "Échec : Analyste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-10-25T17:08:38",
-   "type": "alerte",
-   "texte": "Échec : Iconographe : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-10-25T17:08:33",
-   "type": "alerte",
-   "texte": "Échec : Plume : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-10-25T17:08:28",
-   "type": "alerte",
-   "texte": "Échec : Archiviste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-10-25T17:08:23",
-   "type": "alerte",
-   "texte": "Échec : Éclaireur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-10-25T17:07:05",
+   "ts": "2026-10-25T17:12:57",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T17:07:00",
+   "ts": "2026-10-25T17:12:52",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T17:06:55",
+   "ts": "2026-10-25T17:12:47",
    "type": "alerte",
    "texte": "Échec : Miniaturiste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T17:06:50",
+   "ts": "2026-10-25T17:12:41",
    "type": "alerte",
    "texte": "Échec : Accroche : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T17:12:36",
+   "type": "alerte",
+   "texte": "Échec : Tendances : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T17:12:31",
+   "type": "alerte",
+   "texte": "Échec : Analyste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T17:12:25",
+   "type": "alerte",
+   "texte": "Échec : Iconographe : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T17:12:20",
+   "type": "alerte",
+   "texte": "Échec : Plume : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T17:12:15",
+   "type": "alerte",
+   "texte": "Échec : Archiviste : passage continu",
    "url": null
   },
   {
@@ -734,6 +728,12 @@
    "type": "assistant",
    "texte": "Éclaireur : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
    "url": null
+  },
+  {
+   "ts": "2026-10-18T08:42:01",
+   "type": "assistant",
+   "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
+   "url": null
   }
  ],
  "compteurs": {
@@ -741,7 +741,7 @@
   "READY": 0,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 950,
-  "FAILED": 38
+  "SUCCESS": 951,
+  "FAILED": 37
  }
 }
