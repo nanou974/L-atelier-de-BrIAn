@@ -1,10 +1,10 @@
 {
- "now": 1792957143.6246965,
- "heure": "20:39:05",
+ "now": 1792957443.6000094,
+ "heure": "20:44:05",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Programmation de commande numérique + Trouver des sujets candidats",
-  "battement_s": 0
+  "activite": "Recherche documentaire : Materialise NV + Trouver des sujets candidats",
+  "battement_s": 1
  },
  "modele": {
   "ok": true,
@@ -22,7 +22,7 @@
    "courant": {
     "titre": "Trouver des sujets candidats",
     "projet": "Éditorial",
-    "depuis": 491
+    "depuis": 107
    },
    "file": 0,
    "attend_humain": 0,
@@ -37,7 +37,7 @@
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
      "etat": "en cours",
-     "depuis": 491
+     "depuis": 107
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -63,9 +63,9 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Programmation de commande numérique",
-    "projet": "Sujet : Programmation de commande numérique",
-    "depuis": 715
+    "titre": "Recherche documentaire : Materialise NV",
+    "projet": "Sujet : Materialise NV",
+    "depuis": 180
    },
    "file": 1,
    "attend_humain": 0,
@@ -77,14 +77,14 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : Programmation de commande numérique",
-     "projet": "Sujet : Programmation de commande numérique",
-     "etat": "en cours",
-     "depuis": 715
-    },
-    {
      "titre": "Recherche documentaire : Materialise NV",
      "projet": "Sujet : Materialise NV",
+     "etat": "en cours",
+     "depuis": 180
+    },
+    {
+     "titre": "Recherche documentaire : Programmation de commande numérique",
+     "projet": "Sujet : Programmation de commande numérique",
      "etat": "prête"
     },
     {
@@ -486,7 +486,7 @@
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "script",
+   "poste": "recherche",
    "poste_prefere": "recherche",
    "etat": "veille",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
@@ -496,7 +496,7 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "idee",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Iconographe, Analyste] 31 titres lus, 0 idées retenues",
