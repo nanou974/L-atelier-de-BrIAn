@@ -1,15 +1,15 @@
 {
- "now": 1792942140.8117144,
- "heure": "16:29:01",
+ "now": 1792942440.7069445,
+ "heure": "16:34:00",
  "moteur": {
   "etat": "actif",
   "activite": "en attente de travail exécutable",
-  "battement_s": 3
+  "battement_s": 5
  },
  "modele": {
   "ok": false,
-  "reprise": "25/10 16:30",
-  "erreur": "quota Groq atteint, pause 417 s",
+  "reprise": "25/10 16:40",
+  "erreur": "quota Groq atteint, pause 474 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -131,12 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 25/10 16:30"
+     "etat": "programmée 25/10 16:40"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 25/10 16:30"
+     "etat": "programmée 25/10 16:40"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -426,7 +426,7 @@
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "recherche",
    "poste_prefere": "recherche",
    "etat": "veille",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
@@ -466,9 +466,9 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 140,
    "dernier_a": "25/10 16:26"
@@ -486,12 +486,12 @@
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 55,
-   "dernier_a": "25/10 14:29"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 56,
+   "dernier_a": "25/10 16:32"
   },
   {
    "cle": "referenceur",
@@ -508,10 +508,10 @@
    "nom": "Programmateur",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube, avec Iconographe, Tendances] 0 publications programmées, calendrier sain",
-   "passages": 53,
-   "dernier_a": "25/10 15:30"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, avec Éclaireur, Tendances] 0 publications programmées, calendrier sain",
+   "passages": 54,
+   "dernier_a": "25/10 16:32"
   }
  ],
  "programmees": [],
@@ -586,55 +586,49 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-10-25T16:26:54",
-   "type": "alerte",
-   "texte": "Échec : Programmateur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-10-25T16:26:49",
-   "type": "alerte",
-   "texte": "Échec : Référenceur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-10-25T16:26:44",
-   "type": "alerte",
-   "texte": "Échec : Miniaturiste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-10-25T16:26:39",
+   "ts": "2026-10-25T16:33:25",
    "type": "alerte",
    "texte": "Échec : Accroche : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T16:26:33",
+   "ts": "2026-10-25T16:32:54",
+   "type": "alerte",
+   "texte": "Échec : Référenceur : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T16:32:49",
+   "type": "alerte",
+   "texte": "Échec : Tendances : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T16:32:44",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T16:26:28",
+   "ts": "2026-10-25T16:32:38",
    "type": "alerte",
    "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T16:26:23",
+   "ts": "2026-10-25T16:32:33",
    "type": "alerte",
    "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T16:26:18",
+   "ts": "2026-10-25T16:32:28",
    "type": "alerte",
    "texte": "Échec : Archiviste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T16:26:13",
+   "ts": "2026-10-25T16:32:23",
    "type": "alerte",
    "texte": "Échec : Éclaireur : passage continu",
    "url": null
@@ -734,6 +728,12 @@
    "type": "assistant",
    "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
    "url": null
+  },
+  {
+   "ts": "2026-10-18T01:24:12",
+   "type": "assistant",
+   "texte": "Référenceur : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
+   "url": null
   }
  ],
  "compteurs": {
@@ -741,7 +741,7 @@
   "READY": 0,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 951,
-  "FAILED": 37
+  "SUCCESS": 952,
+  "FAILED": 36
  }
 }
