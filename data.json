@@ -1,15 +1,15 @@
 {
- "now": 1792938540.6413069,
- "heure": "15:29:00",
+ "now": 1792938840.6356182,
+ "heure": "15:34:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Robocasting + Éclaireur : passage continu",
-  "battement_s": 0
+  "activite": "Analyste : passage continu",
+  "battement_s": 1
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": null,
+  "ok": false,
+  "reprise": "25/10 15:37",
+  "erreur": "quota Groq atteint, pause 421 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -117,13 +117,9 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Réunir de vraies illustrations libres : Robocasting",
-    "projet": "Sujet : Robocasting",
-    "depuis": 46
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -135,13 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "en cours",
-     "depuis": 46
+     "etat": "programmée 25/10 15:37"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "prête"
+     "etat": "programmée 25/10 15:37"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -425,8 +420,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1652,
-   "dernier_a": "25/10 15:24"
+   "passages": 1654,
+   "dernier_a": "25/10 15:33"
   },
   {
    "cle": "archiviste",
@@ -463,7 +458,7 @@
    "nom": "Analyste",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Accroche] 31 titres lus, 0 idées retenues",
    "passages": 111,
    "dernier_a": "24/10 20:33"
@@ -513,10 +508,10 @@
    "nom": "Programmateur",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube, avec Éclaireur, Archiviste, Iconographe, Accroche] 0 publications programmées, calendrier sain",
-   "passages": 52,
-   "dernier_a": "25/10 14:29"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, avec Iconographe, Tendances] 0 publications programmées, calendrier sain",
+   "passages": 53,
+   "dernier_a": "25/10 15:30"
   }
  ],
  "programmees": [],
@@ -590,6 +585,24 @@
  ],
  "nb_publiees": 18,
  "notifications": [
+  {
+   "ts": "2026-10-25T15:33:59",
+   "type": "alerte",
+   "texte": "Échec : Iconographe : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T15:33:53",
+   "type": "alerte",
+   "texte": "Échec : Plume : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T15:33:48",
+   "type": "alerte",
+   "texte": "Échec : Archiviste : passage continu",
+   "url": null
+  },
   {
    "ts": "2026-10-25T11:52:01",
    "type": "assistant",
@@ -721,32 +734,14 @@
    "type": "publication",
    "texte": "Publiée : Fichier de stéréolithographie : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=pelVz3EWz2M"
-  },
-  {
-   "ts": "2026-10-17T09:00:09",
-   "type": "publication",
-   "texte": "Publiée : RISC-V : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=Rdp9AgvQvA0"
-  },
-  {
-   "ts": "2026-10-16T19:43:35",
-   "type": "publication",
-   "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
-  },
-  {
-   "ts": "2026-10-16T16:08:27",
-   "type": "publication",
-   "texte": "Publiée : Disque compact : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=NodSE53R2ck"
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 10,
+  "RUNNING": 1,
+  "READY": 5,
   "PENDING": 5,
-  "DEFERRED": 0,
-  "SUCCESS": 950,
-  "FAILED": 28
+  "DEFERRED": 2,
+  "SUCCESS": 951,
+  "FAILED": 31
  }
 }
