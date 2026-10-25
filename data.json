@@ -1,10 +1,10 @@
 {
- "now": 1792951220.1434717,
- "heure": "19:00:56",
+ "now": 1792951515.100552,
+ "heure": "19:05:16",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Robocasting + Réunir de vraies illustrations libres : Impression 3D dans la construction",
-  "battement_s": 39
+  "activite": "Recherche documentaire : PirateBox + Éclaireur : passage continu",
+  "battement_s": 1
  },
  "modele": {
   "ok": true,
@@ -51,8 +51,12 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
-   "courant": null,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : PirateBox",
+    "projet": "Sujet : PirateBox",
+    "depuis": 9
+   },
    "file": 0,
    "attend_humain": 0,
    "alerte": null,
@@ -62,6 +66,12 @@
    },
    "total_fait": 27,
    "taches": [
+    {
+     "titre": "Recherche documentaire : PirateBox",
+     "projet": "Sujet : PirateBox",
+     "etat": "en cours",
+     "depuis": 9
+    },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
@@ -86,7 +96,7 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "repos",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -95,6 +105,11 @@
    },
    "total_fait": 33,
    "taches": [
+    {
+     "titre": "Écrire le script : PirateBox",
+     "projet": "Sujet : PirateBox",
+     "etat": "en attente"
+    },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
@@ -117,15 +132,11 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Réunir de vraies illustrations libres : Robocasting",
-    "projet": "Sujet : Robocasting",
-    "depuis": 1047
-   },
-   "file": 0,
+   "etat": "alerte",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
-   "alerte": null,
+   "alerte": "Réunir de vraies illustrations libres : Robocasting",
    "derniere": {
     "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
     "quand": "18/10 09:49"
@@ -133,16 +144,14 @@
    "total_fait": 39,
    "taches": [
     {
-     "titre": "Réunir de vraies illustrations libres : Robocasting",
-     "projet": "Sujet : Robocasting",
-     "etat": "en cours",
-     "depuis": 1047
-    },
-    {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en cours",
-     "depuis": 790
+     "etat": "en attente"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : PirateBox",
+     "projet": "Sujet : PirateBox",
+     "etat": "en attente"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -168,7 +177,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -180,6 +189,11 @@
     {
      "titre": "Générer la voix : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Générer la voix : PirateBox",
+     "projet": "Sujet : PirateBox",
      "etat": "en attente"
     },
     {
@@ -206,7 +220,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -218,6 +232,11 @@
     {
      "titre": "Aligner la narration : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Aligner la narration : PirateBox",
+     "projet": "Sujet : PirateBox",
      "etat": "en attente"
     },
     {
@@ -244,7 +263,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -256,6 +275,11 @@
     {
      "titre": "Rendre la vidéo : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Rendre la vidéo : PirateBox",
+     "projet": "Sujet : PirateBox",
      "etat": "en attente"
     },
     {
@@ -282,7 +306,7 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -294,6 +318,11 @@
     {
      "titre": "QA automatique : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
+     "etat": "en attente"
+    },
+    {
+     "titre": "QA automatique : PirateBox",
+     "projet": "Sujet : PirateBox",
      "etat": "en attente"
     },
     {
@@ -320,7 +349,7 @@
    "desc": "Décide si la vidéo mérite d'être publiée.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -332,6 +361,11 @@
     {
      "titre": "Revue finale (dossier, script, vidéo) : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Revue finale (dossier, script, vidéo) : PirateBox",
+     "projet": "Sujet : PirateBox",
      "etat": "en attente"
     },
     {
@@ -424,7 +458,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume, Iconographe, Analyste] 31 titres lus, 0 idées retenues",
    "passages": 1679,
    "dernier_a": "25/10 18:46"
@@ -592,6 +626,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-10-25T19:01:46",
+   "type": "alerte",
+   "texte": "Échec : Réunir de vraies illustrations libres : Robocasting",
+   "url": null
+  },
+  {
    "ts": "2026-10-25T11:52:01",
    "type": "assistant",
    "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Programmation de commande numérique",
@@ -734,20 +774,14 @@
    "type": "publication",
    "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
-  },
-  {
-   "ts": "2026-10-16T16:08:27",
-   "type": "publication",
-   "texte": "Publiée : Disque compact : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=NodSE53R2ck"
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
-  "PENDING": 5,
-  "DEFERRED": 0,
+  "READY": 9,
+  "PENDING": 12,
+  "DEFERRED": 1,
   "SUCCESS": 951,
-  "FAILED": 28
+  "FAILED": 29
  }
 }
