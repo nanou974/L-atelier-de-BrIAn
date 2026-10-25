@@ -1,10 +1,10 @@
 {
- "now": 1792964380.9665658,
- "heure": "22:40:10",
+ "now": 1792964687.1009219,
+ "heure": "22:45:23",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Impression 4D + Archiviste : passage continu",
-  "battement_s": 39
+  "activite": "Recherche documentaire : ZigBee + Recherche documentaire : Impression 4D",
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
@@ -53,11 +53,11 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Impression 4D",
-    "projet": "Sujet : Impression 4D",
-    "depuis": 566
+    "titre": "Recherche documentaire : ZigBee",
+    "projet": "Sujet : ZigBee",
+    "depuis": 249
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : PirateBox",
    "derniere": {
@@ -67,15 +67,16 @@
    "total_fait": 27,
    "taches": [
     {
+     "titre": "Recherche documentaire : ZigBee",
+     "projet": "Sujet : ZigBee",
+     "etat": "en cours",
+     "depuis": 249
+    },
+    {
      "titre": "Recherche documentaire : Impression 4D",
      "projet": "Sujet : Impression 4D",
      "etat": "en cours",
-     "depuis": 566
-    },
-    {
-     "titre": "Recherche documentaire : ZigBee",
-     "projet": "Sujet : ZigBee",
-     "etat": "prête"
+     "depuis": 872
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -478,7 +479,7 @@
    "nom": "Archiviste",
    "poste": "idee",
    "poste_prefere": "recherche",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
    "passages": 1301,
    "dernier_a": "25/10 22:05"
