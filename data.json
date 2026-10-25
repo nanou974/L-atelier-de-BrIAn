@@ -1,9 +1,9 @@
 {
- "now": 1792957742.5010586,
- "heure": "20:49:03",
+ "now": 1792958042.2313616,
+ "heure": "20:54:03",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Materialise NV + Trouver des sujets candidats",
+  "activite": "Recherche documentaire : Programmation de commande numérique + Recherche documentaire : Materialise NV",
   "battement_s": 0
  },
  "modele": {
@@ -18,27 +18,17 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Trouver des sujets candidats",
-    "projet": "Éditorial",
-    "depuis": 406
-   },
+   "etat": "alerte",
+   "courant": null,
    "file": 0,
    "attend_humain": 0,
-   "alerte": null,
+   "alerte": "Trouver des sujets candidats",
    "derniere": {
     "titre": "Trouver des sujets candidats",
     "quand": "17/10 11:38"
    },
    "total_fait": 11,
    "taches": [
-    {
-     "titre": "Trouver des sujets candidats",
-     "projet": "Éditorial",
-     "etat": "en cours",
-     "depuis": 406
-    },
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
@@ -63,11 +53,11 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Materialise NV",
-    "projet": "Sujet : Materialise NV",
-    "depuis": 479
+    "titre": "Recherche documentaire : Programmation de commande numérique",
+    "projet": "Sujet : Programmation de commande numérique",
+    "depuis": 97
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : PirateBox",
    "derniere": {
@@ -77,15 +67,16 @@
    "total_fait": 27,
    "taches": [
     {
+     "titre": "Recherche documentaire : Programmation de commande numérique",
+     "projet": "Sujet : Programmation de commande numérique",
+     "etat": "en cours",
+     "depuis": 97
+    },
+    {
      "titre": "Recherche documentaire : Materialise NV",
      "projet": "Sujet : Materialise NV",
      "etat": "en cours",
-     "depuis": 479
-    },
-    {
-     "titre": "Recherche documentaire : Programmation de commande numérique",
-     "projet": "Sujet : Programmation de commande numérique",
-     "etat": "prête"
+     "depuis": 779
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -646,6 +637,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-10-25T20:52:21",
+   "type": "alerte",
+   "texte": "Échec : Trouver des sujets candidats",
+   "url": null
+  },
+  {
    "ts": "2026-10-25T19:55:21",
    "type": "alerte",
    "texte": "Échec : Recherche documentaire : PirateBox",
@@ -788,20 +785,14 @@
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
    "url": null
-  },
-  {
-   "ts": "2026-10-17T15:00:11",
-   "type": "publication",
-   "texte": "Publiée : Fichier de stéréolithographie : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=pelVz3EWz2M"
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 11,
+  "READY": 10,
   "PENDING": 14,
   "DEFERRED": 0,
   "SUCCESS": 951,
-  "FAILED": 31
+  "FAILED": 32
  }
 }
