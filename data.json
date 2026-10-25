@@ -1,9 +1,9 @@
 {
- "now": 1792968297.8188806,
- "heure": "23:45:55",
+ "now": 1792968580.3088913,
+ "heure": "23:49:42",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Thread (protocole de réseau) + Recherche documentaire : Loi de Moore",
+  "activite": "Recherche documentaire : Thread (protocole de réseau) + Trouver des sujets candidats",
   "battement_s": 0
  },
  "modele": {
@@ -18,9 +18,13 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "alerte",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Trouver des sujets candidats",
+    "projet": "Éditorial",
+    "depuis": 160
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
    "derniere": {
@@ -32,7 +36,8 @@
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 160
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -60,9 +65,9 @@
    "courant": {
     "titre": "Recherche documentaire : Thread (protocole de réseau)",
     "projet": "Sujet : Thread (protocole de réseau)",
-    "depuis": 495
+    "depuis": 778
    },
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : PirateBox",
    "derniere": {
@@ -75,13 +80,12 @@
      "titre": "Recherche documentaire : Thread (protocole de réseau)",
      "projet": "Sujet : Thread (protocole de réseau)",
      "etat": "en cours",
-     "depuis": 495
+     "depuis": 778
     },
     {
      "titre": "Recherche documentaire : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
-     "etat": "en cours",
-     "depuis": 866
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
