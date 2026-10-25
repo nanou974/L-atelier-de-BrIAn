@@ -1,15 +1,15 @@
 {
- "now": 1792908540.7442691,
- "heure": "07:09:00",
+ "now": 1792908840.774142,
+ "heure": "07:14:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Tendances : passage continu",
-  "battement_s": 0
+  "activite": "Iconographe : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "25/10 07:09",
-  "erreur": "quota Groq atteint, pause 687 s",
+  "reprise": "25/10 07:16",
+  "erreur": "quota Groq atteint, pause 248 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -131,12 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 25/10 07:09"
+     "etat": "programmée 25/10 07:16"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 25/10 07:09"
+     "etat": "programmée 25/10 07:16"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -420,8 +420,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Iconographe] 31 titres lus, 0 idées retenues",
-   "passages": 1580,
-   "dernier_a": "25/10 07:04"
+   "passages": 1581,
+   "dernier_a": "25/10 07:12"
   },
   {
    "cle": "archiviste",
@@ -469,9 +469,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 27 titres lus, 0 idées retenues",
-   "passages": 111,
-   "dernier_a": "25/10 06:33"
+   "dernier": "[poste Trouver une idée, avec Iconographe] 27 titres lus, 0 idées retenues",
+   "passages": 112,
+   "dernier_a": "25/10 07:09"
   },
   {
    "cle": "accroche",
@@ -586,9 +586,15 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-10-25T07:06:16",
+   "ts": "2026-10-25T07:12:20",
    "type": "alerte",
-   "texte": "Échec : Analyste : passage continu",
+   "texte": "Échec : Plume : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T07:12:15",
+   "type": "alerte",
+   "texte": "Échec : Archiviste : passage continu",
    "url": null
   },
   {
@@ -728,20 +734,14 @@
    "type": "publication",
    "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
-  },
-  {
-   "ts": "2026-10-16T16:08:27",
-   "type": "publication",
-   "texte": "Publiée : Disque compact : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=NodSE53R2ck"
   }
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 7,
+  "READY": 6,
   "PENDING": 5,
   "DEFERRED": 2,
   "SUCCESS": 950,
-  "FAILED": 29
+  "FAILED": 30
  }
 }
