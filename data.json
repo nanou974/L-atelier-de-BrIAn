@@ -1,6 +1,6 @@
 {
- "now": 1792958042.2313616,
- "heure": "20:54:03",
+ "now": 1792958342.4142168,
+ "heure": "20:59:03",
  "moteur": {
   "etat": "actif",
   "activite": "Recherche documentaire : Programmation de commande numérique + Recherche documentaire : Materialise NV",
@@ -55,7 +55,7 @@
    "courant": {
     "titre": "Recherche documentaire : Programmation de commande numérique",
     "projet": "Sujet : Programmation de commande numérique",
-    "depuis": 97
+    "depuis": 397
    },
    "file": 0,
    "attend_humain": 0,
@@ -70,13 +70,13 @@
      "titre": "Recherche documentaire : Programmation de commande numérique",
      "projet": "Sujet : Programmation de commande numérique",
      "etat": "en cours",
-     "depuis": 97
+     "depuis": 397
     },
     {
      "titre": "Recherche documentaire : Materialise NV",
      "projet": "Sujet : Materialise NV",
      "etat": "en cours",
-     "depuis": 779
+     "depuis": 111
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -467,42 +467,42 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "recherche",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1685,
-   "dernier_a": "25/10 20:13"
+   "etat": "actif",
+   "dernier": "[poste Recherche] HomeKit : OK (23 phrases) ; ZigBee : OK (45 phrases) ; Asus Tinker Board : écarté (5 phrases, EN 1904)",
+   "passages": 1686,
+   "dernier_a": "25/10 20:56"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
    "poste": "recherche",
    "poste_prefere": "recherche",
-   "etat": "veille",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 1295,
-   "dernier_a": "25/10 18:40"
+   "etat": "actif",
+   "dernier": "[poste Recherche, avec Éclaireur] Thread (protocole de réseau) : OK (16 phrases) ; Shodan (site web) : OK (18 phrases)",
+   "passages": 1296,
+   "dernier_a": "25/10 20:56"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "script",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Iconographe, Analyste] 31 titres lus, 0 idées retenues",
-   "passages": 914,
-   "dernier_a": "25/10 18:42"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 6 sujets mesurés, en hausse : HomeKit ×1.33, Thread (protocole de réseau) ×1.24",
+   "passages": 915,
+   "dernier_a": "25/10 20:57"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Analyste] 31 titres lus, 0 idées retenues",
-   "passages": 493,
-   "dernier_a": "25/10 18:40"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube] 0 publications programmées, calendrier sain",
+   "passages": 494,
+   "dernier_a": "25/10 20:57"
   },
   {
    "cle": "analyste",
@@ -789,10 +789,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 8,
   "PENDING": 14,
   "DEFERRED": 0,
-  "SUCCESS": 951,
+  "SUCCESS": 953,
   "FAILED": 32
  }
 }
