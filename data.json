@@ -1,10 +1,10 @@
 {
- "now": 1792928340.328358,
- "heure": "12:39:00",
+ "now": 1792928640.3408203,
+ "heure": "12:44:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 5
+  "activite": "Tendances : passage continu",
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
@@ -420,18 +420,18 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Tendances] 31 titres lus, 0 idées retenues",
-   "passages": 1628,
-   "dernier_a": "25/10 12:35"
+   "passages": 1629,
+   "dernier_a": "25/10 12:40"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 1284,
-   "dernier_a": "25/10 12:14"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 1285,
+   "dernier_a": "25/10 12:42"
   },
   {
    "cle": "plume",
@@ -586,9 +586,21 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-10-25T12:37:12",
+   "ts": "2026-10-25T12:42:25",
    "type": "alerte",
-   "texte": "Échec : Archiviste : passage continu",
+   "texte": "Échec : Analyste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T12:42:20",
+   "type": "alerte",
+   "texte": "Échec : Iconographe : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T12:42:15",
+   "type": "alerte",
+   "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
@@ -722,26 +734,14 @@
    "type": "publication",
    "texte": "Publiée : Fichier de stéréolithographie : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=pelVz3EWz2M"
-  },
-  {
-   "ts": "2026-10-17T09:00:09",
-   "type": "publication",
-   "texte": "Publiée : RISC-V : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=Rdp9AgvQvA0"
-  },
-  {
-   "ts": "2026-10-16T19:43:35",
-   "type": "publication",
-   "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
   }
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 5,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 950,
-  "FAILED": 29
+  "SUCCESS": 951,
+  "FAILED": 31
  }
 }
