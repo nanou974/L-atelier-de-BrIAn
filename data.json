@@ -1,10 +1,10 @@
 {
- "now": 1792970138.1087089,
- "heure": "00:16:30",
+ "now": 1792970340.3928087,
+ "heure": "00:19:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Trouver des sujets candidats + Trouver des sujets candidats",
-  "battement_s": -10
+  "activite": "Archiviste : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
@@ -18,32 +18,21 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Trouver des sujets candidats",
-    "projet": "Éditorial",
-    "depuis": 487
-   },
+   "etat": "alerte",
+   "courant": null,
    "file": 0,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
    "derniere": {
     "titre": "Trouver des sujets candidats",
-    "quand": "17/10 11:38"
+    "quand": "26/10 00:17"
    },
-   "total_fait": 11,
+   "total_fait": 12,
    "taches": [
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "en cours",
-     "depuis": 487
-    },
-    {
-     "titre": "Trouver des sujets candidats",
-     "projet": "Éditorial",
-     "etat": "en cours",
-     "depuis": 72
+     "etat": "terminée 26/10 00:17"
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -54,11 +43,6 @@
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
      "etat": "terminée 16/10 23:27"
-    },
-    {
-     "titre": "Trouver des sujets candidats",
-     "projet": "Éditorial",
-     "etat": "terminée 16/10 14:59"
     }
    ]
   },
@@ -69,7 +53,7 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "alerte",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : PirateBox",
    "derniere": {
@@ -82,6 +66,11 @@
      "titre": "Recherche documentaire : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
      "etat": "programmée 26/10 00:19"
+    },
+    {
+     "titre": "Recherche documentaire : Ordinateur domestique",
+     "projet": "Sujet : Ordinateur domestique",
+     "etat": "programmée 26/10 00:43"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -107,7 +96,7 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -119,6 +108,11 @@
     {
      "titre": "Écrire le script : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Écrire le script : Ordinateur domestique",
+     "projet": "Sujet : Ordinateur domestique",
      "etat": "en attente"
     },
     {
@@ -145,7 +139,7 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "alerte",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": "Réunir de vraies illustrations libres : Robocasting",
    "derniere": {
@@ -157,6 +151,11 @@
     {
      "titre": "Réunir de vraies illustrations libres : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Ordinateur domestique",
+     "projet": "Sujet : Ordinateur domestique",
      "etat": "en attente"
     },
     {
@@ -183,7 +182,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -195,6 +194,11 @@
     {
      "titre": "Générer la voix : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Générer la voix : Ordinateur domestique",
+     "projet": "Sujet : Ordinateur domestique",
      "etat": "en attente"
     },
     {
@@ -221,7 +225,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -233,6 +237,11 @@
     {
      "titre": "Aligner la narration : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Aligner la narration : Ordinateur domestique",
+     "projet": "Sujet : Ordinateur domestique",
      "etat": "en attente"
     },
     {
@@ -259,7 +268,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -271,6 +280,11 @@
     {
      "titre": "Rendre la vidéo : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Rendre la vidéo : Ordinateur domestique",
+     "projet": "Sujet : Ordinateur domestique",
      "etat": "en attente"
     },
     {
@@ -297,7 +311,7 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -309,6 +323,11 @@
     {
      "titre": "QA automatique : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
+     "etat": "en attente"
+    },
+    {
+     "titre": "QA automatique : Ordinateur domestique",
+     "projet": "Sujet : Ordinateur domestique",
      "etat": "en attente"
     },
     {
@@ -335,7 +354,7 @@
    "desc": "Décide si la vidéo mérite d'être publiée.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -347,6 +366,11 @@
     {
      "titre": "Revue finale (dossier, script, vidéo) : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Revue finale (dossier, script, vidéo) : Ordinateur domestique",
+     "projet": "Sujet : Ordinateur domestique",
      "etat": "en attente"
     },
     {
@@ -404,46 +428,31 @@
    "titre": "Veille et maintenance",
    "icone": "🧰",
    "desc": "Vérifie le disque, l'intégrité des fichiers et le modèle de langage.",
-   "etat": "attente",
+   "etat": "repos",
    "courant": null,
-   "file": 3,
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Tester la disponibilité du LLM Groq (borné)",
-    "quand": "25/10 18:13"
+    "titre": "Contrôler l'espace disque",
+    "quand": "26/10 00:17"
    },
-   "total_fait": 70,
+   "total_fait": 73,
    "taches": [
-    {
-     "titre": "Vérifier l'intégrité des médias sources",
-     "projet": "Maintenance",
-     "etat": "prête"
-    },
-    {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
-     "projet": "Maintenance",
-     "etat": "prête"
-    },
     {
      "titre": "Contrôler l'espace disque",
      "projet": "Maintenance",
-     "etat": "prête"
+     "etat": "terminée 26/10 00:17"
     },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
-     "etat": "terminée 25/10 18:13"
+     "etat": "terminée 26/10 00:17"
     },
     {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "titre": "Vérifier l'intégrité des médias sources",
      "projet": "Maintenance",
-     "etat": "terminée 25/10 12:00"
-    },
-    {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
-     "projet": "Maintenance",
-     "etat": "terminée 25/10 06:01"
+     "etat": "terminée 26/10 00:17"
     }
    ]
   }
@@ -452,19 +461,19 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "recherche",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1696,
-   "dernier_a": "25/10 23:14"
+   "etat": "actif",
+   "dernier": "[poste Recherche] Ordinateur de bureau : OK (39 phrases) ; Logiciel de découpage en tranches : écarté (21 phrases, EN 2982) ; Stéréolithographie : OK (47 phrases)",
+   "passages": 1697,
+   "dernier_a": "26/10 00:18"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
    "poste": "recherche",
    "poste_prefere": "recherche",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
    "passages": 1301,
    "dernier_a": "25/10 22:05"
@@ -622,6 +631,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-10-26T00:17:33",
+   "type": "alerte",
+   "texte": "Échec : Trouver des sujets candidats",
+   "url": null
+  },
+  {
    "ts": "2026-10-26T00:12:14",
    "type": "alerte",
    "texte": "Échec : Recherche documentaire : Thread (protocole de réseau)",
@@ -764,20 +779,14 @@
    "type": "assistant",
    "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
    "url": null
-  },
-  {
-   "ts": "2026-10-18T08:43:06",
-   "type": "assistant",
-   "texte": "Éclaireur : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
-   "url": null
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 13,
-  "PENDING": 7,
-  "DEFERRED": 1,
-  "SUCCESS": 951,
-  "FAILED": 38
+  "RUNNING": 1,
+  "READY": 8,
+  "PENDING": 14,
+  "DEFERRED": 2,
+  "SUCCESS": 956,
+  "FAILED": 39
  }
 }
