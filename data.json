@@ -1,10 +1,10 @@
 {
- "now": 1792948385.6566503,
- "heure": "18:13:09",
+ "now": 1792948442.4857106,
+ "heure": "18:14:03",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Impression 3D dans la construction + Tester la disponibilité du LLM Groq (borné)",
-  "battement_s": 4
+  "activite": "Éclaireur : passage continu",
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
@@ -117,7 +117,7 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "attente",
+   "etat": "repos",
    "courant": null,
    "file": 2,
    "attend_humain": 0,
@@ -131,7 +131,7 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "prête"
+     "etat": "programmée 25/10 18:14"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
@@ -418,7 +418,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 1672,
    "dernier_a": "25/10 17:54"
@@ -737,10 +737,10 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 0,
-  "READY": 11,
+  "RUNNING": 1,
+  "READY": 9,
   "PENDING": 5,
-  "DEFERRED": 1,
+  "DEFERRED": 2,
   "SUCCESS": 951,
   "FAILED": 28
  }
