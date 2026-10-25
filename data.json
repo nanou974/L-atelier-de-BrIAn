@@ -1,10 +1,10 @@
 {
- "now": 1792967722.8951442,
- "heure": "23:35:53",
+ "now": 1792968031.7267554,
+ "heure": "23:41:26",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Loi de Moore + Trouver des sujets candidats",
-  "battement_s": 0
+  "activite": "Recherche documentaire : Thread (protocole de réseau) + Recherche documentaire : Loi de Moore",
+  "battement_s": 19
  },
  "modele": {
   "ok": false,
@@ -18,13 +18,9 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Trouver des sujets candidats",
-    "projet": "Éditorial",
-    "depuis": 760
-   },
-   "file": 0,
+   "etat": "alerte",
+   "courant": null,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
    "derniere": {
@@ -36,8 +32,7 @@
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "en cours",
-     "depuis": 760
+     "etat": "prête"
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -63,11 +58,11 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Loi de Moore",
-    "projet": "Sujet : Loi de Moore",
-    "depuis": 291
+    "titre": "Recherche documentaire : Thread (protocole de réseau)",
+    "projet": "Sujet : Thread (protocole de réseau)",
+    "depuis": 229
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : PirateBox",
    "derniere": {
@@ -77,15 +72,16 @@
    "total_fait": 27,
    "taches": [
     {
+     "titre": "Recherche documentaire : Thread (protocole de réseau)",
+     "projet": "Sujet : Thread (protocole de réseau)",
+     "etat": "en cours",
+     "depuis": 229
+    },
+    {
      "titre": "Recherche documentaire : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
      "etat": "en cours",
-     "depuis": 291
-    },
-    {
-     "titre": "Recherche documentaire : Thread (protocole de réseau)",
-     "projet": "Sujet : Thread (protocole de réseau)",
-     "etat": "prête"
+     "depuis": 600
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
