@@ -1,10 +1,10 @@
 {
- "now": 1792901640.6009548,
- "heure": "05:14:00",
+ "now": 1792901940.594617,
+ "heure": "05:19:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Impression 3D dans la construction + Éclaireur : passage continu",
-  "battement_s": 4
+  "activite": "Tendances : passage continu",
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
@@ -117,13 +117,9 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
-    "projet": "Sujet : Impression 3D dans la construction",
-    "depuis": 177
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -133,14 +129,13 @@
    "total_fait": 39,
    "taches": [
     {
-     "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
-     "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en cours",
-     "depuis": 177
-    },
-    {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
+     "etat": "programmée 25/10 05:19"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
+     "projet": "Sujet : Impression 3D dans la construction",
      "etat": "programmée 25/10 05:19"
     },
     {
@@ -424,16 +419,16 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Iconographe] 31 titres lus, 0 idées retenues",
-   "passages": 1564,
-   "dernier_a": "25/10 05:07"
+   "dernier": "[poste Trouver une idée, avec Archiviste, Iconographe] 31 titres lus, 0 idées retenues",
+   "passages": 1565,
+   "dernier_a": "25/10 05:16"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Iconographe] 31 titres lus, 0 idées retenues",
    "passages": 1256,
    "dernier_a": "25/10 05:11"
@@ -453,10 +448,10 @@
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 469,
-   "dernier_a": "25/10 05:05"
+   "passages": 470,
+   "dernier_a": "25/10 05:18"
   },
   {
    "cle": "analyste",
@@ -473,7 +468,7 @@
    "nom": "Tendances",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
    "passages": 107,
    "dernier_a": "25/10 04:37"
@@ -590,6 +585,12 @@
  ],
  "nb_publiees": 18,
  "notifications": [
+  {
+   "ts": "2026-10-25T05:18:12",
+   "type": "alerte",
+   "texte": "Échec : Analyste : passage continu",
+   "url": null
+  },
   {
    "ts": "2026-10-22T12:17:45",
    "type": "assistant",
@@ -733,20 +734,14 @@
    "type": "publication",
    "texte": "Publiée : Disque compact : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=NodSE53R2ck"
-  },
-  {
-   "ts": "2026-10-15T17:57:36",
-   "type": "publication",
-   "texte": "Publiée : Contour crafting : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=uE7b3v48llE"
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 8,
+  "RUNNING": 1,
+  "READY": 7,
   "PENDING": 5,
-  "DEFERRED": 1,
+  "DEFERRED": 2,
   "SUCCESS": 949,
-  "FAILED": 28
+  "FAILED": 29
  }
 }
