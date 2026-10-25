@@ -1,10 +1,10 @@
 {
- "now": 1792942440.7069445,
- "heure": "16:34:00",
+ "now": 1792942740.7132576,
+ "heure": "16:39:00",
  "moteur": {
   "etat": "actif",
   "activite": "en attente de travail exécutable",
-  "battement_s": 5
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
@@ -416,12 +416,12 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1659,
-   "dernier_a": "25/10 16:10"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée, avec Miniaturiste] 31 titres lus, 0 idées retenues",
+   "passages": 1660,
+   "dernier_a": "25/10 16:37"
   },
   {
    "cle": "archiviste",
@@ -486,7 +486,7 @@
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
@@ -586,51 +586,57 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-10-25T16:33:25",
+   "ts": "2026-10-25T16:37:52",
    "type": "alerte",
-   "texte": "Échec : Accroche : passage continu",
+   "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T16:32:54",
+   "ts": "2026-10-25T16:37:47",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T16:32:49",
+   "ts": "2026-10-25T16:37:42",
+   "type": "alerte",
+   "texte": "Échec : Miniaturiste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T16:37:37",
+   "type": "alerte",
+   "texte": "Échec : Accroche : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T16:37:31",
    "type": "alerte",
    "texte": "Échec : Tendances : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T16:32:44",
+   "ts": "2026-10-25T16:37:26",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T16:32:38",
+   "ts": "2026-10-25T16:37:21",
    "type": "alerte",
    "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T16:32:33",
+   "ts": "2026-10-25T16:37:16",
    "type": "alerte",
    "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T16:32:28",
+   "ts": "2026-10-25T16:37:10",
    "type": "alerte",
    "texte": "Échec : Archiviste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-10-25T16:32:23",
-   "type": "alerte",
-   "texte": "Échec : Éclaireur : passage continu",
    "url": null
   },
   {
@@ -728,12 +734,6 @@
    "type": "assistant",
    "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
    "url": null
-  },
-  {
-   "ts": "2026-10-18T01:24:12",
-   "type": "assistant",
-   "texte": "Référenceur : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
-   "url": null
   }
  ],
  "compteurs": {
@@ -741,7 +741,7 @@
   "READY": 0,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 952,
-  "FAILED": 36
+  "SUCCESS": 951,
+  "FAILED": 37
  }
 }
