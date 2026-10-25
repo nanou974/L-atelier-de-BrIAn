@@ -1,10 +1,10 @@
 {
- "now": 1792930740.3828194,
- "heure": "13:19:00",
+ "now": 1792931040.366933,
+ "heure": "13:24:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Tendances : passage continu",
-  "battement_s": 5
+  "activite": "en attente de travail exécutable",
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
@@ -420,8 +420,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1632,
-   "dernier_a": "25/10 13:17"
+   "passages": 1633,
+   "dernier_a": "25/10 13:23"
   },
   {
    "cle": "archiviste",
@@ -470,8 +470,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
-   "passages": 125,
-   "dernier_a": "25/10 13:14"
+   "passages": 126,
+   "dernier_a": "25/10 13:21"
   },
   {
    "cle": "accroche",
@@ -508,10 +508,10 @@
    "nom": "Programmateur",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube, avec Plume, Iconographe, Tendances, Accroche, Référenceur] 0 publications programmées, calendrier sain",
-   "passages": 50,
-   "dernier_a": "25/10 11:52"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, avec Archiviste, Plume] 0 publications programmées, calendrier sain",
+   "passages": 51,
+   "dernier_a": "25/10 13:23"
   }
  ],
  "programmees": [],
@@ -586,25 +586,43 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-10-25T13:18:35",
+   "ts": "2026-10-25T13:23:48",
+   "type": "alerte",
+   "texte": "Échec : Référenceur : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T13:23:43",
+   "type": "alerte",
+   "texte": "Échec : Miniaturiste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T13:23:38",
+   "type": "alerte",
+   "texte": "Échec : Accroche : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T13:23:33",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T13:18:30",
+   "ts": "2026-10-25T13:23:27",
    "type": "alerte",
    "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T13:18:24",
+   "ts": "2026-10-25T13:23:22",
    "type": "alerte",
    "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T13:18:19",
+   "ts": "2026-10-25T13:23:17",
    "type": "alerte",
    "texte": "Échec : Archiviste : passage continu",
    "url": null
@@ -716,32 +734,14 @@
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
    "url": null
-  },
-  {
-   "ts": "2026-10-17T18:38:45",
-   "type": "assistant",
-   "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
-   "url": null
-  },
-  {
-   "ts": "2026-10-17T18:35:09",
-   "type": "assistant",
-   "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Intelligence artificielle, Tesla (automobile)",
-   "url": null
-  },
-  {
-   "ts": "2026-10-17T18:32:14",
-   "type": "assistant",
-   "texte": "Plume : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
-   "url": null
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 4,
+  "RUNNING": 0,
+  "READY": 0,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 951,
-  "FAILED": 32
+  "SUCCESS": 953,
+  "FAILED": 35
  }
 }
