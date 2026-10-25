@@ -1,10 +1,10 @@
 {
- "now": 1792955473.6746855,
- "heure": "20:13:45",
+ "now": 1792955938.637768,
+ "heure": "20:19:00",
  "moteur": {
-  "etat": "arrêté",
-  "activite": "Recherche documentaire : Programmation de commande numérique + Éclaireur : passage continu",
-  "battement_s": 236
+  "etat": "actif",
+  "activite": "Recherche documentaire : Materialise NV + Trouver des sujets candidats",
+  "battement_s": 0
  },
  "modele": {
   "ok": true,
@@ -18,8 +18,12 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "repos",
-   "courant": null,
+   "etat": "actif",
+   "courant": {
+    "titre": "Trouver des sujets candidats",
+    "projet": "Éditorial",
+    "depuis": 310
+   },
    "file": 0,
    "attend_humain": 0,
    "alerte": null,
@@ -29,6 +33,12 @@
    },
    "total_fait": 11,
    "taches": [
+    {
+     "titre": "Trouver des sujets candidats",
+     "projet": "Éditorial",
+     "etat": "en cours",
+     "depuis": 310
+    },
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
@@ -53,9 +63,9 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Programmation de commande numérique",
-    "projet": "Sujet : Programmation de commande numérique",
-    "depuis": 1322
+    "titre": "Recherche documentaire : Materialise NV",
+    "projet": "Sujet : Materialise NV",
+    "depuis": 310
    },
    "file": 1,
    "attend_humain": 0,
@@ -67,14 +77,14 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : Programmation de commande numérique",
-     "projet": "Sujet : Programmation de commande numérique",
-     "etat": "en cours",
-     "depuis": 1322
-    },
-    {
      "titre": "Recherche documentaire : Materialise NV",
      "projet": "Sujet : Materialise NV",
+     "etat": "en cours",
+     "depuis": 310
+    },
+    {
+     "titre": "Recherche documentaire : Programmation de commande numérique",
+     "projet": "Sujet : Programmation de commande numérique",
      "etat": "prête"
     },
     {
@@ -791,7 +801,7 @@
   "READY": 10,
   "PENDING": 14,
   "DEFERRED": 0,
-  "SUCCESS": 951,
+  "SUCCESS": 952,
   "FAILED": 31
  }
 }
