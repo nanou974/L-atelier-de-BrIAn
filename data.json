@@ -1,15 +1,15 @@
 {
- "now": 1792943940.71973,
- "heure": "16:59:00",
+ "now": 1792944240.7828496,
+ "heure": "17:04:01",
  "moteur": {
   "etat": "actif",
-  "activite": "en attente de travail exécutable",
-  "battement_s": 4
+  "activite": "Réunir de vraies illustrations libres : Impression 3D dans la construction + Programmateur : passage continu",
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
-  "reprise": "25/10 17:01",
-  "erreur": "quota Groq atteint, pause 369 s",
+  "reprise": "25/10 17:12",
+  "erreur": "quota Groq atteint, pause 577 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -117,9 +117,13 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
+    "projet": "Sujet : Impression 3D dans la construction",
+    "depuis": 114
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -129,14 +133,15 @@
    "total_fait": 39,
    "taches": [
     {
-     "titre": "Réunir de vraies illustrations libres : Robocasting",
-     "projet": "Sujet : Robocasting",
-     "etat": "programmée 25/10 17:01"
-    },
-    {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 25/10 17:01"
+     "etat": "en cours",
+     "depuis": 114
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Robocasting",
+     "projet": "Sujet : Robocasting",
+     "etat": "programmée 25/10 17:13"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -470,8 +475,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 143,
-   "dernier_a": "25/10 16:58"
+   "passages": 144,
+   "dernier_a": "25/10 17:02"
   },
   {
    "cle": "accroche",
@@ -508,7 +513,7 @@
    "nom": "Programmateur",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Publication YouTube, avec Éclaireur, Tendances] 0 publications programmées, calendrier sain",
    "passages": 54,
    "dernier_a": "25/10 16:32"
@@ -586,55 +591,49 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-10-25T16:58:56",
-   "type": "alerte",
-   "texte": "Échec : Programmateur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-10-25T16:58:51",
+   "ts": "2026-10-25T17:04:00",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T16:58:46",
+   "ts": "2026-10-25T17:03:54",
    "type": "alerte",
    "texte": "Échec : Miniaturiste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T16:58:41",
+   "ts": "2026-10-25T17:03:49",
    "type": "alerte",
    "texte": "Échec : Accroche : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T16:58:35",
+   "ts": "2026-10-25T17:03:44",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T16:58:30",
+   "ts": "2026-10-25T17:03:39",
    "type": "alerte",
    "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T16:58:25",
+   "ts": "2026-10-25T17:03:33",
    "type": "alerte",
    "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T16:58:20",
+   "ts": "2026-10-25T17:03:28",
    "type": "alerte",
    "texte": "Échec : Archiviste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T16:58:15",
+   "ts": "2026-10-25T17:03:23",
    "type": "alerte",
    "texte": "Échec : Éclaireur : passage continu",
    "url": null
@@ -734,14 +733,20 @@
    "type": "assistant",
    "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
    "url": null
+  },
+  {
+   "ts": "2026-10-18T01:24:12",
+   "type": "assistant",
+   "texte": "Référenceur : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
+   "url": null
   }
  ],
  "compteurs": {
-  "RUNNING": 0,
+  "RUNNING": 2,
   "READY": 0,
   "PENDING": 5,
-  "DEFERRED": 2,
+  "DEFERRED": 1,
   "SUCCESS": 951,
-  "FAILED": 37
+  "FAILED": 36
  }
 }
