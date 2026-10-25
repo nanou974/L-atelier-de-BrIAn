@@ -1,10 +1,10 @@
 {
- "now": 1792946043.0757887,
- "heure": "17:34:04",
+ "now": 1792946340.8315454,
+ "heure": "17:39:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 0
+  "activite": "en attente de travail exécutable",
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
@@ -416,12 +416,12 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1667,
-   "dernier_a": "25/10 17:31"
+   "passages": 1668,
+   "dernier_a": "25/10 17:35"
   },
   {
    "cle": "archiviste",
@@ -466,12 +466,12 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 144,
-   "dernier_a": "25/10 17:02"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
+   "passages": 145,
+   "dernier_a": "25/10 17:37"
   },
   {
    "cle": "accroche",
@@ -508,10 +508,10 @@
    "nom": "Programmateur",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube, avec Éclaireur, Tendances] 0 publications programmées, calendrier sain",
-   "passages": 54,
-   "dernier_a": "25/10 16:32"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, avec Éclaireur, Iconographe] 0 publications programmées, calendrier sain",
+   "passages": 55,
+   "dernier_a": "25/10 17:37"
   }
  ],
  "programmees": [],
@@ -586,39 +586,51 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-10-25T17:32:03",
-   "type": "alerte",
-   "texte": "Échec : Programmateur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-10-25T17:31:53",
+   "ts": "2026-10-25T17:37:53",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T17:31:47",
+   "ts": "2026-10-25T17:37:47",
    "type": "alerte",
    "texte": "Échec : Miniaturiste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T17:31:42",
+   "ts": "2026-10-25T17:37:42",
    "type": "alerte",
    "texte": "Échec : Accroche : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T17:31:36",
+   "ts": "2026-10-25T17:37:37",
    "type": "alerte",
-   "texte": "Échec : Tendances : passage continu",
+   "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-10-25T17:31:29",
+   "ts": "2026-10-25T17:37:32",
    "type": "alerte",
-   "texte": "Échec : Analyste : passage continu",
+   "texte": "Échec : Iconographe : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T17:37:26",
+   "type": "alerte",
+   "texte": "Échec : Plume : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T17:37:21",
+   "type": "alerte",
+   "texte": "Échec : Archiviste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T17:37:16",
+   "type": "alerte",
+   "texte": "Échec : Éclaireur : passage continu",
    "url": null
   },
   {
@@ -722,26 +734,14 @@
    "type": "assistant",
    "texte": "Référenceur : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
    "url": null
-  },
-  {
-   "ts": "2026-10-17T18:38:45",
-   "type": "assistant",
-   "texte": "Plume : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
-   "url": null
-  },
-  {
-   "ts": "2026-10-17T18:38:45",
-   "type": "assistant",
-   "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
-   "url": null
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 3,
+  "RUNNING": 0,
+  "READY": 0,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 950,
-  "FAILED": 34
+  "SUCCESS": 952,
+  "FAILED": 36
  }
 }
