@@ -1,10 +1,10 @@
 {
- "now": 1792911240.8358157,
- "heure": "07:54:01",
+ "now": 1792911540.8475237,
+ "heure": "07:59:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Impression 3D dans la construction + Éclaireur : passage continu",
-  "battement_s": 4
+  "activite": "Accroche : passage continu",
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
@@ -117,13 +117,9 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
-    "projet": "Sujet : Impression 3D dans la construction",
-    "depuis": 234
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -133,14 +129,13 @@
    "total_fait": 39,
    "taches": [
     {
-     "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
-     "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en cours",
-     "depuis": 234
-    },
-    {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
+     "etat": "programmée 25/10 08:00"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
+     "projet": "Sujet : Impression 3D dans la construction",
      "etat": "programmée 25/10 08:00"
     },
     {
@@ -425,8 +420,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 1586,
-   "dernier_a": "25/10 07:47"
+   "passages": 1587,
+   "dernier_a": "25/10 07:55"
   },
   {
    "cle": "archiviste",
@@ -441,9 +436,9 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 889,
    "dernier_a": "25/10 07:50"
@@ -453,10 +448,10 @@
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 477,
-   "dernier_a": "25/10 07:45"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 478,
+   "dernier_a": "25/10 07:57"
   },
   {
    "cle": "analyste",
@@ -473,17 +468,17 @@
    "nom": "Tendances",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Iconographe] 27 titres lus, 0 idées retenues",
-   "passages": 113,
-   "dernier_a": "25/10 07:18"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 4 sujets mesurés, en hausse : PirateBox ×1.78, Materialise NV ×0.79",
+   "passages": 114,
+   "dernier_a": "25/10 07:57"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
    "poste": "script",
    "poste_prefere": "script",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
    "passages": 63,
    "dernier_a": "25/10 02:49"
@@ -590,6 +585,12 @@
  ],
  "nb_publiees": 18,
  "notifications": [
+  {
+   "ts": "2026-10-25T07:57:16",
+   "type": "alerte",
+   "texte": "Échec : Analyste : passage continu",
+   "url": null
+  },
   {
    "ts": "2026-10-22T12:17:45",
    "type": "assistant",
@@ -733,20 +734,14 @@
    "type": "publication",
    "texte": "Publiée : Disque compact : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=NodSE53R2ck"
-  },
-  {
-   "ts": "2026-10-15T17:57:36",
-   "type": "publication",
-   "texte": "Publiée : Contour crafting : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=uE7b3v48llE"
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 9,
+  "RUNNING": 1,
+  "READY": 6,
   "PENDING": 5,
-  "DEFERRED": 1,
-  "SUCCESS": 949,
-  "FAILED": 28
+  "DEFERRED": 2,
+  "SUCCESS": 951,
+  "FAILED": 29
  }
 }
