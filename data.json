@@ -1,9 +1,9 @@
 {
- "now": 1792966443.1111448,
- "heure": "23:14:05",
+ "now": 1792966742.6001976,
+ "heure": "23:19:04",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Impression 4D + Éclaireur : passage continu",
+  "activite": "Recherche documentaire : Impression 4D + Recherche documentaire : Thread (protocole de réseau)",
   "battement_s": 5
  },
  "modele": {
@@ -20,7 +20,7 @@
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
    "etat": "alerte",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
    "derniere": {
@@ -29,6 +29,11 @@
    },
    "total_fait": 11,
    "taches": [
+    {
+     "titre": "Trouver des sujets candidats",
+     "projet": "Éditorial",
+     "etat": "prête"
+    },
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
@@ -55,9 +60,9 @@
    "courant": {
     "titre": "Recherche documentaire : Impression 4D",
     "projet": "Sujet : Impression 4D",
-    "depuis": 407
+    "depuis": 707
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : PirateBox",
    "derniere": {
@@ -70,12 +75,13 @@
      "titre": "Recherche documentaire : Impression 4D",
      "projet": "Sujet : Impression 4D",
      "etat": "en cours",
-     "depuis": 407
+     "depuis": 707
     },
     {
      "titre": "Recherche documentaire : Thread (protocole de réseau)",
      "projet": "Sujet : Thread (protocole de réseau)",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 291
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -470,8 +476,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1695,
-   "dernier_a": "25/10 23:07"
+   "passages": 1696,
+   "dernier_a": "25/10 23:14"
   },
   {
    "cle": "archiviste",
@@ -791,7 +797,7 @@
   "READY": 10,
   "PENDING": 14,
   "DEFERRED": 0,
-  "SUCCESS": 951,
+  "SUCCESS": 952,
   "FAILED": 36
  }
 }
