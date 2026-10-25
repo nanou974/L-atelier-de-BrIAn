@@ -1,15 +1,15 @@
 {
- "now": 1792950336.7211552,
- "heure": "18:46:58",
+ "now": 1792950579.0084434,
+ "heure": "18:50:18",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Robocasting + Éclaireur : passage continu",
-  "battement_s": -14
+  "activite": "Réunir de vraies illustrations libres : Robocasting + Réunir de vraies illustrations libres : Impression 3D dans la construction",
+  "battement_s": -5
  },
  "modele": {
-  "ok": false,
+  "ok": true,
   "reprise": null,
-  "erreur": "Ollama TimeoutError: timed out",
+  "erreur": null,
   "moteur": "opencode openai/gpt-5.6-terra"
  },
  "stations": [
@@ -121,9 +121,9 @@
    "courant": {
     "titre": "Réunir de vraies illustrations libres : Robocasting",
     "projet": "Sujet : Robocasting",
-    "depuis": 164
+    "depuis": 406
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -136,12 +136,13 @@
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
      "etat": "en cours",
-     "depuis": 164
+     "depuis": 406
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 149
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -433,7 +434,7 @@
    "nom": "Archiviste",
    "poste": "script",
    "poste_prefere": "recherche",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
    "passages": 1295,
    "dernier_a": "25/10 18:40"
@@ -443,7 +444,7 @@
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Iconographe, Analyste] 31 titres lus, 0 idées retenues",
    "passages": 914,
    "dernier_a": "25/10 18:42"
@@ -453,7 +454,7 @@
    "nom": "Iconographe",
    "poste": "idee",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Analyste] 31 titres lus, 0 idées retenues",
    "passages": 493,
    "dernier_a": "25/10 18:40"
@@ -743,10 +744,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 9,
   "PENDING": 5,
   "DEFERRED": 0,
-  "SUCCESS": 951,
+  "SUCCESS": 952,
   "FAILED": 28
  }
 }
