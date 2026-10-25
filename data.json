@@ -1,14 +1,14 @@
 {
- "now": 1792969742.4367104,
- "heure": "00:09:04",
+ "now": 1792970138.1087089,
+ "heure": "00:16:30",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Thread (protocole de réseau) + Trouver des sujets candidats",
-  "battement_s": 0
+  "activite": "Trouver des sujets candidats + Trouver des sujets candidats",
+  "battement_s": -10
  },
  "modele": {
   "ok": false,
-  "reprise": null,
+  "reprise": "26/10 00:43",
   "erreur": "Ollama TimeoutError: timed out",
   "moteur": "opencode openai/gpt-5.6-terra"
  },
@@ -22,9 +22,9 @@
    "courant": {
     "titre": "Trouver des sujets candidats",
     "projet": "Éditorial",
-    "depuis": 91
+    "depuis": 487
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
    "derniere": {
@@ -37,12 +37,13 @@
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
      "etat": "en cours",
-     "depuis": 91
+     "depuis": 487
     },
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 72
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -66,12 +67,8 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Thread (protocole de réseau)",
-    "projet": "Sujet : Thread (protocole de réseau)",
-    "depuis": 711
-   },
+   "etat": "alerte",
+   "courant": null,
    "file": 1,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : PirateBox",
@@ -82,15 +79,9 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : Thread (protocole de réseau)",
-     "projet": "Sujet : Thread (protocole de réseau)",
-     "etat": "en cours",
-     "depuis": 711
-    },
-    {
      "titre": "Recherche documentaire : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
-     "etat": "prête"
+     "etat": "programmée 26/10 00:19"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -116,7 +107,7 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -125,11 +116,6 @@
    },
    "total_fait": 33,
    "taches": [
-    {
-     "titre": "Écrire le script : Thread (protocole de réseau)",
-     "projet": "Sujet : Thread (protocole de réseau)",
-     "etat": "en attente"
-    },
     {
      "titre": "Écrire le script : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
@@ -159,7 +145,7 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "alerte",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Réunir de vraies illustrations libres : Robocasting",
    "derniere": {
@@ -168,11 +154,6 @@
    },
    "total_fait": 39,
    "taches": [
-    {
-     "titre": "Réunir de vraies illustrations libres : Thread (protocole de réseau)",
-     "projet": "Sujet : Thread (protocole de réseau)",
-     "etat": "en attente"
-    },
     {
      "titre": "Réunir de vraies illustrations libres : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
@@ -202,7 +183,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -211,11 +192,6 @@
    },
    "total_fait": 56,
    "taches": [
-    {
-     "titre": "Générer la voix : Thread (protocole de réseau)",
-     "projet": "Sujet : Thread (protocole de réseau)",
-     "etat": "en attente"
-    },
     {
      "titre": "Générer la voix : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
@@ -245,7 +221,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -254,11 +230,6 @@
    },
    "total_fait": 52,
    "taches": [
-    {
-     "titre": "Aligner la narration : Thread (protocole de réseau)",
-     "projet": "Sujet : Thread (protocole de réseau)",
-     "etat": "en attente"
-    },
     {
      "titre": "Aligner la narration : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
@@ -288,7 +259,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -297,11 +268,6 @@
    },
    "total_fait": 74,
    "taches": [
-    {
-     "titre": "Rendre la vidéo : Thread (protocole de réseau)",
-     "projet": "Sujet : Thread (protocole de réseau)",
-     "etat": "en attente"
-    },
     {
      "titre": "Rendre la vidéo : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
@@ -331,7 +297,7 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -340,11 +306,6 @@
    },
    "total_fait": 59,
    "taches": [
-    {
-     "titre": "QA automatique : Thread (protocole de réseau)",
-     "projet": "Sujet : Thread (protocole de réseau)",
-     "etat": "en attente"
-    },
     {
      "titre": "QA automatique : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
@@ -374,7 +335,7 @@
    "desc": "Décide si la vidéo mérite d'être publiée.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -383,11 +344,6 @@
    },
    "total_fait": 45,
    "taches": [
-    {
-     "titre": "Revue finale (dossier, script, vidéo) : Thread (protocole de réseau)",
-     "projet": "Sujet : Thread (protocole de réseau)",
-     "etat": "en attente"
-    },
     {
      "titre": "Revue finale (dossier, script, vidéo) : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
@@ -666,6 +622,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-10-26T00:12:14",
+   "type": "alerte",
+   "texte": "Échec : Recherche documentaire : Thread (protocole de réseau)",
+   "url": null
+  },
+  {
    "ts": "2026-10-25T23:22:21",
    "type": "alerte",
    "texte": "Échec : Recherche documentaire : Impression 4D",
@@ -808,20 +770,14 @@
    "type": "assistant",
    "texte": "Éclaireur : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
    "url": null
-  },
-  {
-   "ts": "2026-10-18T08:42:01",
-   "type": "assistant",
-   "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
-   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 15,
-  "PENDING": 14,
-  "DEFERRED": 0,
+  "READY": 13,
+  "PENDING": 7,
+  "DEFERRED": 1,
   "SUCCESS": 951,
-  "FAILED": 37
+  "FAILED": 38
  }
 }
