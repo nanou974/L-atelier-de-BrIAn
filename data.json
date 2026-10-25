@@ -1,15 +1,15 @@
 {
- "now": 1792887540.307536,
- "heure": "02:19:00",
+ "now": 1792887840.3314972,
+ "heure": "02:24:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Robocasting + Archiviste : passage continu",
-  "battement_s": 2
+  "activite": "Archiviste : passage continu",
+  "battement_s": 0
  },
  "modele": {
-  "ok": true,
-  "reprise": null,
-  "erreur": null,
+  "ok": false,
+  "reprise": "25/10 02:27",
+  "erreur": "quota Groq atteint, pause 473 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -117,13 +117,9 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Réunir de vraies illustrations libres : Robocasting",
-    "projet": "Sujet : Robocasting",
-    "depuis": 160
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -135,13 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "en cours",
-     "depuis": 160
+     "etat": "programmée 25/10 02:27"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "prête"
+     "etat": "programmée 25/10 02:27"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -425,8 +420,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 1531,
-   "dernier_a": "25/10 02:13"
+   "passages": 1532,
+   "dernier_a": "25/10 02:23"
   },
   {
    "cle": "archiviste",
@@ -435,8 +430,8 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1242,
-   "dernier_a": "25/10 02:11"
+   "passages": 1243,
+   "dernier_a": "25/10 02:19"
   },
   {
    "cle": "plume",
@@ -742,11 +737,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 10,
+  "RUNNING": 1,
+  "READY": 8,
   "PENDING": 5,
-  "DEFERRED": 0,
-  "SUCCESS": 948,
+  "DEFERRED": 2,
+  "SUCCESS": 949,
   "FAILED": 28
  }
 }
