@@ -1,10 +1,10 @@
 {
- "now": 1792953945.0807514,
- "heure": "19:46:05",
+ "now": 1792954144.4751604,
+ "heure": "19:49:05",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Impression 3D dans la construction + Recherche documentaire : PirateBox",
-  "battement_s": -6
+  "activite": "Recherche documentaire : PirateBox + Éclaireur : passage continu",
+  "battement_s": 0
  },
  "modele": {
   "ok": true,
@@ -55,9 +55,9 @@
    "courant": {
     "titre": "Recherche documentaire : PirateBox",
     "projet": "Sujet : PirateBox",
-    "depuis": 329
+    "depuis": 528
    },
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -70,7 +70,12 @@
      "titre": "Recherche documentaire : PirateBox",
      "projet": "Sujet : PirateBox",
      "etat": "en cours",
-     "depuis": 329
+     "depuis": 528
+    },
+    {
+     "titre": "Recherche documentaire : Programmation de commande numérique",
+     "projet": "Sujet : Programmation de commande numérique",
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -96,7 +101,7 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -108,6 +113,11 @@
     {
      "titre": "Écrire le script : PirateBox",
      "projet": "Sujet : PirateBox",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Écrire le script : Programmation de commande numérique",
+     "projet": "Sujet : Programmation de commande numérique",
      "etat": "en attente"
     },
     {
@@ -132,13 +142,9 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
-    "projet": "Sujet : Impression 3D dans la construction",
-    "depuis": 858
-   },
-   "file": 1,
+   "etat": "alerte",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": "Réunir de vraies illustrations libres : Robocasting",
    "derniere": {
@@ -148,14 +154,13 @@
    "total_fait": 39,
    "taches": [
     {
-     "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
-     "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en cours",
-     "depuis": 858
-    },
-    {
      "titre": "Réunir de vraies illustrations libres : PirateBox",
      "projet": "Sujet : PirateBox",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Programmation de commande numérique",
+     "projet": "Sujet : Programmation de commande numérique",
      "etat": "en attente"
     },
     {
@@ -192,13 +197,13 @@
    "total_fait": 56,
    "taches": [
     {
-     "titre": "Générer la voix : Impression 3D dans la construction",
-     "projet": "Sujet : Impression 3D dans la construction",
+     "titre": "Générer la voix : PirateBox",
+     "projet": "Sujet : PirateBox",
      "etat": "en attente"
     },
     {
-     "titre": "Générer la voix : PirateBox",
-     "projet": "Sujet : PirateBox",
+     "titre": "Générer la voix : Programmation de commande numérique",
+     "projet": "Sujet : Programmation de commande numérique",
      "etat": "en attente"
     },
     {
@@ -235,13 +240,13 @@
    "total_fait": 52,
    "taches": [
     {
-     "titre": "Aligner la narration : Impression 3D dans la construction",
-     "projet": "Sujet : Impression 3D dans la construction",
+     "titre": "Aligner la narration : PirateBox",
+     "projet": "Sujet : PirateBox",
      "etat": "en attente"
     },
     {
-     "titre": "Aligner la narration : PirateBox",
-     "projet": "Sujet : PirateBox",
+     "titre": "Aligner la narration : Programmation de commande numérique",
+     "projet": "Sujet : Programmation de commande numérique",
      "etat": "en attente"
     },
     {
@@ -278,13 +283,13 @@
    "total_fait": 74,
    "taches": [
     {
-     "titre": "Rendre la vidéo : Impression 3D dans la construction",
-     "projet": "Sujet : Impression 3D dans la construction",
+     "titre": "Rendre la vidéo : PirateBox",
+     "projet": "Sujet : PirateBox",
      "etat": "en attente"
     },
     {
-     "titre": "Rendre la vidéo : PirateBox",
-     "projet": "Sujet : PirateBox",
+     "titre": "Rendre la vidéo : Programmation de commande numérique",
+     "projet": "Sujet : Programmation de commande numérique",
      "etat": "en attente"
     },
     {
@@ -321,13 +326,13 @@
    "total_fait": 59,
    "taches": [
     {
-     "titre": "QA automatique : Impression 3D dans la construction",
-     "projet": "Sujet : Impression 3D dans la construction",
+     "titre": "QA automatique : PirateBox",
+     "projet": "Sujet : PirateBox",
      "etat": "en attente"
     },
     {
-     "titre": "QA automatique : PirateBox",
-     "projet": "Sujet : PirateBox",
+     "titre": "QA automatique : Programmation de commande numérique",
+     "projet": "Sujet : Programmation de commande numérique",
      "etat": "en attente"
     },
     {
@@ -364,13 +369,13 @@
    "total_fait": 45,
    "taches": [
     {
-     "titre": "Revue finale (dossier, script, vidéo) : Impression 3D dans la construction",
-     "projet": "Sujet : Impression 3D dans la construction",
+     "titre": "Revue finale (dossier, script, vidéo) : PirateBox",
+     "projet": "Sujet : PirateBox",
      "etat": "en attente"
     },
     {
-     "titre": "Revue finale (dossier, script, vidéo) : PirateBox",
-     "projet": "Sujet : PirateBox",
+     "titre": "Revue finale (dossier, script, vidéo) : Programmation de commande numérique",
+     "projet": "Sujet : Programmation de commande numérique",
      "etat": "en attente"
     },
     {
@@ -631,6 +636,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-10-25T19:46:48",
+   "type": "alerte",
+   "texte": "Échec : Réunir de vraies illustrations libres : Impression 3D dans la construction",
+   "url": null
+  },
+  {
    "ts": "2026-10-25T19:01:46",
    "type": "alerte",
    "texte": "Échec : Réunir de vraies illustrations libres : Robocasting",
@@ -773,20 +784,14 @@
    "type": "publication",
    "texte": "Publiée : RISC-V : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=Rdp9AgvQvA0"
-  },
-  {
-   "ts": "2026-10-16T19:43:35",
-   "type": "publication",
-   "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
   }
  ],
  "compteurs": {
   "RUNNING": 2,
   "READY": 10,
-  "PENDING": 12,
+  "PENDING": 14,
   "DEFERRED": 0,
   "SUCCESS": 951,
-  "FAILED": 29
+  "FAILED": 30
  }
 }
