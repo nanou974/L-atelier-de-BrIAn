@@ -1,15 +1,15 @@
 {
- "now": 1792947318.6719918,
- "heure": "17:55:38",
+ "now": 1792947683.478101,
+ "heure": "18:01:30",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 0
+  "activite": "Archiviste : passage continu",
+  "battement_s": 40
  },
  "modele": {
-  "ok": false,
-  "reprise": "25/10 18:13",
-  "erreur": "Ollama URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
+  "ok": true,
+  "reprise": null,
+  "erreur": null,
   "moteur": "opencode openai/gpt-5.6-terra"
  },
  "stations": [
@@ -117,7 +117,7 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
    "file": 2,
    "attend_humain": 0,
@@ -131,12 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "programmée 25/10 18:13"
+     "etat": "prête"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 25/10 18:13"
+     "etat": "prête"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -383,9 +383,9 @@
    "titre": "Veille et maintenance",
    "icone": "🧰",
    "desc": "Vérifie le disque, l'intégrité des fichiers et le modèle de langage.",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -394,6 +394,11 @@
    },
    "total_fait": 69,
    "taches": [
+    {
+     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "projet": "Maintenance",
+     "etat": "prête"
+    },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
@@ -428,7 +433,7 @@
    "nom": "Archiviste",
    "poste": "recherche",
    "poste_prefere": "recherche",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
    "passages": 1289,
    "dernier_a": "25/10 14:26"
@@ -738,9 +743,9 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 12,
   "PENDING": 5,
-  "DEFERRED": 2,
+  "DEFERRED": 0,
   "SUCCESS": 950,
   "FAILED": 28
  }
