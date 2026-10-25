@@ -1,10 +1,10 @@
 {
- "now": 1792963199.0874894,
- "heure": "22:20:03",
+ "now": 1792963540.3567288,
+ "heure": "22:27:27",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : HomeKit + Recherche documentaire : ZigBee",
-  "battement_s": 2
+  "activite": "Recherche documentaire : ZigBee + Éclaireur : passage continu",
+  "battement_s": 14
  },
  "modele": {
   "ok": false,
@@ -53,9 +53,9 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : HomeKit",
-    "projet": "Sujet : HomeKit",
-    "depuis": 824
+    "titre": "Recherche documentaire : ZigBee",
+    "projet": "Sujet : ZigBee",
+    "depuis": 934
    },
    "file": 0,
    "attend_humain": 0,
@@ -67,16 +67,10 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : HomeKit",
-     "projet": "Sujet : HomeKit",
-     "etat": "en cours",
-     "depuis": 824
-    },
-    {
      "titre": "Recherche documentaire : ZigBee",
      "projet": "Sujet : ZigBee",
      "etat": "en cours",
-     "depuis": 593
+     "depuis": 934
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -102,7 +96,7 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -111,11 +105,6 @@
    },
    "total_fait": 33,
    "taches": [
-    {
-     "titre": "Écrire le script : HomeKit",
-     "projet": "Sujet : HomeKit",
-     "etat": "en attente"
-    },
     {
      "titre": "Écrire le script : ZigBee",
      "projet": "Sujet : ZigBee",
@@ -145,7 +134,7 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "alerte",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Réunir de vraies illustrations libres : Robocasting",
    "derniere": {
@@ -154,11 +143,6 @@
    },
    "total_fait": 39,
    "taches": [
-    {
-     "titre": "Réunir de vraies illustrations libres : HomeKit",
-     "projet": "Sujet : HomeKit",
-     "etat": "en attente"
-    },
     {
      "titre": "Réunir de vraies illustrations libres : ZigBee",
      "projet": "Sujet : ZigBee",
@@ -188,7 +172,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -197,11 +181,6 @@
    },
    "total_fait": 56,
    "taches": [
-    {
-     "titre": "Générer la voix : HomeKit",
-     "projet": "Sujet : HomeKit",
-     "etat": "en attente"
-    },
     {
      "titre": "Générer la voix : ZigBee",
      "projet": "Sujet : ZigBee",
@@ -231,7 +210,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -240,11 +219,6 @@
    },
    "total_fait": 52,
    "taches": [
-    {
-     "titre": "Aligner la narration : HomeKit",
-     "projet": "Sujet : HomeKit",
-     "etat": "en attente"
-    },
     {
      "titre": "Aligner la narration : ZigBee",
      "projet": "Sujet : ZigBee",
@@ -274,7 +248,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -283,11 +257,6 @@
    },
    "total_fait": 74,
    "taches": [
-    {
-     "titre": "Rendre la vidéo : HomeKit",
-     "projet": "Sujet : HomeKit",
-     "etat": "en attente"
-    },
     {
      "titre": "Rendre la vidéo : ZigBee",
      "projet": "Sujet : ZigBee",
@@ -469,7 +438,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
    "passages": 1692,
    "dernier_a": "25/10 22:08"
@@ -637,6 +606,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-10-25T22:21:19",
+   "type": "alerte",
+   "texte": "Échec : Recherche documentaire : HomeKit",
+   "url": null
+  },
+  {
    "ts": "2026-10-25T21:12:15",
    "type": "alerte",
    "texte": "Échec : Recherche documentaire : Materialise NV",
@@ -779,20 +754,14 @@
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
    "url": null
-  },
-  {
-   "ts": "2026-10-17T18:38:45",
-   "type": "assistant",
-   "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
-   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
-  "PENDING": 14,
+  "READY": 9,
+  "PENDING": 9,
   "DEFERRED": 0,
   "SUCCESS": 951,
-  "FAILED": 34
+  "FAILED": 35
  }
 }
