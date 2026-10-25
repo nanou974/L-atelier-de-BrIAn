@@ -1,14 +1,14 @@
 {
- "now": 1792948041.1546304,
- "heure": "18:07:30",
+ "now": 1792948385.6566503,
+ "heure": "18:13:09",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Robocasting + Réunir de vraies illustrations libres : Impression 3D dans la construction",
-  "battement_s": 0
+  "activite": "Réunir de vraies illustrations libres : Impression 3D dans la construction + Tester la disponibilité du LLM Groq (borné)",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
-  "reprise": null,
+  "reprise": "25/10 18:42",
   "erreur": "Ollama TimeoutError: timed out",
   "moteur": "opencode openai/gpt-5.6-terra"
  },
@@ -117,13 +117,9 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Réunir de vraies illustrations libres : Robocasting",
-    "projet": "Sujet : Robocasting",
-    "depuis": 356
-   },
-   "file": 0,
+   "etat": "attente",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -135,14 +131,12 @@
     {
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
-     "etat": "en cours",
-     "depuis": 356
+     "etat": "prête"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "en cours",
-     "depuis": 5
+     "etat": "programmée 25/10 18:18"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -389,21 +383,21 @@
    "titre": "Veille et maintenance",
    "icone": "🧰",
    "desc": "Vérifie le disque, l'intégrité des fichiers et le modèle de langage.",
-   "etat": "attente",
+   "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
     "titre": "Tester la disponibilité du LLM Groq (borné)",
-    "quand": "25/10 12:00"
+    "quand": "25/10 18:13"
    },
-   "total_fait": 69,
+   "total_fait": 70,
    "taches": [
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
-     "etat": "prête"
+     "etat": "terminée 25/10 18:13"
     },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
@@ -414,11 +408,6 @@
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
      "etat": "terminée 25/10 06:01"
-    },
-    {
-     "titre": "Contrôler l'espace disque",
-     "projet": "Maintenance",
-     "etat": "terminée 25/10 00:03"
     }
    ]
   }
@@ -597,12 +586,6 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-10-25T18:07:11",
-   "type": "alerte",
-   "texte": "Échec : Archiviste : passage continu",
-   "url": null
-  },
-  {
    "ts": "2026-10-25T11:52:01",
    "type": "assistant",
    "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Programmation de commande numérique",
@@ -745,14 +728,20 @@
    "type": "publication",
    "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
+  },
+  {
+   "ts": "2026-10-16T16:08:27",
+   "type": "publication",
+   "texte": "Publiée : Disque compact : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=NodSE53R2ck"
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 10,
+  "RUNNING": 0,
+  "READY": 11,
   "PENDING": 5,
-  "DEFERRED": 0,
-  "SUCCESS": 950,
-  "FAILED": 29
+  "DEFERRED": 1,
+  "SUCCESS": 951,
+  "FAILED": 28
  }
 }
