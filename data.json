@@ -1,10 +1,10 @@
 {
- "now": 1792971840.3955986,
- "heure": "00:44:00",
+ "now": 1792972221.2600799,
+ "heure": "00:51:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Loi de Moore + Plume : passage continu",
-  "battement_s": 5
+  "activite": "Recherche documentaire : Loi de Moore + Recherche documentaire : Ordinateur domestique",
+  "battement_s": 12
  },
  "modele": {
   "ok": false,
@@ -55,9 +55,9 @@
    "courant": {
     "titre": "Recherche documentaire : Loi de Moore",
     "projet": "Sujet : Loi de Moore",
-    "depuis": 4
+    "depuis": 385
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : PirateBox",
    "derniere": {
@@ -70,12 +70,13 @@
      "titre": "Recherche documentaire : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
      "etat": "en cours",
-     "depuis": 4
+     "depuis": 385
     },
     {
      "titre": "Recherche documentaire : Ordinateur domestique",
      "projet": "Sujet : Ordinateur domestique",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 178
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -468,7 +469,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
    "passages": 1701,
    "dernier_a": "26/10 00:41"
@@ -489,9 +490,9 @@
    "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
-   "passages": 921,
-   "dernier_a": "26/10 00:38"
+   "dernier": "[poste Trouver une idée, avec Éclaireur, Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 922,
+   "dernier_a": "26/10 00:46"
   },
   {
    "cle": "iconographe",
@@ -788,10 +789,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 8,
+  "READY": 10,
   "PENDING": 14,
   "DEFERRED": 0,
-  "SUCCESS": 957,
+  "SUCCESS": 955,
   "FAILED": 39
  }
 }
