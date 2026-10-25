@@ -1,10 +1,10 @@
 {
- "now": 1792900740.583271,
- "heure": "04:59:00",
+ "now": 1792901040.5901172,
+ "heure": "05:04:00",
  "moteur": {
   "etat": "actif",
   "activite": "Iconographe : passage continu",
-  "battement_s": 0
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
@@ -419,9 +419,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 1562,
-   "dernier_a": "25/10 04:57"
+   "dernier": "[poste Trouver une idée, avec Iconographe] 31 titres lus, 0 idées retenues",
+   "passages": 1563,
+   "dernier_a": "25/10 05:02"
   },
   {
    "cle": "archiviste",
@@ -436,9 +436,9 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 882,
    "dernier_a": "25/10 04:55"
@@ -450,8 +450,8 @@
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 467,
-   "dernier_a": "25/10 04:13"
+   "passages": 468,
+   "dernier_a": "25/10 05:00"
   },
   {
    "cle": "analyste",
@@ -586,7 +586,13 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-10-25T04:57:17",
+   "ts": "2026-10-25T05:02:20",
+   "type": "alerte",
+   "texte": "Échec : Plume : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T05:02:15",
    "type": "alerte",
    "texte": "Échec : Archiviste : passage continu",
    "url": null
@@ -728,20 +734,14 @@
    "type": "publication",
    "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
-  },
-  {
-   "ts": "2026-10-16T16:08:27",
-   "type": "publication",
-   "texte": "Publiée : Disque compact : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=NodSE53R2ck"
   }
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 7,
+  "READY": 6,
   "PENDING": 5,
   "DEFERRED": 2,
   "SUCCESS": 949,
-  "FAILED": 29
+  "FAILED": 30
  }
 }
