@@ -1,9 +1,9 @@
 {
- "now": 1792969442.1778026,
- "heure": "00:04:03",
+ "now": 1792969742.4367104,
+ "heure": "00:09:04",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Thread (protocole de réseau) + Recherche documentaire : Loi de Moore",
+  "activite": "Recherche documentaire : Thread (protocole de réseau) + Trouver des sujets candidats",
   "battement_s": 0
  },
  "modele": {
@@ -18,8 +18,12 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "alerte",
-   "courant": null,
+   "etat": "actif",
+   "courant": {
+    "titre": "Trouver des sujets candidats",
+    "projet": "Éditorial",
+    "depuis": 91
+   },
    "file": 1,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
@@ -29,6 +33,12 @@
    },
    "total_fait": 11,
    "taches": [
+    {
+     "titre": "Trouver des sujets candidats",
+     "projet": "Éditorial",
+     "etat": "en cours",
+     "depuis": 91
+    },
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
@@ -60,9 +70,9 @@
    "courant": {
     "titre": "Recherche documentaire : Thread (protocole de réseau)",
     "projet": "Sujet : Thread (protocole de réseau)",
-    "depuis": 410
+    "depuis": 711
    },
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : PirateBox",
    "derniere": {
@@ -75,13 +85,12 @@
      "titre": "Recherche documentaire : Thread (protocole de réseau)",
      "projet": "Sujet : Thread (protocole de réseau)",
      "etat": "en cours",
-     "depuis": 410
+     "depuis": 711
     },
     {
      "titre": "Recherche documentaire : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
-     "etat": "en cours",
-     "depuis": 698
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -439,9 +448,9 @@
    "titre": "Veille et maintenance",
    "icone": "🧰",
    "desc": "Vérifie le disque, l'intégrité des fichiers et le modèle de langage.",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
-   "file": 0,
+   "file": 3,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -450,6 +459,21 @@
    },
    "total_fait": 70,
    "taches": [
+    {
+     "titre": "Vérifier l'intégrité des médias sources",
+     "projet": "Maintenance",
+     "etat": "prête"
+    },
+    {
+     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "projet": "Maintenance",
+     "etat": "prête"
+    },
+    {
+     "titre": "Contrôler l'espace disque",
+     "projet": "Maintenance",
+     "etat": "prête"
+    },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
@@ -794,7 +818,7 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 11,
+  "READY": 15,
   "PENDING": 14,
   "DEFERRED": 0,
   "SUCCESS": 951,
