@@ -1,10 +1,10 @@
 {
- "now": 1792956346.5783484,
- "heure": "20:26:53",
+ "now": 1792956642.604832,
+ "heure": "20:30:47",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Materialise NV + Trouver des sujets candidats",
-  "battement_s": 35
+  "activite": "Recherche documentaire : Programmation de commande numérique + Recherche documentaire : Materialise NV",
+  "battement_s": 0
  },
  "modele": {
   "ok": true,
@@ -18,13 +18,9 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Trouver des sujets candidats",
-    "projet": "Éditorial",
-    "depuis": 718
-   },
-   "file": 0,
+   "etat": "attente",
+   "courant": null,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -36,8 +32,7 @@
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "en cours",
-     "depuis": 718
+     "etat": "prête"
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -63,11 +58,11 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Materialise NV",
-    "projet": "Sujet : Materialise NV",
-    "depuis": 718
+    "titre": "Recherche documentaire : Programmation de commande numérique",
+    "projet": "Sujet : Programmation de commande numérique",
+    "depuis": 214
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : PirateBox",
    "derniere": {
@@ -77,15 +72,16 @@
    "total_fait": 27,
    "taches": [
     {
+     "titre": "Recherche documentaire : Programmation de commande numérique",
+     "projet": "Sujet : Programmation de commande numérique",
+     "etat": "en cours",
+     "depuis": 214
+    },
+    {
      "titre": "Recherche documentaire : Materialise NV",
      "projet": "Sujet : Materialise NV",
      "etat": "en cours",
-     "depuis": 718
-    },
-    {
-     "titre": "Recherche documentaire : Programmation de commande numérique",
-     "projet": "Sujet : Programmation de commande numérique",
-     "etat": "prête"
+     "depuis": 1014
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -516,7 +512,7 @@
   {
    "cle": "analyste",
    "nom": "Analyste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "publication",
    "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
@@ -798,10 +794,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 11,
   "PENDING": 14,
   "DEFERRED": 0,
-  "SUCCESS": 952,
+  "SUCCESS": 951,
   "FAILED": 31
  }
 }
