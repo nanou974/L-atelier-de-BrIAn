@@ -1,15 +1,15 @@
 {
- "now": 1792939440.65696,
- "heure": "15:44:00",
+ "now": 1792939740.6317945,
+ "heure": "15:49:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 0
+  "activite": "Réunir de vraies illustrations libres : Impression 3D dans la construction + Éclaireur : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "25/10 15:45",
-  "erreur": "quota Groq atteint, pause 423 s",
+  "reprise": "25/10 16:01",
+  "erreur": "quota Groq atteint, pause 819 s",
   "moteur": "groq openai/gpt-oss-120b"
  },
  "stations": [
@@ -117,9 +117,13 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
+    "projet": "Sujet : Impression 3D dans la construction",
+    "depuis": 171
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -129,14 +133,15 @@
    "total_fait": 39,
    "taches": [
     {
-     "titre": "Réunir de vraies illustrations libres : Robocasting",
-     "projet": "Sujet : Robocasting",
-     "etat": "programmée 25/10 15:45"
-    },
-    {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "programmée 25/10 15:45"
+     "etat": "en cours",
+     "depuis": 171
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Robocasting",
+     "projet": "Sujet : Robocasting",
+     "etat": "programmée 25/10 16:01"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -416,7 +421,7 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
@@ -466,7 +471,7 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
@@ -476,12 +481,12 @@
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
-   "passages": 67,
-   "dernier_a": "25/10 14:18"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 68,
+   "dernier_a": "25/10 15:46"
   },
   {
    "cle": "miniaturiste",
@@ -737,10 +742,10 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
+  "RUNNING": 2,
   "READY": 9,
   "PENDING": 5,
-  "DEFERRED": 2,
+  "DEFERRED": 1,
   "SUCCESS": 950,
   "FAILED": 28
  }
