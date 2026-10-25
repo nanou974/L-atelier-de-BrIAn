@@ -1,14 +1,14 @@
 {
- "now": 1792971540.4068503,
- "heure": "00:39:00",
+ "now": 1792971840.3955986,
+ "heure": "00:44:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 2
+  "activite": "Recherche documentaire : Loi de Moore + Plume : passage continu",
+  "battement_s": 5
  },
  "modele": {
   "ok": false,
-  "reprise": "26/10 00:43",
+  "reprise": null,
   "erreur": "Ollama TimeoutError: timed out",
   "moteur": "opencode openai/gpt-5.6-terra"
  },
@@ -51,9 +51,13 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "alerte",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : Loi de Moore",
+    "projet": "Sujet : Loi de Moore",
+    "depuis": 4
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : PirateBox",
    "derniere": {
@@ -65,12 +69,13 @@
     {
      "titre": "Recherche documentaire : Loi de Moore",
      "projet": "Sujet : Loi de Moore",
-     "etat": "programmée 26/10 00:43"
+     "etat": "en cours",
+     "depuis": 4
     },
     {
      "titre": "Recherche documentaire : Ordinateur domestique",
      "projet": "Sujet : Ordinateur domestique",
-     "etat": "programmée 26/10 00:43"
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -464,19 +469,19 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1700,
-   "dernier_a": "26/10 00:36"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 1701,
+   "dernier_a": "26/10 00:41"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Plume] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 1305,
-   "dernier_a": "26/10 00:36"
+   "dernier": "[poste Trouver une idée, avec Éclaireur, Plume] 31 titres lus, 0 idées retenues",
+   "passages": 1306,
+   "dernier_a": "26/10 00:43"
   },
   {
    "cle": "plume",
@@ -493,7 +498,7 @@
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
    "passages": 499,
    "dernier_a": "26/10 00:33"
@@ -782,11 +787,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
+  "RUNNING": 2,
   "READY": 8,
   "PENDING": 14,
-  "DEFERRED": 2,
-  "SUCCESS": 956,
+  "DEFERRED": 0,
+  "SUCCESS": 957,
   "FAILED": 39
  }
 }
