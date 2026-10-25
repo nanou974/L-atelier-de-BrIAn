@@ -1,10 +1,10 @@
 {
- "now": 1792896540.452559,
- "heure": "03:49:00",
+ "now": 1792896840.441151,
+ "heure": "03:54:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Robocasting + Tendances : passage continu",
-  "battement_s": 3
+  "activite": "Réunir de vraies illustrations libres : Robocasting + Réunir de vraies illustrations libres : Impression 3D dans la construction",
+  "battement_s": 0
  },
  "modele": {
   "ok": true,
@@ -121,9 +121,9 @@
    "courant": {
     "titre": "Réunir de vraies illustrations libres : Robocasting",
     "projet": "Sujet : Robocasting",
-    "depuis": 64
+    "depuis": 66
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -136,12 +136,13 @@
      "titre": "Réunir de vraies illustrations libres : Robocasting",
      "projet": "Sujet : Robocasting",
      "etat": "en cours",
-     "depuis": 64
+     "depuis": 66
     },
     {
      "titre": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 56
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -424,9 +425,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 1552,
-   "dernier_a": "25/10 03:45"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 1553,
+   "dernier_a": "25/10 03:53"
   },
   {
    "cle": "archiviste",
@@ -474,9 +475,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Iconographe] 31 titres lus, 0 idées retenues",
-   "passages": 105,
-   "dernier_a": "25/10 03:23"
+   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
+   "passages": 106,
+   "dernier_a": "25/10 03:50"
   },
   {
    "cle": "accroche",
@@ -590,18 +591,6 @@
  ],
  "nb_publiees": 18,
  "notifications": [
-  {
-   "ts": "2026-10-25T03:47:20",
-   "type": "alerte",
-   "texte": "Échec : Analyste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-10-25T03:47:15",
-   "type": "alerte",
-   "texte": "Échec : Iconographe : passage continu",
-   "url": null
-  },
   {
    "ts": "2026-10-22T12:17:45",
    "type": "assistant",
@@ -739,14 +728,26 @@
    "type": "publication",
    "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
+  },
+  {
+   "ts": "2026-10-16T16:08:27",
+   "type": "publication",
+   "texte": "Publiée : Disque compact : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=NodSE53R2ck"
+  },
+  {
+   "ts": "2026-10-15T17:57:36",
+   "type": "publication",
+   "texte": "Publiée : Contour crafting : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=uE7b3v48llE"
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 7,
+  "READY": 9,
   "PENDING": 5,
   "DEFERRED": 0,
   "SUCCESS": 949,
-  "FAILED": 30
+  "FAILED": 28
  }
 }
