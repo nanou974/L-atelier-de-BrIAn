@@ -1,10 +1,10 @@
 {
- "now": 1792913040.8668337,
- "heure": "08:24:01",
+ "now": 1792913340.8835044,
+ "heure": "08:29:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Plume : passage continu",
-  "battement_s": 4
+  "activite": "Tendances : passage continu",
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
@@ -420,18 +420,18 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 27 titres lus, 0 idées retenues",
-   "passages": 1591,
-   "dernier_a": "25/10 08:23"
+   "passages": 1592,
+   "dernier_a": "25/10 08:28"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "recherche",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1263,
-   "dernier_a": "25/10 08:06"
+   "etat": "actif",
+   "dernier": "[poste Images] 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 1264,
+   "dernier_a": "25/10 08:28"
   },
   {
    "cle": "plume",
@@ -439,14 +439,14 @@
    "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 892,
-   "dernier_a": "25/10 08:21"
+   "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
+   "passages": 893,
+   "dernier_a": "25/10 08:26"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
@@ -468,7 +468,7 @@
    "nom": "Tendances",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 4 sujets mesurés, en hausse : PirateBox ×1.78, Materialise NV ×0.79",
    "passages": 114,
    "dernier_a": "25/10 07:57"
@@ -586,9 +586,15 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-10-25T08:23:15",
+   "ts": "2026-10-25T08:28:28",
    "type": "alerte",
-   "texte": "Échec : Archiviste : passage continu",
+   "texte": "Échec : Analyste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-10-25T08:28:23",
+   "type": "alerte",
+   "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
@@ -728,20 +734,14 @@
    "type": "publication",
    "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
-  },
-  {
-   "ts": "2026-10-16T16:08:27",
-   "type": "publication",
-   "texte": "Publiée : Disque compact : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=NodSE53R2ck"
   }
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 7,
+  "READY": 4,
   "PENDING": 5,
   "DEFERRED": 2,
-  "SUCCESS": 950,
-  "FAILED": 29
+  "SUCCESS": 952,
+  "FAILED": 30
  }
 }
