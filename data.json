@@ -1,10 +1,10 @@
 {
- "now": 1792991123.805849,
- "heure": "06:06:42",
+ "now": 1792991393.7781382,
+ "heure": "06:10:25",
  "moteur": {
-  "etat": "arrêté",
-  "activite": "Recherche documentaire : Bluetooth + Éclaireur : passage continu",
-  "battement_s": 96
+  "etat": "actif",
+  "activite": "Recherche documentaire : Bluetooth + Recherche documentaire : Guitare basse",
+  "battement_s": -13
  },
  "modele": {
   "ok": false,
@@ -55,9 +55,9 @@
    "courant": {
     "titre": "Recherche documentaire : Bluetooth",
     "projet": "Sujet : Bluetooth",
-    "depuis": 182
+    "depuis": 452
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : Thread (protocole de réseau)",
    "derniere": {
@@ -70,12 +70,13 @@
      "titre": "Recherche documentaire : Bluetooth",
      "projet": "Sujet : Bluetooth",
      "etat": "en cours",
-     "depuis": 182
+     "depuis": 452
     },
     {
      "titre": "Recherche documentaire : Guitare basse",
      "projet": "Sujet : Guitare basse",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 168
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -478,7 +479,7 @@
    "nom": "Archiviste",
    "poste": "idee",
    "poste_prefere": "recherche",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 1321,
    "dernier_a": "26/10 06:02"
@@ -788,10 +789,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 9,
+  "READY": 10,
   "PENDING": 14,
   "DEFERRED": 0,
-  "SUCCESS": 959,
+  "SUCCESS": 958,
   "FAILED": 47
  }
 }
