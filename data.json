@@ -1,10 +1,10 @@
 {
- "now": 1792999225.3269145,
- "heure": "08:20:58",
+ "now": 1792999509.4227753,
+ "heure": "08:25:53",
  "moteur": {
-  "etat": "arrêté",
-  "activite": "Recherche documentaire : Microcontrôleur PIC + Éclaireur : passage continu",
-  "battement_s": 61
+  "etat": "actif",
+  "activite": "Recherche documentaire : Microcontrôleur + Archiviste : passage continu",
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
@@ -51,9 +51,13 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "alerte",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : Microcontrôleur",
+    "projet": "Sujet : Microcontrôleur",
+    "depuis": 268
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : Stéréolithographie",
    "derniere": {
@@ -65,12 +69,13 @@
     {
      "titre": "Recherche documentaire : Microcontrôleur",
      "projet": "Sujet : Microcontrôleur",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 268
     },
     {
      "titre": "Recherche documentaire : Microcontrôleur PIC",
      "projet": "Sujet : Microcontrôleur PIC",
-     "etat": "en attente"
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -471,9 +476,9 @@
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "recherche",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
    "passages": 1323,
    "dernier_a": "26/10 08:01"
@@ -782,11 +787,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 0,
+  "RUNNING": 2,
   "READY": 10,
   "PENDING": 14,
-  "DEFERRED": 1,
-  "SUCCESS": 960,
+  "DEFERRED": 0,
+  "SUCCESS": 959,
   "FAILED": 51
  }
 }
