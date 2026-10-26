@@ -1,15 +1,15 @@
 {
- "now": 1792994644.2895591,
- "heure": "07:04:05",
+ "now": 1792994942.9377697,
+ "heure": "07:09:04",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Guitare basse + Trouver des sujets candidats",
-  "battement_s": 1
+  "activite": "Recherche documentaire : Amiga + Éclaireur : passage continu",
+  "battement_s": 3
  },
  "modele": {
-  "ok": false,
+  "ok": true,
   "reprise": null,
-  "erreur": "Ollama TimeoutError: timed out",
+  "erreur": null,
   "moteur": "opencode openai/gpt-5.6-terra"
  },
  "stations": [
@@ -18,26 +18,21 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Trouver des sujets candidats",
-    "projet": "Éditorial",
-    "depuis": 301
-   },
+   "etat": "repos",
+   "courant": null,
    "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
     "titre": "Trouver des sujets candidats",
-    "quand": "26/10 04:32"
+    "quand": "26/10 07:08"
    },
-   "total_fait": 14,
+   "total_fait": 15,
    "taches": [
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "en cours",
-     "depuis": 301
+     "etat": "terminée 26/10 07:08"
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -48,11 +43,6 @@
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
      "etat": "terminée 26/10 02:08"
-    },
-    {
-     "titre": "Trouver des sujets candidats",
-     "projet": "Éditorial",
-     "etat": "terminée 26/10 00:17"
     }
    ]
   },
@@ -63,9 +53,9 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Guitare basse",
-    "projet": "Sujet : Guitare basse",
-    "depuis": 773
+    "titre": "Recherche documentaire : Amiga",
+    "projet": "Sujet : Amiga",
+    "depuis": 165
    },
    "file": 1,
    "attend_humain": 0,
@@ -77,14 +67,14 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : Guitare basse",
-     "projet": "Sujet : Guitare basse",
-     "etat": "en cours",
-     "depuis": 773
-    },
-    {
      "titre": "Recherche documentaire : Amiga",
      "projet": "Sujet : Amiga",
+     "etat": "en cours",
+     "depuis": 165
+    },
+    {
+     "titre": "Recherche documentaire : Arduino",
+     "projet": "Sujet : Arduino",
      "etat": "prête"
     },
     {
@@ -121,13 +111,13 @@
    "total_fait": 33,
    "taches": [
     {
-     "titre": "Écrire le script : Guitare basse",
-     "projet": "Sujet : Guitare basse",
+     "titre": "Écrire le script : Amiga",
+     "projet": "Sujet : Amiga",
      "etat": "en attente"
     },
     {
-     "titre": "Écrire le script : Amiga",
-     "projet": "Sujet : Amiga",
+     "titre": "Écrire le script : Arduino",
+     "projet": "Sujet : Arduino",
      "etat": "en attente"
     },
     {
@@ -164,13 +154,13 @@
    "total_fait": 39,
    "taches": [
     {
-     "titre": "Réunir de vraies illustrations libres : Guitare basse",
-     "projet": "Sujet : Guitare basse",
+     "titre": "Réunir de vraies illustrations libres : Amiga",
+     "projet": "Sujet : Amiga",
      "etat": "en attente"
     },
     {
-     "titre": "Réunir de vraies illustrations libres : Amiga",
-     "projet": "Sujet : Amiga",
+     "titre": "Réunir de vraies illustrations libres : Arduino",
+     "projet": "Sujet : Arduino",
      "etat": "en attente"
     },
     {
@@ -207,13 +197,13 @@
    "total_fait": 56,
    "taches": [
     {
-     "titre": "Générer la voix : Guitare basse",
-     "projet": "Sujet : Guitare basse",
+     "titre": "Générer la voix : Amiga",
+     "projet": "Sujet : Amiga",
      "etat": "en attente"
     },
     {
-     "titre": "Générer la voix : Amiga",
-     "projet": "Sujet : Amiga",
+     "titre": "Générer la voix : Arduino",
+     "projet": "Sujet : Arduino",
      "etat": "en attente"
     },
     {
@@ -250,13 +240,13 @@
    "total_fait": 52,
    "taches": [
     {
-     "titre": "Aligner la narration : Guitare basse",
-     "projet": "Sujet : Guitare basse",
+     "titre": "Aligner la narration : Amiga",
+     "projet": "Sujet : Amiga",
      "etat": "en attente"
     },
     {
-     "titre": "Aligner la narration : Amiga",
-     "projet": "Sujet : Amiga",
+     "titre": "Aligner la narration : Arduino",
+     "projet": "Sujet : Arduino",
      "etat": "en attente"
     },
     {
@@ -293,13 +283,13 @@
    "total_fait": 74,
    "taches": [
     {
-     "titre": "Rendre la vidéo : Guitare basse",
-     "projet": "Sujet : Guitare basse",
+     "titre": "Rendre la vidéo : Amiga",
+     "projet": "Sujet : Amiga",
      "etat": "en attente"
     },
     {
-     "titre": "Rendre la vidéo : Amiga",
-     "projet": "Sujet : Amiga",
+     "titre": "Rendre la vidéo : Arduino",
+     "projet": "Sujet : Arduino",
      "etat": "en attente"
     },
     {
@@ -336,13 +326,13 @@
    "total_fait": 59,
    "taches": [
     {
-     "titre": "QA automatique : Guitare basse",
-     "projet": "Sujet : Guitare basse",
+     "titre": "QA automatique : Amiga",
+     "projet": "Sujet : Amiga",
      "etat": "en attente"
     },
     {
-     "titre": "QA automatique : Amiga",
-     "projet": "Sujet : Amiga",
+     "titre": "QA automatique : Arduino",
+     "projet": "Sujet : Arduino",
      "etat": "en attente"
     },
     {
@@ -379,13 +369,13 @@
    "total_fait": 45,
    "taches": [
     {
-     "titre": "Revue finale (dossier, script, vidéo) : Guitare basse",
-     "projet": "Sujet : Guitare basse",
+     "titre": "Revue finale (dossier, script, vidéo) : Amiga",
+     "projet": "Sujet : Amiga",
      "etat": "en attente"
     },
     {
-     "titre": "Revue finale (dossier, script, vidéo) : Amiga",
-     "projet": "Sujet : Amiga",
+     "titre": "Revue finale (dossier, script, vidéo) : Arduino",
+     "projet": "Sujet : Arduino",
      "etat": "en attente"
     },
     {
@@ -476,9 +466,9 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "recherche",
    "poste_prefere": "idee",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
    "passages": 1721,
    "dernier_a": "26/10 06:05"
@@ -646,6 +636,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-10-26T07:06:13",
+   "type": "alerte",
+   "texte": "Échec : Recherche documentaire : Guitare basse",
+   "url": null
+  },
+  {
    "ts": "2026-10-26T06:17:59",
    "type": "alerte",
    "texte": "Échec : Recherche documentaire : Bluetooth",
@@ -788,20 +784,14 @@
    "type": "assistant",
    "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
    "url": null
-  },
-  {
-   "ts": "2026-10-18T01:24:12",
-   "type": "assistant",
-   "texte": "Référenceur : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
-   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 11,
+  "READY": 10,
   "PENDING": 14,
   "DEFERRED": 0,
-  "SUCCESS": 958,
-  "FAILED": 48
+  "SUCCESS": 959,
+  "FAILED": 49
  }
 }
