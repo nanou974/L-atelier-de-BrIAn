@@ -1,10 +1,10 @@
 {
- "now": 1792975443.6013079,
- "heure": "01:44:05",
+ "now": 1792975768.0816615,
+ "heure": "01:50:09",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Ordinateur de bureau + Éclaireur : passage continu",
-  "battement_s": 1
+  "activite": "Recherche documentaire : Ordinateur de bureau + Recherche documentaire : Stéréolithographie",
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
@@ -20,7 +20,7 @@
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
    "etat": "alerte",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
    "derniere": {
@@ -29,6 +29,11 @@
    },
    "total_fait": 12,
    "taches": [
+    {
+     "titre": "Trouver des sujets candidats",
+     "projet": "Éditorial",
+     "etat": "prête"
+    },
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
@@ -55,7 +60,7 @@
    "courant": {
     "titre": "Recherche documentaire : Ordinateur de bureau",
     "projet": "Sujet : Ordinateur de bureau",
-    "depuis": 817
+    "depuis": 156
    },
    "file": 0,
    "attend_humain": 0,
@@ -70,7 +75,13 @@
      "titre": "Recherche documentaire : Ordinateur de bureau",
      "projet": "Sujet : Ordinateur de bureau",
      "etat": "en cours",
-     "depuis": 817
+     "depuis": 156
+    },
+    {
+     "titre": "Recherche documentaire : Stéréolithographie",
+     "projet": "Sujet : Stéréolithographie",
+     "etat": "en cours",
+     "depuis": 237
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -96,7 +107,7 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -108,6 +119,11 @@
     {
      "titre": "Écrire le script : Ordinateur de bureau",
      "projet": "Sujet : Ordinateur de bureau",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Écrire le script : Stéréolithographie",
+     "projet": "Sujet : Stéréolithographie",
      "etat": "en attente"
     },
     {
@@ -132,11 +148,11 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "alerte",
+   "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
-   "alerte": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
+   "alerte": null,
    "derniere": {
     "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
     "quand": "18/10 09:49"
@@ -146,6 +162,11 @@
     {
      "titre": "Réunir de vraies illustrations libres : Ordinateur de bureau",
      "projet": "Sujet : Ordinateur de bureau",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Stéréolithographie",
+     "projet": "Sujet : Stéréolithographie",
      "etat": "en attente"
     },
     {
@@ -172,7 +193,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -184,6 +205,11 @@
     {
      "titre": "Générer la voix : Ordinateur de bureau",
      "projet": "Sujet : Ordinateur de bureau",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Générer la voix : Stéréolithographie",
+     "projet": "Sujet : Stéréolithographie",
      "etat": "en attente"
     },
     {
@@ -220,13 +246,13 @@
    "total_fait": 52,
    "taches": [
     {
-     "titre": "Aligner la narration : Ordinateur domestique",
-     "projet": "Sujet : Ordinateur domestique",
+     "titre": "Aligner la narration : Ordinateur de bureau",
+     "projet": "Sujet : Ordinateur de bureau",
      "etat": "en attente"
     },
     {
-     "titre": "Aligner la narration : Ordinateur de bureau",
-     "projet": "Sujet : Ordinateur de bureau",
+     "titre": "Aligner la narration : Stéréolithographie",
+     "projet": "Sujet : Stéréolithographie",
      "etat": "en attente"
     },
     {
@@ -263,13 +289,13 @@
    "total_fait": 74,
    "taches": [
     {
-     "titre": "Rendre la vidéo : Ordinateur domestique",
-     "projet": "Sujet : Ordinateur domestique",
+     "titre": "Rendre la vidéo : Ordinateur de bureau",
+     "projet": "Sujet : Ordinateur de bureau",
      "etat": "en attente"
     },
     {
-     "titre": "Rendre la vidéo : Ordinateur de bureau",
-     "projet": "Sujet : Ordinateur de bureau",
+     "titre": "Rendre la vidéo : Stéréolithographie",
+     "projet": "Sujet : Stéréolithographie",
      "etat": "en attente"
     },
     {
@@ -306,13 +332,13 @@
    "total_fait": 59,
    "taches": [
     {
-     "titre": "QA automatique : Ordinateur domestique",
-     "projet": "Sujet : Ordinateur domestique",
+     "titre": "QA automatique : Ordinateur de bureau",
+     "projet": "Sujet : Ordinateur de bureau",
      "etat": "en attente"
     },
     {
-     "titre": "QA automatique : Ordinateur de bureau",
-     "projet": "Sujet : Ordinateur de bureau",
+     "titre": "QA automatique : Stéréolithographie",
+     "projet": "Sujet : Stéréolithographie",
      "etat": "en attente"
     },
     {
@@ -349,13 +375,13 @@
    "total_fait": 45,
    "taches": [
     {
-     "titre": "Revue finale (dossier, script, vidéo) : Ordinateur domestique",
-     "projet": "Sujet : Ordinateur domestique",
+     "titre": "Revue finale (dossier, script, vidéo) : Ordinateur de bureau",
+     "projet": "Sujet : Ordinateur de bureau",
      "etat": "en attente"
     },
     {
-     "titre": "Revue finale (dossier, script, vidéo) : Ordinateur de bureau",
-     "projet": "Sujet : Ordinateur de bureau",
+     "titre": "Revue finale (dossier, script, vidéo) : Stéréolithographie",
+     "projet": "Sujet : Stéréolithographie",
      "etat": "en attente"
     },
     {
@@ -450,8 +476,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1702,
-   "dernier_a": "26/10 01:29"
+   "passages": 1703,
+   "dernier_a": "26/10 01:46"
   },
   {
    "cle": "archiviste",
@@ -682,12 +708,6 @@
    "url": null
   },
   {
-   "ts": "2026-10-25T19:46:48",
-   "type": "alerte",
-   "texte": "Échec : Réunir de vraies illustrations libres : Impression 3D dans la construction",
-   "url": null
-  },
-  {
    "ts": "2026-10-25T11:52:01",
    "type": "assistant",
    "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Programmation de commande numérique",
@@ -764,14 +784,20 @@
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
    "url": null
+  },
+  {
+   "ts": "2026-10-18T08:43:11",
+   "type": "assistant",
+   "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
+   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 9,
-  "PENDING": 11,
+  "READY": 10,
+  "PENDING": 14,
   "DEFERRED": 0,
-  "SUCCESS": 955,
+  "SUCCESS": 956,
   "FAILED": 41
  }
 }
