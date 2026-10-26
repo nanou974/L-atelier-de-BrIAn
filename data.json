@@ -1,10 +1,10 @@
 {
- "now": 1792988090.342958,
- "heure": "05:14:56",
+ "now": 1792988784.2393024,
+ "heure": "05:28:05",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Bluetooth + Recherche documentaire : Guitare basse",
-  "battement_s": 0
+  "activite": "Recherche documentaire : Guitare basse + Éclaireur : passage continu",
+  "battement_s": -30
  },
  "modele": {
   "ok": false,
@@ -53,13 +53,13 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Bluetooth",
-    "projet": "Sujet : Bluetooth",
-    "depuis": 758
+    "titre": "Recherche documentaire : Guitare basse",
+    "projet": "Sujet : Guitare basse",
+    "depuis": 1298
    },
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
-   "alerte": "Recherche documentaire : Impression 4D",
+   "alerte": "Recherche documentaire : Thread (protocole de réseau)",
    "derniere": {
     "titre": "Recherche documentaire : Impression 3D dans la construction",
     "quand": "21/10 05:50"
@@ -67,16 +67,15 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : Bluetooth",
-     "projet": "Sujet : Bluetooth",
-     "etat": "en cours",
-     "depuis": 758
-    },
-    {
      "titre": "Recherche documentaire : Guitare basse",
      "projet": "Sujet : Guitare basse",
      "etat": "en cours",
-     "depuis": 605
+     "depuis": 1298
+    },
+    {
+     "titre": "Recherche documentaire : Bluetooth",
+     "projet": "Sujet : Bluetooth",
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -469,7 +468,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste, Plume, Iconographe] 31 titres lus, 0 idées retenues",
    "passages": 1716,
    "dernier_a": "26/10 04:58"
@@ -697,12 +696,6 @@
    "url": null
   },
   {
-   "ts": "2026-10-25T23:22:21",
-   "type": "alerte",
-   "texte": "Échec : Recherche documentaire : Impression 4D",
-   "url": null
-  },
-  {
    "ts": "2026-10-25T11:52:01",
    "type": "assistant",
    "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Programmation de commande numérique",
@@ -784,6 +777,12 @@
    "ts": "2026-10-18T08:43:11",
    "type": "assistant",
    "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
+   "url": null
+  },
+  {
+   "ts": "2026-10-18T08:43:06",
+   "type": "assistant",
+   "texte": "Éclaireur : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
    "url": null
   }
  ],
