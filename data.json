@@ -1,15 +1,15 @@
 {
- "now": 1792976685.980011,
- "heure": "02:05:25",
+ "now": 1792976942.4922736,
+ "heure": "02:09:04",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Stéréolithographie + Trouver des sujets candidats",
-  "battement_s": -1
+  "activite": "Recherche documentaire : Stéréolithographie + Recherche documentaire : RISC PC",
+  "battement_s": 0
  },
  "modele": {
-  "ok": false,
+  "ok": true,
   "reprise": null,
-  "erreur": "Ollama TimeoutError: timed out",
+  "erreur": null,
   "moteur": "opencode openai/gpt-5.6-terra"
  },
  "stations": [
@@ -18,26 +18,21 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Trouver des sujets candidats",
-    "projet": "Éditorial",
-    "depuis": 247
-   },
+   "etat": "alerte",
+   "courant": null,
    "file": 0,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
    "derniere": {
     "titre": "Trouver des sujets candidats",
-    "quand": "26/10 00:17"
+    "quand": "26/10 02:08"
    },
-   "total_fait": 12,
+   "total_fait": 13,
    "taches": [
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "en cours",
-     "depuis": 247
+     "etat": "terminée 26/10 02:08"
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -48,11 +43,6 @@
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
      "etat": "terminée 17/10 11:38"
-    },
-    {
-     "titre": "Trouver des sujets candidats",
-     "projet": "Éditorial",
-     "etat": "terminée 16/10 23:27"
     }
    ]
   },
@@ -65,7 +55,7 @@
    "courant": {
     "titre": "Recherche documentaire : Stéréolithographie",
     "projet": "Sujet : Stéréolithographie",
-    "depuis": 171
+    "depuis": 427
    },
    "file": 0,
    "attend_humain": 0,
@@ -80,7 +70,13 @@
      "titre": "Recherche documentaire : Stéréolithographie",
      "projet": "Sujet : Stéréolithographie",
      "etat": "en cours",
-     "depuis": 171
+     "depuis": 427
+    },
+    {
+     "titre": "Recherche documentaire : RISC PC",
+     "projet": "Sujet : RISC PC",
+     "etat": "en cours",
+     "depuis": 50
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -106,7 +102,7 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -118,6 +114,11 @@
     {
      "titre": "Écrire le script : Stéréolithographie",
      "projet": "Sujet : Stéréolithographie",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Écrire le script : RISC PC",
+     "projet": "Sujet : RISC PC",
      "etat": "en attente"
     },
     {
@@ -144,7 +145,7 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -156,6 +157,11 @@
     {
      "titre": "Réunir de vraies illustrations libres : Stéréolithographie",
      "projet": "Sujet : Stéréolithographie",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : RISC PC",
+     "projet": "Sujet : RISC PC",
      "etat": "en attente"
     },
     {
@@ -182,7 +188,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -194,6 +200,11 @@
     {
      "titre": "Générer la voix : Stéréolithographie",
      "projet": "Sujet : Stéréolithographie",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Générer la voix : RISC PC",
+     "projet": "Sujet : RISC PC",
      "etat": "en attente"
     },
     {
@@ -220,7 +231,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -232,6 +243,11 @@
     {
      "titre": "Aligner la narration : Stéréolithographie",
      "projet": "Sujet : Stéréolithographie",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Aligner la narration : RISC PC",
+     "projet": "Sujet : RISC PC",
      "etat": "en attente"
     },
     {
@@ -258,7 +274,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -270,6 +286,11 @@
     {
      "titre": "Rendre la vidéo : Stéréolithographie",
      "projet": "Sujet : Stéréolithographie",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Rendre la vidéo : RISC PC",
+     "projet": "Sujet : RISC PC",
      "etat": "en attente"
     },
     {
@@ -296,7 +317,7 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -308,6 +329,11 @@
     {
      "titre": "QA automatique : Stéréolithographie",
      "projet": "Sujet : Stéréolithographie",
+     "etat": "en attente"
+    },
+    {
+     "titre": "QA automatique : RISC PC",
+     "projet": "Sujet : RISC PC",
      "etat": "en attente"
     },
     {
@@ -334,7 +360,7 @@
    "desc": "Décide si la vidéo mérite d'être publiée.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -346,6 +372,11 @@
     {
      "titre": "Revue finale (dossier, script, vidéo) : Stéréolithographie",
      "projet": "Sujet : Stéréolithographie",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Revue finale (dossier, script, vidéo) : RISC PC",
+     "projet": "Sujet : RISC PC",
      "etat": "en attente"
     },
     {
@@ -759,9 +790,9 @@
  "compteurs": {
   "RUNNING": 2,
   "READY": 10,
-  "PENDING": 7,
+  "PENDING": 14,
   "DEFERRED": 0,
-  "SUCCESS": 955,
+  "SUCCESS": 956,
   "FAILED": 42
  }
 }
