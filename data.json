@@ -1,10 +1,10 @@
 {
- "now": 1792975142.5797095,
- "heure": "01:39:04",
+ "now": 1792975443.6013079,
+ "heure": "01:44:05",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Ordinateur domestique + Recherche documentaire : Ordinateur de bureau",
-  "battement_s": 3
+  "activite": "Recherche documentaire : Ordinateur de bureau + Éclaireur : passage continu",
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
@@ -53,9 +53,9 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Ordinateur domestique",
-    "projet": "Sujet : Ordinateur domestique",
-    "depuis": 617
+    "titre": "Recherche documentaire : Ordinateur de bureau",
+    "projet": "Sujet : Ordinateur de bureau",
+    "depuis": 817
    },
    "file": 0,
    "attend_humain": 0,
@@ -67,16 +67,10 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : Ordinateur domestique",
-     "projet": "Sujet : Ordinateur domestique",
-     "etat": "en cours",
-     "depuis": 617
-    },
-    {
      "titre": "Recherche documentaire : Ordinateur de bureau",
      "projet": "Sujet : Ordinateur de bureau",
      "etat": "en cours",
-     "depuis": 516
+     "depuis": 817
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -102,7 +96,7 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -111,11 +105,6 @@
    },
    "total_fait": 33,
    "taches": [
-    {
-     "titre": "Écrire le script : Ordinateur domestique",
-     "projet": "Sujet : Ordinateur domestique",
-     "etat": "en attente"
-    },
     {
      "titre": "Écrire le script : Ordinateur de bureau",
      "projet": "Sujet : Ordinateur de bureau",
@@ -145,7 +134,7 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "alerte",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
    "derniere": {
@@ -154,11 +143,6 @@
    },
    "total_fait": 39,
    "taches": [
-    {
-     "titre": "Réunir de vraies illustrations libres : Ordinateur domestique",
-     "projet": "Sujet : Ordinateur domestique",
-     "etat": "en attente"
-    },
     {
      "titre": "Réunir de vraies illustrations libres : Ordinateur de bureau",
      "projet": "Sujet : Ordinateur de bureau",
@@ -188,7 +172,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -197,11 +181,6 @@
    },
    "total_fait": 56,
    "taches": [
-    {
-     "titre": "Générer la voix : Ordinateur domestique",
-     "projet": "Sujet : Ordinateur domestique",
-     "etat": "en attente"
-    },
     {
      "titre": "Générer la voix : Ordinateur de bureau",
      "projet": "Sujet : Ordinateur de bureau",
@@ -469,7 +448,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 1702,
    "dernier_a": "26/10 01:29"
@@ -637,6 +616,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-10-26T01:43:49",
+   "type": "alerte",
+   "texte": "Échec : Recherche documentaire : Ordinateur domestique",
+   "url": null
+  },
+  {
    "ts": "2026-10-26T00:59:04",
    "type": "alerte",
    "texte": "Échec : Recherche documentaire : Loi de Moore",
@@ -779,20 +764,14 @@
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
    "url": null
-  },
-  {
-   "ts": "2026-10-18T08:43:11",
-   "type": "assistant",
-   "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
-   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
-  "PENDING": 14,
+  "READY": 9,
+  "PENDING": 11,
   "DEFERRED": 0,
   "SUCCESS": 955,
-  "FAILED": 40
+  "FAILED": 41
  }
 }
