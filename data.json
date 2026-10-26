@@ -1,10 +1,10 @@
 {
- "now": 1792976342.8017294,
- "heure": "01:59:04",
+ "now": 1792976685.980011,
+ "heure": "02:05:25",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Ordinateur de bureau + Recherche documentaire : Stéréolithographie",
-  "battement_s": 3
+  "activite": "Recherche documentaire : Stéréolithographie + Trouver des sujets candidats",
+  "battement_s": -1
  },
  "modele": {
   "ok": false,
@@ -18,9 +18,13 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "alerte",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Trouver des sujets candidats",
+    "projet": "Éditorial",
+    "depuis": 247
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
    "derniere": {
@@ -32,7 +36,8 @@
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 247
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -58,9 +63,9 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Ordinateur de bureau",
-    "projet": "Sujet : Ordinateur de bureau",
-    "depuis": 731
+    "titre": "Recherche documentaire : Stéréolithographie",
+    "projet": "Sujet : Stéréolithographie",
+    "depuis": 171
    },
    "file": 0,
    "attend_humain": 0,
@@ -72,16 +77,10 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : Ordinateur de bureau",
-     "projet": "Sujet : Ordinateur de bureau",
-     "etat": "en cours",
-     "depuis": 731
-    },
-    {
      "titre": "Recherche documentaire : Stéréolithographie",
      "projet": "Sujet : Stéréolithographie",
      "etat": "en cours",
-     "depuis": 812
+     "depuis": 171
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -107,7 +106,7 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -116,11 +115,6 @@
    },
    "total_fait": 33,
    "taches": [
-    {
-     "titre": "Écrire le script : Ordinateur de bureau",
-     "projet": "Sujet : Ordinateur de bureau",
-     "etat": "en attente"
-    },
     {
      "titre": "Écrire le script : Stéréolithographie",
      "projet": "Sujet : Stéréolithographie",
@@ -150,7 +144,7 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -159,11 +153,6 @@
    },
    "total_fait": 39,
    "taches": [
-    {
-     "titre": "Réunir de vraies illustrations libres : Ordinateur de bureau",
-     "projet": "Sujet : Ordinateur de bureau",
-     "etat": "en attente"
-    },
     {
      "titre": "Réunir de vraies illustrations libres : Stéréolithographie",
      "projet": "Sujet : Stéréolithographie",
@@ -193,7 +182,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -202,11 +191,6 @@
    },
    "total_fait": 56,
    "taches": [
-    {
-     "titre": "Générer la voix : Ordinateur de bureau",
-     "projet": "Sujet : Ordinateur de bureau",
-     "etat": "en attente"
-    },
     {
      "titre": "Générer la voix : Stéréolithographie",
      "projet": "Sujet : Stéréolithographie",
@@ -236,7 +220,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -245,11 +229,6 @@
    },
    "total_fait": 52,
    "taches": [
-    {
-     "titre": "Aligner la narration : Ordinateur de bureau",
-     "projet": "Sujet : Ordinateur de bureau",
-     "etat": "en attente"
-    },
     {
      "titre": "Aligner la narration : Stéréolithographie",
      "projet": "Sujet : Stéréolithographie",
@@ -279,7 +258,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -288,11 +267,6 @@
    },
    "total_fait": 74,
    "taches": [
-    {
-     "titre": "Rendre la vidéo : Ordinateur de bureau",
-     "projet": "Sujet : Ordinateur de bureau",
-     "etat": "en attente"
-    },
     {
      "titre": "Rendre la vidéo : Stéréolithographie",
      "projet": "Sujet : Stéréolithographie",
@@ -322,7 +296,7 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -331,11 +305,6 @@
    },
    "total_fait": 59,
    "taches": [
-    {
-     "titre": "QA automatique : Ordinateur de bureau",
-     "projet": "Sujet : Ordinateur de bureau",
-     "etat": "en attente"
-    },
     {
      "titre": "QA automatique : Stéréolithographie",
      "projet": "Sujet : Stéréolithographie",
@@ -365,7 +334,7 @@
    "desc": "Décide si la vidéo mérite d'être publiée.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -374,11 +343,6 @@
    },
    "total_fait": 45,
    "taches": [
-    {
-     "titre": "Revue finale (dossier, script, vidéo) : Ordinateur de bureau",
-     "projet": "Sujet : Ordinateur de bureau",
-     "etat": "en attente"
-    },
     {
      "titre": "Revue finale (dossier, script, vidéo) : Stéréolithographie",
      "projet": "Sujet : Stéréolithographie",
@@ -642,6 +606,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-10-26T02:01:53",
+   "type": "alerte",
+   "texte": "Échec : Recherche documentaire : Ordinateur de bureau",
+   "url": null
+  },
+  {
    "ts": "2026-10-26T01:43:49",
    "type": "alerte",
    "texte": "Échec : Recherche documentaire : Ordinateur domestique",
@@ -784,20 +754,14 @@
    "type": "assistant",
    "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
    "url": null
-  },
-  {
-   "ts": "2026-10-18T08:43:06",
-   "type": "assistant",
-   "texte": "Éclaireur : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
-   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
   "READY": 10,
-  "PENDING": 14,
+  "PENDING": 7,
   "DEFERRED": 0,
-  "SUCCESS": 956,
-  "FAILED": 41
+  "SUCCESS": 955,
+  "FAILED": 42
  }
 }
