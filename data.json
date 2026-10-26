@@ -1,10 +1,10 @@
 {
- "now": 1792973390.6719809,
- "heure": "01:10:45",
+ "now": 1792973641.990039,
+ "heure": "01:14:03",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Ordinateur domestique + Archiviste : passage continu",
-  "battement_s": 10
+  "activite": "Recherche documentaire : Ordinateur domestique + Recherche documentaire : Ordinateur de bureau",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
@@ -55,9 +55,9 @@
    "courant": {
     "titre": "Recherche documentaire : Ordinateur domestique",
     "projet": "Sujet : Ordinateur domestique",
-    "depuis": 197
+    "depuis": 448
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : PirateBox",
    "derniere": {
@@ -70,12 +70,13 @@
      "titre": "Recherche documentaire : Ordinateur domestique",
      "projet": "Sujet : Ordinateur domestique",
      "etat": "en cours",
-     "depuis": 197
+     "depuis": 448
     },
     {
      "titre": "Recherche documentaire : Ordinateur de bureau",
      "projet": "Sujet : Ordinateur de bureau",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 106
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -479,9 +480,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Éclaireur, Plume] 31 titres lus, 0 idées retenues",
-   "passages": 1306,
-   "dernier_a": "26/10 00:43"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 1307,
+   "dernier_a": "26/10 01:12"
   },
   {
    "cle": "plume",
@@ -788,10 +789,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 9,
   "PENDING": 14,
   "DEFERRED": 0,
-  "SUCCESS": 955,
+  "SUCCESS": 956,
   "FAILED": 40
  }
 }
