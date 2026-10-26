@@ -1,10 +1,10 @@
 {
- "now": 1793000342.587397,
- "heure": "08:39:03",
+ "now": 1793000737.0248601,
+ "heure": "08:47:06",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Microcontrôleur PIC + Recherche documentaire : Poste à souder",
-  "battement_s": 4
+  "activite": "Recherche documentaire : Poste à souder + Éclaireur : passage continu",
+  "battement_s": -32
  },
  "modele": {
   "ok": false,
@@ -53,11 +53,11 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Microcontrôleur PIC",
-    "projet": "Sujet : Microcontrôleur PIC",
-    "depuis": 631
+    "titre": "Recherche documentaire : Poste à souder",
+    "projet": "Sujet : Poste à souder",
+    "depuis": 445
    },
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : Stéréolithographie",
    "derniere": {
@@ -67,16 +67,15 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : Microcontrôleur PIC",
-     "projet": "Sujet : Microcontrôleur PIC",
-     "etat": "en cours",
-     "depuis": 631
-    },
-    {
      "titre": "Recherche documentaire : Poste à souder",
      "projet": "Sujet : Poste à souder",
      "etat": "en cours",
-     "depuis": 50
+     "depuis": 445
+    },
+    {
+     "titre": "Recherche documentaire : Microcontrôleur PIC",
+     "projet": "Sujet : Microcontrôleur PIC",
+     "etat": "en attente"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -791,8 +790,8 @@
   "RUNNING": 2,
   "READY": 9,
   "PENDING": 14,
-  "DEFERRED": 0,
-  "SUCCESS": 960,
+  "DEFERRED": 1,
+  "SUCCESS": 959,
   "FAILED": 52
  }
 }
