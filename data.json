@@ -1,14 +1,14 @@
 {
- "now": 1792987140.63863,
- "heure": "04:59:00",
+ "now": 1792987534.9870837,
+ "heure": "05:06:51",
  "moteur": {
   "etat": "actif",
-  "activite": "Plume : passage continu",
-  "battement_s": 4
+  "activite": "Recherche documentaire : Bluetooth + Recherche documentaire : Guitare basse",
+  "battement_s": -6
  },
  "modele": {
   "ok": false,
-  "reprise": "26/10 05:02",
+  "reprise": null,
   "erreur": "Ollama TimeoutError: timed out",
   "moteur": "opencode openai/gpt-5.6-terra"
  },
@@ -51,9 +51,13 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "alerte",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : Bluetooth",
+    "projet": "Sujet : Bluetooth",
+    "depuis": 203
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : ZigBee",
    "derniere": {
@@ -65,12 +69,14 @@
     {
      "titre": "Recherche documentaire : Bluetooth",
      "projet": "Sujet : Bluetooth",
-     "etat": "programmée 26/10 05:02"
+     "etat": "en cours",
+     "depuis": 203
     },
     {
      "titre": "Recherche documentaire : Guitare basse",
      "projet": "Sujet : Guitare basse",
-     "etat": "programmée 26/10 05:02"
+     "etat": "en cours",
+     "depuis": 49
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -463,7 +469,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Archiviste, Plume, Iconographe] 31 titres lus, 0 idées retenues",
    "passages": 1716,
    "dernier_a": "26/10 04:58"
@@ -474,9 +480,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume, Iconographe] 31 titres lus, 0 idées retenues",
-   "passages": 1315,
-   "dernier_a": "26/10 04:56"
+   "dernier": "[poste Trouver une idée, avec Iconographe] 27 titres lus, 0 idées retenues",
+   "passages": 1316,
+   "dernier_a": "26/10 05:04"
   },
   {
    "cle": "plume",
@@ -485,8 +491,8 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste, Iconographe] 31 titres lus, 0 idées retenues",
-   "passages": 927,
-   "dernier_a": "26/10 04:51"
+   "passages": 928,
+   "dernier_a": "26/10 05:01"
   },
   {
    "cle": "iconographe",
@@ -782,11 +788,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 7,
+  "RUNNING": 2,
+  "READY": 9,
   "PENDING": 14,
-  "DEFERRED": 2,
-  "SUCCESS": 959,
+  "DEFERRED": 0,
+  "SUCCESS": 958,
   "FAILED": 47
  }
 }
