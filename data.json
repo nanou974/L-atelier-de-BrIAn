@@ -1,10 +1,10 @@
 {
- "now": 1792980591.288167,
- "heure": "03:12:26",
+ "now": 1792980863.530304,
+ "heure": "03:15:23",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Micro:bit + Archiviste : passage continu",
-  "battement_s": 6
+  "activite": "Recherche documentaire : Flipper Zero + Recherche documentaire : Micro:bit",
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
@@ -53,13 +53,13 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Micro:bit",
-    "projet": "Sujet : Micro:bit",
-    "depuis": 391
+    "titre": "Recherche documentaire : Flipper Zero",
+    "projet": "Sujet : Flipper Zero",
+    "depuis": 240
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
-   "alerte": "Recherche documentaire : Materialise NV",
+   "alerte": "Recherche documentaire : HomeKit",
    "derniere": {
     "titre": "Recherche documentaire : Impression 3D dans la construction",
     "quand": "21/10 05:50"
@@ -67,15 +67,16 @@
    "total_fait": 27,
    "taches": [
     {
+     "titre": "Recherche documentaire : Flipper Zero",
+     "projet": "Sujet : Flipper Zero",
+     "etat": "en cours",
+     "depuis": 240
+    },
+    {
      "titre": "Recherche documentaire : Micro:bit",
      "projet": "Sujet : Micro:bit",
      "etat": "en cours",
-     "depuis": 391
-    },
-    {
-     "titre": "Recherche documentaire : Flipper Zero",
-     "projet": "Sujet : Flipper Zero",
-     "etat": "prête"
+     "depuis": 663
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -478,7 +479,7 @@
    "nom": "Archiviste",
    "poste": "publication",
    "poste_prefere": "recherche",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : statistiques à jour (relevé il y a 5 min)",
    "passages": 1310,
    "dernier_a": "26/10 02:46"
@@ -696,12 +697,6 @@
    "url": null
   },
   {
-   "ts": "2026-10-25T21:12:15",
-   "type": "alerte",
-   "texte": "Échec : Recherche documentaire : Materialise NV",
-   "url": null
-  },
-  {
    "ts": "2026-10-25T11:52:01",
    "type": "assistant",
    "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Programmation de commande numérique",
@@ -783,6 +778,12 @@
    "ts": "2026-10-18T08:43:11",
    "type": "assistant",
    "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
+   "url": null
+  },
+  {
+   "ts": "2026-10-18T08:43:06",
+   "type": "assistant",
+   "texte": "Éclaireur : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
    "url": null
   }
  ],
