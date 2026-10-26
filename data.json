@@ -1,10 +1,10 @@
 {
- "now": 1793003340.834179,
- "heure": "09:29:01",
+ "now": 1793003712.5337198,
+ "heure": "09:35:51",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Soudage à l'arc submergé + Plume : passage continu",
-  "battement_s": 4
+  "activite": "Recherche documentaire : Poste à souder + Recherche documentaire : Soudage à l'arc submergé",
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
@@ -53,11 +53,11 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Soudage à l'arc submergé",
-    "projet": "Sujet : Soudage à l'arc submergé",
-    "depuis": 46
+    "titre": "Recherche documentaire : Poste à souder",
+    "projet": "Sujet : Poste à souder",
+    "depuis": 365
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : Flipper Zero",
    "derniere": {
@@ -67,15 +67,16 @@
    "total_fait": 27,
    "taches": [
     {
+     "titre": "Recherche documentaire : Poste à souder",
+     "projet": "Sujet : Poste à souder",
+     "etat": "en cours",
+     "depuis": 365
+    },
+    {
      "titre": "Recherche documentaire : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en cours",
-     "depuis": 46
-    },
-    {
-     "titre": "Recherche documentaire : Poste à souder",
-     "projet": "Sujet : Poste à souder",
-     "etat": "prête"
+     "depuis": 418
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -468,7 +469,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
    "passages": 1732,
    "dernier_a": "26/10 09:24"
@@ -478,7 +479,7 @@
    "nom": "Archiviste",
    "poste": "idee",
    "poste_prefere": "recherche",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
    "passages": 1329,
    "dernier_a": "26/10 09:26"
@@ -489,9 +490,9 @@
    "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 935,
-   "dernier_a": "26/10 09:19"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 936,
+   "dernier_a": "26/10 09:29"
   },
   {
    "cle": "iconographe",
@@ -788,10 +789,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 9,
+  "READY": 10,
   "PENDING": 14,
   "DEFERRED": 0,
-  "SUCCESS": 960,
+  "SUCCESS": 959,
   "FAILED": 53
  }
 }
