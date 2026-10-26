@@ -1,14 +1,14 @@
 {
- "now": 1793003040.7597468,
- "heure": "09:24:00",
+ "now": 1793003340.834179,
+ "heure": "09:29:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 1
+  "activite": "Recherche documentaire : Soudage à l'arc submergé + Plume : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
-  "reprise": "26/10 09:28",
+  "reprise": null,
   "erreur": "Ollama URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
   "moteur": "opencode openai/gpt-5.6-terra"
  },
@@ -51,9 +51,13 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "alerte",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : Soudage à l'arc submergé",
+    "projet": "Sujet : Soudage à l'arc submergé",
+    "depuis": 46
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : Flipper Zero",
    "derniere": {
@@ -63,14 +67,15 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : Poste à souder",
-     "projet": "Sujet : Poste à souder",
-     "etat": "programmée 26/10 09:28"
-    },
-    {
      "titre": "Recherche documentaire : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "programmée 26/10 09:28"
+     "etat": "en cours",
+     "depuis": 46
+    },
+    {
+     "titre": "Recherche documentaire : Poste à souder",
+     "projet": "Sujet : Poste à souder",
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -465,8 +470,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 1731,
-   "dernier_a": "26/10 09:16"
+   "passages": 1732,
+   "dernier_a": "26/10 09:24"
   },
   {
    "cle": "archiviste",
@@ -475,8 +480,8 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1328,
-   "dernier_a": "26/10 09:21"
+   "passages": 1329,
+   "dernier_a": "26/10 09:26"
   },
   {
    "cle": "plume",
@@ -782,11 +787,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
+  "RUNNING": 2,
   "READY": 9,
   "PENDING": 14,
-  "DEFERRED": 2,
-  "SUCCESS": 959,
+  "DEFERRED": 0,
+  "SUCCESS": 960,
   "FAILED": 53
  }
 }
