@@ -1,10 +1,10 @@
 {
- "now": 1792996742.4163089,
- "heure": "07:39:03",
+ "now": 1792997099.3841238,
+ "heure": "07:45:17",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Arduino + Recherche documentaire : Microcontrôleur",
-  "battement_s": 3
+  "activite": "Recherche documentaire : Microcontrôleur + Éclaireur : passage continu",
+  "battement_s": 18
  },
  "modele": {
   "ok": true,
@@ -53,13 +53,13 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Arduino",
-    "projet": "Sujet : Arduino",
-    "depuis": 781
+    "titre": "Recherche documentaire : Microcontrôleur",
+    "projet": "Sujet : Microcontrôleur",
+    "depuis": 916
    },
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
-   "alerte": "Recherche documentaire : Ordinateur domestique",
+   "alerte": "Recherche documentaire : Ordinateur de bureau",
    "derniere": {
     "titre": "Recherche documentaire : Impression 3D dans la construction",
     "quand": "21/10 05:50"
@@ -67,16 +67,15 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : Arduino",
-     "projet": "Sujet : Arduino",
-     "etat": "en cours",
-     "depuis": 781
-    },
-    {
      "titre": "Recherche documentaire : Microcontrôleur",
      "projet": "Sujet : Microcontrôleur",
      "etat": "en cours",
-     "depuis": 559
+     "depuis": 916
+    },
+    {
+     "titre": "Recherche documentaire : Arduino",
+     "projet": "Sujet : Arduino",
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -469,7 +468,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Recherche] Arduino : OK (40 phrases) ; Microcontrôleur : OK (24 phrases) ; Soudage à l'arc submergé : OK (42 phrases)",
    "passages": 1722,
    "dernier_a": "26/10 07:09"
@@ -691,12 +690,6 @@
    "url": null
   },
   {
-   "ts": "2026-10-26T01:43:49",
-   "type": "alerte",
-   "texte": "Échec : Recherche documentaire : Ordinateur domestique",
-   "url": null
-  },
-  {
    "ts": "2026-10-25T11:52:01",
    "type": "assistant",
    "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Programmation de commande numérique",
@@ -784,6 +777,12 @@
    "ts": "2026-10-18T08:43:06",
    "type": "assistant",
    "texte": "Éclaireur : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
+   "url": null
+  },
+  {
+   "ts": "2026-10-18T08:42:01",
+   "type": "assistant",
+   "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
    "url": null
   }
  ],
