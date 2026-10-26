@@ -1,10 +1,10 @@
 {
- "now": 1792999509.4227753,
- "heure": "08:25:53",
+ "now": 1792999742.986541,
+ "heure": "08:29:04",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Microcontrôleur + Archiviste : passage continu",
-  "battement_s": 0
+  "activite": "Recherche documentaire : Microcontrôleur + Recherche documentaire : Microcontrôleur PIC",
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
@@ -55,9 +55,9 @@
    "courant": {
     "titre": "Recherche documentaire : Microcontrôleur",
     "projet": "Sujet : Microcontrôleur",
-    "depuis": 268
+    "depuis": 502
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : Stéréolithographie",
    "derniere": {
@@ -70,12 +70,13 @@
      "titre": "Recherche documentaire : Microcontrôleur",
      "projet": "Sujet : Microcontrôleur",
      "etat": "en cours",
-     "depuis": 268
+     "depuis": 502
     },
     {
      "titre": "Recherche documentaire : Microcontrôleur PIC",
      "projet": "Sujet : Microcontrôleur PIC",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 31
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -468,7 +469,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Plume, Tendances] 24 titres lus, 0 idées retenues",
    "passages": 1726,
    "dernier_a": "26/10 08:19"
@@ -479,9 +480,9 @@
    "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 1323,
-   "dernier_a": "26/10 08:01"
+   "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 1324,
+   "dernier_a": "26/10 08:28"
   },
   {
    "cle": "plume",
@@ -788,10 +789,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 9,
   "PENDING": 14,
   "DEFERRED": 0,
-  "SUCCESS": 959,
+  "SUCCESS": 960,
   "FAILED": 51
  }
 }
