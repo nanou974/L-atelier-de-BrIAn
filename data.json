@@ -1,10 +1,10 @@
 {
- "now": 1792993201.6850164,
- "heure": "06:41:17",
+ "now": 1792993513.2995245,
+ "heure": "06:45:56",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Guitare basse + Recherche documentaire : Amiga",
-  "battement_s": 36
+  "activite": "Recherche documentaire : Amiga + Trouver des sujets candidats",
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
@@ -18,9 +18,13 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "attente",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Trouver des sujets candidats",
+    "projet": "Éditorial",
+    "depuis": 254
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -32,7 +36,8 @@
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 254
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -58,11 +63,11 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Guitare basse",
-    "projet": "Sujet : Guitare basse",
-    "depuis": 853
+    "titre": "Recherche documentaire : Amiga",
+    "projet": "Sujet : Amiga",
+    "depuis": 81
    },
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : Loi de Moore",
    "derniere": {
@@ -72,16 +77,15 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : Guitare basse",
-     "projet": "Sujet : Guitare basse",
-     "etat": "en cours",
-     "depuis": 853
-    },
-    {
      "titre": "Recherche documentaire : Amiga",
      "projet": "Sujet : Amiga",
      "etat": "en cours",
-     "depuis": 949
+     "depuis": 81
+    },
+    {
+     "titre": "Recherche documentaire : Guitare basse",
+     "projet": "Sujet : Guitare basse",
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -482,7 +486,7 @@
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "recherche",
    "poste_prefere": "recherche",
    "etat": "veille",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
@@ -642,12 +646,6 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-10-26T06:25:30",
-   "type": "alerte",
-   "texte": "Échec : Éclaireur : passage continu",
-   "url": null
-  },
-  {
    "ts": "2026-10-26T06:17:59",
    "type": "alerte",
    "texte": "Échec : Recherche documentaire : Bluetooth",
@@ -790,14 +788,20 @@
    "type": "assistant",
    "texte": "Éclaireur : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
    "url": null
+  },
+  {
+   "ts": "2026-10-18T08:42:01",
+   "type": "assistant",
+   "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
+   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 11,
   "PENDING": 14,
   "DEFERRED": 0,
   "SUCCESS": 958,
-  "FAILED": 49
+  "FAILED": 48
  }
 }
