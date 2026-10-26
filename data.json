@@ -1,10 +1,10 @@
 {
- "now": 1792998542.4238052,
- "heure": "08:09:04",
+ "now": 1792998874.8858728,
+ "heure": "08:15:18",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Microcontrôleur + Recherche documentaire : Microcontrôleur PIC",
-  "battement_s": 0
+  "activite": "Recherche documentaire : Microcontrôleur PIC + Éclaireur : passage continu",
+  "battement_s": -8
  },
  "modele": {
   "ok": false,
@@ -53,11 +53,11 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Microcontrôleur",
-    "projet": "Sujet : Microcontrôleur",
-    "depuis": 647
+    "titre": "Recherche documentaire : Microcontrôleur PIC",
+    "projet": "Sujet : Microcontrôleur PIC",
+    "depuis": 624
    },
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : Stéréolithographie",
    "derniere": {
@@ -67,16 +67,15 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : Microcontrôleur",
-     "projet": "Sujet : Microcontrôleur",
-     "etat": "en cours",
-     "depuis": 647
-    },
-    {
      "titre": "Recherche documentaire : Microcontrôleur PIC",
      "projet": "Sujet : Microcontrôleur PIC",
      "etat": "en cours",
-     "depuis": 292
+     "depuis": 624
+    },
+    {
+     "titre": "Recherche documentaire : Microcontrôleur",
+     "projet": "Sujet : Microcontrôleur",
+     "etat": "en attente"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -467,7 +466,7 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Publication YouTube, avec Plume] 1 commentaire(s) suivis, 0 nouveau(x)",
@@ -479,7 +478,7 @@
    "nom": "Archiviste",
    "poste": "script",
    "poste_prefere": "recherche",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
    "passages": 1323,
    "dernier_a": "26/10 08:01"
@@ -489,7 +488,7 @@
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Tendances] 31 titres lus, 0 idées retenues",
    "passages": 933,
    "dernier_a": "26/10 08:04"
@@ -789,9 +788,9 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 9,
   "PENDING": 14,
-  "DEFERRED": 0,
+  "DEFERRED": 1,
   "SUCCESS": 959,
   "FAILED": 51
  }
