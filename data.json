@@ -1,10 +1,10 @@
 {
- "now": 1793001840.7324498,
- "heure": "09:04:00",
+ "now": 1793002141.8007464,
+ "heure": "09:09:02",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Poste à souder + Éclaireur : passage continu",
-  "battement_s": 2
+  "activite": "Plume : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
@@ -51,13 +51,9 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Poste à souder",
-    "projet": "Sujet : Poste à souder",
-    "depuis": 48
-   },
-   "file": 1,
+   "etat": "alerte",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : Flipper Zero",
    "derniere": {
@@ -69,8 +65,7 @@
     {
      "titre": "Recherche documentaire : Poste à souder",
      "projet": "Sujet : Poste à souder",
-     "etat": "en cours",
-     "depuis": 48
+     "etat": "programmée 26/10 09:28"
     },
     {
      "titre": "Recherche documentaire : Soudage à l'arc submergé",
@@ -469,9 +464,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1728,
-   "dernier_a": "26/10 08:58"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
+   "passages": 1729,
+   "dernier_a": "26/10 09:04"
   },
   {
    "cle": "archiviste",
@@ -480,15 +475,15 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1325,
-   "dernier_a": "26/10 09:01"
+   "passages": 1326,
+   "dernier_a": "26/10 09:06"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Tendances] 31 titres lus, 0 idées retenues",
    "passages": 933,
    "dernier_a": "26/10 08:04"
@@ -787,10 +782,10 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
+  "RUNNING": 1,
   "READY": 9,
   "PENDING": 14,
-  "DEFERRED": 1,
+  "DEFERRED": 2,
   "SUCCESS": 959,
   "FAILED": 53
  }
