@@ -1,14 +1,14 @@
 {
- "now": 1792985394.5582473,
- "heure": "04:30:41",
+ "now": 1792985642.503963,
+ "heure": "04:34:04",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Microphone + Trouver des sujets candidats",
-  "battement_s": 44
+  "activite": "Recherche documentaire : Microphone + Éclaireur : passage continu",
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
-  "reprise": null,
+  "reprise": "26/10 05:02",
   "erreur": "Ollama TimeoutError: timed out",
   "moteur": "opencode openai/gpt-5.6-terra"
  },
@@ -20,19 +20,19 @@
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
    "etat": "alerte",
    "courant": null,
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
    "derniere": {
     "titre": "Trouver des sujets candidats",
-    "quand": "26/10 02:08"
+    "quand": "26/10 04:32"
    },
-   "total_fait": 13,
+   "total_fait": 14,
    "taches": [
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "programmée 26/10 04:29"
+     "etat": "terminée 26/10 04:32"
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -43,11 +43,6 @@
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
      "etat": "terminée 26/10 00:17"
-    },
-    {
-     "titre": "Trouver des sujets candidats",
-     "projet": "Éditorial",
-     "etat": "terminée 17/10 11:38"
     }
    ]
   },
@@ -60,7 +55,7 @@
    "courant": {
     "titre": "Recherche documentaire : Microphone",
     "projet": "Sujet : Microphone",
-    "depuis": 334
+    "depuis": 582
    },
    "file": 1,
    "attend_humain": 0,
@@ -75,12 +70,12 @@
      "titre": "Recherche documentaire : Microphone",
      "projet": "Sujet : Microphone",
      "etat": "en cours",
-     "depuis": 334
+     "depuis": 582
     },
     {
      "titre": "Recherche documentaire : Bluetooth",
      "projet": "Sujet : Bluetooth",
-     "etat": "prête"
+     "etat": "programmée 26/10 04:37"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -473,7 +468,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
    "passages": 1711,
    "dernier_a": "26/10 04:06"
@@ -792,11 +787,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 11,
+  "RUNNING": 2,
+  "READY": 9,
   "PENDING": 14,
   "DEFERRED": 1,
-  "SUCCESS": 956,
+  "SUCCESS": 957,
   "FAILED": 46
  }
 }
