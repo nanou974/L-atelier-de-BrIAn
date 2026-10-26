@@ -1,10 +1,10 @@
 {
- "now": 1792998874.8858728,
- "heure": "08:15:18",
+ "now": 1792999225.3269145,
+ "heure": "08:20:58",
  "moteur": {
-  "etat": "actif",
+  "etat": "arrêté",
   "activite": "Recherche documentaire : Microcontrôleur PIC + Éclaireur : passage continu",
-  "battement_s": -8
+  "battement_s": 61
  },
  "modele": {
   "ok": false,
@@ -51,13 +51,9 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Microcontrôleur PIC",
-    "projet": "Sujet : Microcontrôleur PIC",
-    "depuis": 624
-   },
-   "file": 1,
+   "etat": "alerte",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : Stéréolithographie",
    "derniere": {
@@ -67,14 +63,13 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : Microcontrôleur PIC",
-     "projet": "Sujet : Microcontrôleur PIC",
-     "etat": "en cours",
-     "depuis": 624
-    },
-    {
      "titre": "Recherche documentaire : Microcontrôleur",
      "projet": "Sujet : Microcontrôleur",
+     "etat": "prête"
+    },
+    {
+     "titre": "Recherche documentaire : Microcontrôleur PIC",
+     "projet": "Sujet : Microcontrôleur PIC",
      "etat": "en attente"
     },
     {
@@ -469,9 +464,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Plume] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 1725,
-   "dernier_a": "26/10 08:01"
+   "dernier": "[poste Trouver une idée, avec Plume, Tendances] 24 titres lus, 0 idées retenues",
+   "passages": 1726,
+   "dernier_a": "26/10 08:19"
   },
   {
    "cle": "archiviste",
@@ -787,11 +782,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 9,
+  "RUNNING": 0,
+  "READY": 10,
   "PENDING": 14,
   "DEFERRED": 1,
-  "SUCCESS": 959,
+  "SUCCESS": 960,
   "FAILED": 51
  }
 }
