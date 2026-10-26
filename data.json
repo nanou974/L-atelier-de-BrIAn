@@ -1,10 +1,10 @@
 {
- "now": 1792991673.5105872,
- "heure": "06:15:00",
+ "now": 1792992038.2199526,
+ "heure": "06:21:14",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Bluetooth + Recherche documentaire : Guitare basse",
-  "battement_s": -21
+  "activite": "Recherche documentaire : Guitare basse + Éclaireur : passage continu",
+  "battement_s": 48
  },
  "modele": {
   "ok": false,
@@ -18,11 +18,11 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "alerte",
+   "etat": "repos",
    "courant": null,
    "file": 0,
    "attend_humain": 0,
-   "alerte": "Trouver des sujets candidats",
+   "alerte": null,
    "derniere": {
     "titre": "Trouver des sujets candidats",
     "quand": "26/10 04:32"
@@ -53,9 +53,9 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Bluetooth",
-    "projet": "Sujet : Bluetooth",
-    "depuis": 731
+    "titre": "Recherche documentaire : Guitare basse",
+    "projet": "Sujet : Guitare basse",
+    "depuis": 813
    },
    "file": 0,
    "attend_humain": 0,
@@ -67,16 +67,10 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : Bluetooth",
-     "projet": "Sujet : Bluetooth",
-     "etat": "en cours",
-     "depuis": 731
-    },
-    {
      "titre": "Recherche documentaire : Guitare basse",
      "projet": "Sujet : Guitare basse",
      "etat": "en cours",
-     "depuis": 448
+     "depuis": 813
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -102,7 +96,7 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -111,11 +105,6 @@
    },
    "total_fait": 33,
    "taches": [
-    {
-     "titre": "Écrire le script : Bluetooth",
-     "projet": "Sujet : Bluetooth",
-     "etat": "en attente"
-    },
     {
      "titre": "Écrire le script : Guitare basse",
      "projet": "Sujet : Guitare basse",
@@ -145,7 +134,7 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -154,11 +143,6 @@
    },
    "total_fait": 39,
    "taches": [
-    {
-     "titre": "Réunir de vraies illustrations libres : Bluetooth",
-     "projet": "Sujet : Bluetooth",
-     "etat": "en attente"
-    },
     {
      "titre": "Réunir de vraies illustrations libres : Guitare basse",
      "projet": "Sujet : Guitare basse",
@@ -188,7 +172,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -197,11 +181,6 @@
    },
    "total_fait": 56,
    "taches": [
-    {
-     "titre": "Générer la voix : Bluetooth",
-     "projet": "Sujet : Bluetooth",
-     "etat": "en attente"
-    },
     {
      "titre": "Générer la voix : Guitare basse",
      "projet": "Sujet : Guitare basse",
@@ -231,7 +210,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -240,11 +219,6 @@
    },
    "total_fait": 52,
    "taches": [
-    {
-     "titre": "Aligner la narration : Bluetooth",
-     "projet": "Sujet : Bluetooth",
-     "etat": "en attente"
-    },
     {
      "titre": "Aligner la narration : Guitare basse",
      "projet": "Sujet : Guitare basse",
@@ -274,7 +248,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -283,11 +257,6 @@
    },
    "total_fait": 74,
    "taches": [
-    {
-     "titre": "Rendre la vidéo : Bluetooth",
-     "projet": "Sujet : Bluetooth",
-     "etat": "en attente"
-    },
     {
      "titre": "Rendre la vidéo : Guitare basse",
      "projet": "Sujet : Guitare basse",
@@ -317,7 +286,7 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -326,11 +295,6 @@
    },
    "total_fait": 59,
    "taches": [
-    {
-     "titre": "QA automatique : Bluetooth",
-     "projet": "Sujet : Bluetooth",
-     "etat": "en attente"
-    },
     {
      "titre": "QA automatique : Guitare basse",
      "projet": "Sujet : Guitare basse",
@@ -360,7 +324,7 @@
    "desc": "Décide si la vidéo mérite d'être publiée.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -369,11 +333,6 @@
    },
    "total_fait": 45,
    "taches": [
-    {
-     "titre": "Revue finale (dossier, script, vidéo) : Bluetooth",
-     "projet": "Sujet : Bluetooth",
-     "etat": "en attente"
-    },
     {
      "titre": "Revue finale (dossier, script, vidéo) : Guitare basse",
      "projet": "Sujet : Guitare basse",
@@ -469,7 +428,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
    "passages": 1721,
    "dernier_a": "26/10 06:05"
@@ -637,6 +596,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-10-26T06:17:59",
+   "type": "alerte",
+   "texte": "Échec : Recherche documentaire : Bluetooth",
+   "url": null
+  },
+  {
    "ts": "2026-10-26T04:39:21",
    "type": "alerte",
    "texte": "Échec : Recherche documentaire : Microphone",
@@ -682,12 +647,6 @@
    "ts": "2026-10-26T00:59:04",
    "type": "alerte",
    "texte": "Échec : Recherche documentaire : Loi de Moore",
-   "url": null
-  },
-  {
-   "ts": "2026-10-26T00:17:33",
-   "type": "alerte",
-   "texte": "Échec : Trouver des sujets candidats",
    "url": null
   },
   {
@@ -789,10 +748,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
-  "PENDING": 14,
+  "READY": 9,
+  "PENDING": 7,
   "DEFERRED": 0,
   "SUCCESS": 958,
-  "FAILED": 47
+  "FAILED": 48
  }
 }
