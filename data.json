@@ -1,15 +1,15 @@
 {
- "now": 1793001020.1833546,
- "heure": "08:50:59",
+ "now": 1793001542.2987187,
+ "heure": "08:59:03",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Poste à souder + Éclaireur : passage continu",
-  "battement_s": 0
+  "activite": "Recherche documentaire : Soudage à l'arc submergé + Archiviste : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": null,
-  "erreur": "Ollama TimeoutError: timed out",
+  "reprise": "26/10 09:28",
+  "erreur": "Ollama URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
   "moteur": "opencode openai/gpt-5.6-terra"
  },
  "stations": [
@@ -53,13 +53,13 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Poste à souder",
-    "projet": "Sujet : Poste à souder",
-    "depuis": 728
+    "titre": "Recherche documentaire : Soudage à l'arc submergé",
+    "projet": "Sujet : Soudage à l'arc submergé",
+    "depuis": 23
    },
    "file": 1,
    "attend_humain": 0,
-   "alerte": "Recherche documentaire : RISC PC",
+   "alerte": "Recherche documentaire : Flipper Zero",
    "derniere": {
     "titre": "Recherche documentaire : Impression 3D dans la construction",
     "quand": "21/10 05:50"
@@ -67,15 +67,15 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : Poste à souder",
-     "projet": "Sujet : Poste à souder",
+     "titre": "Recherche documentaire : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en cours",
-     "depuis": 728
+     "depuis": 23
     },
     {
-     "titre": "Recherche documentaire : Microcontrôleur PIC",
-     "projet": "Sujet : Microcontrôleur PIC",
-     "etat": "prête"
+     "titre": "Recherche documentaire : Poste à souder",
+     "projet": "Sujet : Poste à souder",
+     "etat": "programmée 26/10 09:03"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -111,13 +111,13 @@
    "total_fait": 33,
    "taches": [
     {
-     "titre": "Écrire le script : Microcontrôleur PIC",
-     "projet": "Sujet : Microcontrôleur PIC",
+     "titre": "Écrire le script : Poste à souder",
+     "projet": "Sujet : Poste à souder",
      "etat": "en attente"
     },
     {
-     "titre": "Écrire le script : Poste à souder",
-     "projet": "Sujet : Poste à souder",
+     "titre": "Écrire le script : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en attente"
     },
     {
@@ -154,13 +154,13 @@
    "total_fait": 39,
    "taches": [
     {
-     "titre": "Réunir de vraies illustrations libres : Microcontrôleur PIC",
-     "projet": "Sujet : Microcontrôleur PIC",
+     "titre": "Réunir de vraies illustrations libres : Poste à souder",
+     "projet": "Sujet : Poste à souder",
      "etat": "en attente"
     },
     {
-     "titre": "Réunir de vraies illustrations libres : Poste à souder",
-     "projet": "Sujet : Poste à souder",
+     "titre": "Réunir de vraies illustrations libres : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en attente"
     },
     {
@@ -197,13 +197,13 @@
    "total_fait": 56,
    "taches": [
     {
-     "titre": "Générer la voix : Microcontrôleur PIC",
-     "projet": "Sujet : Microcontrôleur PIC",
+     "titre": "Générer la voix : Poste à souder",
+     "projet": "Sujet : Poste à souder",
      "etat": "en attente"
     },
     {
-     "titre": "Générer la voix : Poste à souder",
-     "projet": "Sujet : Poste à souder",
+     "titre": "Générer la voix : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en attente"
     },
     {
@@ -240,13 +240,13 @@
    "total_fait": 52,
    "taches": [
     {
-     "titre": "Aligner la narration : Microcontrôleur PIC",
-     "projet": "Sujet : Microcontrôleur PIC",
+     "titre": "Aligner la narration : Poste à souder",
+     "projet": "Sujet : Poste à souder",
      "etat": "en attente"
     },
     {
-     "titre": "Aligner la narration : Poste à souder",
-     "projet": "Sujet : Poste à souder",
+     "titre": "Aligner la narration : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en attente"
     },
     {
@@ -283,13 +283,13 @@
    "total_fait": 74,
    "taches": [
     {
-     "titre": "Rendre la vidéo : Microcontrôleur PIC",
-     "projet": "Sujet : Microcontrôleur PIC",
+     "titre": "Rendre la vidéo : Poste à souder",
+     "projet": "Sujet : Poste à souder",
      "etat": "en attente"
     },
     {
-     "titre": "Rendre la vidéo : Poste à souder",
-     "projet": "Sujet : Poste à souder",
+     "titre": "Rendre la vidéo : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en attente"
     },
     {
@@ -326,13 +326,13 @@
    "total_fait": 59,
    "taches": [
     {
-     "titre": "QA automatique : Microcontrôleur PIC",
-     "projet": "Sujet : Microcontrôleur PIC",
+     "titre": "QA automatique : Poste à souder",
+     "projet": "Sujet : Poste à souder",
      "etat": "en attente"
     },
     {
-     "titre": "QA automatique : Poste à souder",
-     "projet": "Sujet : Poste à souder",
+     "titre": "QA automatique : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en attente"
     },
     {
@@ -369,13 +369,13 @@
    "total_fait": 45,
    "taches": [
     {
-     "titre": "Revue finale (dossier, script, vidéo) : Microcontrôleur PIC",
-     "projet": "Sujet : Microcontrôleur PIC",
+     "titre": "Revue finale (dossier, script, vidéo) : Poste à souder",
+     "projet": "Sujet : Poste à souder",
      "etat": "en attente"
     },
     {
-     "titre": "Revue finale (dossier, script, vidéo) : Poste à souder",
-     "projet": "Sujet : Poste à souder",
+     "titre": "Revue finale (dossier, script, vidéo) : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en attente"
     },
     {
@@ -470,15 +470,15 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1727,
-   "dernier_a": "26/10 08:38"
+   "passages": 1728,
+   "dernier_a": "26/10 08:58"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Publication YouTube] 1 commentaire(s) suivis, 0 nouveau(x)",
    "passages": 1324,
    "dernier_a": "26/10 08:28"
@@ -636,6 +636,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-10-26T08:56:34",
+   "type": "alerte",
+   "texte": "Échec : Recherche documentaire : Microcontrôleur PIC",
+   "url": null
+  },
+  {
    "ts": "2026-10-26T08:35:47",
    "type": "alerte",
    "texte": "Échec : Recherche documentaire : Microcontrôleur",
@@ -681,12 +687,6 @@
    "ts": "2026-10-26T03:43:13",
    "type": "alerte",
    "texte": "Échec : Recherche documentaire : Flipper Zero",
-   "url": null
-  },
-  {
-   "ts": "2026-10-26T02:56:22",
-   "type": "alerte",
-   "texte": "Échec : Recherche documentaire : RISC PC",
    "url": null
   },
   {
@@ -788,10 +788,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 8,
   "PENDING": 14,
-  "DEFERRED": 0,
-  "SUCCESS": 959,
-  "FAILED": 52
+  "DEFERRED": 1,
+  "SUCCESS": 960,
+  "FAILED": 53
  }
 }
