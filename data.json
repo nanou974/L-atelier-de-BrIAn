@@ -1,6 +1,6 @@
 {
- "now": 1792994344.2830198,
- "heure": "06:59:07",
+ "now": 1792994644.2895591,
+ "heure": "07:04:05",
  "moteur": {
   "etat": "actif",
   "activite": "Recherche documentaire : Guitare basse + Trouver des sujets candidats",
@@ -22,7 +22,7 @@
    "courant": {
     "titre": "Trouver des sujets candidats",
     "projet": "Éditorial",
-    "depuis": 1
+    "depuis": 301
    },
    "file": 0,
    "attend_humain": 0,
@@ -37,7 +37,7 @@
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
      "etat": "en cours",
-     "depuis": 1
+     "depuis": 301
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -65,11 +65,11 @@
    "courant": {
     "titre": "Recherche documentaire : Guitare basse",
     "projet": "Sujet : Guitare basse",
-    "depuis": 473
+    "depuis": 773
    },
    "file": 1,
    "attend_humain": 0,
-   "alerte": "Recherche documentaire : Loi de Moore",
+   "alerte": "Recherche documentaire : Ordinateur domestique",
    "derniere": {
     "titre": "Recherche documentaire : Impression 3D dans la construction",
     "quand": "21/10 05:50"
@@ -80,12 +80,12 @@
      "titre": "Recherche documentaire : Guitare basse",
      "projet": "Sujet : Guitare basse",
      "etat": "en cours",
-     "depuis": 473
+     "depuis": 773
     },
     {
      "titre": "Recherche documentaire : Amiga",
      "projet": "Sujet : Amiga",
-     "etat": "programmée 26/10 06:59"
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -694,12 +694,6 @@
    "url": null
   },
   {
-   "ts": "2026-10-26T00:59:04",
-   "type": "alerte",
-   "texte": "Échec : Recherche documentaire : Loi de Moore",
-   "url": null
-  },
-  {
    "ts": "2026-10-25T11:52:01",
    "type": "assistant",
    "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Programmation de commande numérique",
@@ -794,13 +788,19 @@
    "type": "assistant",
    "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
    "url": null
+  },
+  {
+   "ts": "2026-10-18T01:24:12",
+   "type": "assistant",
+   "texte": "Référenceur : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
+   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 11,
   "PENDING": 14,
-  "DEFERRED": 1,
+  "DEFERRED": 0,
   "SUCCESS": 958,
   "FAILED": 48
  }
