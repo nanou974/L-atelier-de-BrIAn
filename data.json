@@ -1,10 +1,10 @@
 {
- "now": 1792977897.526171,
- "heure": "02:25:18",
+ "now": 1792978157.8486452,
+ "heure": "02:29:23",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Stéréolithographie + Éclaireur : passage continu",
-  "battement_s": 31
+  "activite": "Recherche documentaire : RISC PC + Iconographe : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
@@ -51,9 +51,13 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "alerte",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : RISC PC",
+    "projet": "Sujet : RISC PC",
+    "depuis": 260
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : Programmation de commande numérique",
    "derniere": {
@@ -65,7 +69,8 @@
     {
      "titre": "Recherche documentaire : RISC PC",
      "projet": "Sujet : RISC PC",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 260
     },
     {
      "titre": "Recherche documentaire : Stéréolithographie",
@@ -464,36 +469,36 @@
    "poste": "recherche",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Recherche] Flipper Zero : OK (34 phrases) ; Micro:bit : OK (23 phrases) ; Microphone : OK (28 phrases)",
-   "passages": 1704,
-   "dernier_a": "26/10 02:20"
+   "dernier": "[poste Recherche] Bluetooth : OK (23 phrases) ; Agence nationale des techniques d'enquêtes numériques judiciaires : OK (42 phrases)",
+   "passages": 1705,
+   "dernier_a": "26/10 02:27"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1307,
-   "dernier_a": "26/10 01:12"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube] 0 publications programmées, calendrier sain",
+   "passages": 1308,
+   "dernier_a": "26/10 02:28"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Éclaireur, Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 922,
-   "dernier_a": "26/10 00:46"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, avec Archiviste] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 923,
+   "dernier_a": "26/10 02:29"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
    "passages": 499,
    "dernier_a": "26/10 00:33"
@@ -782,11 +787,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 10,
+  "RUNNING": 2,
+  "READY": 6,
   "PENDING": 14,
   "DEFERRED": 1,
-  "SUCCESS": 956,
+  "SUCCESS": 959,
   "FAILED": 42
  }
 }
