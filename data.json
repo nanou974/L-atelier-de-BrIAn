@@ -1,10 +1,10 @@
 {
- "now": 1792993814.4444335,
- "heure": "06:50:50",
+ "now": 1792994042.3230848,
+ "heure": "06:54:03",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Amiga + Trouver des sujets candidats",
-  "battement_s": -10
+  "activite": "Recherche documentaire : Guitare basse + Recherche documentaire : Amiga",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
@@ -18,13 +18,9 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Trouver des sujets candidats",
-    "projet": "Éditorial",
-    "depuis": 555
-   },
-   "file": 0,
+   "etat": "attente",
+   "courant": null,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -36,8 +32,7 @@
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "en cours",
-     "depuis": 555
+     "etat": "prête"
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -63,11 +58,11 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Amiga",
-    "projet": "Sujet : Amiga",
-    "depuis": 382
+    "titre": "Recherche documentaire : Guitare basse",
+    "projet": "Sujet : Guitare basse",
+    "depuis": 171
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : Loi de Moore",
    "derniere": {
@@ -77,15 +72,16 @@
    "total_fait": 27,
    "taches": [
     {
+     "titre": "Recherche documentaire : Guitare basse",
+     "projet": "Sujet : Guitare basse",
+     "etat": "en cours",
+     "depuis": 171
+    },
+    {
      "titre": "Recherche documentaire : Amiga",
      "projet": "Sujet : Amiga",
      "etat": "en cours",
-     "depuis": 382
-    },
-    {
-     "titre": "Recherche documentaire : Guitare basse",
-     "projet": "Sujet : Guitare basse",
-     "etat": "prête"
+     "depuis": 610
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
