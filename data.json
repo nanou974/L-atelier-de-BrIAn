@@ -1,10 +1,10 @@
 {
- "now": 1792979986.3992352,
- "heure": "03:00:07",
+ "now": 1792980313.6942236,
+ "heure": "03:05:52",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Flipper Zero + Éclaireur : passage continu",
-  "battement_s": 0
+  "activite": "Recherche documentaire : Micro:bit + Archiviste : passage continu",
+  "battement_s": 26
  },
  "modele": {
   "ok": false,
@@ -53,11 +53,11 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Flipper Zero",
-    "projet": "Sujet : Flipper Zero",
-    "depuis": 774
+    "titre": "Recherche documentaire : Micro:bit",
+    "projet": "Sujet : Micro:bit",
+    "depuis": 114
    },
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : Programmation de commande numérique",
    "derniere": {
@@ -67,10 +67,15 @@
    "total_fait": 27,
    "taches": [
     {
+     "titre": "Recherche documentaire : Micro:bit",
+     "projet": "Sujet : Micro:bit",
+     "etat": "en cours",
+     "depuis": 114
+    },
+    {
      "titre": "Recherche documentaire : Flipper Zero",
      "projet": "Sujet : Flipper Zero",
-     "etat": "en cours",
-     "depuis": 774
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -96,7 +101,7 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -108,6 +113,11 @@
     {
      "titre": "Écrire le script : Flipper Zero",
      "projet": "Sujet : Flipper Zero",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Écrire le script : Micro:bit",
+     "projet": "Sujet : Micro:bit",
      "etat": "en attente"
     },
     {
@@ -134,7 +144,7 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -146,6 +156,11 @@
     {
      "titre": "Réunir de vraies illustrations libres : Flipper Zero",
      "projet": "Sujet : Flipper Zero",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Micro:bit",
+     "projet": "Sujet : Micro:bit",
      "etat": "en attente"
     },
     {
@@ -172,7 +187,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -184,6 +199,11 @@
     {
      "titre": "Générer la voix : Flipper Zero",
      "projet": "Sujet : Flipper Zero",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Générer la voix : Micro:bit",
+     "projet": "Sujet : Micro:bit",
      "etat": "en attente"
     },
     {
@@ -210,7 +230,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -222,6 +242,11 @@
     {
      "titre": "Aligner la narration : Flipper Zero",
      "projet": "Sujet : Flipper Zero",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Aligner la narration : Micro:bit",
+     "projet": "Sujet : Micro:bit",
      "etat": "en attente"
     },
     {
@@ -248,7 +273,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -260,6 +285,11 @@
     {
      "titre": "Rendre la vidéo : Flipper Zero",
      "projet": "Sujet : Flipper Zero",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Rendre la vidéo : Micro:bit",
+     "projet": "Sujet : Micro:bit",
      "etat": "en attente"
     },
     {
@@ -286,7 +316,7 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -298,6 +328,11 @@
     {
      "titre": "QA automatique : Flipper Zero",
      "projet": "Sujet : Flipper Zero",
+     "etat": "en attente"
+    },
+    {
+     "titre": "QA automatique : Micro:bit",
+     "projet": "Sujet : Micro:bit",
      "etat": "en attente"
     },
     {
@@ -324,7 +359,7 @@
    "desc": "Décide si la vidéo mérite d'être publiée.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -336,6 +371,11 @@
     {
      "titre": "Revue finale (dossier, script, vidéo) : Flipper Zero",
      "projet": "Sujet : Flipper Zero",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Revue finale (dossier, script, vidéo) : Micro:bit",
+     "projet": "Sujet : Micro:bit",
      "etat": "en attente"
     },
     {
@@ -429,16 +469,16 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 1707,
-   "dernier_a": "26/10 02:46"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 1708,
+   "dernier_a": "26/10 03:01"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
    "poste": "publication",
    "poste_prefere": "recherche",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : statistiques à jour (relevé il y a 5 min)",
    "passages": 1310,
    "dernier_a": "26/10 02:46"
@@ -749,9 +789,9 @@
  "compteurs": {
   "RUNNING": 2,
   "READY": 9,
-  "PENDING": 7,
+  "PENDING": 14,
   "DEFERRED": 0,
-  "SUCCESS": 956,
+  "SUCCESS": 957,
   "FAILED": 44
  }
 }
