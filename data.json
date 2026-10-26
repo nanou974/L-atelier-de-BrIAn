@@ -1,10 +1,10 @@
 {
- "now": 1792997642.5999677,
- "heure": "07:54:04",
+ "now": 1792997942.7110488,
+ "heure": "07:59:04",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Arduino + Éclaireur : passage continu",
-  "battement_s": 3
+  "activite": "Recherche documentaire : Arduino + Recherche documentaire : Microcontrôleur",
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
@@ -55,9 +55,9 @@
    "courant": {
     "titre": "Recherche documentaire : Arduino",
     "projet": "Sujet : Arduino",
-    "depuis": 458
+    "depuis": 758
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : Ordinateur de bureau",
    "derniere": {
@@ -70,12 +70,13 @@
      "titre": "Recherche documentaire : Arduino",
      "projet": "Sujet : Arduino",
      "etat": "en cours",
-     "depuis": 458
+     "depuis": 758
     },
     {
      "titre": "Recherche documentaire : Microcontrôleur",
      "projet": "Sujet : Microcontrôleur",
-     "etat": "programmée 26/10 07:56"
+     "etat": "en cours",
+     "depuis": 48
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -470,8 +471,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1723,
-   "dernier_a": "26/10 07:48"
+   "passages": 1724,
+   "dernier_a": "26/10 07:55"
   },
   {
    "cle": "archiviste",
@@ -486,42 +487,42 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
-   "passages": 931,
-   "dernier_a": "26/10 05:57"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube] 16 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
+   "passages": 932,
+   "dernier_a": "26/10 07:55"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
-   "passages": 502,
-   "dernier_a": "26/10 04:41"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 5 sujets mesurés, en hausse : Agence nationale des techniques d'enquêtes numériques judiciaires ×1.27, Microcontrôleur PIC ×1.26",
+   "passages": 503,
+   "dernier_a": "26/10 07:55"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube] ronde : 16 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
-   "passages": 115,
-   "dernier_a": "26/10 02:41"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, avec Plume] 0 publications programmées, calendrier sain",
+   "passages": 116,
+   "dernier_a": "26/10 07:55"
   },
   {
    "cle": "tendances",
    "nom": "Tendances",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 146,
-   "dernier_a": "26/10 02:41"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 147,
+   "dernier_a": "26/10 07:58"
   },
   {
    "cle": "accroche",
@@ -566,10 +567,10 @@
  ],
  "programmees": [],
  "audience": {
-  "vues": 1999,
+  "vues": 2003,
   "likes": 38,
   "commentaires": 0,
-  "maj": "02:41"
+  "maj": "07:55"
  },
  "publiees": [
   {
@@ -608,7 +609,7 @@
    "url": "https://www.youtube.com/watch?v=yEFqshq0F3A",
    "at": "2026-10-18T15:00:12",
    "miniature": true,
-   "vues": 17,
+   "vues": 19,
    "likes": 1,
    "commentaires": 0
   },
@@ -628,7 +629,7 @@
    "url": "https://www.youtube.com/watch?v=RJ2JFpAB8Ew",
    "at": "2026-10-18T09:37:12",
    "miniature": true,
-   "vues": 10,
+   "vues": 12,
    "likes": 0,
    "commentaires": 0
   }
@@ -788,9 +789,9 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 8,
+  "READY": 9,
   "PENDING": 14,
-  "DEFERRED": 1,
+  "DEFERRED": 0,
   "SUCCESS": 960,
   "FAILED": 50
  }
