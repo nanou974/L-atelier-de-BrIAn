@@ -1,10 +1,10 @@
 {
- "now": 1793000737.0248601,
- "heure": "08:47:06",
+ "now": 1793001020.1833546,
+ "heure": "08:50:59",
  "moteur": {
   "etat": "actif",
   "activite": "Recherche documentaire : Poste à souder + Éclaireur : passage continu",
-  "battement_s": -32
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
@@ -55,11 +55,11 @@
    "courant": {
     "titre": "Recherche documentaire : Poste à souder",
     "projet": "Sujet : Poste à souder",
-    "depuis": 445
+    "depuis": 728
    },
    "file": 1,
    "attend_humain": 0,
-   "alerte": "Recherche documentaire : Stéréolithographie",
+   "alerte": "Recherche documentaire : RISC PC",
    "derniere": {
     "titre": "Recherche documentaire : Impression 3D dans la construction",
     "quand": "21/10 05:50"
@@ -70,12 +70,12 @@
      "titre": "Recherche documentaire : Poste à souder",
      "projet": "Sujet : Poste à souder",
      "etat": "en cours",
-     "depuis": 445
+     "depuis": 728
     },
     {
      "titre": "Recherche documentaire : Microcontrôleur PIC",
      "projet": "Sujet : Microcontrôleur PIC",
-     "etat": "en attente"
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -690,12 +690,6 @@
    "url": null
   },
   {
-   "ts": "2026-10-26T02:46:10",
-   "type": "alerte",
-   "texte": "Échec : Recherche documentaire : Stéréolithographie",
-   "url": null
-  },
-  {
    "ts": "2026-10-25T11:52:01",
    "type": "assistant",
    "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Programmation de commande numérique",
@@ -784,13 +778,19 @@
    "type": "assistant",
    "texte": "Éclaireur : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
    "url": null
+  },
+  {
+   "ts": "2026-10-18T08:42:01",
+   "type": "assistant",
+   "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
+   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 9,
+  "READY": 10,
   "PENDING": 14,
-  "DEFERRED": 1,
+  "DEFERRED": 0,
   "SUCCESS": 959,
   "FAILED": 52
  }
