@@ -1,10 +1,10 @@
 {
- "now": 1792989151.171332,
- "heure": "05:32:31",
+ "now": 1792989241.1238728,
+ "heure": "05:34:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Guitare basse + Éclaireur : passage continu",
-  "battement_s": 2
+  "activite": "Archiviste : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": false,
@@ -51,13 +51,9 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Guitare basse",
-    "projet": "Sujet : Guitare basse",
-    "depuis": 1665
-   },
-   "file": 1,
+   "etat": "alerte",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : Thread (protocole de réseau)",
    "derniere": {
@@ -67,15 +63,14 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : Guitare basse",
-     "projet": "Sujet : Guitare basse",
-     "etat": "en cours",
-     "depuis": 1665
-    },
-    {
      "titre": "Recherche documentaire : Bluetooth",
      "projet": "Sujet : Bluetooth",
-     "etat": "prête"
+     "etat": "programmée 26/10 06:02"
+    },
+    {
+     "titre": "Recherche documentaire : Guitare basse",
+     "projet": "Sujet : Guitare basse",
+     "etat": "programmée 26/10 05:37"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -468,7 +463,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Archiviste, Plume, Iconographe] 31 titres lus, 0 idées retenues",
    "passages": 1716,
    "dernier_a": "26/10 04:58"
@@ -478,7 +473,7 @@
    "nom": "Archiviste",
    "poste": "idee",
    "poste_prefere": "recherche",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Iconographe] 27 titres lus, 0 idées retenues",
    "passages": 1316,
    "dernier_a": "26/10 05:04"
@@ -636,6 +631,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-10-26T05:32:34",
+   "type": "alerte",
+   "texte": "Échec : Éclaireur : passage continu",
+   "url": null
+  },
+  {
    "ts": "2026-10-26T04:39:21",
    "type": "alerte",
    "texte": "Échec : Recherche documentaire : Microphone",
@@ -778,20 +779,14 @@
    "type": "assistant",
    "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
    "url": null
-  },
-  {
-   "ts": "2026-10-18T08:43:06",
-   "type": "assistant",
-   "texte": "Éclaireur : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
-   "url": null
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 10,
+  "RUNNING": 1,
+  "READY": 8,
   "PENDING": 14,
-  "DEFERRED": 0,
+  "DEFERRED": 2,
   "SUCCESS": 957,
-  "FAILED": 47
+  "FAILED": 48
  }
 }
