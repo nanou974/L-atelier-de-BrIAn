@@ -1,10 +1,10 @@
 {
- "now": 1792985066.7583869,
- "heure": "04:25:16",
+ "now": 1792985394.5582473,
+ "heure": "04:30:41",
  "moteur": {
   "etat": "actif",
   "activite": "Recherche documentaire : Microphone + Trouver des sujets candidats",
-  "battement_s": 7
+  "battement_s": 44
  },
  "modele": {
   "ok": false,
@@ -18,13 +18,9 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Trouver des sujets candidats",
-    "projet": "Éditorial",
-    "depuis": 320
-   },
-   "file": 0,
+   "etat": "alerte",
+   "courant": null,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
    "derniere": {
@@ -36,8 +32,7 @@
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "en cours",
-     "depuis": 320
+     "etat": "programmée 26/10 04:29"
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -65,7 +60,7 @@
    "courant": {
     "titre": "Recherche documentaire : Microphone",
     "projet": "Sujet : Microphone",
-    "depuis": 7
+    "depuis": 334
    },
    "file": 1,
    "attend_humain": 0,
@@ -80,12 +75,12 @@
      "titre": "Recherche documentaire : Microphone",
      "projet": "Sujet : Microphone",
      "etat": "en cours",
-     "depuis": 7
+     "depuis": 334
     },
     {
      "titre": "Recherche documentaire : Bluetooth",
      "projet": "Sujet : Bluetooth",
-     "etat": "en attente"
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -797,8 +792,8 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 10,
+  "RUNNING": 1,
+  "READY": 11,
   "PENDING": 14,
   "DEFERRED": 1,
   "SUCCESS": 956,
