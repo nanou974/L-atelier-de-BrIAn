@@ -1,10 +1,10 @@
 {
- "now": 1792992038.2199526,
- "heure": "06:21:14",
+ "now": 1792992289.1352253,
+ "heure": "06:25:29",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Guitare basse + Éclaireur : passage continu",
-  "battement_s": 48
+  "activite": "Recherche documentaire : Amiga + Éclaireur : passage continu",
+  "battement_s": -20
  },
  "modele": {
   "ok": false,
@@ -18,9 +18,9 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -29,6 +29,11 @@
    },
    "total_fait": 14,
    "taches": [
+    {
+     "titre": "Trouver des sujets candidats",
+     "projet": "Éditorial",
+     "etat": "prête"
+    },
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
@@ -53,11 +58,11 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Guitare basse",
-    "projet": "Sujet : Guitare basse",
-    "depuis": 813
+    "titre": "Recherche documentaire : Amiga",
+    "projet": "Sujet : Amiga",
+    "depuis": 37
    },
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : Loi de Moore",
    "derniere": {
@@ -67,10 +72,15 @@
    "total_fait": 27,
    "taches": [
     {
+     "titre": "Recherche documentaire : Amiga",
+     "projet": "Sujet : Amiga",
+     "etat": "en cours",
+     "depuis": 37
+    },
+    {
      "titre": "Recherche documentaire : Guitare basse",
      "projet": "Sujet : Guitare basse",
-     "etat": "en cours",
-     "depuis": 813
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -96,7 +106,7 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -108,6 +118,11 @@
     {
      "titre": "Écrire le script : Guitare basse",
      "projet": "Sujet : Guitare basse",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Écrire le script : Amiga",
+     "projet": "Sujet : Amiga",
      "etat": "en attente"
     },
     {
@@ -134,7 +149,7 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -146,6 +161,11 @@
     {
      "titre": "Réunir de vraies illustrations libres : Guitare basse",
      "projet": "Sujet : Guitare basse",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Amiga",
+     "projet": "Sujet : Amiga",
      "etat": "en attente"
     },
     {
@@ -172,7 +192,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -184,6 +204,11 @@
     {
      "titre": "Générer la voix : Guitare basse",
      "projet": "Sujet : Guitare basse",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Générer la voix : Amiga",
+     "projet": "Sujet : Amiga",
      "etat": "en attente"
     },
     {
@@ -210,7 +235,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -222,6 +247,11 @@
     {
      "titre": "Aligner la narration : Guitare basse",
      "projet": "Sujet : Guitare basse",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Aligner la narration : Amiga",
+     "projet": "Sujet : Amiga",
      "etat": "en attente"
     },
     {
@@ -248,7 +278,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -260,6 +290,11 @@
     {
      "titre": "Rendre la vidéo : Guitare basse",
      "projet": "Sujet : Guitare basse",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Rendre la vidéo : Amiga",
+     "projet": "Sujet : Amiga",
      "etat": "en attente"
     },
     {
@@ -286,7 +321,7 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -298,6 +333,11 @@
     {
      "titre": "QA automatique : Guitare basse",
      "projet": "Sujet : Guitare basse",
+     "etat": "en attente"
+    },
+    {
+     "titre": "QA automatique : Amiga",
+     "projet": "Sujet : Amiga",
      "etat": "en attente"
     },
     {
@@ -324,7 +364,7 @@
    "desc": "Décide si la vidéo mérite d'être publiée.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -336,6 +376,11 @@
     {
      "titre": "Revue finale (dossier, script, vidéo) : Guitare basse",
      "projet": "Sujet : Guitare basse",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Revue finale (dossier, script, vidéo) : Amiga",
+     "projet": "Sujet : Amiga",
      "etat": "en attente"
     },
     {
@@ -748,8 +793,8 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 9,
-  "PENDING": 7,
+  "READY": 11,
+  "PENDING": 14,
   "DEFERRED": 0,
   "SUCCESS": 958,
   "FAILED": 48
