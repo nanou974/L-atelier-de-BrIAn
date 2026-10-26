@@ -1,10 +1,10 @@
 {
- "now": 1792973061.7601612,
- "heure": "01:05:36",
+ "now": 1792973390.6719809,
+ "heure": "01:10:45",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Ordinateur domestique + Éclaireur : passage continu",
-  "battement_s": 21
+  "activite": "Recherche documentaire : Ordinateur domestique + Archiviste : passage continu",
+  "battement_s": 10
  },
  "modele": {
   "ok": false,
@@ -51,8 +51,12 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "alerte",
-   "courant": null,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : Ordinateur domestique",
+    "projet": "Sujet : Ordinateur domestique",
+    "depuis": 197
+   },
    "file": 1,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : PirateBox",
@@ -65,7 +69,13 @@
     {
      "titre": "Recherche documentaire : Ordinateur domestique",
      "projet": "Sujet : Ordinateur domestique",
-     "etat": "programmée 26/10 01:04"
+     "etat": "en cours",
+     "depuis": 197
+    },
+    {
+     "titre": "Recherche documentaire : Ordinateur de bureau",
+     "projet": "Sujet : Ordinateur de bureau",
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -91,7 +101,7 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -103,6 +113,11 @@
     {
      "titre": "Écrire le script : Ordinateur domestique",
      "projet": "Sujet : Ordinateur domestique",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Écrire le script : Ordinateur de bureau",
+     "projet": "Sujet : Ordinateur de bureau",
      "etat": "en attente"
     },
     {
@@ -129,7 +144,7 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "alerte",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": "Réunir de vraies illustrations libres : Impression 3D dans la construction",
    "derniere": {
@@ -141,6 +156,11 @@
     {
      "titre": "Réunir de vraies illustrations libres : Ordinateur domestique",
      "projet": "Sujet : Ordinateur domestique",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Ordinateur de bureau",
+     "projet": "Sujet : Ordinateur de bureau",
      "etat": "en attente"
     },
     {
@@ -167,7 +187,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -179,6 +199,11 @@
     {
      "titre": "Générer la voix : Ordinateur domestique",
      "projet": "Sujet : Ordinateur domestique",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Générer la voix : Ordinateur de bureau",
+     "projet": "Sujet : Ordinateur de bureau",
      "etat": "en attente"
     },
     {
@@ -205,7 +230,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -217,6 +242,11 @@
     {
      "titre": "Aligner la narration : Ordinateur domestique",
      "projet": "Sujet : Ordinateur domestique",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Aligner la narration : Ordinateur de bureau",
+     "projet": "Sujet : Ordinateur de bureau",
      "etat": "en attente"
     },
     {
@@ -243,7 +273,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -255,6 +285,11 @@
     {
      "titre": "Rendre la vidéo : Ordinateur domestique",
      "projet": "Sujet : Ordinateur domestique",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Rendre la vidéo : Ordinateur de bureau",
+     "projet": "Sujet : Ordinateur de bureau",
      "etat": "en attente"
     },
     {
@@ -291,13 +326,13 @@
    "total_fait": 59,
    "taches": [
     {
-     "titre": "QA automatique : Loi de Moore",
-     "projet": "Sujet : Loi de Moore",
+     "titre": "QA automatique : Ordinateur domestique",
+     "projet": "Sujet : Ordinateur domestique",
      "etat": "en attente"
     },
     {
-     "titre": "QA automatique : Ordinateur domestique",
-     "projet": "Sujet : Ordinateur domestique",
+     "titre": "QA automatique : Ordinateur de bureau",
+     "projet": "Sujet : Ordinateur de bureau",
      "etat": "en attente"
     },
     {
@@ -334,13 +369,13 @@
    "total_fait": 45,
    "taches": [
     {
-     "titre": "Revue finale (dossier, script, vidéo) : Loi de Moore",
-     "projet": "Sujet : Loi de Moore",
+     "titre": "Revue finale (dossier, script, vidéo) : Ordinateur domestique",
+     "projet": "Sujet : Ordinateur domestique",
      "etat": "en attente"
     },
     {
-     "titre": "Revue finale (dossier, script, vidéo) : Ordinateur domestique",
-     "projet": "Sujet : Ordinateur domestique",
+     "titre": "Revue finale (dossier, script, vidéo) : Ordinateur de bureau",
+     "projet": "Sujet : Ordinateur de bureau",
      "etat": "en attente"
     },
     {
@@ -433,7 +468,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Plume] 31 titres lus, 0 idées retenues",
    "passages": 1701,
    "dernier_a": "26/10 00:41"
@@ -443,7 +478,7 @@
    "nom": "Archiviste",
    "poste": "idee",
    "poste_prefere": "recherche",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Éclaireur, Plume] 31 titres lus, 0 idées retenues",
    "passages": 1306,
    "dernier_a": "26/10 00:43"
@@ -752,10 +787,10 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 9,
-  "PENDING": 9,
-  "DEFERRED": 1,
+  "RUNNING": 2,
+  "READY": 10,
+  "PENDING": 14,
+  "DEFERRED": 0,
   "SUCCESS": 955,
   "FAILED": 40
  }
