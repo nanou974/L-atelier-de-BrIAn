@@ -1,10 +1,10 @@
 {
- "now": 1792978742.6188333,
- "heure": "02:39:04",
+ "now": 1792979042.7327375,
+ "heure": "02:44:04",
  "moteur": {
   "etat": "actif",
   "activite": "Recherche documentaire : Stéréolithographie + Recherche documentaire : RISC PC",
-  "battement_s": 4
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
@@ -55,7 +55,7 @@
    "courant": {
     "titre": "Recherche documentaire : Stéréolithographie",
     "projet": "Sujet : Stéréolithographie",
-    "depuis": 475
+    "depuis": 776
    },
    "file": 0,
    "attend_humain": 0,
@@ -70,13 +70,13 @@
      "titre": "Recherche documentaire : Stéréolithographie",
      "projet": "Sujet : Stéréolithographie",
      "etat": "en cours",
-     "depuis": 475
+     "depuis": 776
     },
     {
      "titre": "Recherche documentaire : RISC PC",
      "projet": "Sujet : RISC PC",
      "etat": "en cours",
-     "depuis": 844
+     "depuis": 166
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -467,32 +467,32 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "recherche",
+   "poste": "images",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Recherche] Bluetooth : OK (23 phrases) ; Agence nationale des techniques d'enquêtes numériques judiciaires : OK (42 phrases)",
-   "passages": 1705,
-   "dernier_a": "26/10 02:27"
+   "etat": "actif",
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 1706,
+   "dernier_a": "26/10 02:40"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "recherche",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube] 0 publications programmées, calendrier sain",
-   "passages": 1308,
-   "dernier_a": "26/10 02:28"
+   "etat": "actif",
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 1309,
+   "dernier_a": "26/10 02:40"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube, avec Archiviste] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 923,
-   "dernier_a": "26/10 02:29"
+   "etat": "actif",
+   "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 924,
+   "dernier_a": "26/10 02:40"
   },
   {
    "cle": "iconographe",
@@ -500,29 +500,29 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 500,
-   "dernier_a": "26/10 02:31"
+   "dernier": "[poste Images, avec Éclaireur, Archiviste] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 501,
+   "dernier_a": "26/10 02:40"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 114,
-   "dernier_a": "25/10 18:35"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube] ronde : 16 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
+   "passages": 115,
+   "dernier_a": "26/10 02:41"
   },
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "idee",
+   "poste": "images",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
-   "passages": 145,
-   "dernier_a": "25/10 17:37"
+   "etat": "actif",
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 146,
+   "dernier_a": "26/10 02:41"
   },
   {
    "cle": "accroche",
@@ -570,7 +570,7 @@
   "vues": 1999,
   "likes": 38,
   "commentaires": 0,
-  "maj": "00:31"
+  "maj": "02:41"
  },
  "publiees": [
   {
@@ -789,10 +789,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 9,
   "PENDING": 14,
   "DEFERRED": 0,
-  "SUCCESS": 956,
+  "SUCCESS": 957,
   "FAILED": 42
  }
 }
