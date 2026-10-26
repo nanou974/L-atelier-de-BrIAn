@@ -1,9 +1,9 @@
 {
- "now": 1792978157.8486452,
- "heure": "02:29:23",
+ "now": 1792978442.6671662,
+ "heure": "02:34:03",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : RISC PC + Iconographe : passage continu",
+  "activite": "Recherche documentaire : Stéréolithographie + Recherche documentaire : RISC PC",
   "battement_s": 3
  },
  "modele": {
@@ -53,11 +53,11 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : RISC PC",
-    "projet": "Sujet : RISC PC",
-    "depuis": 260
+    "titre": "Recherche documentaire : Stéréolithographie",
+    "projet": "Sujet : Stéréolithographie",
+    "depuis": 175
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Recherche documentaire : Programmation de commande numérique",
    "derniere": {
@@ -67,15 +67,16 @@
    "total_fait": 27,
    "taches": [
     {
+     "titre": "Recherche documentaire : Stéréolithographie",
+     "projet": "Sujet : Stéréolithographie",
+     "etat": "en cours",
+     "depuis": 175
+    },
+    {
      "titre": "Recherche documentaire : RISC PC",
      "projet": "Sujet : RISC PC",
      "etat": "en cours",
-     "depuis": 260
-    },
-    {
-     "titre": "Recherche documentaire : Stéréolithographie",
-     "projet": "Sujet : Stéréolithographie",
-     "etat": "programmée 26/10 02:29"
+     "depuis": 544
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -499,9 +500,9 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Éclaireur] 31 titres lus, 0 idées retenues",
-   "passages": 499,
-   "dernier_a": "26/10 00:33"
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 500,
+   "dernier_a": "26/10 02:31"
   },
   {
    "cle": "analyste",
@@ -788,10 +789,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 6,
+  "READY": 9,
   "PENDING": 14,
-  "DEFERRED": 1,
-  "SUCCESS": 959,
+  "DEFERRED": 0,
+  "SUCCESS": 957,
   "FAILED": 42
  }
 }
