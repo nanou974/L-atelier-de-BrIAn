@@ -1,15 +1,15 @@
 {
- "now": 1793116169.8047583,
- "heure": "16:49:39",
+ "now": 1793116854.8469036,
+ "heure": "17:03:16",
  "moteur": {
-  "etat": "actif",
+  "etat": "arrêté",
   "activite": "Recherche documentaire : Poste à souder + Archiviste : passage continu",
-  "battement_s": 0
+  "battement_s": 115
  },
  "modele": {
-  "ok": false,
-  "reprise": "27/10 16:59",
-  "erreur": "Ollama TimeoutError: timed out",
+  "ok": true,
+  "reprise": null,
+  "erreur": null,
   "moteur": "opencode openai/gpt-5.6-terra"
  },
  "stations": [
@@ -55,7 +55,7 @@
    "courant": {
     "titre": "Recherche documentaire : Poste à souder",
     "projet": "Sujet : Poste à souder",
-    "depuis": 1428
+    "depuis": 2113
    },
    "file": 1,
    "attend_humain": 0,
@@ -70,12 +70,12 @@
      "titre": "Recherche documentaire : Poste à souder",
      "projet": "Sujet : Poste à souder",
      "etat": "en cours",
-     "depuis": 1428
+     "depuis": 2113
     },
     {
      "titre": "Recherche documentaire : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "programmée 27/10 16:59"
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -468,7 +468,7 @@
    "nom": "Éclaireur",
    "poste": "images",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
    "passages": 1743,
    "dernier_a": "27/10 16:48"
@@ -476,7 +476,7 @@
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
@@ -488,7 +488,7 @@
    "nom": "Plume",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube, avec Éclaireur, Analyste, Référenceur, Programmateur] 1 commentaire(s) suivis, 0 nouveau(x)",
    "passages": 943,
    "dernier_a": "27/10 16:43"
@@ -498,7 +498,7 @@
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Images, avec Miniaturiste] ronde : 16 miniatures notées, meilleure : contour-crafting",
    "passages": 509,
    "dernier_a": "27/10 16:43"
@@ -508,7 +508,7 @@
    "nom": "Analyste",
    "poste": "images",
    "poste_prefere": "publication",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
    "passages": 122,
    "dernier_a": "27/10 16:45"
@@ -518,7 +518,7 @@
    "nom": "Tendances",
    "poste": "images",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
    "passages": 153,
    "dernier_a": "27/10 16:45"
@@ -528,7 +528,7 @@
    "nom": "Accroche",
    "poste": "script",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Écriture du script] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
    "passages": 74,
    "dernier_a": "27/10 16:46"
@@ -538,7 +538,7 @@
    "nom": "Miniaturiste",
    "poste": "publication",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
    "passages": 61,
    "dernier_a": "27/10 16:46"
@@ -548,7 +548,7 @@
    "nom": "Référenceur",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
    "passages": 54,
    "dernier_a": "27/10 16:46"
@@ -558,7 +558,7 @@
    "nom": "Programmateur",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : statistiques à jour (relevé il y a 4 min)",
    "passages": 60,
    "dernier_a": "27/10 16:46"
@@ -788,10 +788,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 3,
+  "READY": 10,
   "PENDING": 14,
-  "DEFERRED": 1,
-  "SUCCESS": 968,
+  "DEFERRED": 0,
+  "SUCCESS": 962,
   "FAILED": 54
  }
 }
