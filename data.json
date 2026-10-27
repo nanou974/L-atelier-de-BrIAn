@@ -1,10 +1,10 @@
 {
- "now": 1793117189.8425786,
- "heure": "17:06:32",
+ "now": 1793117341.8838618,
+ "heure": "17:09:03",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Poste à souder + Archiviste : passage continu",
-  "battement_s": 1
+  "activite": "Recherche documentaire : Poste à souder + Recherche documentaire : Soudage à l'arc submergé",
+  "battement_s": 3
  },
  "modele": {
   "ok": true,
@@ -55,9 +55,9 @@
    "courant": {
     "titre": "Recherche documentaire : Poste à souder",
     "projet": "Sujet : Poste à souder",
-    "depuis": 2448
+    "depuis": 2600
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -70,12 +70,13 @@
      "titre": "Recherche documentaire : Poste à souder",
      "projet": "Sujet : Poste à souder",
      "etat": "en cours",
-     "depuis": 2448
+     "depuis": 2600
     },
     {
      "titre": "Recherche documentaire : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 135
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -478,7 +479,7 @@
    "nom": "Archiviste",
    "poste": "idee",
    "poste_prefere": "recherche",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
    "passages": 1339,
    "dernier_a": "27/10 16:45"
