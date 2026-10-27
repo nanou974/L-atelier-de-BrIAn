@@ -1,10 +1,10 @@
 {
- "now": 1793118842.202402,
- "heure": "17:34:03",
+ "now": 1793119141.3969216,
+ "heure": "17:39:02",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Poste à souder + Recherche documentaire : Soudage à l'arc submergé",
-  "battement_s": 1
+  "activite": "Écrire le script : Poste à souder + Recherche documentaire : Soudage à l'arc submergé",
+  "battement_s": 4
  },
  "modele": {
   "ok": true,
@@ -53,30 +53,29 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Poste à souder",
-    "projet": "Sujet : Poste à souder",
-    "depuis": 4101
+    "titre": "Recherche documentaire : Soudage à l'arc submergé",
+    "projet": "Sujet : Soudage à l'arc submergé",
+    "depuis": 1934
    },
    "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Recherche documentaire : Impression 3D dans la construction",
-    "quand": "21/10 05:50"
+    "titre": "Recherche documentaire : Poste à souder",
+    "quand": "27/10 17:35"
    },
-   "total_fait": 27,
+   "total_fait": 28,
    "taches": [
-    {
-     "titre": "Recherche documentaire : Poste à souder",
-     "projet": "Sujet : Poste à souder",
-     "etat": "en cours",
-     "depuis": 4101
-    },
     {
      "titre": "Recherche documentaire : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en cours",
-     "depuis": 1635
+     "depuis": 1934
+    },
+    {
+     "titre": "Recherche documentaire : Poste à souder",
+     "projet": "Sujet : Poste à souder",
+     "etat": "terminée 27/10 17:35"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -87,11 +86,6 @@
      "titre": "Recherche documentaire : Robocasting",
      "projet": "Sujet : Robocasting",
      "etat": "terminée 17/10 10:10"
-    },
-    {
-     "titre": "Recherche documentaire : D-Shape",
-     "projet": "Sujet : D-Shape",
-     "etat": "terminée 17/10 02:38"
     }
    ]
   },
@@ -100,9 +94,13 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Écrire le script : Poste à souder",
+    "projet": "Sujet : Poste à souder",
+    "depuis": 181
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -114,7 +112,8 @@
     {
      "titre": "Écrire le script : Poste à souder",
      "projet": "Sujet : Poste à souder",
-     "etat": "en attente"
+     "etat": "en cours",
+     "depuis": 181
     },
     {
      "titre": "Écrire le script : Soudage à l'arc submergé",
@@ -790,9 +789,9 @@
  "compteurs": {
   "RUNNING": 2,
   "READY": 10,
-  "PENDING": 14,
+  "PENDING": 13,
   "DEFERRED": 0,
-  "SUCCESS": 962,
+  "SUCCESS": 963,
   "FAILED": 54
  }
 }
