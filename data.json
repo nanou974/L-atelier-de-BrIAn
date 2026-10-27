@@ -1,10 +1,10 @@
 {
- "now": 1793114663.1434243,
- "heure": "16:24:33",
+ "now": 1793114942.181038,
+ "heure": "16:29:03",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Soudage à l'arc submergé + Éclaireur : passage continu",
-  "battement_s": 0
+  "activite": "Recherche documentaire : Poste à souder + Recherche documentaire : Soudage à l'arc submergé",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
@@ -53,11 +53,11 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Soudage à l'arc submergé",
-    "projet": "Sujet : Soudage à l'arc submergé",
-    "depuis": 1237
+    "titre": "Recherche documentaire : Poste à souder",
+    "projet": "Sujet : Poste à souder",
+    "depuis": 201
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -67,15 +67,16 @@
    "total_fait": 27,
    "taches": [
     {
+     "titre": "Recherche documentaire : Poste à souder",
+     "projet": "Sujet : Poste à souder",
+     "etat": "en cours",
+     "depuis": 201
+    },
+    {
      "titre": "Recherche documentaire : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en cours",
-     "depuis": 1237
-    },
-    {
-     "titre": "Recherche documentaire : Poste à souder",
-     "projet": "Sujet : Poste à souder",
-     "etat": "programmée 27/10 16:25"
+     "depuis": 1516
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -476,22 +477,22 @@
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "recherche",
+   "poste": "script",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 6 sujets mesurés, en hausse : David Gerstein ×1.57, Agence nationale des techniques d'enquêtes numériques judiciaires ×1.18",
-   "passages": 1330,
-   "dernier_a": "27/10 16:20"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 1331,
+   "dernier_a": "27/10 16:25"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube] 16 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
-   "passages": 937,
-   "dernier_a": "27/10 16:21"
+   "dernier": "[poste Écriture du script, avec Archiviste] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 938,
+   "dernier_a": "27/10 16:25"
   },
   {
    "cle": "iconographe",
@@ -788,10 +789,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 4,
+  "READY": 10,
   "PENDING": 14,
-  "DEFERRED": 1,
-  "SUCCESS": 967,
+  "DEFERRED": 0,
+  "SUCCESS": 962,
   "FAILED": 54
  }
 }
