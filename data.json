@@ -1,10 +1,10 @@
 {
- "now": 1793124935.1687787,
- "heure": "19:17:01",
+ "now": 1793125143.393305,
+ "heure": "19:19:05",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Soudage à l'arc submergé + Tester la disponibilité du LLM Groq (borné)",
-  "battement_s": 28
+  "activite": "Écrire le script : Poste à souder + Écrire le script : Soudage à l'arc submergé",
+  "battement_s": 1
  },
  "modele": {
   "ok": true,
@@ -86,11 +86,11 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "actif",
    "courant": {
-    "titre": "Écrire le script : Soudage à l'arc submergé",
-    "projet": "Sujet : Soudage à l'arc submergé",
-    "depuis": 2715
+    "titre": "Écrire le script : Poste à souder",
+    "projet": "Sujet : Poste à souder",
+    "depuis": 116
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -100,15 +100,16 @@
    "total_fait": 33,
    "taches": [
     {
+     "titre": "Écrire le script : Poste à souder",
+     "projet": "Sujet : Poste à souder",
+     "etat": "en cours",
+     "depuis": 116
+    },
+    {
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en cours",
-     "depuis": 2715
-    },
-    {
-     "titre": "Écrire le script : Poste à souder",
-     "projet": "Sujet : Poste à souder",
-     "etat": "prête"
+     "depuis": 2923
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -423,12 +424,8 @@
    "titre": "Veille et maintenance",
    "icone": "🧰",
    "desc": "Vérifie le disque, l'intégrité des fichiers et le modèle de langage.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Tester la disponibilité du LLM Groq (borné)",
-    "projet": "Maintenance",
-    "depuis": 560
-   },
+   "etat": "alerte",
+   "courant": null,
    "file": 0,
    "attend_humain": 0,
    "alerte": "Tester la disponibilité du LLM Groq (borné)",
@@ -438,12 +435,6 @@
    },
    "total_fait": 76,
    "taches": [
-    {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
-     "projet": "Maintenance",
-     "etat": "en cours",
-     "depuis": 560
-    },
     {
      "titre": "Contrôler l'espace disque",
      "projet": "Maintenance",
@@ -636,6 +627,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-10-27T19:17:02",
+   "type": "alerte",
+   "texte": "Échec : Tester la disponibilité du LLM Groq (borné)",
+   "url": null
+  },
+  {
    "ts": "2026-10-27T15:55:15",
    "type": "alerte",
    "texte": "Échec : Tester la disponibilité du LLM Groq (borné)",
@@ -778,20 +775,14 @@
    "type": "publication",
    "texte": "Publiée : RISC-V : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=Rdp9AgvQvA0"
-  },
-  {
-   "ts": "2026-10-16T19:43:35",
-   "type": "publication",
-   "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 11,
+  "READY": 10,
   "PENDING": 12,
   "DEFERRED": 0,
   "SUCCESS": 964,
-  "FAILED": 54
+  "FAILED": 55
  }
 }
