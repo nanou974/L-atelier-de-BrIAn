@@ -1,14 +1,14 @@
 {
- "now": 1793114942.181038,
- "heure": "16:29:03",
+ "now": 1793115242.6849146,
+ "heure": "16:34:05",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Poste à souder + Recherche documentaire : Soudage à l'arc submergé",
-  "battement_s": 4
+  "activite": "Recherche documentaire : Poste à souder + Tendances : passage continu",
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
-  "reprise": null,
+  "reprise": "27/10 16:59",
   "erreur": "Ollama TimeoutError: timed out",
   "moteur": "opencode openai/gpt-5.6-terra"
  },
@@ -55,9 +55,9 @@
    "courant": {
     "titre": "Recherche documentaire : Poste à souder",
     "projet": "Sujet : Poste à souder",
-    "depuis": 201
+    "depuis": 501
    },
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -70,13 +70,12 @@
      "titre": "Recherche documentaire : Poste à souder",
      "projet": "Sujet : Poste à souder",
      "etat": "en cours",
-     "depuis": 201
+     "depuis": 501
     },
     {
      "titre": "Recherche documentaire : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "en cours",
-     "depuis": 1516
+     "etat": "programmée 27/10 16:34"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -467,12 +466,12 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1734,
-   "dernier_a": "27/10 16:24"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 1736,
+   "dernier_a": "27/10 16:33"
   },
   {
    "cle": "archiviste",
@@ -480,29 +479,29 @@
    "poste": "script",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 1331,
-   "dernier_a": "27/10 16:25"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 1333,
+   "dernier_a": "27/10 16:33"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "images",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, avec Archiviste] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 938,
-   "dernier_a": "27/10 16:25"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 940,
+   "dernier_a": "27/10 16:33"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "script",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images] 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 504,
-   "dernier_a": "27/10 16:21"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 506,
+   "dernier_a": "27/10 16:33"
   },
   {
    "cle": "analyste",
@@ -510,19 +509,19 @@
    "poste": "publication",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Plume] 0 publications programmées, calendrier sain",
-   "passages": 117,
-   "dernier_a": "27/10 16:21"
+   "dernier": "[poste Publication YouTube, avec Éclaireur] ronde : statistiques à jour (relevé il y a 13 min)",
+   "passages": 119,
+   "dernier_a": "27/10 16:33"
   },
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "recherche",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Recherche, avec Éclaireur] Découpe laser : OK (44 phrases) ; Bambu Lab : OK (26 phrases)",
-   "passages": 148,
-   "dernier_a": "27/10 16:22"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 150,
+   "dernier_a": "27/10 16:33"
   },
   {
    "cle": "accroche",
@@ -530,39 +529,39 @@
    "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Plume] 1 commentaire(s) suivis, 0 nouveau(x)",
-   "passages": 69,
-   "dernier_a": "27/10 16:22"
+   "dernier": "[poste Écriture du script, avec Plume] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 70,
+   "dernier_a": "27/10 16:30"
   },
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 56,
-   "dernier_a": "25/10 16:32"
+   "etat": "actif",
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 57,
+   "dernier_a": "27/10 16:30"
   },
   {
    "cle": "referenceur",
    "nom": "Référenceur",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Éclaireur, Plume] 31 titres lus, 0 idées retenues",
-   "passages": 49,
-   "dernier_a": "18/10 10:00"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, avec Archiviste] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 50,
+   "dernier_a": "27/10 16:31"
   },
   {
    "cle": "programmateur",
    "nom": "Programmateur",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube, avec Éclaireur, Iconographe] 0 publications programmées, calendrier sain",
-   "passages": 55,
-   "dernier_a": "25/10 17:37"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, avec Archiviste] ronde : 0 publications programmées, calendrier sain",
+   "passages": 56,
+   "dernier_a": "27/10 16:31"
   }
  ],
  "programmees": [],
@@ -789,10 +788,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 4,
   "PENDING": 14,
-  "DEFERRED": 0,
-  "SUCCESS": 962,
+  "DEFERRED": 1,
+  "SUCCESS": 967,
   "FAILED": 54
  }
 }
