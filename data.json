@@ -1,15 +1,15 @@
 {
- "now": 1793114343.5709093,
- "heure": "16:19:05",
+ "now": 1793114663.1434243,
+ "heure": "16:24:33",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Poste à souder + Recherche documentaire : Soudage à l'arc submergé",
-  "battement_s": 1
+  "activite": "Recherche documentaire : Soudage à l'arc submergé + Éclaireur : passage continu",
+  "battement_s": 0
  },
  "modele": {
-  "ok": true,
+  "ok": false,
   "reprise": null,
-  "erreur": null,
+  "erreur": "Ollama TimeoutError: timed out",
   "moteur": "opencode openai/gpt-5.6-terra"
  },
  "stations": [
@@ -53,11 +53,11 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Poste à souder",
-    "projet": "Sujet : Poste à souder",
-    "depuis": 1427
+    "titre": "Recherche documentaire : Soudage à l'arc submergé",
+    "projet": "Sujet : Soudage à l'arc submergé",
+    "depuis": 1237
    },
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -67,16 +67,15 @@
    "total_fait": 27,
    "taches": [
     {
-     "titre": "Recherche documentaire : Poste à souder",
-     "projet": "Sujet : Poste à souder",
-     "etat": "en cours",
-     "depuis": 1427
-    },
-    {
      "titre": "Recherche documentaire : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en cours",
-     "depuis": 918
+     "depuis": 1237
+    },
+    {
+     "titre": "Recherche documentaire : Poste à souder",
+     "projet": "Sujet : Poste à souder",
+     "etat": "programmée 27/10 16:25"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -436,19 +435,19 @@
    "desc": "Vérifie le disque, l'intégrité des fichiers et le modèle de langage.",
    "etat": "alerte",
    "courant": null,
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Tester la disponibilité du LLM Groq (borné)",
    "derniere": {
-    "titre": "Vérifier l'intégrité des médias sources",
-    "quand": "27/10 15:51"
+    "titre": "Contrôler l'espace disque",
+    "quand": "27/10 16:20"
    },
-   "total_fait": 75,
+   "total_fait": 76,
    "taches": [
     {
      "titre": "Contrôler l'espace disque",
      "projet": "Maintenance",
-     "etat": "prête"
+     "etat": "terminée 27/10 16:20"
     },
     {
      "titre": "Vérifier l'intégrité des médias sources",
@@ -459,11 +458,6 @@
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
      "etat": "terminée 26/10 06:01"
-    },
-    {
-     "titre": "Contrôler l'espace disque",
-     "projet": "Maintenance",
-     "etat": "terminée 26/10 00:17"
     }
    ]
   }
@@ -474,70 +468,70 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 31 titres lus, 0 idées retenues",
-   "passages": 1732,
-   "dernier_a": "26/10 09:24"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
+   "passages": 1734,
+   "dernier_a": "27/10 16:24"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
    "poste": "recherche",
    "poste_prefere": "recherche",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 1329,
-   "dernier_a": "26/10 09:26"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 6 sujets mesurés, en hausse : David Gerstein ×1.57, Agence nationale des techniques d'enquêtes numériques judiciaires ×1.18",
+   "passages": 1330,
+   "dernier_a": "27/10 16:20"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 936,
-   "dernier_a": "26/10 09:29"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube] 16 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
+   "passages": 937,
+   "dernier_a": "27/10 16:21"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 5 sujets mesurés, en hausse : Agence nationale des techniques d'enquêtes numériques judiciaires ×1.27, Microcontrôleur PIC ×1.26",
-   "passages": 503,
-   "dernier_a": "26/10 07:55"
+   "etat": "actif",
+   "dernier": "[poste Images] 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 504,
+   "dernier_a": "27/10 16:21"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Publication YouTube, avec Plume] 0 publications programmées, calendrier sain",
-   "passages": 116,
-   "dernier_a": "26/10 07:55"
+   "passages": 117,
+   "dernier_a": "27/10 16:21"
   },
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "idee",
+   "poste": "recherche",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 147,
-   "dernier_a": "26/10 07:58"
+   "etat": "actif",
+   "dernier": "[poste Recherche, avec Éclaireur] Découpe laser : OK (44 phrases) ; Bambu Lab : OK (26 phrases)",
+   "passages": 148,
+   "dernier_a": "27/10 16:22"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
    "poste": "script",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 31 titres lus, 0 idées retenues",
-   "passages": 68,
-   "dernier_a": "25/10 15:46"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, avec Plume] 1 commentaire(s) suivis, 0 nouveau(x)",
+   "passages": 69,
+   "dernier_a": "27/10 16:22"
   },
   {
    "cle": "miniaturiste",
@@ -572,10 +566,10 @@
  ],
  "programmees": [],
  "audience": {
-  "vues": 2003,
+  "vues": 2005,
   "likes": 38,
   "commentaires": 0,
-  "maj": "07:55"
+  "maj": "16:21"
  },
  "publiees": [
   {
@@ -594,7 +588,7 @@
    "url": "https://www.youtube.com/watch?v=NcVFxVcU7Xc",
    "at": "2026-10-19T15:00:09",
    "miniature": true,
-   "vues": 40,
+   "vues": 41,
    "likes": 0,
    "commentaires": 0
   },
@@ -604,7 +598,7 @@
    "url": "https://www.youtube.com/watch?v=FsY8HKNpHVE",
    "at": "2026-10-19T09:01:11",
    "miniature": true,
-   "vues": 147,
+   "vues": 148,
    "likes": 1,
    "commentaires": 0
   },
@@ -645,12 +639,6 @@
    "ts": "2026-10-27T15:55:15",
    "type": "alerte",
    "texte": "Échec : Tester la disponibilité du LLM Groq (borné)",
-   "url": null
-  },
-  {
-   "ts": "2026-10-27T15:39:57",
-   "type": "alerte",
-   "texte": "Échec : Éclaireur : passage continu",
    "url": null
   },
   {
@@ -790,14 +778,20 @@
    "type": "publication",
    "texte": "Publiée : RISC-V : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=Rdp9AgvQvA0"
+  },
+  {
+   "ts": "2026-10-16T19:43:35",
+   "type": "publication",
+   "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 4,
   "PENDING": 14,
-  "DEFERRED": 0,
-  "SUCCESS": 961,
-  "FAILED": 55
+  "DEFERRED": 1,
+  "SUCCESS": 967,
+  "FAILED": 54
  }
 }
