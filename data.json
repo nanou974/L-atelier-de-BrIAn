@@ -1,10 +1,10 @@
 {
- "now": 1793112584.976038,
- "heure": "15:50:27",
+ "now": 1793112915.8930852,
+ "heure": "15:55:18",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Poste à souder + Recherche documentaire : Soudage à l'arc submergé",
-  "battement_s": 2
+  "activite": "Trouver des sujets candidats + Tester la disponibilité du LLM Groq (borné)",
+  "battement_s": 10
  },
  "modele": {
   "ok": false,
@@ -18,9 +18,13 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "attente",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Trouver des sujets candidats",
+    "projet": "Éditorial",
+    "depuis": 220
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -32,7 +36,8 @@
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 220
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -56,13 +61,9 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Poste à souder",
-    "projet": "Sujet : Poste à souder",
-    "depuis": 586
-   },
-   "file": 0,
+   "etat": "attente",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -74,14 +75,12 @@
     {
      "titre": "Recherche documentaire : Poste à souder",
      "projet": "Sujet : Poste à souder",
-     "etat": "en cours",
-     "depuis": 586
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "en cours",
-     "depuis": 585
+     "etat": "prête"
     },
     {
      "titre": "Recherche documentaire : Impression 3D dans la construction",
@@ -439,31 +438,26 @@
    "titre": "Veille et maintenance",
    "icone": "🧰",
    "desc": "Vérifie le disque, l'intégrité des fichiers et le modèle de langage.",
-   "etat": "attente",
+   "etat": "alerte",
    "courant": null,
-   "file": 3,
+   "file": 1,
    "attend_humain": 0,
-   "alerte": null,
+   "alerte": "Tester la disponibilité du LLM Groq (borné)",
    "derniere": {
-    "titre": "Tester la disponibilité du LLM Groq (borné)",
-    "quand": "26/10 06:01"
+    "titre": "Vérifier l'intégrité des médias sources",
+    "quand": "27/10 15:51"
    },
-   "total_fait": 74,
+   "total_fait": 75,
    "taches": [
-    {
-     "titre": "Vérifier l'intégrité des médias sources",
-     "projet": "Maintenance",
-     "etat": "prête"
-    },
-    {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
-     "projet": "Maintenance",
-     "etat": "prête"
-    },
     {
      "titre": "Contrôler l'espace disque",
      "projet": "Maintenance",
      "etat": "prête"
+    },
+    {
+     "titre": "Vérifier l'intégrité des médias sources",
+     "projet": "Maintenance",
+     "etat": "terminée 27/10 15:51"
     },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
@@ -472,11 +466,6 @@
     },
     {
      "titre": "Contrôler l'espace disque",
-     "projet": "Maintenance",
-     "etat": "terminée 26/10 00:17"
-    },
-    {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
      "etat": "terminée 26/10 00:17"
     }
@@ -657,6 +646,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-10-27T15:55:15",
+   "type": "alerte",
+   "texte": "Échec : Tester la disponibilité du LLM Groq (borné)",
+   "url": null
+  },
+  {
    "ts": "2026-10-27T15:39:57",
    "type": "alerte",
    "texte": "Échec : Éclaireur : passage continu",
@@ -799,20 +794,14 @@
    "type": "publication",
    "texte": "Publiée : RISC-V : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=Rdp9AgvQvA0"
-  },
-  {
-   "ts": "2026-10-16T19:43:35",
-   "type": "publication",
-   "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 13,
+  "RUNNING": 1,
+  "READY": 12,
   "PENDING": 14,
   "DEFERRED": 0,
-  "SUCCESS": 959,
-  "FAILED": 54
+  "SUCCESS": 960,
+  "FAILED": 55
  }
 }
