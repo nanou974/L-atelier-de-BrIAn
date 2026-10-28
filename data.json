@@ -1,10 +1,10 @@
 {
- "now": 1793228340.9559834,
- "heure": "23:59:01",
+ "now": 1793228640.9826853,
+ "heure": "00:04:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Iconographe : passage continu",
-  "battement_s": 5
+  "activite": "en attente de travail exécutable",
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
@@ -98,12 +98,12 @@
     {
      "titre": "Écrire le script : Poste à souder",
      "projet": "Sujet : Poste à souder",
-     "etat": "programmée 29/10 00:03"
+     "etat": "programmée 29/10 00:28"
     },
     {
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "programmée 29/10 00:03"
+     "etat": "programmée 29/10 00:28"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -424,25 +424,25 @@
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Tester la disponibilité du LLM Groq (borné)",
-    "quand": "28/10 18:01"
+    "titre": "Contrôler l'espace disque",
+    "quand": "29/10 00:00"
    },
-   "total_fait": 82,
+   "total_fait": 85,
    "taches": [
     {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "titre": "Contrôler l'espace disque",
      "projet": "Maintenance",
-     "etat": "terminée 28/10 18:01"
+     "etat": "terminée 29/10 00:00"
     },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
-     "etat": "terminée 28/10 12:01"
+     "etat": "terminée 29/10 00:00"
     },
     {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "titre": "Vérifier l'intégrité des médias sources",
      "projet": "Maintenance",
-     "etat": "terminée 28/10 06:00"
+     "etat": "terminée 29/10 00:00"
     }
    ]
   }
@@ -451,62 +451,62 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 2502,
-   "dernier_a": "28/10 23:58"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 2504,
+   "dernier_a": "29/10 00:02"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "script",
+   "poste": "images",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 2096,
-   "dernier_a": "28/10 23:58"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 2098,
+   "dernier_a": "29/10 00:02"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 1696,
-   "dernier_a": "28/10 23:58"
+   "dernier": "[poste Écriture du script, avec Miniaturiste] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 1698,
+   "dernier_a": "29/10 00:02"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "script",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 1262,
-   "dernier_a": "28/10 23:58"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 1264,
+   "dernier_a": "29/10 00:03"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 870,
-   "dernier_a": "28/10 23:56"
+   "dernier": "[poste Publication YouTube, avec Accroche] ronde : statistiques à jour (relevé il y a 6 min)",
+   "passages": 873,
+   "dernier_a": "29/10 00:03"
   },
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 16 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
-   "passages": 874,
-   "dernier_a": "28/10 23:57"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 876,
+   "dernier_a": "29/10 00:01"
   },
   {
    "cle": "accroche",
@@ -514,29 +514,29 @@
    "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, avec Analyste] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 487,
-   "dernier_a": "28/10 23:55"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 489,
+   "dernier_a": "29/10 00:03"
   },
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images, avec Iconographe] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 465,
-   "dernier_a": "28/10 23:55"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : statistiques à jour (relevé il y a 6 min)",
+   "passages": 467,
+   "dernier_a": "29/10 00:03"
   },
   {
    "cle": "referenceur",
    "nom": "Référenceur",
-   "poste": "script",
+   "poste": "images",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 458,
-   "dernier_a": "28/10 23:57"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 459,
+   "dernier_a": "29/10 00:01"
   },
   {
    "cle": "programmateur",
@@ -545,8 +545,8 @@
    "poste_prefere": "publication",
    "etat": "actif",
    "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 464,
-   "dernier_a": "28/10 23:57"
+   "passages": 465,
+   "dernier_a": "29/10 00:01"
   }
  ],
  "programmees": [],
@@ -772,11 +772,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 4,
+  "RUNNING": 0,
+  "READY": 0,
   "PENDING": 12,
   "DEFERRED": 2,
-  "SUCCESS": 975,
+  "SUCCESS": 983,
   "FAILED": 55
  }
 }
