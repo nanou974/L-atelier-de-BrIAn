@@ -1,14 +1,14 @@
 {
- "now": 1793249940.6201339,
- "heure": "05:59:00",
+ "now": 1793250240.6303437,
+ "heure": "06:04:00",
  "moteur": {
   "etat": "actif",
-  "activite": "en attente de travail exécutable",
+  "activite": "Analyste : passage continu",
   "battement_s": 4
  },
  "modele": {
   "ok": false,
-  "reprise": "29/10 06:01",
+  "reprise": "29/10 06:32",
   "erreur": "Ollama URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
   "moteur": "opencode openai/gpt-5.6-terra"
  },
@@ -98,12 +98,12 @@
     {
      "titre": "Écrire le script : Poste à souder",
      "projet": "Sujet : Poste à souder",
-     "etat": "programmée 29/10 06:01"
+     "etat": "programmée 29/10 06:07"
     },
     {
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "programmée 29/10 06:01"
+     "etat": "programmée 29/10 06:07"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -424,11 +424,16 @@
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Contrôler l'espace disque",
-    "quand": "29/10 00:00"
+    "titre": "Tester la disponibilité du LLM Groq (borné)",
+    "quand": "29/10 06:01"
    },
-   "total_fait": 85,
+   "total_fait": 86,
    "taches": [
+    {
+     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "projet": "Maintenance",
+     "etat": "terminée 29/10 06:01"
+    },
     {
      "titre": "Contrôler l'espace disque",
      "projet": "Maintenance",
@@ -436,11 +441,6 @@
     },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
-     "projet": "Maintenance",
-     "etat": "terminée 29/10 00:00"
-    },
-    {
-     "titre": "Vérifier l'intégrité des médias sources",
      "projet": "Maintenance",
      "etat": "terminée 29/10 00:00"
     }
@@ -451,62 +451,62 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "images",
+   "poste": "script",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 2665,
-   "dernier_a": "29/10 05:57"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 2668,
+   "dernier_a": "29/10 06:03"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 2259,
-   "dernier_a": "29/10 05:57"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 2262,
+   "dernier_a": "29/10 06:03"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : statistiques à jour (relevé il y a 8 min)",
-   "passages": 1859,
-   "dernier_a": "29/10 05:57"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 1862,
+   "dernier_a": "29/10 06:03"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 1425,
-   "dernier_a": "29/10 05:57"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 1428,
+   "dernier_a": "29/10 06:03"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 1034,
-   "dernier_a": "29/10 05:57"
+   "dernier": "[poste Publication YouTube] ronde : statistiques à jour (relevé il y a 14 min)",
+   "passages": 1037,
+   "dernier_a": "29/10 06:03"
   },
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : statistiques à jour (relevé il y a 8 min)",
-   "passages": 1034,
-   "dernier_a": "29/10 05:57"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 1036,
+   "dernier_a": "29/10 06:01"
   },
   {
    "cle": "accroche",
@@ -514,29 +514,29 @@
    "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, avec Plume, Programmateur] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 577,
-   "dernier_a": "29/10 05:55"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 578,
+   "dernier_a": "29/10 05:59"
   },
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 552,
-   "dernier_a": "29/10 05:55"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 553,
+   "dernier_a": "29/10 06:00"
   },
   {
    "cle": "referenceur",
    "nom": "Référenceur",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Archiviste, Analyste, Miniaturiste] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 545,
-   "dernier_a": "29/10 05:56"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 546,
+   "dernier_a": "29/10 06:00"
   },
   {
    "cle": "programmateur",
@@ -544,9 +544,9 @@
    "poste": "script",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 551,
-   "dernier_a": "29/10 05:56"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 552,
+   "dernier_a": "29/10 06:00"
   }
  ],
  "programmees": [],
@@ -772,11 +772,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 0,
-  "READY": 0,
+  "RUNNING": 1,
+  "READY": 5,
   "PENDING": 12,
   "DEFERRED": 2,
-  "SUCCESS": 983,
+  "SUCCESS": 978,
   "FAILED": 55
  }
 }
