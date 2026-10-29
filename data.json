@@ -1,14 +1,14 @@
 {
- "now": 1793235541.1650183,
- "heure": "01:59:01",
+ "now": 1793235841.1697812,
+ "heure": "02:04:01",
  "moteur": {
   "etat": "actif",
   "activite": "en attente de travail exécutable",
-  "battement_s": 4
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
-  "reprise": "29/10 01:59",
+  "reprise": "29/10 02:29",
   "erreur": "Ollama URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
   "moteur": "opencode openai/gpt-5.6-terra"
  },
@@ -98,12 +98,12 @@
     {
      "titre": "Écrire le script : Poste à souder",
      "projet": "Sujet : Poste à souder",
-     "etat": "programmée 29/10 01:59"
+     "etat": "programmée 29/10 02:04"
     },
     {
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "programmée 29/10 01:59"
+     "etat": "programmée 29/10 02:04"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -455,18 +455,18 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 2556,
-   "dernier_a": "29/10 01:58"
+   "passages": 2558,
+   "dernier_a": "29/10 02:02"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 2150,
-   "dernier_a": "29/10 01:58"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 2152,
+   "dernier_a": "29/10 02:02"
   },
   {
    "cle": "plume",
@@ -474,29 +474,29 @@
    "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 1750,
-   "dernier_a": "29/10 01:58"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 1752,
+   "dernier_a": "29/10 02:02"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 1316,
-   "dernier_a": "29/10 01:58"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 1318,
+   "dernier_a": "29/10 02:02"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 925,
-   "dernier_a": "29/10 01:58"
+   "dernier": "[poste Publication YouTube, avec Référenceur] ronde : statistiques à jour (relevé il y a 15 min)",
+   "passages": 927,
+   "dernier_a": "29/10 02:02"
   },
   {
    "cle": "tendances",
@@ -505,8 +505,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 927,
-   "dernier_a": "29/10 01:58"
+   "passages": 929,
+   "dernier_a": "29/10 02:02"
   },
   {
    "cle": "accroche",
@@ -515,18 +515,18 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 519,
-   "dernier_a": "29/10 01:58"
+   "passages": 520,
+   "dernier_a": "29/10 02:02"
   },
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images, avec Tendances] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 495,
-   "dernier_a": "29/10 01:58"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : statistiques à jour (relevé il y a 15 min)",
+   "passages": 496,
+   "dernier_a": "29/10 02:03"
   },
   {
    "cle": "referenceur",
@@ -534,19 +534,19 @@
    "poste": "publication",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Plume, Analyste] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 487,
-   "dernier_a": "29/10 01:56"
+   "dernier": "[poste Publication YouTube, avec Analyste] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 488,
+   "dernier_a": "29/10 02:00"
   },
   {
    "cle": "programmateur",
    "nom": "Programmateur",
-   "poste": "script",
+   "poste": "images",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 493,
-   "dernier_a": "29/10 01:56"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 494,
+   "dernier_a": "29/10 02:00"
   }
  ],
  "programmees": [],
