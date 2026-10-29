@@ -1,14 +1,14 @@
 {
- "now": 1793261040.895941,
- "heure": "09:04:01",
+ "now": 1793261340.9194446,
+ "heure": "09:09:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Poste à souder + Éclaireur : passage continu",
-  "battement_s": 1
+  "activite": "en attente de travail exécutable",
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
-  "reprise": null,
+  "reprise": "29/10 09:34",
   "erreur": "Ollama URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
   "moteur": "opencode openai/gpt-5.6-terra"
  },
@@ -84,13 +84,9 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Écrire le script : Poste à souder",
-    "projet": "Sujet : Poste à souder",
-    "depuis": 0
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -102,13 +98,12 @@
     {
      "titre": "Écrire le script : Poste à souder",
      "projet": "Sujet : Poste à souder",
-     "etat": "en cours",
-     "depuis": 0
+     "etat": "programmée 29/10 09:09"
     },
     {
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "prête"
+     "etat": "programmée 29/10 09:34"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -456,12 +451,12 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "images",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 2749,
-   "dernier_a": "29/10 09:00"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 2751,
+   "dernier_a": "29/10 09:07"
   },
   {
    "cle": "archiviste",
@@ -470,18 +465,18 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 2343,
-   "dernier_a": "29/10 09:01"
+   "passages": 2345,
+   "dernier_a": "29/10 09:07"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "images",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 1943,
-   "dernier_a": "29/10 09:01"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 1945,
+   "dernier_a": "29/10 09:07"
   },
   {
    "cle": "iconographe",
@@ -489,29 +484,29 @@
    "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : statistiques à jour (relevé il y a 18 min)",
-   "passages": 1509,
-   "dernier_a": "29/10 09:01"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 1511,
+   "dernier_a": "29/10 09:07"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 1118,
-   "dernier_a": "29/10 09:01"
+   "dernier": "[poste Publication YouTube, avec Iconographe, Programmateur] ronde : 16 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
+   "passages": 1120,
+   "dernier_a": "29/10 09:07"
   },
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : statistiques à jour (relevé il y a 19 min)",
-   "passages": 1117,
-   "dernier_a": "29/10 09:01"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 1119,
+   "dernier_a": "29/10 09:07"
   },
   {
    "cle": "accroche",
@@ -519,9 +514,9 @@
    "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 622,
-   "dernier_a": "29/10 09:01"
+   "dernier": "[poste Écriture du script, avec Tendances, Référenceur] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 623,
+   "dernier_a": "29/10 09:05"
   },
   {
    "cle": "miniaturiste",
@@ -529,9 +524,9 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images, avec Archiviste, Plume] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 597,
-   "dernier_a": "29/10 09:01"
+   "dernier": "[poste Images, avec Iconographe] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 598,
+   "dernier_a": "29/10 09:05"
   },
   {
    "cle": "referenceur",
@@ -540,8 +535,8 @@
    "poste_prefere": "publication",
    "etat": "actif",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 590,
-   "dernier_a": "29/10 09:01"
+   "passages": 591,
+   "dernier_a": "29/10 09:05"
   },
   {
    "cle": "programmateur",
@@ -549,9 +544,9 @@
    "poste": "publication",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Iconographe, Tendances] ronde : 0 publications programmées, calendrier sain",
-   "passages": 596,
-   "dernier_a": "29/10 09:01"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 597,
+   "dernier_a": "29/10 09:05"
   }
  ],
  "programmees": [],
@@ -559,7 +554,7 @@
   "vues": 2010,
   "likes": 38,
   "commentaires": 0,
-  "maj": "08:42"
+  "maj": "09:07"
  },
  "publiees": [
   {
@@ -777,11 +772,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 6,
+  "RUNNING": 0,
+  "READY": 0,
   "PENDING": 12,
-  "DEFERRED": 0,
-  "SUCCESS": 978,
+  "DEFERRED": 2,
+  "SUCCESS": 984,
   "FAILED": 55
  }
 }
