@@ -1,14 +1,14 @@
 {
- "now": 1793286240.596927,
- "heure": "16:04:00",
+ "now": 1793286540.6211765,
+ "heure": "16:09:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 4
+  "activite": "en attente de travail exécutable",
+  "battement_s": 5
  },
  "modele": {
   "ok": false,
-  "reprise": "29/10 16:08",
+  "reprise": "29/10 16:38",
   "erreur": "Ollama URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
   "moteur": "opencode openai/gpt-5.6-terra"
  },
@@ -98,12 +98,12 @@
     {
      "titre": "Écrire le script : Poste à souder",
      "projet": "Sujet : Poste à souder",
-     "etat": "programmée 29/10 16:08"
+     "etat": "programmée 29/10 16:13"
     },
     {
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "programmée 29/10 16:08"
+     "etat": "programmée 29/10 16:13"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -451,62 +451,62 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "script",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 2944,
-   "dernier_a": "29/10 16:01"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 2946,
+   "dernier_a": "29/10 16:07"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 16 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
-   "passages": 2537,
-   "dernier_a": "29/10 16:01"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 2539,
+   "dernier_a": "29/10 16:07"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "images",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, avec Accroche] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 2134,
-   "dernier_a": "29/10 16:01"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 2136,
+   "dernier_a": "29/10 16:08"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 1700,
-   "dernier_a": "29/10 16:01"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 1702,
+   "dernier_a": "29/10 16:08"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 1309,
-   "dernier_a": "29/10 16:01"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 1311,
+   "dernier_a": "29/10 16:08"
   },
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "images",
+   "poste": "script",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 1298,
-   "dernier_a": "29/10 16:02"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 1300,
+   "dernier_a": "29/10 16:08"
   },
   {
    "cle": "accroche",
@@ -514,9 +514,9 @@
    "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, avec Archiviste] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 727,
-   "dernier_a": "29/10 16:00"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 729,
+   "dernier_a": "29/10 16:08"
   },
   {
    "cle": "miniaturiste",
@@ -524,19 +524,19 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 701,
-   "dernier_a": "29/10 16:00"
+   "dernier": "[poste Images, avec Plume] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 703,
+   "dernier_a": "29/10 16:08"
   },
   {
    "cle": "referenceur",
    "nom": "Référenceur",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : statistiques à jour (relevé il y a 19 min)",
-   "passages": 694,
-   "dernier_a": "29/10 16:00"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 696,
+   "dernier_a": "29/10 16:08"
   },
   {
    "cle": "programmateur",
@@ -544,9 +544,9 @@
    "poste": "publication",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : statistiques à jour (relevé il y a 19 min)",
-   "passages": 700,
-   "dernier_a": "29/10 16:00"
+   "dernier": "[poste Publication YouTube, avec Analyste] ronde : 0 publications programmées, calendrier sain",
+   "passages": 702,
+   "dernier_a": "29/10 16:08"
   }
  ],
  "programmees": [],
@@ -772,11 +772,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 9,
+  "RUNNING": 0,
+  "READY": 0,
   "PENDING": 12,
   "DEFERRED": 2,
-  "SUCCESS": 975,
+  "SUCCESS": 985,
   "FAILED": 55
  }
 }
