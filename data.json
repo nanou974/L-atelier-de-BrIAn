@@ -1,10 +1,10 @@
 {
- "now": 1793336341.0157285,
- "heure": "05:59:01",
+ "now": 1793336641.0202804,
+ "heure": "06:04:01",
  "moteur": {
   "etat": "actif",
-  "activite": "en attente de travail exécutable",
-  "battement_s": 0
+  "activite": "Programmateur : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
@@ -424,11 +424,16 @@
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Contrôler l'espace disque",
-    "quand": "30/10 00:00"
+    "titre": "Tester la disponibilité du LLM Groq (borné)",
+    "quand": "30/10 06:01"
    },
-   "total_fait": 91,
+   "total_fait": 92,
    "taches": [
+    {
+     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "projet": "Maintenance",
+     "etat": "terminée 30/10 06:01"
+    },
     {
      "titre": "Contrôler l'espace disque",
      "projet": "Maintenance",
@@ -436,11 +441,6 @@
     },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
-     "projet": "Maintenance",
-     "etat": "terminée 30/10 00:00"
-    },
-    {
-     "titre": "Vérifier l'intégrité des médias sources",
      "projet": "Maintenance",
      "etat": "terminée 30/10 00:00"
     }
@@ -451,22 +451,22 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 3325,
-   "dernier_a": "30/10 05:56"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 3328,
+   "dernier_a": "30/10 06:03"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "script",
+   "poste": "images",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 2917,
-   "dernier_a": "30/10 05:57"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 2920,
+   "dernier_a": "30/10 06:03"
   },
   {
    "cle": "plume",
@@ -474,19 +474,19 @@
    "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 2513,
-   "dernier_a": "30/10 05:57"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : statistiques à jour (relevé il y a 17 min)",
+   "passages": 2516,
+   "dernier_a": "30/10 06:03"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "script",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 2079,
-   "dernier_a": "30/10 05:57"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 2082,
+   "dernier_a": "30/10 06:03"
   },
   {
    "cle": "analyste",
@@ -494,39 +494,39 @@
    "poste": "publication",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 1687,
-   "dernier_a": "30/10 05:57"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 1690,
+   "dernier_a": "30/10 06:03"
   },
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "images",
+   "poste": "script",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 1659,
-   "dernier_a": "30/10 05:57"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 1662,
+   "dernier_a": "30/10 06:03"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "images",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 937,
-   "dernier_a": "30/10 05:55"
+   "dernier": "[poste Écriture du script, avec Iconographe, Tendances] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 939,
+   "dernier_a": "30/10 06:03"
   },
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "images",
+   "poste": "script",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 905,
-   "dernier_a": "30/10 05:55"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 907,
+   "dernier_a": "30/10 06:03"
   },
   {
    "cle": "referenceur",
@@ -534,9 +534,9 @@
    "poste": "publication",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Iconographe] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 898,
-   "dernier_a": "30/10 05:55"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 900,
+   "dernier_a": "30/10 06:03"
   },
   {
    "cle": "programmateur",
@@ -544,9 +544,9 @@
    "poste": "publication",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 904,
-   "dernier_a": "30/10 05:55"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : statistiques à jour (relevé il y a 17 min)",
+   "passages": 906,
+   "dernier_a": "30/10 06:03"
   }
  ],
  "programmees": [],
@@ -772,7 +772,7 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 0,
+  "RUNNING": 1,
   "READY": 0,
   "PENDING": 12,
   "DEFERRED": 2,
