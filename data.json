@@ -1,9 +1,9 @@
 {
- "now": 1793350140.3902066,
- "heure": "09:49:00",
+ "now": 1793350440.4068375,
+ "heure": "09:54:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Soudage à l'arc submergé",
+  "activite": "en attente de travail exécutable",
   "battement_s": 3
  },
  "modele": {
@@ -84,13 +84,9 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Écrire le script : Soudage à l'arc submergé",
-    "projet": "Sujet : Soudage à l'arc submergé",
-    "depuis": 8
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -100,15 +96,14 @@
    "total_fait": 33,
    "taches": [
     {
-     "titre": "Écrire le script : Soudage à l'arc submergé",
-     "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "en cours",
-     "depuis": 8
-    },
-    {
      "titre": "Écrire le script : Poste à souder",
      "projet": "Sujet : Poste à souder",
-     "etat": "programmée 30/10 09:53"
+     "etat": "en attente"
+    },
+    {
+     "titre": "Écrire le script : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
+     "etat": "programmée 30/10 09:54"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -459,69 +454,69 @@
    "poste": "script",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 3432,
-   "dernier_a": "30/10 09:48"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 3434,
+   "dernier_a": "30/10 09:52"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "images",
+   "poste": "script",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 3023,
-   "dernier_a": "30/10 09:48"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 3025,
+   "dernier_a": "30/10 09:52"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 2618,
-   "dernier_a": "30/10 09:48"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 2620,
+   "dernier_a": "30/10 09:52"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 2184,
-   "dernier_a": "30/10 09:48"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : statistiques à jour (relevé il y a 19 min)",
+   "passages": 2186,
+   "dernier_a": "30/10 09:52"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 1792,
-   "dernier_a": "30/10 09:48"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 1794,
+   "dernier_a": "30/10 09:52"
   },
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "script",
+   "poste": "images",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 1764,
-   "dernier_a": "30/10 09:48"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 1766,
+   "dernier_a": "30/10 09:52"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "script",
+   "poste": "images",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 994,
-   "dernier_a": "30/10 09:46"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 995,
+   "dernier_a": "30/10 09:50"
   },
   {
    "cle": "miniaturiste",
@@ -529,9 +524,9 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images, avec Archiviste, Programmateur] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 962,
-   "dernier_a": "30/10 09:46"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 963,
+   "dernier_a": "30/10 09:51"
   },
   {
    "cle": "referenceur",
@@ -539,19 +534,19 @@
    "poste": "publication",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Analyste, Tendances] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 955,
-   "dernier_a": "30/10 09:46"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 956,
+   "dernier_a": "30/10 09:51"
   },
   {
    "cle": "programmateur",
    "nom": "Programmateur",
-   "poste": "images",
+   "poste": "script",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 961,
-   "dernier_a": "30/10 09:47"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 962,
+   "dernier_a": "30/10 09:51"
   }
  ],
  "programmees": [],
@@ -777,10 +772,10 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
+  "RUNNING": 0,
   "READY": 0,
   "PENDING": 12,
-  "DEFERRED": 1,
+  "DEFERRED": 2,
   "SUCCESS": 990,
   "FAILED": 55
  }
