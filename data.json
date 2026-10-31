@@ -1,14 +1,14 @@
 {
- "now": 1793411641.2013683,
- "heure": "02:54:01",
+ "now": 1793411941.2130692,
+ "heure": "02:59:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
-  "battement_s": 3
+  "activite": "en attente de travail exécutable",
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
-  "reprise": "31/10 02:58",
+  "reprise": null,
   "erreur": "Ollama URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
   "moteur": "opencode openai/gpt-5.6-terra"
  },
@@ -451,22 +451,22 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 3905,
-   "dernier_a": "31/10 02:53"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 3907,
+   "dernier_a": "31/10 02:58"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 3493,
-   "dernier_a": "31/10 02:51"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 3496,
+   "dernier_a": "31/10 02:58"
   },
   {
    "cle": "plume",
@@ -474,9 +474,9 @@
    "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 3082,
-   "dernier_a": "31/10 02:50"
+   "dernier": "[poste Écriture du script, avec Iconographe, Accroche] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 3085,
+   "dernier_a": "31/10 02:58"
   },
   {
    "cle": "iconographe",
@@ -484,19 +484,19 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images, avec Archiviste, Analyste, Miniaturiste] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 2648,
-   "dernier_a": "31/10 02:50"
+   "dernier": "[poste Images, avec Éclaireur, Miniaturiste] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 2651,
+   "dernier_a": "31/10 02:58"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 2255,
-   "dernier_a": "31/10 02:50"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 2258,
+   "dernier_a": "31/10 02:58"
   },
   {
    "cle": "tendances",
@@ -504,19 +504,19 @@
    "poste": "script",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 2209,
-   "dernier_a": "31/10 02:52"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 2212,
+   "dernier_a": "31/10 02:58"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "script",
+   "poste": "images",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 1251,
-   "dernier_a": "31/10 02:50"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 1253,
+   "dernier_a": "31/10 02:58"
   },
   {
    "cle": "miniaturiste",
@@ -524,19 +524,19 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images, avec Archiviste, Iconographe] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 1214,
-   "dernier_a": "31/10 02:50"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 1216,
+   "dernier_a": "31/10 02:58"
   },
   {
    "cle": "referenceur",
    "nom": "Référenceur",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Éclaireur, Analyste] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 1207,
-   "dernier_a": "31/10 02:50"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 1209,
+   "dernier_a": "31/10 02:58"
   },
   {
    "cle": "programmateur",
@@ -544,9 +544,9 @@
    "poste": "publication",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : statistiques à jour (relevé il y a 15 min)",
-   "passages": 1213,
-   "dernier_a": "31/10 02:50"
+   "dernier": "[poste Publication YouTube, avec Archiviste] ronde : 0 publications programmées, calendrier sain",
+   "passages": 1215,
+   "dernier_a": "31/10 02:58"
   }
  ],
  "programmees": [],
@@ -554,7 +554,7 @@
   "vues": 2010,
   "likes": 38,
   "commentaires": 0,
-  "maj": "02:35"
+  "maj": "02:56"
  },
  "publiees": [
   {
@@ -772,11 +772,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 9,
+  "RUNNING": 0,
+  "READY": 0,
   "PENDING": 12,
   "DEFERRED": 2,
-  "SUCCESS": 985,
+  "SUCCESS": 995,
   "FAILED": 55
  }
 }
