@@ -1,14 +1,14 @@
 {
- "now": 1793573640.9395297,
- "heure": "23:54:01",
+ "now": 1793573940.945754,
+ "heure": "23:59:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Plume : passage continu",
+  "activite": "en attente de travail exécutable",
   "battement_s": 3
  },
  "modele": {
   "ok": false,
-  "reprise": "01/11 23:56",
+  "reprise": "02/11 00:26",
   "erreur": "Ollama URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
   "moteur": "opencode openai/gpt-5.6-terra"
  },
@@ -98,12 +98,12 @@
     {
      "titre": "Écrire le script : Poste à souder",
      "projet": "Sujet : Poste à souder",
-     "etat": "programmée 01/11 23:56"
+     "etat": "programmée 02/11 00:01"
     },
     {
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "programmée 01/11 23:56"
+     "etat": "programmée 02/11 00:01"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -454,14 +454,14 @@
    "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 33 titres lus, 0 idées retenues",
-   "passages": 5069,
-   "dernier_a": "01/11 23:49"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 5070,
+   "dernier_a": "01/11 23:57"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
@@ -471,12 +471,12 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, avec Accroche] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 4208,
-   "dernier_a": "01/11 23:51"
+   "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 4210,
+   "dernier_a": "01/11 23:58"
   },
   {
    "cle": "iconographe",
@@ -484,9 +484,9 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 3769,
-   "dernier_a": "01/11 23:52"
+   "dernier": "[poste Images, avec Tendances] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 3771,
+   "dernier_a": "01/11 23:58"
   },
   {
    "cle": "analyste",
@@ -501,19 +501,19 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 3292,
-   "dernier_a": "01/11 23:39"
+   "etat": "actif",
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 3295,
+   "dernier_a": "01/11 23:58"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Écriture du script] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
    "passages": 1865,
    "dernier_a": "01/11 23:49"
@@ -621,31 +621,37 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-01T23:53:53",
+   "ts": "2026-11-01T23:58:22",
    "type": "alerte",
-   "texte": "Échec : Éclaireur : passage continu",
+   "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-01T23:52:36",
+   "ts": "2026-11-01T23:58:06",
+   "type": "alerte",
+   "texte": "Échec : Archiviste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-01T23:56:49",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-01T23:52:30",
+   "ts": "2026-11-01T23:56:44",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-01T23:52:25",
+   "ts": "2026-11-01T23:56:38",
    "type": "alerte",
    "texte": "Échec : Miniaturiste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-01T23:52:20",
+   "ts": "2026-11-01T23:56:28",
    "type": "alerte",
    "texte": "Échec : Accroche : passage continu",
    "url": null
@@ -763,20 +769,14 @@
    "type": "assistant",
    "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
    "url": null
-  },
-  {
-   "ts": "2026-10-17T18:35:09",
-   "type": "assistant",
-   "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Intelligence artificielle, Tesla (automobile)",
-   "url": null
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 3,
+  "RUNNING": 0,
+  "READY": 0,
   "PENDING": 12,
   "DEFERRED": 2,
-  "SUCCESS": 995,
-  "FAILED": 60
+  "SUCCESS": 998,
+  "FAILED": 61
  }
 }
