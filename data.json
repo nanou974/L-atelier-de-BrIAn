@@ -1,9 +1,9 @@
 {
- "now": 1793528340.602879,
- "heure": "11:19:00",
+ "now": 1793528640.6167533,
+ "heure": "11:24:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Plume : passage continu",
+  "activite": "Écrire le script : Soudage à l'arc submergé",
   "battement_s": 3
  },
  "modele": {
@@ -84,9 +84,13 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Écrire le script : Soudage à l'arc submergé",
+    "projet": "Sujet : Soudage à l'arc submergé",
+    "depuis": 2
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -96,14 +100,15 @@
    "total_fait": 33,
    "taches": [
     {
-     "titre": "Écrire le script : Poste à souder",
-     "projet": "Sujet : Poste à souder",
-     "etat": "programmée 01/11 11:23"
-    },
-    {
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "programmée 01/11 11:23"
+     "etat": "en cours",
+     "depuis": 2
+    },
+    {
+     "titre": "Écrire le script : Poste à souder",
+     "projet": "Sujet : Poste à souder",
+     "etat": "programmée 01/11 11:49"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -454,19 +459,19 @@
    "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 4800,
-   "dernier_a": "01/11 11:18"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 16 vidéos mesurées ; Vidéo la plus vue : « RISC-V : l'histoire en bref #Shorts » (322 vues)",
+   "passages": 4802,
+   "dernier_a": "01/11 11:22"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 4387,
-   "dernier_a": "01/11 11:18"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 4389,
+   "dernier_a": "01/11 11:22"
   },
   {
    "cle": "plume",
@@ -474,19 +479,19 @@
    "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 3970,
-   "dernier_a": "01/11 11:18"
+   "dernier": "[poste Écriture du script, avec Programmateur] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 3971,
+   "dernier_a": "01/11 11:21"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "script",
+   "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 3531,
-   "dernier_a": "01/11 11:16"
+   "dernier": "[poste Images, avec Miniaturiste] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 3533,
+   "dernier_a": "01/11 11:21"
   },
   {
    "cle": "analyste",
@@ -494,29 +499,29 @@
    "poste": "publication",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, avec Éclaireur, Plume] ronde : statistiques à jour (relevé il y a 17 min)",
-   "passages": 3137,
-   "dernier_a": "01/11 11:17"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : statistiques à jour (relevé il y a 0 min)",
+   "passages": 3139,
+   "dernier_a": "01/11 11:23"
   },
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 3051,
-   "dernier_a": "01/11 11:17"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 3052,
+   "dernier_a": "01/11 11:21"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : statistiques à jour (relevé il y a 17 min)",
-   "passages": 1737,
-   "dernier_a": "01/11 11:17"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 1738,
+   "dernier_a": "01/11 11:21"
   },
   {
    "cle": "miniaturiste",
@@ -524,29 +529,29 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images, avec Programmateur] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 1695,
-   "dernier_a": "01/11 11:17"
+   "dernier": "[poste Images, avec Iconographe, Tendances] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 1696,
+   "dernier_a": "01/11 11:21"
   },
   {
    "cle": "referenceur",
    "nom": "Référenceur",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 1686,
-   "dernier_a": "01/11 11:17"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 1687,
+   "dernier_a": "01/11 11:21"
   },
   {
    "cle": "programmateur",
    "nom": "Programmateur",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "publication",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 1692,
-   "dernier_a": "01/11 11:17"
+   "dernier": "[poste Publication YouTube, avec Éclaireur, Archiviste] ronde : 0 publications programmées, calendrier sain",
+   "passages": 1693,
+   "dernier_a": "01/11 11:21"
   }
  ],
  "programmees": [],
@@ -554,7 +559,7 @@
   "vues": 2010,
   "likes": 38,
   "commentaires": 0,
-  "maj": "11:00"
+  "maj": "11:22"
  },
  "publiees": [
   {
@@ -773,10 +778,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 3,
+  "READY": 0,
   "PENDING": 12,
-  "DEFERRED": 2,
-  "SUCCESS": 998,
+  "DEFERRED": 1,
+  "SUCCESS": 1002,
   "FAILED": 55
  }
 }
