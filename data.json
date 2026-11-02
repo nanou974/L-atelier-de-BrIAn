@@ -1,10 +1,10 @@
 {
- "now": 1793615941.021779,
- "heure": "11:39:01",
+ "now": 1793616241.0321386,
+ "heure": "11:44:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Tendances : passage continu",
-  "battement_s": 1
+  "activite": "Archiviste : passage continu",
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
@@ -451,7 +451,7 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
@@ -465,8 +465,8 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 4821,
-   "dernier_a": "02/11 11:37"
+   "passages": 4824,
+   "dernier_a": "02/11 11:44"
   },
   {
    "cle": "plume",
@@ -481,7 +481,7 @@
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images, avec Archiviste] ronde : 16 miniatures notées, meilleure : contour-crafting",
@@ -501,12 +501,12 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "idee",
+   "poste": "images",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 3457,
-   "dernier_a": "02/11 11:34"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 3459,
+   "dernier_a": "02/11 11:42"
   },
   {
    "cle": "accroche",
@@ -621,39 +621,9 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-02T11:38:08",
+   "ts": "2026-11-02T11:43:58",
    "type": "alerte",
-   "texte": "Échec : Analyste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-02T11:37:58",
-   "type": "alerte",
-   "texte": "Échec : Plume : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-02T11:36:30",
-   "type": "alerte",
-   "texte": "Échec : Programmateur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-02T11:36:25",
-   "type": "alerte",
-   "texte": "Échec : Référenceur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-02T11:36:20",
-   "type": "alerte",
-   "texte": "Échec : Miniaturiste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-02T11:36:15",
-   "type": "alerte",
-   "texte": "Échec : Accroche : passage continu",
+   "texte": "Échec : Éclaireur : passage continu",
    "url": null
   },
   {
@@ -769,14 +739,44 @@
    "type": "assistant",
    "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
    "url": null
+  },
+  {
+   "ts": "2026-10-17T18:35:09",
+   "type": "assistant",
+   "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Intelligence artificielle, Tesla (automobile)",
+   "url": null
+  },
+  {
+   "ts": "2026-10-17T18:32:14",
+   "type": "assistant",
+   "texte": "Plume : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
+   "url": null
+  },
+  {
+   "ts": "2026-10-17T15:00:11",
+   "type": "publication",
+   "texte": "Publiée : Fichier de stéréolithographie : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=pelVz3EWz2M"
+  },
+  {
+   "ts": "2026-10-17T09:00:09",
+   "type": "publication",
+   "texte": "Publiée : RISC-V : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=Rdp9AgvQvA0"
+  },
+  {
+   "ts": "2026-10-16T19:43:35",
+   "type": "publication",
+   "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
   }
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 0,
+  "READY": 8,
   "PENDING": 12,
   "DEFERRED": 2,
-  "SUCCESS": 1001,
-  "FAILED": 61
+  "SUCCESS": 998,
+  "FAILED": 56
  }
 }
