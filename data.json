@@ -1,9 +1,9 @@
 {
- "now": 1793658541.2467628,
- "heure": "23:29:01",
+ "now": 1793658841.2501717,
+ "heure": "23:34:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
+  "activite": "Archiviste : passage continu",
   "battement_s": 3
  },
  "modele": {
@@ -451,22 +451,22 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 5409,
-   "dernier_a": "02/11 23:25"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 5411,
+   "dernier_a": "02/11 23:31"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
    "poste": "publication",
    "poste_prefere": "recherche",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 4976,
-   "dernier_a": "02/11 23:17"
+   "etat": "actif",
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 4978,
+   "dernier_a": "02/11 23:31"
   },
   {
    "cle": "plume",
@@ -481,12 +481,12 @@
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 3977,
-   "dernier_a": "02/11 23:21"
+   "passages": 3978,
+   "dernier_a": "02/11 23:32"
   },
   {
    "cle": "analyste",
@@ -501,7 +501,7 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
@@ -511,22 +511,22 @@
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 1967,
-   "dernier_a": "02/11 23:26"
+   "dernier": "[poste Écriture du script, avec Archiviste] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 1968,
+   "dernier_a": "02/11 23:29"
   },
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images, avec Iconographe] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 1935,
-   "dernier_a": "02/11 23:22"
+   "passages": 1936,
+   "dernier_a": "02/11 23:32"
   },
   {
    "cle": "referenceur",
@@ -621,21 +621,27 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-02T23:26:29",
+   "ts": "2026-11-02T23:33:58",
+   "type": "alerte",
+   "texte": "Échec : Éclaireur : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-02T23:32:40",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-02T23:26:24",
+   "ts": "2026-11-02T23:32:35",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-02T23:26:19",
+   "ts": "2026-11-02T23:32:24",
    "type": "alerte",
-   "texte": "Échec : Miniaturiste : passage continu",
+   "texte": "Échec : Accroche : passage continu",
    "url": null
   },
   {
@@ -763,20 +769,14 @@
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
    "url": null
-  },
-  {
-   "ts": "2026-10-17T15:00:11",
-   "type": "publication",
-   "texte": "Publiée : Fichier de stéréolithographie : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=pelVz3EWz2M"
   }
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 5,
+  "READY": 4,
   "PENDING": 12,
   "DEFERRED": 2,
   "SUCCESS": 1001,
-  "FAILED": 58
+  "FAILED": 59
  }
 }
