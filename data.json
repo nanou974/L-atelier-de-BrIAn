@@ -1,14 +1,14 @@
 {
- "now": 1793637240.5981665,
- "heure": "17:34:00",
+ "now": 1793637540.6455383,
+ "heure": "17:39:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
+  "activite": "Archiviste : passage continu",
   "battement_s": 1
  },
  "modele": {
   "ok": false,
-  "reprise": "02/11 17:36",
+  "reprise": "02/11 18:07",
   "erreur": "Ollama URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
   "moteur": "opencode openai/gpt-5.6-terra"
  },
@@ -98,12 +98,12 @@
     {
      "titre": "Écrire le script : Poste à souder",
      "projet": "Sujet : Poste à souder",
-     "etat": "programmée 02/11 17:37"
+     "etat": "programmée 02/11 17:42"
     },
     {
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "programmée 02/11 17:37"
+     "etat": "programmée 02/11 17:42"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -451,42 +451,42 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "script",
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 5323,
-   "dernier_a": "02/11 17:30"
+   "passages": 5326,
+   "dernier_a": "02/11 17:38"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 4896,
-   "dernier_a": "02/11 17:30"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 4898,
+   "dernier_a": "02/11 17:36"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Écriture du script, avec Accroche] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 4350,
-   "dernier_a": "02/11 17:22"
+   "etat": "actif",
+   "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 4351,
+   "dernier_a": "02/11 17:34"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "publication",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 3940,
-   "dernier_a": "02/11 17:24"
+   "passages": 3941,
+   "dernier_a": "02/11 17:34"
   },
   {
    "cle": "analyste",
@@ -503,7 +503,7 @@
    "nom": "Tendances",
    "poste": "publication",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
    "passages": 3536,
    "dernier_a": "02/11 17:29"
@@ -513,7 +513,7 @@
    "nom": "Accroche",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Écriture du script, avec Éclaireur] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
    "passages": 1944,
    "dernier_a": "02/11 17:27"
@@ -521,12 +521,12 @@
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 1906,
-   "dernier_a": "02/11 17:10"
+   "etat": "actif",
+   "dernier": "[poste Images, avec Éclaireur] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 1907,
+   "dernier_a": "02/11 17:37"
   },
   {
    "cle": "referenceur",
@@ -621,27 +621,27 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-02T17:31:30",
+   "ts": "2026-11-02T17:37:47",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-02T17:31:25",
+   "ts": "2026-11-02T17:37:42",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-02T17:31:20",
+   "ts": "2026-11-02T17:37:31",
    "type": "alerte",
-   "texte": "Échec : Miniaturiste : passage continu",
+   "texte": "Échec : Accroche : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-02T17:31:15",
+   "ts": "2026-11-02T17:37:26",
    "type": "alerte",
-   "texte": "Échec : Accroche : passage continu",
+   "texte": "Échec : Tendances : passage continu",
    "url": null
   },
   {
@@ -773,10 +773,10 @@
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 5,
+  "READY": 3,
   "PENDING": 12,
   "DEFERRED": 2,
-  "SUCCESS": 999,
+  "SUCCESS": 1001,
   "FAILED": 59
  }
 }
