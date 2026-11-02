@@ -1,6 +1,6 @@
 {
- "now": 1793608740.9305499,
- "heure": "09:39:01",
+ "now": 1793609040.9159598,
+ "heure": "09:44:01",
  "moteur": {
   "etat": "actif",
   "activite": "en attente de travail exécutable",
@@ -453,7 +453,7 @@
    "nom": "Éclaireur",
    "poste": "publication",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
    "passages": 5198,
    "dernier_a": "02/11 09:35"
@@ -461,22 +461,22 @@
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 4794,
-   "dernier_a": "02/11 09:38"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 4795,
+   "dernier_a": "02/11 09:40"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 4290,
-   "dernier_a": "02/11 09:34"
+   "dernier": "[poste Écriture du script, avec Accroche] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 4291,
+   "dernier_a": "02/11 09:42"
   },
   {
    "cle": "iconographe",
@@ -511,7 +511,7 @@
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script, avec Archiviste] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
@@ -525,8 +525,8 @@
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 1875,
-   "dernier_a": "02/11 09:38"
+   "passages": 1876,
+   "dernier_a": "02/11 09:42"
   },
   {
    "cle": "referenceur",
@@ -621,43 +621,49 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-02T09:38:50",
+   "ts": "2026-11-02T09:42:59",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-02T09:38:45",
+   "ts": "2026-11-02T09:42:54",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-02T09:38:29",
+   "ts": "2026-11-02T09:42:43",
+   "type": "alerte",
+   "texte": "Échec : Accroche : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-02T09:42:38",
    "type": "alerte",
    "texte": "Échec : Tendances : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-02T09:38:24",
+   "ts": "2026-11-02T09:42:33",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-02T09:38:19",
+   "ts": "2026-11-02T09:42:28",
    "type": "alerte",
    "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-02T09:38:14",
+   "ts": "2026-11-02T09:42:17",
    "type": "alerte",
-   "texte": "Échec : Plume : passage continu",
+   "texte": "Échec : Archiviste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-02T09:38:03",
+   "ts": "2026-11-02T09:42:12",
    "type": "alerte",
    "texte": "Échec : Éclaireur : passage continu",
    "url": null
@@ -763,12 +769,6 @@
    "type": "assistant",
    "texte": "Référenceur : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
    "url": null
-  },
-  {
-   "ts": "2026-10-17T18:38:45",
-   "type": "assistant",
-   "texte": "Plume : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
-   "url": null
   }
  ],
  "compteurs": {
@@ -776,7 +776,7 @@
   "READY": 0,
   "PENDING": 12,
   "DEFERRED": 2,
-  "SUCCESS": 1001,
-  "FAILED": 62
+  "SUCCESS": 1000,
+  "FAILED": 63
  }
 }
