@@ -1,6 +1,6 @@
 {
- "now": 1793622241.1624181,
- "heure": "13:24:01",
+ "now": 1793622541.1623175,
+ "heure": "13:29:01",
  "moteur": {
   "etat": "actif",
   "activite": "en attente de travail exécutable",
@@ -455,8 +455,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 5257,
-   "dernier_a": "02/11 13:22"
+   "passages": 5258,
+   "dernier_a": "02/11 13:27"
   },
   {
    "cle": "archiviste",
@@ -475,18 +475,18 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 4318,
-   "dernier_a": "02/11 13:23"
+   "passages": 4319,
+   "dernier_a": "02/11 13:27"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 3903,
-   "dernier_a": "02/11 13:23"
+   "dernier": "[poste Images, avec Tendances] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 3904,
+   "dernier_a": "02/11 13:25"
   },
   {
    "cle": "analyste",
@@ -501,12 +501,12 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "images",
+   "poste": "script",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 3484,
-   "dernier_a": "02/11 13:23"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 3486,
+   "dernier_a": "02/11 13:27"
   },
   {
    "cle": "accroche",
@@ -521,12 +521,12 @@
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 1893,
-   "dernier_a": "02/11 13:13"
+   "passages": 1894,
+   "dernier_a": "02/11 13:27"
   },
   {
    "cle": "referenceur",
@@ -621,33 +621,39 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-02T13:23:48",
+   "ts": "2026-11-02T13:27:56",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-02T13:23:42",
+   "ts": "2026-11-02T13:27:51",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-02T13:23:37",
-   "type": "alerte",
-   "texte": "Échec : Miniaturiste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-02T13:23:32",
+   "ts": "2026-11-02T13:27:41",
    "type": "alerte",
    "texte": "Échec : Accroche : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-02T13:23:22",
+   "ts": "2026-11-02T13:27:30",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-02T13:27:25",
+   "type": "alerte",
+   "texte": "Échec : Iconographe : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-02T13:27:14",
+   "type": "alerte",
+   "texte": "Échec : Archiviste : passage continu",
    "url": null
   },
   {
@@ -763,12 +769,6 @@
    "type": "assistant",
    "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
    "url": null
-  },
-  {
-   "ts": "2026-10-17T18:35:09",
-   "type": "assistant",
-   "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Intelligence artificielle, Tesla (automobile)",
-   "url": null
   }
  ],
  "compteurs": {
@@ -776,7 +776,7 @@
   "READY": 0,
   "PENDING": 12,
   "DEFERRED": 2,
-  "SUCCESS": 1004,
-  "FAILED": 60
+  "SUCCESS": 1003,
+  "FAILED": 61
  }
 }
