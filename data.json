@@ -1,10 +1,10 @@
 {
- "now": 1793578741.0618868,
- "heure": "01:19:01",
+ "now": 1793579041.0848823,
+ "heure": "01:24:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Tendances : passage continu",
-  "battement_s": 5
+  "activite": "en attente de travail exécutable",
+  "battement_s": 0
  },
  "modele": {
   "ok": false,
@@ -453,7 +453,7 @@
    "nom": "Éclaireur",
    "poste": "publication",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
    "passages": 5083,
    "dernier_a": "02/11 01:14"
@@ -461,12 +461,12 @@
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 4676,
-   "dernier_a": "02/11 01:16"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 4678,
+   "dernier_a": "02/11 01:22"
   },
   {
    "cle": "plume",
@@ -481,7 +481,7 @@
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
@@ -503,7 +503,7 @@
    "nom": "Tendances",
    "poste": "publication",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
    "passages": 3311,
    "dernier_a": "02/11 01:12"
@@ -514,19 +514,19 @@
    "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, avec Plume] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 1874,
-   "dernier_a": "02/11 01:16"
+   "dernier": "[poste Écriture du script] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 1875,
+   "dernier_a": "02/11 01:21"
   },
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Images, avec Iconographe] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 1835,
-   "dernier_a": "02/11 01:04"
+   "etat": "actif",
+   "dernier": "[poste Images, avec Archiviste] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 1836,
+   "dernier_a": "02/11 01:21"
   },
   {
    "cle": "referenceur",
@@ -621,45 +621,45 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-02T01:18:56",
+   "ts": "2026-11-02T01:23:09",
+   "type": "alerte",
+   "texte": "Échec : Tendances : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-02T01:23:04",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-02T01:18:45",
+   "ts": "2026-11-02T01:22:59",
+   "type": "alerte",
+   "texte": "Échec : Iconographe : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-02T01:22:54",
    "type": "alerte",
    "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-02T01:18:40",
-   "type": "alerte",
-   "texte": "Échec : Archiviste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-02T01:18:35",
+   "ts": "2026-11-02T01:22:43",
    "type": "alerte",
    "texte": "Échec : Éclaireur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-02T01:17:18",
+   "ts": "2026-11-02T01:21:26",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-02T01:17:13",
+   "ts": "2026-11-02T01:21:21",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-02T01:17:07",
-   "type": "alerte",
-   "texte": "Échec : Miniaturiste : passage continu",
    "url": null
   },
   {
@@ -772,11 +772,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
+  "RUNNING": 0,
   "READY": 0,
   "PENDING": 12,
   "DEFERRED": 2,
-  "SUCCESS": 999,
+  "SUCCESS": 1000,
   "FAILED": 62
  }
 }
