@@ -1,9 +1,9 @@
 {
- "now": 1793748540.7705564,
- "heure": "00:29:01",
+ "now": 1793748840.839326,
+ "heure": "00:34:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Générer la voix : Hydrophone + Trouver des sujets candidats",
+  "activite": "Rendre la vidéo : Hydrophone + Trouver des sujets candidats",
   "battement_s": 1
  },
  "modele": {
@@ -22,7 +22,7 @@
    "courant": {
     "titre": "Trouver des sujets candidats",
     "projet": "Éditorial",
-    "depuis": 47
+    "depuis": 347
    },
    "file": 0,
    "attend_humain": 0,
@@ -37,7 +37,7 @@
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
      "etat": "en cours",
-     "depuis": 47
+     "depuis": 347
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -108,7 +108,7 @@
     {
      "titre": "Écrire le script : Immotique",
      "projet": "Sujet : Immotique",
-     "etat": "programmée 04/11 00:32"
+     "etat": "prête"
     },
     {
      "titre": "Écrire le script : Hydrophone",
@@ -170,31 +170,26 @@
    "titre": "Studio voix",
    "icone": "🎙️",
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Générer la voix : Hydrophone",
-    "projet": "Sujet : Hydrophone",
-    "depuis": 1188
-   },
+   "etat": "repos",
+   "courant": null,
    "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Régénérer la voix (après QA en échec) : Poste à souder",
-    "quand": "03/11 19:15"
+    "titre": "Générer la voix : Hydrophone",
+    "quand": "04/11 00:29"
    },
-   "total_fait": 58,
+   "total_fait": 59,
    "taches": [
-    {
-     "titre": "Générer la voix : Hydrophone",
-     "projet": "Sujet : Hydrophone",
-     "etat": "en cours",
-     "depuis": 1188
-    },
     {
      "titre": "Générer la voix : Immotique",
      "projet": "Sujet : Immotique",
      "etat": "en attente"
+    },
+    {
+     "titre": "Générer la voix : Hydrophone",
+     "projet": "Sujet : Hydrophone",
+     "etat": "terminée 04/11 00:29"
     },
     {
      "titre": "Régénérer la voix (après QA en échec) : Poste à souder",
@@ -205,11 +200,6 @@
      "titre": "Générer la voix : Poste à souder",
      "projet": "Sujet : Poste à souder",
      "etat": "terminée 03/11 18:54"
-    },
-    {
-     "titre": "Générer la voix : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
-     "projet": "Sujet : ESP8266",
-     "etat": "terminée 18/10 12:01"
     }
    ]
   },
@@ -220,14 +210,14 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Aligner la nouvelle narration : Poste à souder",
-    "quand": "03/11 19:16"
+    "titre": "Aligner la narration : Hydrophone",
+    "quand": "04/11 00:30"
    },
-   "total_fait": 54,
+   "total_fait": 55,
    "taches": [
     {
      "titre": "Aligner la narration : Immotique",
@@ -237,7 +227,7 @@
     {
      "titre": "Aligner la narration : Hydrophone",
      "projet": "Sujet : Hydrophone",
-     "etat": "en attente"
+     "etat": "terminée 04/11 00:30"
     },
     {
      "titre": "Aligner la nouvelle narration : Poste à souder",
@@ -248,11 +238,6 @@
      "titre": "Aligner la narration : Poste à souder",
      "projet": "Sujet : Poste à souder",
      "etat": "terminée 03/11 18:56"
-    },
-    {
-     "titre": "Aligner la narration : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
-     "projet": "Sujet : ESP8266",
-     "etat": "terminée 18/10 12:03"
     }
    ]
   },
@@ -261,9 +246,13 @@
    "titre": "Montage vidéo",
    "icone": "🎬",
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Rendre la vidéo : Hydrophone",
+    "projet": "Sujet : Hydrophone",
+    "depuis": 210
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -273,13 +262,14 @@
    "total_fait": 76,
    "taches": [
     {
-     "titre": "Rendre la vidéo : Immotique",
-     "projet": "Sujet : Immotique",
-     "etat": "en attente"
-    },
-    {
      "titre": "Rendre la vidéo : Hydrophone",
      "projet": "Sujet : Hydrophone",
+     "etat": "en cours",
+     "depuis": 210
+    },
+    {
+     "titre": "Rendre la vidéo : Immotique",
+     "projet": "Sujet : Immotique",
      "etat": "en attente"
     },
     {
@@ -793,10 +783,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 13,
-  "PENDING": 10,
-  "DEFERRED": 1,
-  "SUCCESS": 1028,
+  "READY": 14,
+  "PENDING": 8,
+  "DEFERRED": 0,
+  "SUCCESS": 1030,
   "FAILED": 66
  }
 }
