@@ -1,15 +1,15 @@
 {
- "now": 1793742240.6183522,
- "heure": "22:44:00",
+ "now": 1793742540.634904,
+ "heure": "22:49:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Circuit logique programmable + Plume : passage continu",
-  "battement_s": 5
+  "activite": "Écrire le script : Immotique + Écrire le script : Circuit logique programmable",
+  "battement_s": 2
  },
  "modele": {
-  "ok": false,
+  "ok": true,
   "reprise": null,
-  "erreur": "Ollama DESKTOP-ARBTDCL: HTTPError: HTTP Error 400: Bad Request | JARVIS-PC: URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
+  "erreur": null,
   "moteur": "ollama qwen3:4b-instruct-2507-q4_K_M (DESKTOP-ARBTDCL)"
  },
  "stations": [
@@ -86,11 +86,11 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "actif",
    "courant": {
-    "titre": "Écrire le script : Circuit logique programmable",
-    "projet": "Sujet : Circuit logique programmable",
-    "depuis": 472
+    "titre": "Écrire le script : Immotique",
+    "projet": "Sujet : Immotique",
+    "depuis": 47
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -100,15 +100,16 @@
    "total_fait": 34,
    "taches": [
     {
+     "titre": "Écrire le script : Immotique",
+     "projet": "Sujet : Immotique",
+     "etat": "en cours",
+     "depuis": 47
+    },
+    {
      "titre": "Écrire le script : Circuit logique programmable",
      "projet": "Sujet : Circuit logique programmable",
      "etat": "en cours",
-     "depuis": 472
-    },
-    {
-     "titre": "Écrire le script : Immotique",
-     "projet": "Sujet : Immotique",
-     "etat": "programmée 03/11 22:46"
+     "depuis": 772
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -459,9 +460,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
-   "passages": 5712,
-   "dernier_a": "03/11 22:43"
+   "dernier": "[poste Trouver une idée, avec Plume] 36 titres lus, 0 idées retenues",
+   "passages": 5713,
+   "dernier_a": "03/11 22:48"
   },
   {
    "cle": "archiviste",
@@ -479,9 +480,9 @@
    "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script] 1 script(s) relu(s), 1 avec défauts : poste-a-souder : 62 mots : trop court (70 minimum)",
-   "passages": 4549,
-   "dernier_a": "03/11 19:10"
+   "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
+   "passages": 4550,
+   "dernier_a": "03/11 22:46"
   },
   {
    "cle": "iconographe",
@@ -778,10 +779,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 7,
+  "READY": 9,
   "PENDING": 12,
-  "DEFERRED": 1,
-  "SUCCESS": 1026,
+  "DEFERRED": 0,
+  "SUCCESS": 1025,
   "FAILED": 65
  }
 }
