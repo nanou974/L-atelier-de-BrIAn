@@ -1,10 +1,10 @@
 {
- "now": 1793731140.3707905,
- "heure": "19:39:00",
+ "now": 1793731440.3180149,
+ "heure": "19:44:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : David Gerstein + Éclaireur : passage continu",
-  "battement_s": 2
+  "activite": "Recherche documentaire : David Gerstein + Recherche documentaire : Découpe laser",
+  "battement_s": 3
  },
  "modele": {
   "ok": true,
@@ -18,9 +18,9 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -29,6 +29,11 @@
    },
    "total_fait": 16,
    "taches": [
+    {
+     "titre": "Trouver des sujets candidats",
+     "projet": "Éditorial",
+     "etat": "prête"
+    },
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
@@ -55,7 +60,7 @@
    "courant": {
     "titre": "Recherche documentaire : David Gerstein",
     "projet": "Sujet : David Gerstein",
-    "depuis": 291
+    "depuis": 591
    },
    "file": 0,
    "attend_humain": 0,
@@ -70,7 +75,13 @@
      "titre": "Recherche documentaire : David Gerstein",
      "projet": "Sujet : David Gerstein",
      "etat": "en cours",
-     "depuis": 291
+     "depuis": 591
+    },
+    {
+     "titre": "Recherche documentaire : Découpe laser",
+     "projet": "Sujet : Découpe laser",
+     "etat": "en cours",
+     "depuis": 111
     },
     {
      "titre": "Recherche documentaire : Bambu Lab",
@@ -96,7 +107,7 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "alerte",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -108,6 +119,11 @@
     {
      "titre": "Écrire le script : David Gerstein",
      "projet": "Sujet : David Gerstein",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Écrire le script : Découpe laser",
+     "projet": "Sujet : Découpe laser",
      "etat": "en attente"
     },
     {
@@ -134,7 +150,7 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -146,6 +162,11 @@
     {
      "titre": "Réunir de vraies illustrations libres : David Gerstein",
      "projet": "Sujet : David Gerstein",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Découpe laser",
+     "projet": "Sujet : Découpe laser",
      "etat": "en attente"
     },
     {
@@ -172,7 +193,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -184,6 +205,11 @@
     {
      "titre": "Générer la voix : David Gerstein",
      "projet": "Sujet : David Gerstein",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Générer la voix : Découpe laser",
+     "projet": "Sujet : Découpe laser",
      "etat": "en attente"
     },
     {
@@ -210,7 +236,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -222,6 +248,11 @@
     {
      "titre": "Aligner la narration : David Gerstein",
      "projet": "Sujet : David Gerstein",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Aligner la narration : Découpe laser",
+     "projet": "Sujet : Découpe laser",
      "etat": "en attente"
     },
     {
@@ -248,7 +279,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -260,6 +291,11 @@
     {
      "titre": "Rendre la vidéo : David Gerstein",
      "projet": "Sujet : David Gerstein",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Rendre la vidéo : Découpe laser",
+     "projet": "Sujet : Découpe laser",
      "etat": "en attente"
     },
     {
@@ -286,7 +322,7 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "alerte",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": "QA automatique de la vidéo corrigée : Poste à souder",
    "derniere": {
@@ -298,6 +334,11 @@
     {
      "titre": "QA automatique : David Gerstein",
      "projet": "Sujet : David Gerstein",
+     "etat": "en attente"
+    },
+    {
+     "titre": "QA automatique : Découpe laser",
+     "projet": "Sujet : Découpe laser",
      "etat": "en attente"
     },
     {
@@ -324,7 +365,7 @@
    "desc": "Décide si la vidéo mérite d'être publiée.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -336,6 +377,11 @@
     {
      "titre": "Revue finale (dossier, script, vidéo) : David Gerstein",
      "projet": "Sujet : David Gerstein",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Revue finale (dossier, script, vidéo) : Découpe laser",
+     "projet": "Sujet : Découpe laser",
      "etat": "en attente"
     },
     {
@@ -429,9 +475,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 27 titres lus, 0 idées retenues",
-   "passages": 5701,
-   "dernier_a": "03/11 19:34"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 36 titres lus, 0 idées retenues",
+   "passages": 5702,
+   "dernier_a": "03/11 19:40"
   },
   {
    "cle": "archiviste",
@@ -439,9 +485,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
-   "passages": 5226,
-   "dernier_a": "03/11 19:31"
+   "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
+   "passages": 5227,
+   "dernier_a": "03/11 19:42"
   },
   {
    "cle": "plume",
@@ -748,10 +794,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 9,
-  "PENDING": 7,
+  "READY": 10,
+  "PENDING": 14,
   "DEFERRED": 0,
-  "SUCCESS": 1016,
+  "SUCCESS": 1017,
   "FAILED": 60
  }
 }
