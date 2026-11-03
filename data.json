@@ -1,10 +1,10 @@
 {
- "now": 1793736240.4394653,
- "heure": "21:04:00",
+ "now": 1793736540.4399254,
+ "heure": "21:09:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires + Recherche documentaire : Shodan (site web)",
-  "battement_s": 5
+  "activite": "Recherche documentaire : Shodan (site web) + Trouver des sujets candidats",
+  "battement_s": 2
  },
  "modele": {
   "ok": true,
@@ -18,9 +18,13 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "alerte",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Trouver des sujets candidats",
+    "projet": "Éditorial",
+    "depuis": 109
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
    "derniere": {
@@ -32,7 +36,8 @@
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 109
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -60,7 +65,7 @@
    "courant": {
     "titre": "Recherche documentaire : Shodan (site web)",
     "projet": "Sujet : Shodan (site web)",
-    "depuis": 713
+    "depuis": 1013
    },
    "file": 0,
    "attend_humain": 0,
@@ -75,7 +80,7 @@
      "titre": "Recherche documentaire : Shodan (site web)",
      "projet": "Sujet : Shodan (site web)",
      "etat": "en cours",
-     "depuis": 713
+     "depuis": 1013
     },
     {
      "titre": "Recherche documentaire : Agence nationale des techniques d'enquêtes numériques judiciaires",
@@ -99,13 +104,9 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires",
-    "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
-    "depuis": 559
-   },
-   "file": 1,
+   "etat": "alerte",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -117,8 +118,7 @@
     {
      "titre": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires",
      "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
-     "etat": "en cours",
-     "depuis": 559
+     "etat": "prête"
     },
     {
      "titre": "Écrire le script : Shodan (site web)",
@@ -793,10 +793,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 11,
   "PENDING": 13,
   "DEFERRED": 0,
-  "SUCCESS": 1020,
+  "SUCCESS": 1019,
   "FAILED": 63
  }
 }
