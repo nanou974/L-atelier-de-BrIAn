@@ -1,9 +1,9 @@
 {
- "now": 1793730840.3137321,
- "heure": "19:34:00",
+ "now": 1793731140.3707905,
+ "heure": "19:39:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Soudage à l'arc submergé + Éclaireur : passage continu",
+  "activite": "Recherche documentaire : David Gerstein + Éclaireur : passage continu",
   "battement_s": 2
  },
  "modele": {
@@ -51,8 +51,12 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
-   "courant": null,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : David Gerstein",
+    "projet": "Sujet : David Gerstein",
+    "depuis": 291
+   },
    "file": 0,
    "attend_humain": 0,
    "alerte": null,
@@ -62,6 +66,12 @@
    },
    "total_fait": 31,
    "taches": [
+    {
+     "titre": "Recherche documentaire : David Gerstein",
+     "projet": "Sujet : David Gerstein",
+     "etat": "en cours",
+     "depuis": 291
+    },
     {
      "titre": "Recherche documentaire : Bambu Lab",
      "projet": "Sujet : Bambu Lab",
@@ -84,15 +94,11 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Écrire le script : Soudage à l'arc submergé",
-    "projet": "Sujet : Soudage à l'arc submergé",
-    "depuis": 301
-   },
-   "file": 0,
+   "etat": "alerte",
+   "courant": null,
+   "file": 1,
    "attend_humain": 0,
-   "alerte": "Écrire le script : Moteur de recherche",
+   "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
     "titre": "Écrire le script : Poste à souder",
     "quand": "03/11 18:23"
@@ -100,10 +106,9 @@
    "total_fait": 34,
    "taches": [
     {
-     "titre": "Écrire le script : Soudage à l'arc submergé",
-     "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "en cours",
-     "depuis": 301
+     "titre": "Écrire le script : David Gerstein",
+     "projet": "Sujet : David Gerstein",
+     "etat": "en attente"
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -129,7 +134,7 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "repos",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -138,6 +143,11 @@
    },
    "total_fait": 40,
    "taches": [
+    {
+     "titre": "Réunir de vraies illustrations libres : David Gerstein",
+     "projet": "Sujet : David Gerstein",
+     "etat": "en attente"
+    },
     {
      "titre": "Réunir de vraies illustrations libres : Poste à souder",
      "projet": "Sujet : Poste à souder",
@@ -162,7 +172,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -171,6 +181,11 @@
    },
    "total_fait": 58,
    "taches": [
+    {
+     "titre": "Générer la voix : David Gerstein",
+     "projet": "Sujet : David Gerstein",
+     "etat": "en attente"
+    },
     {
      "titre": "Régénérer la voix (après QA en échec) : Poste à souder",
      "projet": "Sujet : Poste à souder",
@@ -195,7 +210,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -204,6 +219,11 @@
    },
    "total_fait": 54,
    "taches": [
+    {
+     "titre": "Aligner la narration : David Gerstein",
+     "projet": "Sujet : David Gerstein",
+     "etat": "en attente"
+    },
     {
      "titre": "Aligner la nouvelle narration : Poste à souder",
      "projet": "Sujet : Poste à souder",
@@ -228,7 +248,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -237,6 +257,11 @@
    },
    "total_fait": 76,
    "taches": [
+    {
+     "titre": "Rendre la vidéo : David Gerstein",
+     "projet": "Sujet : David Gerstein",
+     "etat": "en attente"
+    },
     {
      "titre": "Rendre la vidéo corrigée : Poste à souder",
      "projet": "Sujet : Poste à souder",
@@ -261,7 +286,7 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "alerte",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "QA automatique de la vidéo corrigée : Poste à souder",
    "derniere": {
@@ -270,6 +295,11 @@
    },
    "total_fait": 59,
    "taches": [
+    {
+     "titre": "QA automatique : David Gerstein",
+     "projet": "Sujet : David Gerstein",
+     "etat": "en attente"
+    },
     {
      "titre": "QA automatique : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
      "projet": "Sujet : ESP8266",
@@ -294,7 +324,7 @@
    "desc": "Décide si la vidéo mérite d'être publiée.",
    "etat": "repos",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -303,6 +333,11 @@
    },
    "total_fait": 45,
    "taches": [
+    {
+     "titre": "Revue finale (dossier, script, vidéo) : David Gerstein",
+     "projet": "Sujet : David Gerstein",
+     "etat": "en attente"
+    },
     {
      "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
      "projet": "Sujet : ESP8266",
@@ -394,9 +429,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
-   "passages": 5700,
-   "dernier_a": "03/11 19:29"
+   "dernier": "[poste Trouver une idée, avec Archiviste] 27 titres lus, 0 idées retenues",
+   "passages": 5701,
+   "dernier_a": "03/11 19:34"
   },
   {
    "cle": "archiviste",
@@ -561,6 +596,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-11-03T19:38:27",
+   "type": "alerte",
+   "texte": "Échec : Écrire le script : Soudage à l'arc submergé",
+   "url": null
+  },
+  {
    "ts": "2026-11-03T19:32:10",
    "type": "alerte",
    "texte": "Échec : QA automatique de la vidéo corrigée : Poste à souder",
@@ -703,20 +744,14 @@
    "type": "assistant",
    "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
    "url": null
-  },
-  {
-   "ts": "2026-10-17T18:35:09",
-   "type": "assistant",
-   "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Intelligence artificielle, Tesla (automobile)",
-   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 8,
-  "PENDING": 0,
+  "READY": 9,
+  "PENDING": 7,
   "DEFERRED": 0,
-  "SUCCESS": 1017,
-  "FAILED": 59
+  "SUCCESS": 1016,
+  "FAILED": 60
  }
 }
