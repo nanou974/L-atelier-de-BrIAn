@@ -1,10 +1,10 @@
 {
- "now": 1793731740.6681185,
- "heure": "19:49:00",
+ "now": 1793732040.3329895,
+ "heure": "19:54:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : David Gerstein + Recherche documentaire : Découpe laser",
-  "battement_s": 2
+  "activite": "Écrire le script : David Gerstein + Écrire le script : Découpe laser",
+  "battement_s": 4
  },
  "modele": {
   "ok": true,
@@ -56,26 +56,21 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Découpe laser",
-    "projet": "Sujet : Découpe laser",
-    "depuis": 411
-   },
+   "etat": "repos",
+   "courant": null,
    "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Recherche documentaire : David Gerstein",
-    "quand": "03/11 19:45"
+    "titre": "Recherche documentaire : Découpe laser",
+    "quand": "03/11 19:51"
    },
-   "total_fait": 32,
+   "total_fait": 33,
    "taches": [
     {
      "titre": "Recherche documentaire : Découpe laser",
      "projet": "Sujet : Découpe laser",
-     "etat": "en cours",
-     "depuis": 411
+     "etat": "terminée 03/11 19:51"
     },
     {
      "titre": "Recherche documentaire : David Gerstein",
@@ -86,11 +81,6 @@
      "titre": "Recherche documentaire : Bambu Lab",
      "projet": "Sujet : Bambu Lab",
      "etat": "terminée 03/11 18:48"
-    },
-    {
-     "titre": "Recherche documentaire : Moteur de recherche",
-     "projet": "Sujet : Moteur de recherche",
-     "etat": "terminée 03/11 18:15"
     }
    ]
   },
@@ -103,9 +93,9 @@
    "courant": {
     "titre": "Écrire le script : David Gerstein",
     "projet": "Sujet : David Gerstein",
-    "depuis": 232
+    "depuis": 531
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -118,12 +108,13 @@
      "titre": "Écrire le script : David Gerstein",
      "projet": "Sujet : David Gerstein",
      "etat": "en cours",
-     "depuis": 232
+     "depuis": 531
     },
     {
      "titre": "Écrire le script : Découpe laser",
      "projet": "Sujet : Découpe laser",
-     "etat": "en attente"
+     "etat": "en cours",
+     "depuis": 131
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -483,7 +474,7 @@
    "nom": "Archiviste",
    "poste": "idee",
    "poste_prefere": "recherche",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
    "passages": 5227,
    "dernier_a": "03/11 19:42"
@@ -794,9 +785,9 @@
  "compteurs": {
   "RUNNING": 2,
   "READY": 10,
-  "PENDING": 13,
+  "PENDING": 12,
   "DEFERRED": 0,
-  "SUCCESS": 1018,
+  "SUCCESS": 1019,
   "FAILED": 60
  }
 }
