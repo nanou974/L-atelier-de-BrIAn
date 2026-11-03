@@ -1,10 +1,10 @@
 {
- "now": 1793716440.9287813,
- "heure": "15:34:01",
+ "now": 1793716740.9335704,
+ "heure": "15:39:01",
  "moteur": {
   "etat": "actif",
   "activite": "en attente de travail exécutable",
-  "battement_s": 3
+  "battement_s": 4
  },
  "modele": {
   "ok": false,
@@ -454,9 +454,9 @@
    "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 5658,
-   "dernier_a": "03/11 15:27"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 5659,
+   "dernier_a": "03/11 15:35"
   },
   {
    "cle": "archiviste",
@@ -464,19 +464,19 @@
    "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 5197,
-   "dernier_a": "03/11 15:29"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 5199,
+   "dernier_a": "03/11 15:37"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 4525,
-   "dernier_a": "03/11 15:31"
+   "passages": 4526,
+   "dernier_a": "03/11 15:37"
   },
   {
    "cle": "iconographe",
@@ -501,7 +501,7 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
@@ -524,9 +524,9 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images, avec Iconographe] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 2019,
-   "dernier_a": "03/11 15:31"
+   "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 2020,
+   "dernier_a": "03/11 15:36"
   },
   {
    "cle": "referenceur",
@@ -621,49 +621,43 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-03T15:33:47",
+   "ts": "2026-11-03T15:38:00",
+   "type": "alerte",
+   "texte": "Échec : Tendances : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-03T15:37:55",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-03T15:33:42",
+   "ts": "2026-11-03T15:37:49",
    "type": "alerte",
    "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-03T15:33:37",
-   "type": "alerte",
-   "texte": "Échec : Plume : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T15:33:32",
-   "type": "alerte",
-   "texte": "Échec : Archiviste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T15:33:26",
+   "ts": "2026-11-03T15:37:34",
    "type": "alerte",
    "texte": "Échec : Éclaireur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-03T15:32:09",
+   "ts": "2026-11-03T15:36:17",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-03T15:32:04",
+   "ts": "2026-11-03T15:36:12",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-03T15:31:54",
+   "ts": "2026-11-03T15:36:01",
    "type": "alerte",
    "texte": "Échec : Accroche : passage continu",
    "url": null
@@ -769,6 +763,12 @@
    "type": "assistant",
    "texte": "Référenceur : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
    "url": null
+  },
+  {
+   "ts": "2026-10-17T18:38:45",
+   "type": "assistant",
+   "texte": "Plume : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
+   "url": null
   }
  ],
  "compteurs": {
@@ -776,7 +776,7 @@
   "READY": 0,
   "PENDING": 12,
   "DEFERRED": 2,
-  "SUCCESS": 1007,
-  "FAILED": 63
+  "SUCCESS": 1008,
+  "FAILED": 62
  }
 }
