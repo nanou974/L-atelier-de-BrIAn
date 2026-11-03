@@ -1,10 +1,10 @@
 {
- "now": 1793745540.7030613,
- "heure": "23:39:00",
+ "now": 1793745840.6980765,
+ "heure": "23:44:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Soudage à l'arc submergé + Écrire le script : Hydrophone",
-  "battement_s": 2
+  "activite": "Écrire le script : Soudage à l'arc submergé + Écrire le script : Immotique",
+  "battement_s": 4
  },
  "modele": {
   "ok": true,
@@ -93,33 +93,33 @@
    "courant": {
     "titre": "Écrire le script : Soudage à l'arc submergé",
     "projet": "Sujet : Soudage à l'arc submergé",
-    "depuis": 417
+    "depuis": 717
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Écrire le script : Moteur de recherche",
    "derniere": {
-    "titre": "Écrire le script : Poste à souder",
-    "quand": "03/11 18:23"
+    "titre": "Écrire le script : Hydrophone",
+    "quand": "03/11 23:40"
    },
-   "total_fait": 34,
+   "total_fait": 35,
    "taches": [
     {
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en cours",
-     "depuis": 417
-    },
-    {
-     "titre": "Écrire le script : Hydrophone",
-     "projet": "Sujet : Hydrophone",
-     "etat": "en cours",
-     "depuis": 885
+     "depuis": 717
     },
     {
      "titre": "Écrire le script : Immotique",
      "projet": "Sujet : Immotique",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 199
+    },
+    {
+     "titre": "Écrire le script : Hydrophone",
+     "projet": "Sujet : Hydrophone",
+     "etat": "terminée 03/11 23:40"
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -130,11 +130,6 @@
      "titre": "Écrire le script : Impression 3D dans la construction",
      "projet": "Sujet : Impression 3D dans la construction",
      "etat": "terminée 22/10 12:11"
-    },
-    {
-     "titre": "Écrire le script : Robocasting",
-     "projet": "Sujet : Robocasting",
-     "etat": "terminée 22/10 06:04"
     }
    ]
   },
@@ -143,7 +138,7 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
    "file": 2,
    "attend_humain": 0,
@@ -155,13 +150,13 @@
    "total_fait": 40,
    "taches": [
     {
-     "titre": "Réunir de vraies illustrations libres : Immotique",
-     "projet": "Sujet : Immotique",
-     "etat": "en attente"
-    },
-    {
      "titre": "Réunir de vraies illustrations libres : Hydrophone",
      "projet": "Sujet : Hydrophone",
+     "etat": "prête"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Immotique",
+     "projet": "Sujet : Immotique",
      "etat": "en attente"
     },
     {
@@ -790,9 +785,9 @@
  "compteurs": {
   "RUNNING": 2,
   "READY": 12,
-  "PENDING": 12,
+  "PENDING": 11,
   "DEFERRED": 0,
-  "SUCCESS": 1025,
+  "SUCCESS": 1026,
   "FAILED": 65
  }
 }
