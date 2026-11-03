@@ -1,10 +1,10 @@
 {
- "now": 1793750040.8276603,
- "heure": "00:54:01",
+ "now": 1793750340.855091,
+ "heure": "00:59:01",
  "moteur": {
   "etat": "en pause",
-  "activite": "Refaire le rendu (QA : plans factuels illustrés par une vraie image (≥ 50 %, mieux ) : Hydrophone + Archiviste : passage continu",
-  "battement_s": 5
+  "activite": "Plume : passage continu",
+  "battement_s": 0
  },
  "modele": {
   "ok": true,
@@ -216,26 +216,21 @@
    "titre": "Montage vidéo",
    "icone": "🎬",
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Refaire le rendu (QA : plans factuels illustrés par une vraie image (≥ 50 %, mieux ) : Hydrophone",
-    "projet": "Sujet : Hydrophone",
-    "depuis": 526
-   },
+   "etat": "repos",
+   "courant": null,
    "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Rendre la vidéo : Hydrophone",
-    "quand": "04/11 00:39"
+    "titre": "Refaire le rendu (QA : plans factuels illustrés par une vraie image (≥ 50 %, mieux ) : Hydrophone",
+    "quand": "04/11 00:55"
    },
-   "total_fait": 77,
+   "total_fait": 78,
    "taches": [
     {
      "titre": "Refaire le rendu (QA : plans factuels illustrés par une vraie image (≥ 50 %, mieux ) : Hydrophone",
      "projet": "Sujet : Hydrophone",
-     "etat": "en cours",
-     "depuis": 526
+     "etat": "terminée 04/11 00:55"
     },
     {
      "titre": "Rendre la vidéo : Hydrophone",
@@ -246,11 +241,6 @@
      "titre": "Rendre la vidéo corrigée : Poste à souder",
      "projet": "Sujet : Poste à souder",
      "etat": "terminée 03/11 19:26"
-    },
-    {
-     "titre": "Rendre la vidéo : Poste à souder",
-     "projet": "Sujet : Poste à souder",
-     "etat": "terminée 03/11 19:06"
     }
    ]
   },
@@ -273,7 +263,7 @@
     {
      "titre": "QA du nouveau rendu : Hydrophone",
      "projet": "Sujet : Hydrophone",
-     "etat": "en attente"
+     "etat": "prête"
     },
     {
      "titre": "QA automatique : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
@@ -403,10 +393,10 @@
    "nom": "Éclaireur",
    "poste": "publication",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Recherche] Capteur à pixels actifs : OK (39 phrases) ; Économie collaborative : OK (39 phrases) ; Capteur photographique : OK (34 phrases)",
-   "passages": 5717,
-   "dernier_a": "04/11 00:39"
+   "etat": "actif",
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 5718,
+   "dernier_a": "04/11 00:57"
   },
   {
    "cle": "archiviste",
@@ -414,19 +404,19 @@
    "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Recherche] Fluxmètre : OK (9 phrases)",
-   "passages": 5233,
-   "dernier_a": "04/11 00:52"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 5235,
+   "dernier_a": "04/11 00:57"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Recherche, avec Éclaireur, Archiviste] Capteur de proximité : OK (27 phrases) ; Capteur piézoélectrique : OK (17 phrases) ; Capteur à effet Hall : OK (18 phrases)",
-   "passages": 4552,
-   "dernier_a": "04/11 00:40"
+   "etat": "actif",
+   "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 4553,
+   "dernier_a": "04/11 00:57"
   },
   {
    "cle": "iconographe",
@@ -451,12 +441,12 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Écriture du script] 1 script(s) relu(s), 1 avec défauts : hydrophone : 46 mots : trop court (70 minimum)",
-   "passages": 3864,
-   "dernier_a": "04/11 00:52"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 3865,
+   "dernier_a": "04/11 00:54"
   },
   {
    "cle": "accroche",
@@ -471,12 +461,12 @@
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 2039,
-   "dernier_a": "03/11 17:52"
+   "passages": 2040,
+   "dernier_a": "04/11 00:54"
   },
   {
    "cle": "referenceur",
@@ -571,57 +561,63 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-04T00:53:56",
+   "ts": "2026-11-04T00:59:00",
+   "type": "alerte",
+   "texte": "Échec : Archiviste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-04T00:58:54",
    "type": "alerte",
    "texte": "Échec : Éclaireur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T00:53:09",
+   "ts": "2026-11-04T00:58:07",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T00:53:04",
+   "ts": "2026-11-04T00:58:02",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T00:52:58",
+   "ts": "2026-11-04T00:57:57",
    "type": "alerte",
    "texte": "Échec : Miniaturiste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T00:52:53",
+   "ts": "2026-11-04T00:57:52",
    "type": "alerte",
    "texte": "Échec : Accroche : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-04T00:57:46",
+   "type": "alerte",
+   "texte": "Échec : Tendances : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-04T00:57:41",
+   "type": "alerte",
+   "texte": "Échec : Analyste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-04T00:57:36",
+   "type": "alerte",
+   "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
    "ts": "2026-11-04T00:52:43",
    "type": "assistant",
    "texte": "Tendances : à revoir avant la voix : hydrophone : 46 mots : trop court (70 minimum)",
-   "url": null
-  },
-  {
-   "ts": "2026-11-04T00:52:42",
-   "type": "alerte",
-   "texte": "Échec : Analyste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-04T00:52:36",
-   "type": "alerte",
-   "texte": "Échec : Iconographe : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-04T00:52:31",
-   "type": "alerte",
-   "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
@@ -713,20 +709,14 @@
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : impression-3d-dans-la-construction : noms à faire prononcer (lexique) : LSAM, Layer, Print, Thermwood, Vertical",
    "url": null
-  },
-  {
-   "ts": "2026-10-22T06:39:10",
-   "type": "assistant",
-   "texte": "Plume : à revoir avant la voix : robocasting : 68 mots : trop court (70 minimum)",
-   "url": null
   }
  ],
  "compteurs": {
-  "RUNNING": 2,
-  "READY": 0,
-  "PENDING": 2,
+  "RUNNING": 1,
+  "READY": 1,
+  "PENDING": 1,
   "DEFERRED": 0,
   "SUCCESS": 1036,
-  "FAILED": 76
+  "FAILED": 77
  }
 }
