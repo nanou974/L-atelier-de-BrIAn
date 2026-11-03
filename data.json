@@ -1,10 +1,10 @@
 {
- "now": 1793727241.2213619,
- "heure": "18:34:01",
+ "now": 1793727541.2662835,
+ "heure": "18:39:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Réunir de vraies illustrations libres : Poste à souder + Écrire le script : Moteur de recherche",
-  "battement_s": 1
+  "activite": "Générer la voix : Poste à souder + Écrire le script : Soudage à l'arc submergé",
+  "battement_s": 2
  },
  "modele": {
   "ok": true,
@@ -86,13 +86,13 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "actif",
    "courant": {
-    "titre": "Écrire le script : Moteur de recherche",
-    "projet": "Sujet : Moteur de recherche",
-    "depuis": 205
+    "titre": "Écrire le script : Soudage à l'arc submergé",
+    "projet": "Sujet : Soudage à l'arc submergé",
+    "depuis": 141
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
-   "alerte": null,
+   "alerte": "Écrire le script : Moteur de recherche",
    "derniere": {
     "titre": "Écrire le script : Poste à souder",
     "quand": "03/11 18:23"
@@ -100,15 +100,10 @@
    "total_fait": 34,
    "taches": [
     {
-     "titre": "Écrire le script : Moteur de recherche",
-     "projet": "Sujet : Moteur de recherche",
-     "etat": "en cours",
-     "depuis": 205
-    },
-    {
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 141
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -132,36 +127,26 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Réunir de vraies illustrations libres : Poste à souder",
-    "projet": "Sujet : Poste à souder",
-    "depuis": 647
-   },
-   "file": 2,
+   "etat": "repos",
+   "courant": null,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
-    "quand": "18/10 09:49"
+    "titre": "Réunir de vraies illustrations libres : Poste à souder",
+    "quand": "03/11 18:37"
    },
-   "total_fait": 39,
+   "total_fait": 40,
    "taches": [
-    {
-     "titre": "Réunir de vraies illustrations libres : Poste à souder",
-     "projet": "Sujet : Poste à souder",
-     "etat": "en cours",
-     "depuis": 647
-    },
     {
      "titre": "Réunir de vraies illustrations libres : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en attente"
     },
     {
-     "titre": "Réunir de vraies illustrations libres : Moteur de recherche",
-     "projet": "Sujet : Moteur de recherche",
-     "etat": "en attente"
+     "titre": "Réunir de vraies illustrations libres : Poste à souder",
+     "projet": "Sujet : Poste à souder",
+     "etat": "terminée 03/11 18:37"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
@@ -172,11 +157,6 @@
      "titre": "Réunir de vraies illustrations libres : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
      "projet": "Sujet : ESP8266",
      "etat": "terminée 18/10 09:49"
-    },
-    {
-     "titre": "Réunir de vraies illustrations libres : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
-     "projet": "Sujet : Défauts des joints soudés",
-     "etat": "terminée 18/10 09:49"
     }
    ]
   },
@@ -185,9 +165,13 @@
    "titre": "Studio voix",
    "icone": "🎙️",
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Générer la voix : Poste à souder",
+    "projet": "Sujet : Poste à souder",
+    "depuis": 79
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -197,13 +181,14 @@
    "total_fait": 56,
    "taches": [
     {
-     "titre": "Générer la voix : Soudage à l'arc submergé",
-     "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "en attente"
+     "titre": "Générer la voix : Poste à souder",
+     "projet": "Sujet : Poste à souder",
+     "etat": "en cours",
+     "depuis": 79
     },
     {
-     "titre": "Générer la voix : Moteur de recherche",
-     "projet": "Sujet : Moteur de recherche",
+     "titre": "Générer la voix : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en attente"
     },
     {
@@ -230,7 +215,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -242,11 +227,6 @@
     {
      "titre": "Aligner la narration : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "en attente"
-    },
-    {
-     "titre": "Aligner la narration : Moteur de recherche",
-     "projet": "Sujet : Moteur de recherche",
      "etat": "en attente"
     },
     {
@@ -273,7 +253,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -285,11 +265,6 @@
     {
      "titre": "Rendre la vidéo : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "en attente"
-    },
-    {
-     "titre": "Rendre la vidéo : Moteur de recherche",
-     "projet": "Sujet : Moteur de recherche",
      "etat": "en attente"
     },
     {
@@ -316,7 +291,7 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -328,11 +303,6 @@
     {
      "titre": "QA automatique : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "en attente"
-    },
-    {
-     "titre": "QA automatique : Moteur de recherche",
-     "projet": "Sujet : Moteur de recherche",
      "etat": "en attente"
     },
     {
@@ -359,7 +329,7 @@
    "desc": "Décide si la vidéo mérite d'être publiée.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -371,11 +341,6 @@
     {
      "titre": "Revue finale (dossier, script, vidéo) : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "en attente"
-    },
-    {
-     "titre": "Revue finale (dossier, script, vidéo) : Moteur de recherche",
-     "projet": "Sujet : Moteur de recherche",
      "etat": "en attente"
     },
     {
@@ -636,6 +601,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-11-03T18:36:39",
+   "type": "alerte",
+   "texte": "Échec : Écrire le script : Moteur de recherche",
+   "url": null
+  },
+  {
    "ts": "2026-10-25T11:52:01",
    "type": "assistant",
    "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Programmation de commande numérique",
@@ -778,20 +749,14 @@
    "type": "publication",
    "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
-  },
-  {
-   "ts": "2026-10-16T16:08:27",
-   "type": "publication",
-   "texte": "Publiée : Disque compact : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=NodSE53R2ck"
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 11,
-  "PENDING": 12,
+  "READY": 10,
+  "PENDING": 6,
   "DEFERRED": 0,
-  "SUCCESS": 1008,
-  "FAILED": 55
+  "SUCCESS": 1009,
+  "FAILED": 56
  }
 }
