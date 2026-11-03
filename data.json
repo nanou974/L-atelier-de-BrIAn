@@ -1,10 +1,10 @@
 {
- "now": 1793734740.408029,
- "heure": "20:39:00",
+ "now": 1793735040.396697,
+ "heure": "20:44:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : David Gerstein + Écrire le script : Découpe laser",
-  "battement_s": 5
+  "activite": "Écrire le script : David Gerstein + Trouver des sujets candidats",
+  "battement_s": 2
  },
  "modele": {
   "ok": true,
@@ -18,9 +18,13 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "attente",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Trouver des sujets candidats",
+    "projet": "Éditorial",
+    "depuis": 268
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -32,7 +36,8 @@
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 268
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -56,9 +61,9 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -67,6 +72,11 @@
    },
    "total_fait": 33,
    "taches": [
+    {
+     "titre": "Recherche documentaire : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "etat": "prête"
+    },
     {
      "titre": "Recherche documentaire : Découpe laser",
      "projet": "Sujet : Découpe laser",
@@ -93,9 +103,9 @@
    "courant": {
     "titre": "Écrire le script : David Gerstein",
     "projet": "Sujet : David Gerstein",
-    "depuis": 476
+    "depuis": 776
    },
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -108,13 +118,12 @@
      "titre": "Écrire le script : David Gerstein",
      "projet": "Sujet : David Gerstein",
      "etat": "en cours",
-     "depuis": 476
+     "depuis": 776
     },
     {
-     "titre": "Écrire le script : Découpe laser",
-     "projet": "Sujet : Découpe laser",
-     "etat": "en cours",
-     "depuis": 538
+     "titre": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "etat": "en attente"
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -155,8 +164,8 @@
      "etat": "en attente"
     },
     {
-     "titre": "Réunir de vraies illustrations libres : Découpe laser",
-     "projet": "Sujet : Découpe laser",
+     "titre": "Réunir de vraies illustrations libres : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
      "etat": "en attente"
     },
     {
@@ -198,8 +207,8 @@
      "etat": "en attente"
     },
     {
-     "titre": "Générer la voix : Découpe laser",
-     "projet": "Sujet : Découpe laser",
+     "titre": "Générer la voix : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
      "etat": "en attente"
     },
     {
@@ -241,8 +250,8 @@
      "etat": "en attente"
     },
     {
-     "titre": "Aligner la narration : Découpe laser",
-     "projet": "Sujet : Découpe laser",
+     "titre": "Aligner la narration : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
      "etat": "en attente"
     },
     {
@@ -284,8 +293,8 @@
      "etat": "en attente"
     },
     {
-     "titre": "Rendre la vidéo : Découpe laser",
-     "projet": "Sujet : Découpe laser",
+     "titre": "Rendre la vidéo : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
      "etat": "en attente"
     },
     {
@@ -327,8 +336,8 @@
      "etat": "en attente"
     },
     {
-     "titre": "QA automatique : Découpe laser",
-     "projet": "Sujet : Découpe laser",
+     "titre": "QA automatique : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
      "etat": "en attente"
     },
     {
@@ -370,8 +379,8 @@
      "etat": "en attente"
     },
     {
-     "titre": "Revue finale (dossier, script, vidéo) : Découpe laser",
-     "projet": "Sujet : Découpe laser",
+     "titre": "Revue finale (dossier, script, vidéo) : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
      "etat": "en attente"
     },
     {
@@ -632,6 +641,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-11-03T20:39:31",
+   "type": "alerte",
+   "texte": "Échec : Écrire le script : Découpe laser",
+   "url": null
+  },
+  {
    "ts": "2026-11-03T19:38:27",
    "type": "alerte",
    "texte": "Échec : Écrire le script : Soudage à l'arc submergé",
@@ -774,20 +789,14 @@
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
    "url": null
-  },
-  {
-   "ts": "2026-10-17T18:38:45",
-   "type": "assistant",
-   "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
-   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
   "READY": 11,
-  "PENDING": 12,
+  "PENDING": 13,
   "DEFERRED": 0,
   "SUCCESS": 1018,
-  "FAILED": 60
+  "FAILED": 61
  }
 }
