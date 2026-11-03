@@ -1,9 +1,9 @@
 {
- "now": 1793717640.978598,
- "heure": "15:54:01",
+ "now": 1793717940.9735312,
+ "heure": "15:59:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Éclaireur : passage continu",
+  "activite": "en attente de travail exécutable",
   "battement_s": 3
  },
  "modele": {
@@ -98,12 +98,12 @@
     {
      "titre": "Écrire le script : Poste à souder",
      "projet": "Sujet : Poste à souder",
-     "etat": "programmée 03/11 15:55"
+     "etat": "programmée 03/11 16:21"
     },
     {
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "programmée 03/11 15:56"
+     "etat": "programmée 03/11 16:21"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -471,7 +471,7 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script, avec Éclaireur] ronde : 0 script(s) relu(s), aucun défaut",
@@ -481,12 +481,12 @@
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 4098,
-   "dernier_a": "03/11 15:31"
+   "etat": "actif",
+   "dernier": "[poste Images, avec Miniaturiste] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 4100,
+   "dernier_a": "03/11 15:58"
   },
   {
    "cle": "analyste",
@@ -505,28 +505,28 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 3835,
-   "dernier_a": "03/11 15:52"
+   "passages": 3838,
+   "dernier_a": "03/11 15:58"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Écriture du script] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 2065,
-   "dernier_a": "03/11 15:23"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 2066,
+   "dernier_a": "03/11 15:56"
   },
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 2022,
-   "dernier_a": "03/11 15:45"
+   "passages": 2023,
+   "dernier_a": "03/11 15:56"
   },
   {
    "cle": "referenceur",
@@ -621,27 +621,39 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-03T15:52:51",
+   "ts": "2026-11-03T15:58:32",
+   "type": "alerte",
+   "texte": "Échec : Analyste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-03T15:58:21",
+   "type": "alerte",
+   "texte": "Échec : Plume : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-03T15:58:16",
+   "type": "alerte",
+   "texte": "Échec : Archiviste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-03T15:58:11",
+   "type": "alerte",
+   "texte": "Échec : Éclaireur : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-03T15:56:54",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-03T15:52:46",
+   "ts": "2026-11-03T15:56:49",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T15:52:40",
-   "type": "alerte",
-   "texte": "Échec : Miniaturiste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T15:52:30",
-   "type": "alerte",
-   "texte": "Échec : Accroche : passage continu",
    "url": null
   },
   {
@@ -757,26 +769,14 @@
    "type": "assistant",
    "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
    "url": null
-  },
-  {
-   "ts": "2026-10-17T18:35:09",
-   "type": "assistant",
-   "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Intelligence artificielle, Tesla (automobile)",
-   "url": null
-  },
-  {
-   "ts": "2026-10-17T18:32:14",
-   "type": "assistant",
-   "texte": "Plume : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
-   "url": null
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
-  "READY": 5,
+  "RUNNING": 0,
+  "READY": 0,
   "PENDING": 12,
   "DEFERRED": 2,
-  "SUCCESS": 1005,
-  "FAILED": 59
+  "SUCCESS": 1009,
+  "FAILED": 61
  }
 }
