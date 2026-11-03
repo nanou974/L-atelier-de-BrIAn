@@ -1,10 +1,10 @@
 {
- "now": 1793744041.6285398,
- "heure": "23:14:02",
+ "now": 1793744340.704466,
+ "heure": "23:19:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Hydrophone + Trouver des sujets candidats",
-  "battement_s": 2
+  "activite": "Écrire le script : Soudage à l'arc submergé + Écrire le script : Immotique",
+  "battement_s": 4
  },
  "modele": {
   "ok": true,
@@ -18,13 +18,9 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Trouver des sujets candidats",
-    "projet": "Éditorial",
-    "depuis": 317
-   },
-   "file": 0,
+   "etat": "alerte",
+   "courant": null,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
    "derniere": {
@@ -36,8 +32,7 @@
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "en cours",
-     "depuis": 317
+     "etat": "programmée 03/11 23:19"
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -61,26 +56,21 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Hydrophone",
-    "projet": "Sujet : Hydrophone",
-    "depuis": 467
-   },
+   "etat": "repos",
+   "courant": null,
    "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Recherche documentaire : Circuit logique programmable",
-    "quand": "03/11 22:16"
+    "titre": "Recherche documentaire : Hydrophone",
+    "quand": "03/11 23:16"
    },
-   "total_fait": 37,
+   "total_fait": 38,
    "taches": [
     {
      "titre": "Recherche documentaire : Hydrophone",
      "projet": "Sujet : Hydrophone",
-     "etat": "en cours",
-     "depuis": 467
+     "etat": "terminée 03/11 23:16"
     },
     {
      "titre": "Recherche documentaire : Circuit logique programmable",
@@ -91,11 +81,6 @@
      "titre": "Recherche documentaire : Immotique",
      "projet": "Sujet : Immotique",
      "etat": "terminée 03/11 21:53"
-    },
-    {
-     "titre": "Recherche documentaire : Shodan (site web)",
-     "projet": "Sujet : Shodan (site web)",
-     "etat": "terminée 03/11 21:09"
     }
    ]
   },
@@ -104,9 +89,13 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "alerte",
-   "courant": null,
-   "file": 3,
+   "etat": "actif",
+   "courant": {
+    "titre": "Écrire le script : Soudage à l'arc submergé",
+    "projet": "Sujet : Soudage à l'arc submergé",
+    "depuis": 162
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Écrire le script : Moteur de recherche",
    "derniere": {
@@ -118,17 +107,19 @@
     {
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 162
     },
     {
      "titre": "Écrire le script : Immotique",
      "projet": "Sujet : Immotique",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 13
     },
     {
      "titre": "Écrire le script : Hydrophone",
      "projet": "Sujet : Hydrophone",
-     "etat": "en attente"
+     "etat": "prête"
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -488,7 +479,7 @@
    "nom": "Archiviste",
    "poste": "idee",
    "poste_prefere": "recherche",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Plume] 36 titres lus, 0 idées retenues",
    "passages": 5231,
    "dernier_a": "03/11 23:06"
@@ -798,10 +789,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 12,
-  "PENDING": 13,
-  "DEFERRED": 0,
-  "SUCCESS": 1024,
+  "READY": 11,
+  "PENDING": 12,
+  "DEFERRED": 1,
+  "SUCCESS": 1025,
   "FAILED": 65
  }
 }
