@@ -1,10 +1,10 @@
 {
- "now": 1793738040.4972613,
- "heure": "21:34:00",
+ "now": 1793738340.505614,
+ "heure": "21:39:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires + Écrire le script : Shodan (site web)",
-  "battement_s": 3
+  "activite": "Écrire le script : Shodan (site web) + Éclaireur : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": true,
@@ -51,9 +51,9 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -62,6 +62,11 @@
    },
    "total_fait": 35,
    "taches": [
+    {
+     "titre": "Recherche documentaire : Immotique",
+     "projet": "Sujet : Immotique",
+     "etat": "prête"
+    },
     {
      "titre": "Recherche documentaire : Shodan (site web)",
      "projet": "Sujet : Shodan (site web)",
@@ -86,11 +91,11 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "actif",
    "courant": {
-    "titre": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires",
-    "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
-    "depuis": 773
+    "titre": "Écrire le script : Shodan (site web)",
+    "projet": "Sujet : Shodan (site web)",
+    "depuis": 533
    },
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -100,16 +105,15 @@
    "total_fait": 34,
    "taches": [
     {
-     "titre": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires",
-     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
-     "etat": "en cours",
-     "depuis": 773
-    },
-    {
      "titre": "Écrire le script : Shodan (site web)",
      "projet": "Sujet : Shodan (site web)",
      "etat": "en cours",
-     "depuis": 233
+     "depuis": 533
+    },
+    {
+     "titre": "Écrire le script : Immotique",
+     "projet": "Sujet : Immotique",
+     "etat": "en attente"
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -145,13 +149,13 @@
    "total_fait": 40,
    "taches": [
     {
-     "titre": "Réunir de vraies illustrations libres : Agence nationale des techniques d'enquêtes numériques judiciaires",
-     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "titre": "Réunir de vraies illustrations libres : Shodan (site web)",
+     "projet": "Sujet : Shodan (site web)",
      "etat": "en attente"
     },
     {
-     "titre": "Réunir de vraies illustrations libres : Shodan (site web)",
-     "projet": "Sujet : Shodan (site web)",
+     "titre": "Réunir de vraies illustrations libres : Immotique",
+     "projet": "Sujet : Immotique",
      "etat": "en attente"
     },
     {
@@ -188,13 +192,13 @@
    "total_fait": 58,
    "taches": [
     {
-     "titre": "Générer la voix : Agence nationale des techniques d'enquêtes numériques judiciaires",
-     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "titre": "Générer la voix : Shodan (site web)",
+     "projet": "Sujet : Shodan (site web)",
      "etat": "en attente"
     },
     {
-     "titre": "Générer la voix : Shodan (site web)",
-     "projet": "Sujet : Shodan (site web)",
+     "titre": "Générer la voix : Immotique",
+     "projet": "Sujet : Immotique",
      "etat": "en attente"
     },
     {
@@ -231,13 +235,13 @@
    "total_fait": 54,
    "taches": [
     {
-     "titre": "Aligner la narration : Agence nationale des techniques d'enquêtes numériques judiciaires",
-     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "titre": "Aligner la narration : Shodan (site web)",
+     "projet": "Sujet : Shodan (site web)",
      "etat": "en attente"
     },
     {
-     "titre": "Aligner la narration : Shodan (site web)",
-     "projet": "Sujet : Shodan (site web)",
+     "titre": "Aligner la narration : Immotique",
+     "projet": "Sujet : Immotique",
      "etat": "en attente"
     },
     {
@@ -274,13 +278,13 @@
    "total_fait": 76,
    "taches": [
     {
-     "titre": "Rendre la vidéo : Agence nationale des techniques d'enquêtes numériques judiciaires",
-     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "titre": "Rendre la vidéo : Shodan (site web)",
+     "projet": "Sujet : Shodan (site web)",
      "etat": "en attente"
     },
     {
-     "titre": "Rendre la vidéo : Shodan (site web)",
-     "projet": "Sujet : Shodan (site web)",
+     "titre": "Rendre la vidéo : Immotique",
+     "projet": "Sujet : Immotique",
      "etat": "en attente"
     },
     {
@@ -317,13 +321,13 @@
    "total_fait": 59,
    "taches": [
     {
-     "titre": "QA automatique : Agence nationale des techniques d'enquêtes numériques judiciaires",
-     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "titre": "QA automatique : Shodan (site web)",
+     "projet": "Sujet : Shodan (site web)",
      "etat": "en attente"
     },
     {
-     "titre": "QA automatique : Shodan (site web)",
-     "projet": "Sujet : Shodan (site web)",
+     "titre": "QA automatique : Immotique",
+     "projet": "Sujet : Immotique",
      "etat": "en attente"
     },
     {
@@ -360,13 +364,13 @@
    "total_fait": 45,
    "taches": [
     {
-     "titre": "Revue finale (dossier, script, vidéo) : Agence nationale des techniques d'enquêtes numériques judiciaires",
-     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "titre": "Revue finale (dossier, script, vidéo) : Shodan (site web)",
+     "projet": "Sujet : Shodan (site web)",
      "etat": "en attente"
     },
     {
-     "titre": "Revue finale (dossier, script, vidéo) : Shodan (site web)",
-     "projet": "Sujet : Shodan (site web)",
+     "titre": "Revue finale (dossier, script, vidéo) : Immotique",
+     "projet": "Sujet : Immotique",
      "etat": "en attente"
     },
     {
@@ -627,6 +631,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-11-03T21:37:59",
+   "type": "alerte",
+   "texte": "Échec : Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires",
+   "url": null
+  },
+  {
    "ts": "2026-11-03T20:49:32",
    "type": "alerte",
    "texte": "Échec : Trouver des sujets candidats",
@@ -769,20 +779,14 @@
    "type": "assistant",
    "texte": "Éclaireur : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
    "url": null
-  },
-  {
-   "ts": "2026-10-18T08:42:01",
-   "type": "assistant",
-   "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
-   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
   "READY": 10,
-  "PENDING": 12,
+  "PENDING": 13,
   "DEFERRED": 0,
   "SUCCESS": 1021,
-  "FAILED": 63
+  "FAILED": 64
  }
 }
