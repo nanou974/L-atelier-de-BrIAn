@@ -1,10 +1,10 @@
 {
- "now": 1793691241.182308,
- "heure": "08:34:01",
+ "now": 1793691541.3517463,
+ "heure": "08:39:02",
  "moteur": {
   "etat": "actif",
-  "activite": "en attente de travail exécutable",
-  "battement_s": 4
+  "activite": "Analyste : passage continu",
+  "battement_s": 1
  },
  "modele": {
   "ok": false,
@@ -451,29 +451,29 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 5555,
-   "dernier_a": "03/11 08:32"
+   "passages": 5556,
+   "dernier_a": "03/11 08:34"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
    "poste": "publication",
    "poste_prefere": "recherche",
-   "etat": "veille",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 5097,
-   "dernier_a": "03/11 08:24"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 5100,
+   "dernier_a": "03/11 08:38"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
    "passages": 4481,
    "dernier_a": "03/11 08:26"
@@ -483,7 +483,7 @@
    "nom": "Iconographe",
    "poste": "publication",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
    "passages": 4042,
    "dernier_a": "03/11 08:30"
@@ -493,7 +493,7 @@
    "nom": "Analyste",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
    "passages": 3321,
    "dernier_a": "01/11 18:07"
@@ -501,19 +501,19 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 3740,
-   "dernier_a": "03/11 08:26"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 3741,
+   "dernier_a": "03/11 08:37"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Écriture du script] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
    "passages": 2015,
    "dernier_a": "03/11 08:28"
@@ -521,12 +521,12 @@
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 1987,
-   "dernier_a": "03/11 07:58"
+   "passages": 1988,
+   "dernier_a": "03/11 08:37"
   },
   {
    "cle": "referenceur",
@@ -621,57 +621,27 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-03T08:33:05",
-   "type": "alerte",
-   "texte": "Échec : Accroche : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T08:33:00",
-   "type": "alerte",
-   "texte": "Échec : Tendances : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T08:32:55",
-   "type": "alerte",
-   "texte": "Échec : Analyste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T08:32:49",
+   "ts": "2026-11-03T08:39:00",
    "type": "alerte",
    "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-03T08:32:44",
+   "ts": "2026-11-03T08:38:54",
    "type": "alerte",
    "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-03T08:32:38",
+   "ts": "2026-11-03T08:38:43",
    "type": "alerte",
-   "texte": "Échec : Archiviste : passage continu",
+   "texte": "Échec : Éclaireur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-03T08:31:10",
+   "ts": "2026-11-03T08:37:14",
    "type": "alerte",
-   "texte": "Échec : Programmateur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T08:31:05",
-   "type": "alerte",
-   "texte": "Échec : Référenceur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T08:31:00",
-   "type": "alerte",
-   "texte": "Échec : Miniaturiste : passage continu",
+   "texte": "Échec : Accroche : passage continu",
    "url": null
   },
   {
@@ -769,14 +739,44 @@
    "type": "assistant",
    "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
    "url": null
+  },
+  {
+   "ts": "2026-10-18T01:24:12",
+   "type": "assistant",
+   "texte": "Référenceur : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
+   "url": null
+  },
+  {
+   "ts": "2026-10-17T18:38:45",
+   "type": "assistant",
+   "texte": "Plume : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
+   "url": null
+  },
+  {
+   "ts": "2026-10-17T18:38:45",
+   "type": "assistant",
+   "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
+   "url": null
+  },
+  {
+   "ts": "2026-10-17T18:35:09",
+   "type": "assistant",
+   "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Intelligence artificielle, Tesla (automobile)",
+   "url": null
+  },
+  {
+   "ts": "2026-10-17T18:32:14",
+   "type": "assistant",
+   "texte": "Plume : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
+   "url": null
   }
  ],
  "compteurs": {
-  "RUNNING": 0,
-  "READY": 0,
+  "RUNNING": 1,
+  "READY": 2,
   "PENDING": 12,
   "DEFERRED": 2,
-  "SUCCESS": 1005,
-  "FAILED": 64
+  "SUCCESS": 1007,
+  "FAILED": 59
  }
 }
