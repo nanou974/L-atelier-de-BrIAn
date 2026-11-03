@@ -1,10 +1,10 @@
 {
- "now": 1793731440.3180149,
- "heure": "19:44:00",
+ "now": 1793731740.6681185,
+ "heure": "19:49:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : David Gerstein + Recherche documentaire : Découpe laser",
-  "battement_s": 3
+  "activite": "Écrire le script : David Gerstein + Recherche documentaire : Découpe laser",
+  "battement_s": 2
  },
  "modele": {
   "ok": true,
@@ -58,30 +58,29 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : David Gerstein",
-    "projet": "Sujet : David Gerstein",
-    "depuis": 591
+    "titre": "Recherche documentaire : Découpe laser",
+    "projet": "Sujet : Découpe laser",
+    "depuis": 411
    },
    "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Recherche documentaire : Bambu Lab",
-    "quand": "03/11 18:48"
+    "titre": "Recherche documentaire : David Gerstein",
+    "quand": "03/11 19:45"
    },
-   "total_fait": 31,
+   "total_fait": 32,
    "taches": [
-    {
-     "titre": "Recherche documentaire : David Gerstein",
-     "projet": "Sujet : David Gerstein",
-     "etat": "en cours",
-     "depuis": 591
-    },
     {
      "titre": "Recherche documentaire : Découpe laser",
      "projet": "Sujet : Découpe laser",
      "etat": "en cours",
-     "depuis": 111
+     "depuis": 411
+    },
+    {
+     "titre": "Recherche documentaire : David Gerstein",
+     "projet": "Sujet : David Gerstein",
+     "etat": "terminée 03/11 19:45"
     },
     {
      "titre": "Recherche documentaire : Bambu Lab",
@@ -92,11 +91,6 @@
      "titre": "Recherche documentaire : Moteur de recherche",
      "projet": "Sujet : Moteur de recherche",
      "etat": "terminée 03/11 18:15"
-    },
-    {
-     "titre": "Recherche documentaire : Soudage à l'arc submergé",
-     "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "terminée 27/10 18:29"
     }
    ]
   },
@@ -105,9 +99,13 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "alerte",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Écrire le script : David Gerstein",
+    "projet": "Sujet : David Gerstein",
+    "depuis": 232
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -119,7 +117,8 @@
     {
      "titre": "Écrire le script : David Gerstein",
      "projet": "Sujet : David Gerstein",
-     "etat": "en attente"
+     "etat": "en cours",
+     "depuis": 232
     },
     {
      "titre": "Écrire le script : Découpe laser",
@@ -474,7 +473,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Archiviste] 36 titres lus, 0 idées retenues",
    "passages": 5702,
    "dernier_a": "03/11 19:40"
@@ -532,7 +531,7 @@
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "veille",
    "dernier": "[poste Écriture du script] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
@@ -795,9 +794,9 @@
  "compteurs": {
   "RUNNING": 2,
   "READY": 10,
-  "PENDING": 14,
+  "PENDING": 13,
   "DEFERRED": 0,
-  "SUCCESS": 1017,
+  "SUCCESS": 1018,
   "FAILED": 60
  }
 }
