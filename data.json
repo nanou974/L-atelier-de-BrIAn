@@ -1,15 +1,15 @@
 {
- "now": 1793747340.7433448,
- "heure": "00:09:00",
+ "now": 1793747640.7982702,
+ "heure": "00:14:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Soudage à l'arc submergé + Réunir de vraies illustrations libres : Hydrophone",
-  "battement_s": 4
+  "activite": "Écrire le script : Soudage à l'arc submergé + Générer la voix : Hydrophone",
+  "battement_s": 5
  },
  "modele": {
-  "ok": false,
+  "ok": true,
   "reprise": null,
-  "erreur": "Ollama DESKTOP-ARBTDCL: HTTPError: HTTP Error 400: Bad Request | JARVIS-PC: URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
+  "erreur": null,
   "moteur": "ollama qwen3:4b-instruct-2507-q4_K_M (DESKTOP-ARBTDCL)"
  },
  "stations": [
@@ -93,7 +93,7 @@
    "courant": {
     "titre": "Écrire le script : Soudage à l'arc submergé",
     "projet": "Sujet : Soudage à l'arc submergé",
-    "depuis": 3
+    "depuis": 304
    },
    "file": 1,
    "attend_humain": 0,
@@ -108,12 +108,12 @@
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en cours",
-     "depuis": 3
+     "depuis": 304
     },
     {
      "titre": "Écrire le script : Immotique",
      "projet": "Sujet : Immotique",
-     "etat": "programmée 04/11 00:13"
+     "etat": "en attente"
     },
     {
      "titre": "Écrire le script : Hydrophone",
@@ -137,31 +137,26 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Réunir de vraies illustrations libres : Hydrophone",
-    "projet": "Sujet : Hydrophone",
-    "depuis": 1159
-   },
+   "etat": "repos",
+   "courant": null,
    "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Réunir de vraies illustrations libres : Poste à souder",
-    "quand": "03/11 18:37"
+    "titre": "Réunir de vraies illustrations libres : Hydrophone",
+    "quand": "04/11 00:09"
    },
-   "total_fait": 40,
+   "total_fait": 41,
    "taches": [
-    {
-     "titre": "Réunir de vraies illustrations libres : Hydrophone",
-     "projet": "Sujet : Hydrophone",
-     "etat": "en cours",
-     "depuis": 1159
-    },
     {
      "titre": "Réunir de vraies illustrations libres : Immotique",
      "projet": "Sujet : Immotique",
      "etat": "en attente"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Hydrophone",
+     "projet": "Sujet : Hydrophone",
+     "etat": "terminée 04/11 00:09"
     },
     {
      "titre": "Réunir de vraies illustrations libres : Poste à souder",
@@ -172,11 +167,6 @@
      "titre": "Réunir de vraies illustrations libres : Risques pour la santé et la sécurité liés à l'impression 3D (ouverture « Aujourd'hui je vais vous parler de ») : risques-pour-la-sante-et-la-securite-lies-a-l-impr",
      "projet": "Sujet : Risques pour la santé et la sécurité liés à l'impression 3D",
      "etat": "terminée 18/10 09:49"
-    },
-    {
-     "titre": "Réunir de vraies illustrations libres : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
-     "projet": "Sujet : ESP8266",
-     "etat": "terminée 18/10 09:49"
     }
    ]
   },
@@ -185,9 +175,13 @@
    "titre": "Studio voix",
    "icone": "🎙️",
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
-   "etat": "repos",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Générer la voix : Hydrophone",
+    "projet": "Sujet : Hydrophone",
+    "depuis": 288
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -197,13 +191,14 @@
    "total_fait": 58,
    "taches": [
     {
-     "titre": "Générer la voix : Immotique",
-     "projet": "Sujet : Immotique",
-     "etat": "en attente"
-    },
-    {
      "titre": "Générer la voix : Hydrophone",
      "projet": "Sujet : Hydrophone",
+     "etat": "en cours",
+     "depuis": 288
+    },
+    {
+     "titre": "Générer la voix : Immotique",
+     "projet": "Sujet : Immotique",
      "etat": "en attente"
     },
     {
@@ -789,9 +784,9 @@
  "compteurs": {
   "RUNNING": 2,
   "READY": 11,
-  "PENDING": 11,
+  "PENDING": 10,
   "DEFERRED": 1,
-  "SUCCESS": 1026,
+  "SUCCESS": 1027,
   "FAILED": 65
  }
 }
