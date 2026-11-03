@@ -1,15 +1,15 @@
 {
- "now": 1793744940.6830661,
- "heure": "23:29:00",
+ "now": 1793745240.6925356,
+ "heure": "23:34:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Immotique + Écrire le script : Hydrophone",
-  "battement_s": 3
+  "activite": "Écrire le script : Soudage à l'arc submergé + Écrire le script : Hydrophone",
+  "battement_s": 5
  },
  "modele": {
-  "ok": true,
+  "ok": false,
   "reprise": null,
-  "erreur": null,
+  "erreur": "Ollama DESKTOP-ARBTDCL: HTTPError: HTTP Error 400: Bad Request | JARVIS-PC: URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
   "moteur": "ollama qwen3:4b-instruct-2507-q4_K_M (DESKTOP-ARBTDCL)"
  },
  "stations": [
@@ -91,9 +91,9 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "actif",
    "courant": {
-    "titre": "Écrire le script : Immotique",
-    "projet": "Sujet : Immotique",
-    "depuis": 613
+    "titre": "Écrire le script : Soudage à l'arc submergé",
+    "projet": "Sujet : Soudage à l'arc submergé",
+    "depuis": 117
    },
    "file": 1,
    "attend_humain": 0,
@@ -105,21 +105,21 @@
    "total_fait": 34,
    "taches": [
     {
-     "titre": "Écrire le script : Immotique",
-     "projet": "Sujet : Immotique",
+     "titre": "Écrire le script : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en cours",
-     "depuis": 613
+     "depuis": 117
     },
     {
      "titre": "Écrire le script : Hydrophone",
      "projet": "Sujet : Hydrophone",
      "etat": "en cours",
-     "depuis": 285
+     "depuis": 585
     },
     {
-     "titre": "Écrire le script : Soudage à l'arc submergé",
-     "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "programmée 03/11 23:29"
+     "titre": "Écrire le script : Immotique",
+     "projet": "Sujet : Immotique",
+     "etat": "programmée 03/11 23:37"
     },
     {
      "titre": "Écrire le script : Poste à souder",
