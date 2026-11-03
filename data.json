@@ -1,10 +1,10 @@
 {
- "now": 1793736540.4399254,
- "heure": "21:09:00",
+ "now": 1793736840.4461963,
+ "heure": "21:14:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Shodan (site web) + Trouver des sujets candidats",
-  "battement_s": 2
+  "activite": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires + Écrire le script : Shodan (site web)",
+  "battement_s": 5
  },
  "modele": {
   "ok": true,
@@ -18,26 +18,21 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Trouver des sujets candidats",
-    "projet": "Éditorial",
-    "depuis": 109
-   },
+   "etat": "alerte",
+   "courant": null,
    "file": 0,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
    "derniere": {
     "titre": "Trouver des sujets candidats",
-    "quand": "27/10 16:03"
+    "quand": "03/11 21:10"
    },
-   "total_fait": 16,
+   "total_fait": 17,
    "taches": [
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "en cours",
-     "depuis": 109
+     "etat": "terminée 03/11 21:10"
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -48,11 +43,6 @@
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
      "etat": "terminée 26/10 07:08"
-    },
-    {
-     "titre": "Trouver des sujets candidats",
-     "projet": "Éditorial",
-     "etat": "terminée 26/10 04:32"
     }
    ]
   },
@@ -61,26 +51,21 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Shodan (site web)",
-    "projet": "Sujet : Shodan (site web)",
-    "depuis": 1013
-   },
+   "etat": "repos",
+   "courant": null,
    "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Recherche documentaire : Agence nationale des techniques d'enquêtes numériques judiciaires",
-    "quand": "03/11 20:54"
+    "titre": "Recherche documentaire : Shodan (site web)",
+    "quand": "03/11 21:09"
    },
-   "total_fait": 34,
+   "total_fait": 35,
    "taches": [
     {
      "titre": "Recherche documentaire : Shodan (site web)",
      "projet": "Sujet : Shodan (site web)",
-     "etat": "en cours",
-     "depuis": 1013
+     "etat": "terminée 03/11 21:09"
     },
     {
      "titre": "Recherche documentaire : Agence nationale des techniques d'enquêtes numériques judiciaires",
@@ -91,11 +76,6 @@
      "titre": "Recherche documentaire : Découpe laser",
      "projet": "Sujet : Découpe laser",
      "etat": "terminée 03/11 19:51"
-    },
-    {
-     "titre": "Recherche documentaire : David Gerstein",
-     "projet": "Sujet : David Gerstein",
-     "etat": "terminée 03/11 19:45"
     }
    ]
   },
@@ -104,9 +84,13 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "alerte",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires",
+    "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
+    "depuis": 271
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -118,12 +102,14 @@
     {
      "titre": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires",
      "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 271
     },
     {
      "titre": "Écrire le script : Shodan (site web)",
      "projet": "Sujet : Shodan (site web)",
-     "etat": "en attente"
+     "etat": "en cours",
+     "depuis": 230
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -793,10 +779,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 11,
-  "PENDING": 13,
+  "READY": 10,
+  "PENDING": 12,
   "DEFERRED": 0,
-  "SUCCESS": 1019,
+  "SUCCESS": 1021,
   "FAILED": 63
  }
 }
