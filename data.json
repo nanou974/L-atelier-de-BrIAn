@@ -1,10 +1,10 @@
 {
- "now": 1793728441.3996398,
- "heure": "18:54:01",
+ "now": 1793728741.302462,
+ "heure": "18:59:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Générer la voix : Poste à souder + Éclaireur : passage continu",
-  "battement_s": 1
+  "activite": "Rendre la vidéo : Poste à souder + Éclaireur : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": true,
@@ -160,31 +160,26 @@
    "titre": "Studio voix",
    "icone": "🎙️",
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
-   "etat": "actif",
-   "courant": {
-    "titre": "Générer la voix : Poste à souder",
-    "projet": "Sujet : Poste à souder",
-    "depuis": 979
-   },
+   "etat": "repos",
+   "courant": null,
    "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Générer la voix : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
-    "quand": "18/10 12:01"
+    "titre": "Générer la voix : Poste à souder",
+    "quand": "03/11 18:54"
    },
-   "total_fait": 56,
+   "total_fait": 57,
    "taches": [
-    {
-     "titre": "Générer la voix : Poste à souder",
-     "projet": "Sujet : Poste à souder",
-     "etat": "en cours",
-     "depuis": 979
-    },
     {
      "titre": "Générer la voix : Bambu Lab",
      "projet": "Sujet : Bambu Lab",
      "etat": "en attente"
+    },
+    {
+     "titre": "Générer la voix : Poste à souder",
+     "projet": "Sujet : Poste à souder",
+     "etat": "terminée 03/11 18:54"
     },
     {
      "titre": "Générer la voix : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
@@ -195,11 +190,6 @@
      "titre": "Générer la voix : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
      "projet": "Sujet : Défauts des joints soudés",
      "etat": "terminée 18/10 11:14"
-    },
-    {
-     "titre": "Générer la voix : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
-     "projet": "Sujet : UltiMaker",
-     "etat": "terminée 18/10 11:03"
     }
    ]
   },
@@ -214,15 +204,20 @@
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Aligner la narration : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
-    "quand": "18/10 12:03"
+    "titre": "Aligner la narration : Poste à souder",
+    "quand": "03/11 18:56"
    },
-   "total_fait": 52,
+   "total_fait": 53,
    "taches": [
     {
      "titre": "Aligner la narration : Bambu Lab",
      "projet": "Sujet : Bambu Lab",
      "etat": "en attente"
+    },
+    {
+     "titre": "Aligner la narration : Poste à souder",
+     "projet": "Sujet : Poste à souder",
+     "etat": "terminée 03/11 18:56"
     },
     {
      "titre": "Aligner la narration : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
@@ -233,11 +228,6 @@
      "titre": "Aligner la narration : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
      "projet": "Sujet : Défauts des joints soudés",
      "etat": "terminée 18/10 11:15"
-    },
-    {
-     "titre": "Aligner la narration : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
-     "projet": "Sujet : UltiMaker",
-     "etat": "terminée 18/10 11:04"
     }
    ]
   },
@@ -246,8 +236,12 @@
    "titre": "Montage vidéo",
    "icone": "🎬",
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
-   "etat": "repos",
-   "courant": null,
+   "etat": "actif",
+   "courant": {
+    "titre": "Rendre la vidéo : Poste à souder",
+    "projet": "Sujet : Poste à souder",
+    "depuis": 180
+   },
    "file": 1,
    "attend_humain": 0,
    "alerte": null,
@@ -257,6 +251,12 @@
    },
    "total_fait": 74,
    "taches": [
+    {
+     "titre": "Rendre la vidéo : Poste à souder",
+     "projet": "Sujet : Poste à souder",
+     "etat": "en cours",
+     "depuis": 180
+    },
     {
      "titre": "Rendre la vidéo : Bambu Lab",
      "projet": "Sujet : Bambu Lab",
@@ -429,9 +429,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 36 titres lus, 0 idées retenues",
-   "passages": 5694,
-   "dernier_a": "03/11 18:21"
+   "dernier": "[poste Trouver une idée, avec Tendances] 36 titres lus, 0 idées retenues",
+   "passages": 5695,
+   "dernier_a": "03/11 18:54"
   },
   {
    "cle": "archiviste",
@@ -751,7 +751,7 @@
   "READY": 10,
   "PENDING": 6,
   "DEFERRED": 0,
-  "SUCCESS": 1010,
+  "SUCCESS": 1012,
   "FAILED": 57
  }
 }
