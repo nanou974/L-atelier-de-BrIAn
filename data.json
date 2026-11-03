@@ -1,10 +1,10 @@
 {
- "now": 1793746140.704902,
- "heure": "23:49:00",
+ "now": 1793746440.7162526,
+ "heure": "23:54:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Soudage à l'arc submergé + Écrire le script : Immotique",
-  "battement_s": 1
+  "activite": "Écrire le script : Soudage à l'arc submergé + Réunir de vraies illustrations libres : Hydrophone",
+  "battement_s": 3
  },
  "modele": {
   "ok": true,
@@ -93,9 +93,9 @@
    "courant": {
     "titre": "Écrire le script : Soudage à l'arc submergé",
     "projet": "Sujet : Soudage à l'arc submergé",
-    "depuis": 1017
+    "depuis": 49
    },
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Écrire le script : Moteur de recherche",
    "derniere": {
@@ -108,13 +108,12 @@
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en cours",
-     "depuis": 1017
+     "depuis": 49
     },
     {
      "titre": "Écrire le script : Immotique",
      "projet": "Sujet : Immotique",
-     "etat": "en cours",
-     "depuis": 499
+     "etat": "programmée 03/11 23:58"
     },
     {
      "titre": "Écrire le script : Hydrophone",
@@ -138,9 +137,13 @@
    "titre": "Images",
    "icone": "🖼️",
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
-   "etat": "attente",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Réunir de vraies illustrations libres : Hydrophone",
+    "projet": "Sujet : Hydrophone",
+    "depuis": 259
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -152,7 +155,8 @@
     {
      "titre": "Réunir de vraies illustrations libres : Hydrophone",
      "projet": "Sujet : Hydrophone",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 259
     },
     {
      "titre": "Réunir de vraies illustrations libres : Immotique",
@@ -784,9 +788,9 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 12,
+  "READY": 11,
   "PENDING": 11,
-  "DEFERRED": 0,
+  "DEFERRED": 1,
   "SUCCESS": 1026,
   "FAILED": 65
  }
