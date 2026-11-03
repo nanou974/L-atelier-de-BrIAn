@@ -1,13 +1,13 @@
 {
- "now": 1793725441.1948607,
- "heure": "18:04:01",
+ "now": 1793725741.1564345,
+ "heure": "18:09:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Poste à souder + Archiviste : passage continu",
+  "activite": "Recherche documentaire : Moteur de recherche + Éclaireur : passage continu",
   "battement_s": 1
  },
  "modele": {
-  "ok": false,
+  "ok": true,
   "reprise": null,
   "erreur": null,
   "moteur": "opencode openai/gpt-5.6-terra"
@@ -51,8 +51,12 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
-   "courant": null,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : Moteur de recherche",
+    "projet": "Sujet : Moteur de recherche",
+    "depuis": 57
+   },
    "file": 0,
    "attend_humain": 0,
    "alerte": null,
@@ -62,6 +66,12 @@
    },
    "total_fait": 29,
    "taches": [
+    {
+     "titre": "Recherche documentaire : Moteur de recherche",
+     "projet": "Sujet : Moteur de recherche",
+     "etat": "en cours",
+     "depuis": 57
+    },
     {
      "titre": "Recherche documentaire : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
@@ -84,15 +94,11 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Écrire le script : Poste à souder",
-    "projet": "Sujet : Poste à souder",
-    "depuis": 52
-   },
-   "file": 1,
+   "etat": "alerte",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
-   "alerte": null,
+   "alerte": "Écrire le script : Poste à souder",
    "derniere": {
     "titre": "Écrire le script : Impression 3D dans la construction",
     "quand": "22/10 12:11"
@@ -100,15 +106,14 @@
    "total_fait": 33,
    "taches": [
     {
-     "titre": "Écrire le script : Poste à souder",
-     "projet": "Sujet : Poste à souder",
-     "etat": "en cours",
-     "depuis": 52
-    },
-    {
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "programmée 03/11 18:22"
+    },
+    {
+     "titre": "Écrire le script : Moteur de recherche",
+     "projet": "Sujet : Moteur de recherche",
+     "etat": "en attente"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -144,13 +149,13 @@
    "total_fait": 39,
    "taches": [
     {
-     "titre": "Réunir de vraies illustrations libres : Poste à souder",
-     "projet": "Sujet : Poste à souder",
+     "titre": "Réunir de vraies illustrations libres : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en attente"
     },
     {
-     "titre": "Réunir de vraies illustrations libres : Soudage à l'arc submergé",
-     "projet": "Sujet : Soudage à l'arc submergé",
+     "titre": "Réunir de vraies illustrations libres : Moteur de recherche",
+     "projet": "Sujet : Moteur de recherche",
      "etat": "en attente"
     },
     {
@@ -187,13 +192,13 @@
    "total_fait": 56,
    "taches": [
     {
-     "titre": "Générer la voix : Poste à souder",
-     "projet": "Sujet : Poste à souder",
+     "titre": "Générer la voix : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en attente"
     },
     {
-     "titre": "Générer la voix : Soudage à l'arc submergé",
-     "projet": "Sujet : Soudage à l'arc submergé",
+     "titre": "Générer la voix : Moteur de recherche",
+     "projet": "Sujet : Moteur de recherche",
      "etat": "en attente"
     },
     {
@@ -230,13 +235,13 @@
    "total_fait": 52,
    "taches": [
     {
-     "titre": "Aligner la narration : Poste à souder",
-     "projet": "Sujet : Poste à souder",
+     "titre": "Aligner la narration : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en attente"
     },
     {
-     "titre": "Aligner la narration : Soudage à l'arc submergé",
-     "projet": "Sujet : Soudage à l'arc submergé",
+     "titre": "Aligner la narration : Moteur de recherche",
+     "projet": "Sujet : Moteur de recherche",
      "etat": "en attente"
     },
     {
@@ -273,13 +278,13 @@
    "total_fait": 74,
    "taches": [
     {
-     "titre": "Rendre la vidéo : Poste à souder",
-     "projet": "Sujet : Poste à souder",
+     "titre": "Rendre la vidéo : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en attente"
     },
     {
-     "titre": "Rendre la vidéo : Soudage à l'arc submergé",
-     "projet": "Sujet : Soudage à l'arc submergé",
+     "titre": "Rendre la vidéo : Moteur de recherche",
+     "projet": "Sujet : Moteur de recherche",
      "etat": "en attente"
     },
     {
@@ -316,13 +321,13 @@
    "total_fait": 59,
    "taches": [
     {
-     "titre": "QA automatique : Poste à souder",
-     "projet": "Sujet : Poste à souder",
+     "titre": "QA automatique : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en attente"
     },
     {
-     "titre": "QA automatique : Soudage à l'arc submergé",
-     "projet": "Sujet : Soudage à l'arc submergé",
+     "titre": "QA automatique : Moteur de recherche",
+     "projet": "Sujet : Moteur de recherche",
      "etat": "en attente"
     },
     {
@@ -359,13 +364,13 @@
    "total_fait": 45,
    "taches": [
     {
-     "titre": "Revue finale (dossier, script, vidéo) : Poste à souder",
-     "projet": "Sujet : Poste à souder",
+     "titre": "Revue finale (dossier, script, vidéo) : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en attente"
     },
     {
-     "titre": "Revue finale (dossier, script, vidéo) : Soudage à l'arc submergé",
-     "projet": "Sujet : Soudage à l'arc submergé",
+     "titre": "Revue finale (dossier, script, vidéo) : Moteur de recherche",
+     "projet": "Sujet : Moteur de recherche",
      "etat": "en attente"
     },
     {
@@ -456,7 +461,7 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
@@ -466,12 +471,12 @@
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 5224,
-   "dernier_a": "03/11 18:04"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 5225,
+   "dernier_a": "03/11 18:06"
   },
   {
    "cle": "plume",
@@ -479,19 +484,19 @@
    "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, avec Archiviste] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 4546,
-   "dernier_a": "03/11 18:02"
+   "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 4547,
+   "dernier_a": "03/11 18:06"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 4117,
-   "dernier_a": "03/11 18:02"
+   "passages": 4118,
+   "dernier_a": "03/11 18:04"
   },
   {
    "cle": "analyste",
@@ -506,12 +511,12 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 3856,
-   "dernier_a": "03/11 17:41"
+   "etat": "actif",
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 3858,
+   "dernier_a": "03/11 18:06"
   },
   {
    "cle": "accroche",
@@ -626,9 +631,9 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-03T18:04:00",
+   "ts": "2026-11-03T18:06:45",
    "type": "alerte",
-   "texte": "Échec : Éclaireur : passage continu",
+   "texte": "Échec : Écrire le script : Poste à souder",
    "url": null
   },
   {
@@ -778,8 +783,8 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 8,
-  "PENDING": 12,
+  "READY": 9,
+  "PENDING": 13,
   "DEFERRED": 1,
   "SUCCESS": 1006,
   "FAILED": 56
