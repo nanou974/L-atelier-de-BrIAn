@@ -1,10 +1,10 @@
 {
- "now": 1793735640.4195714,
- "heure": "20:54:00",
+ "now": 1793735940.4347904,
+ "heure": "20:59:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Agence nationale des techniques d'enquêtes numériques judiciaires + Recherche documentaire : Shodan (site web)",
-  "battement_s": 1
+  "activite": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires + Recherche documentaire : Shodan (site web)",
+  "battement_s": 2
  },
  "modele": {
   "ok": true,
@@ -58,30 +58,29 @@
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
    "etat": "actif",
    "courant": {
-    "titre": "Recherche documentaire : Agence nationale des techniques d'enquêtes numériques judiciaires",
-    "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
-    "depuis": 288
+    "titre": "Recherche documentaire : Shodan (site web)",
+    "projet": "Sujet : Shodan (site web)",
+    "depuis": 413
    },
    "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Recherche documentaire : Découpe laser",
-    "quand": "03/11 19:51"
+    "titre": "Recherche documentaire : Agence nationale des techniques d'enquêtes numériques judiciaires",
+    "quand": "03/11 20:54"
    },
-   "total_fait": 33,
+   "total_fait": 34,
    "taches": [
-    {
-     "titre": "Recherche documentaire : Agence nationale des techniques d'enquêtes numériques judiciaires",
-     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
-     "etat": "en cours",
-     "depuis": 288
-    },
     {
      "titre": "Recherche documentaire : Shodan (site web)",
      "projet": "Sujet : Shodan (site web)",
      "etat": "en cours",
-     "depuis": 113
+     "depuis": 413
+    },
+    {
+     "titre": "Recherche documentaire : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "etat": "terminée 03/11 20:54"
     },
     {
      "titre": "Recherche documentaire : Découpe laser",
@@ -92,11 +91,6 @@
      "titre": "Recherche documentaire : David Gerstein",
      "projet": "Sujet : David Gerstein",
      "etat": "terminée 03/11 19:45"
-    },
-    {
-     "titre": "Recherche documentaire : Bambu Lab",
-     "projet": "Sujet : Bambu Lab",
-     "etat": "terminée 03/11 18:48"
     }
    ]
   },
@@ -105,9 +99,13 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "alerte",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires",
+    "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
+    "depuis": 259
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -119,7 +117,8 @@
     {
      "titre": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires",
      "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
-     "etat": "en attente"
+     "etat": "en cours",
+     "depuis": 259
     },
     {
      "titre": "Écrire le script : Shodan (site web)",
@@ -795,9 +794,9 @@
  "compteurs": {
   "RUNNING": 2,
   "READY": 10,
-  "PENDING": 14,
+  "PENDING": 13,
   "DEFERRED": 0,
-  "SUCCESS": 1019,
+  "SUCCESS": 1020,
   "FAILED": 63
  }
 }
