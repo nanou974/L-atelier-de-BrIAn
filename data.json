@@ -1,10 +1,10 @@
 {
- "now": 1793730540.3039594,
- "heure": "19:29:00",
+ "now": 1793730840.3137321,
+ "heure": "19:34:00",
  "moteur": {
   "etat": "actif",
   "activite": "Écrire le script : Soudage à l'arc submergé + Éclaireur : passage continu",
-  "battement_s": 1
+  "battement_s": 2
  },
  "modele": {
   "ok": true,
@@ -88,7 +88,7 @@
    "courant": {
     "titre": "Écrire le script : Soudage à l'arc submergé",
     "projet": "Sujet : Soudage à l'arc submergé",
-    "depuis": 1
+    "depuis": 301
    },
    "file": 0,
    "attend_humain": 0,
@@ -103,7 +103,7 @@
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en cours",
-     "depuis": 1
+     "depuis": 301
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -261,20 +261,15 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "alerte",
    "courant": null,
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
-   "alerte": "QA automatique : Poste à souder",
+   "alerte": "QA automatique de la vidéo corrigée : Poste à souder",
    "derniere": {
     "titre": "QA automatique : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
     "quand": "18/10 12:25"
    },
    "total_fait": 59,
    "taches": [
-    {
-     "titre": "QA automatique de la vidéo corrigée : Poste à souder",
-     "projet": "Sujet : Poste à souder",
-     "etat": "programmée 03/11 19:29"
-    },
     {
      "titre": "QA automatique : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
      "projet": "Sujet : ESP8266",
@@ -299,7 +294,7 @@
    "desc": "Décide si la vidéo mérite d'être publiée.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -308,11 +303,6 @@
    },
    "total_fait": 45,
    "taches": [
-    {
-     "titre": "Revue finale de la vidéo corrigée : Poste à souder",
-     "projet": "Sujet : Poste à souder",
-     "etat": "en attente"
-    },
     {
      "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
      "projet": "Sujet : ESP8266",
@@ -405,18 +395,18 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
-   "passages": 5699,
-   "dernier_a": "03/11 19:15"
+   "passages": 5700,
+   "dernier_a": "03/11 19:29"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "recherche",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 5225,
-   "dernier_a": "03/11 18:06"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
+   "passages": 5226,
+   "dernier_a": "03/11 19:31"
   },
   {
    "cle": "plume",
@@ -571,6 +561,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-11-03T19:32:10",
+   "type": "alerte",
+   "texte": "Échec : QA automatique de la vidéo corrigée : Poste à souder",
+   "url": null
+  },
+  {
    "ts": "2026-11-03T19:13:03",
    "type": "alerte",
    "texte": "Échec : QA automatique : Poste à souder",
@@ -713,20 +709,14 @@
    "type": "assistant",
    "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Intelligence artificielle, Tesla (automobile)",
    "url": null
-  },
-  {
-   "ts": "2026-10-17T18:32:14",
-   "type": "assistant",
-   "texte": "Plume : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
-   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 9,
-  "PENDING": 1,
-  "DEFERRED": 1,
-  "SUCCESS": 1016,
-  "FAILED": 58
+  "READY": 8,
+  "PENDING": 0,
+  "DEFERRED": 0,
+  "SUCCESS": 1017,
+  "FAILED": 59
  }
 }
