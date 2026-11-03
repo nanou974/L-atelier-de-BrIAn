@@ -1,15 +1,15 @@
 {
- "now": 1793743440.6804252,
- "heure": "23:04:00",
+ "now": 1793743740.746667,
+ "heure": "23:09:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Immotique + Éclaireur : passage continu",
-  "battement_s": 0
+  "activite": "Recherche documentaire : Hydrophone + Trouver des sujets candidats",
+  "battement_s": 1
  },
  "modele": {
-  "ok": true,
+  "ok": false,
   "reprise": null,
-  "erreur": null,
+  "erreur": "Ollama DESKTOP-ARBTDCL: HTTPError: HTTP Error 400: Bad Request | JARVIS-PC: URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
   "moteur": "ollama qwen3:4b-instruct-2507-q4_K_M (DESKTOP-ARBTDCL)"
  },
  "stations": [
@@ -18,8 +18,12 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "alerte",
-   "courant": null,
+   "etat": "actif",
+   "courant": {
+    "titre": "Trouver des sujets candidats",
+    "projet": "Éditorial",
+    "depuis": 16
+   },
    "file": 0,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
@@ -29,6 +33,12 @@
    },
    "total_fait": 18,
    "taches": [
+    {
+     "titre": "Trouver des sujets candidats",
+     "projet": "Éditorial",
+     "etat": "en cours",
+     "depuis": 16
+    },
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
@@ -51,8 +61,12 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "repos",
-   "courant": null,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : Hydrophone",
+    "projet": "Sujet : Hydrophone",
+    "depuis": 166
+   },
    "file": 0,
    "attend_humain": 0,
    "alerte": null,
@@ -62,6 +76,12 @@
    },
    "total_fait": 37,
    "taches": [
+    {
+     "titre": "Recherche documentaire : Hydrophone",
+     "projet": "Sujet : Hydrophone",
+     "etat": "en cours",
+     "depuis": 166
+    },
     {
      "titre": "Recherche documentaire : Circuit logique programmable",
      "projet": "Sujet : Circuit logique programmable",
@@ -84,13 +104,9 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Écrire le script : Immotique",
-    "projet": "Sujet : Immotique",
-    "depuis": 169
-   },
-   "file": 0,
+   "etat": "alerte",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -102,8 +118,12 @@
     {
      "titre": "Écrire le script : Immotique",
      "projet": "Sujet : Immotique",
-     "etat": "en cours",
-     "depuis": 169
+     "etat": "programmée 03/11 23:13"
+    },
+    {
+     "titre": "Écrire le script : Hydrophone",
+     "projet": "Sujet : Hydrophone",
+     "etat": "en attente"
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -129,7 +149,7 @@
    "desc": "Cherche des images libres, les filtre (qualité, licence, pertinence).",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -141,6 +161,11 @@
     {
      "titre": "Réunir de vraies illustrations libres : Immotique",
      "projet": "Sujet : Immotique",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Réunir de vraies illustrations libres : Hydrophone",
+     "projet": "Sujet : Hydrophone",
      "etat": "en attente"
     },
     {
@@ -167,7 +192,7 @@
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -179,6 +204,11 @@
     {
      "titre": "Générer la voix : Immotique",
      "projet": "Sujet : Immotique",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Générer la voix : Hydrophone",
+     "projet": "Sujet : Hydrophone",
      "etat": "en attente"
     },
     {
@@ -205,7 +235,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -217,6 +247,11 @@
     {
      "titre": "Aligner la narration : Immotique",
      "projet": "Sujet : Immotique",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Aligner la narration : Hydrophone",
+     "projet": "Sujet : Hydrophone",
      "etat": "en attente"
     },
     {
@@ -243,7 +278,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -255,6 +290,11 @@
     {
      "titre": "Rendre la vidéo : Immotique",
      "projet": "Sujet : Immotique",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Rendre la vidéo : Hydrophone",
+     "projet": "Sujet : Hydrophone",
      "etat": "en attente"
     },
     {
@@ -281,7 +321,7 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "alerte",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": "QA automatique de la vidéo corrigée : Poste à souder",
    "derniere": {
@@ -293,6 +333,11 @@
     {
      "titre": "QA automatique : Immotique",
      "projet": "Sujet : Immotique",
+     "etat": "en attente"
+    },
+    {
+     "titre": "QA automatique : Hydrophone",
+     "projet": "Sujet : Hydrophone",
      "etat": "en attente"
     },
     {
@@ -319,7 +364,7 @@
    "desc": "Décide si la vidéo mérite d'être publiée.",
    "etat": "repos",
    "courant": null,
-   "file": 1,
+   "file": 2,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -331,6 +376,11 @@
     {
      "titre": "Revue finale (dossier, script, vidéo) : Immotique",
      "projet": "Sujet : Immotique",
+     "etat": "en attente"
+    },
+    {
+     "titre": "Revue finale (dossier, script, vidéo) : Hydrophone",
+     "projet": "Sujet : Hydrophone",
      "etat": "en attente"
     },
     {
@@ -425,8 +475,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Archiviste, Plume] 27 titres lus, 0 idées retenues",
-   "passages": 5715,
-   "dernier_a": "03/11 22:58"
+   "passages": 5716,
+   "dernier_a": "03/11 23:04"
   },
   {
    "cle": "archiviste",
@@ -434,9 +484,9 @@
    "poste": "idee",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Plume] 27 titres lus, 0 idées retenues",
-   "passages": 5230,
-   "dernier_a": "03/11 22:56"
+   "dernier": "[poste Trouver une idée, avec Plume] 36 titres lus, 0 idées retenues",
+   "passages": 5231,
+   "dernier_a": "03/11 23:06"
   },
   {
    "cle": "plume",
@@ -743,10 +793,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 8,
-  "PENDING": 6,
-  "DEFERRED": 0,
-  "SUCCESS": 1025,
+  "READY": 10,
+  "PENDING": 13,
+  "DEFERRED": 1,
+  "SUCCESS": 1024,
   "FAILED": 66
  }
 }
