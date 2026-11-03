@@ -1,10 +1,10 @@
 {
- "now": 1793744640.6887379,
- "heure": "23:24:00",
+ "now": 1793744940.6830661,
+ "heure": "23:29:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Soudage à l'arc submergé + Écrire le script : Immotique",
-  "battement_s": 1
+  "activite": "Écrire le script : Immotique + Écrire le script : Hydrophone",
+  "battement_s": 3
  },
  "modele": {
   "ok": true,
@@ -91,9 +91,9 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "actif",
    "courant": {
-    "titre": "Écrire le script : Soudage à l'arc submergé",
-    "projet": "Sujet : Soudage à l'arc submergé",
-    "depuis": 462
+    "titre": "Écrire le script : Immotique",
+    "projet": "Sujet : Immotique",
+    "depuis": 613
    },
    "file": 1,
    "attend_humain": 0,
@@ -105,21 +105,21 @@
    "total_fait": 34,
    "taches": [
     {
-     "titre": "Écrire le script : Soudage à l'arc submergé",
-     "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "en cours",
-     "depuis": 462
-    },
-    {
      "titre": "Écrire le script : Immotique",
      "projet": "Sujet : Immotique",
      "etat": "en cours",
-     "depuis": 313
+     "depuis": 613
     },
     {
      "titre": "Écrire le script : Hydrophone",
      "projet": "Sujet : Hydrophone",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 285
+    },
+    {
+     "titre": "Écrire le script : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
+     "etat": "programmée 03/11 23:29"
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -789,9 +789,9 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 12,
+  "READY": 11,
   "PENDING": 12,
-  "DEFERRED": 0,
+  "DEFERRED": 1,
   "SUCCESS": 1025,
   "FAILED": 65
  }
