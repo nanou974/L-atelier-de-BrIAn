@@ -1,10 +1,10 @@
 {
- "now": 1793686741.0259,
- "heure": "07:19:01",
+ "now": 1793687041.0352106,
+ "heure": "07:24:01",
  "moteur": {
   "etat": "actif",
   "activite": "en attente de travail exécutable",
-  "battement_s": 1
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
@@ -98,12 +98,12 @@
     {
      "titre": "Écrire le script : Poste à souder",
      "projet": "Sujet : Poste à souder",
-     "etat": "programmée 03/11 07:20"
+     "etat": "programmée 03/11 07:45"
     },
     {
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "programmée 03/11 07:20"
+     "etat": "programmée 03/11 07:45"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -451,19 +451,19 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 5532,
-   "dernier_a": "03/11 07:14"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 5533,
+   "dernier_a": "03/11 07:22"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
    "poste": "publication",
    "poste_prefere": "recherche",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
    "passages": 5079,
    "dernier_a": "03/11 07:14"
@@ -471,12 +471,12 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 4469,
-   "dernier_a": "03/11 07:18"
+   "passages": 4470,
+   "dernier_a": "03/11 07:20"
   },
   {
    "cle": "iconographe",
@@ -505,15 +505,15 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 3729,
-   "dernier_a": "03/11 07:18"
+   "passages": 3731,
+   "dernier_a": "03/11 07:22"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Écriture du script] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
    "passages": 2009,
    "dernier_a": "03/11 07:12"
@@ -621,49 +621,49 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-03T07:18:39",
+   "ts": "2026-11-03T07:22:46",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-03T07:18:33",
+   "ts": "2026-11-03T07:22:41",
    "type": "alerte",
    "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-03T07:18:23",
+   "ts": "2026-11-03T07:22:36",
+   "type": "alerte",
+   "texte": "Échec : Plume : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-03T07:22:31",
    "type": "alerte",
    "texte": "Échec : Archiviste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-03T07:18:17",
-   "type": "alerte",
-   "texte": "Échec : Éclaireur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T07:17:00",
+   "ts": "2026-11-03T07:21:08",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-03T07:16:55",
+   "ts": "2026-11-03T07:21:03",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-03T07:16:50",
+   "ts": "2026-11-03T07:20:58",
    "type": "alerte",
    "texte": "Échec : Miniaturiste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-03T07:16:45",
+   "ts": "2026-11-03T07:20:53",
    "type": "alerte",
    "texte": "Échec : Accroche : passage continu",
    "url": null
