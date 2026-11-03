@@ -1,10 +1,10 @@
 {
- "now": 1793730242.7382517,
- "heure": "19:24:04",
+ "now": 1793730540.3039594,
+ "heure": "19:29:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Rendre la vidéo corrigée : Poste à souder + Écrire le script : Soudage à l'arc submergé",
-  "battement_s": 2
+  "activite": "Écrire le script : Soudage à l'arc submergé + Éclaireur : passage continu",
+  "battement_s": 1
  },
  "modele": {
   "ok": true,
@@ -88,7 +88,7 @@
    "courant": {
     "titre": "Écrire le script : Soudage à l'arc submergé",
     "projet": "Sujet : Soudage à l'arc submergé",
-    "depuis": 409
+    "depuis": 1
    },
    "file": 0,
    "attend_humain": 0,
@@ -103,7 +103,7 @@
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en cours",
-     "depuis": 409
+     "depuis": 1
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -226,26 +226,21 @@
    "titre": "Montage vidéo",
    "icone": "🎬",
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Rendre la vidéo corrigée : Poste à souder",
-    "projet": "Sujet : Poste à souder",
-    "depuis": 471
-   },
+   "etat": "repos",
+   "courant": null,
    "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Rendre la vidéo : Poste à souder",
-    "quand": "03/11 19:06"
+    "titre": "Rendre la vidéo corrigée : Poste à souder",
+    "quand": "03/11 19:26"
    },
-   "total_fait": 75,
+   "total_fait": 76,
    "taches": [
     {
      "titre": "Rendre la vidéo corrigée : Poste à souder",
      "projet": "Sujet : Poste à souder",
-     "etat": "en cours",
-     "depuis": 471
+     "etat": "terminée 03/11 19:26"
     },
     {
      "titre": "Rendre la vidéo : Poste à souder",
@@ -256,11 +251,6 @@
      "titre": "Rendre la vidéo : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
      "projet": "Sujet : ESP8266",
      "etat": "terminée 18/10 12:24"
-    },
-    {
-     "titre": "Rendre la vidéo : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
-     "projet": "Sujet : Défauts des joints soudés",
-     "etat": "terminée 18/10 11:49"
     }
    ]
   },
@@ -283,7 +273,7 @@
     {
      "titre": "QA automatique de la vidéo corrigée : Poste à souder",
      "projet": "Sujet : Poste à souder",
-     "etat": "en attente"
+     "etat": "programmée 03/11 19:29"
     },
     {
      "titre": "QA automatique : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
@@ -413,7 +403,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
    "passages": 5699,
    "dernier_a": "03/11 19:15"
@@ -463,7 +453,7 @@
    "nom": "Tendances",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Éclaireur] 36 titres lus, 0 idées retenues",
    "passages": 3861,
    "dernier_a": "03/11 19:17"
@@ -733,10 +723,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
-  "PENDING": 2,
-  "DEFERRED": 0,
-  "SUCCESS": 1015,
+  "READY": 9,
+  "PENDING": 1,
+  "DEFERRED": 1,
+  "SUCCESS": 1016,
   "FAILED": 58
  }
 }
