@@ -1,15 +1,15 @@
 {
- "now": 1793745240.6925356,
- "heure": "23:34:00",
+ "now": 1793745540.7030613,
+ "heure": "23:39:00",
  "moteur": {
   "etat": "actif",
   "activite": "Écrire le script : Soudage à l'arc submergé + Écrire le script : Hydrophone",
-  "battement_s": 5
+  "battement_s": 2
  },
  "modele": {
-  "ok": false,
+  "ok": true,
   "reprise": null,
-  "erreur": "Ollama DESKTOP-ARBTDCL: HTTPError: HTTP Error 400: Bad Request | JARVIS-PC: URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
+  "erreur": null,
   "moteur": "ollama qwen3:4b-instruct-2507-q4_K_M (DESKTOP-ARBTDCL)"
  },
  "stations": [
@@ -93,7 +93,7 @@
    "courant": {
     "titre": "Écrire le script : Soudage à l'arc submergé",
     "projet": "Sujet : Soudage à l'arc submergé",
-    "depuis": 117
+    "depuis": 417
    },
    "file": 1,
    "attend_humain": 0,
@@ -108,18 +108,18 @@
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en cours",
-     "depuis": 117
+     "depuis": 417
     },
     {
      "titre": "Écrire le script : Hydrophone",
      "projet": "Sujet : Hydrophone",
      "etat": "en cours",
-     "depuis": 585
+     "depuis": 885
     },
     {
      "titre": "Écrire le script : Immotique",
      "projet": "Sujet : Immotique",
-     "etat": "programmée 03/11 23:37"
+     "etat": "prête"
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -789,9 +789,9 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 11,
+  "READY": 12,
   "PENDING": 12,
-  "DEFERRED": 1,
+  "DEFERRED": 0,
   "SUCCESS": 1025,
   "FAILED": 65
  }
