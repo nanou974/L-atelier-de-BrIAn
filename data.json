@@ -1,10 +1,10 @@
 {
- "now": 1793736840.4461963,
- "heure": "21:14:00",
+ "now": 1793737140.5101354,
+ "heure": "21:19:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires + Écrire le script : Shodan (site web)",
-  "battement_s": 5
+  "activite": "Écrire le script : Shodan (site web) + Analyste : passage continu",
+  "battement_s": 2
  },
  "modele": {
   "ok": true,
@@ -86,11 +86,11 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "actif",
    "courant": {
-    "titre": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires",
-    "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
-    "depuis": 271
+    "titre": "Écrire le script : Shodan (site web)",
+    "projet": "Sujet : Shodan (site web)",
+    "depuis": 530
    },
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -100,16 +100,15 @@
    "total_fait": 34,
    "taches": [
     {
-     "titre": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires",
-     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
-     "etat": "en cours",
-     "depuis": 271
-    },
-    {
      "titre": "Écrire le script : Shodan (site web)",
      "projet": "Sujet : Shodan (site web)",
      "etat": "en cours",
-     "depuis": 230
+     "depuis": 530
+    },
+    {
+     "titre": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
+     "etat": "programmée 03/11 21:19"
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -457,27 +456,27 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "recherche",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
-   "passages": 5704,
-   "dernier_a": "03/11 20:52"
+   "etat": "actif",
+   "dernier": "[poste Recherche] Immotique : OK (13 phrases) ; Circuit logique programmable : OK (30 phrases) ; Microblaze : OK (29 phrases)",
+   "passages": 5705,
+   "dernier_a": "03/11 21:18"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "recherche",
    "poste_prefere": "recherche",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
-   "passages": 5227,
-   "dernier_a": "03/11 19:42"
+   "etat": "actif",
+   "dernier": "[poste Recherche, avec Éclaireur] Xilinx : OK (15 phrases) ; Altera : écarté (5 phrases, EN 6214)",
+   "passages": 5228,
+   "dernier_a": "03/11 21:18"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "veille",
    "dernier": "[poste Écriture du script] 1 script(s) relu(s), 1 avec défauts : poste-a-souder : 62 mots : trop court (70 minimum)",
@@ -499,7 +498,7 @@
    "nom": "Analyste",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
    "passages": 3321,
    "dernier_a": "01/11 18:07"
@@ -626,6 +625,18 @@
  ],
  "nb_publiees": 18,
  "notifications": [
+  {
+   "ts": "2026-11-03T21:18:58",
+   "type": "alerte",
+   "texte": "Échec : Iconographe : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-03T21:18:53",
+   "type": "alerte",
+   "texte": "Échec : Plume : passage continu",
+   "url": null
+  },
   {
    "ts": "2026-11-03T20:49:32",
    "type": "alerte",
@@ -763,26 +774,14 @@
    "type": "assistant",
    "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
    "url": null
-  },
-  {
-   "ts": "2026-10-18T08:43:06",
-   "type": "assistant",
-   "texte": "Éclaireur : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
-   "url": null
-  },
-  {
-   "ts": "2026-10-18T08:42:01",
-   "type": "assistant",
-   "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
-   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 5,
   "PENDING": 12,
-  "DEFERRED": 0,
-  "SUCCESS": 1021,
-  "FAILED": 63
+  "DEFERRED": 1,
+  "SUCCESS": 1023,
+  "FAILED": 65
  }
 }
