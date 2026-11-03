@@ -1,10 +1,10 @@
 {
- "now": 1793740140.5316508,
- "heure": "22:09:00",
+ "now": 1793740440.5357878,
+ "heure": "22:14:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Immotique + Recherche documentaire : Circuit logique programmable",
-  "battement_s": 1
+  "activite": "Recherche documentaire : Circuit logique programmable + Trouver des sujets candidats",
+  "battement_s": 3
  },
  "modele": {
   "ok": true,
@@ -18,9 +18,13 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "alerte",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Trouver des sujets candidats",
+    "projet": "Éditorial",
+    "depuis": 197
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
    "derniere": {
@@ -32,7 +36,8 @@
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 197
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -60,7 +65,7 @@
    "courant": {
     "titre": "Recherche documentaire : Circuit logique programmable",
     "projet": "Sujet : Circuit logique programmable",
-    "depuis": 231
+    "depuis": 531
    },
    "file": 0,
    "attend_humain": 0,
@@ -75,7 +80,7 @@
      "titre": "Recherche documentaire : Circuit logique programmable",
      "projet": "Sujet : Circuit logique programmable",
      "etat": "en cours",
-     "depuis": 231
+     "depuis": 531
     },
     {
      "titre": "Recherche documentaire : Immotique",
@@ -99,13 +104,9 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Écrire le script : Immotique",
-    "projet": "Sujet : Immotique",
-    "depuis": 904
-   },
-   "file": 1,
+   "etat": "alerte",
+   "courant": null,
+   "file": 2,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -117,8 +118,7 @@
     {
      "titre": "Écrire le script : Immotique",
      "projet": "Sujet : Immotique",
-     "etat": "en cours",
-     "depuis": 904
+     "etat": "prête"
     },
     {
      "titre": "Écrire le script : Circuit logique programmable",
@@ -473,7 +473,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
    "passages": 5709,
    "dernier_a": "03/11 22:05"
@@ -793,10 +793,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 11,
   "PENDING": 13,
   "DEFERRED": 0,
-  "SUCCESS": 1023,
+  "SUCCESS": 1022,
   "FAILED": 65
  }
 }
