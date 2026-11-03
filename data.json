@@ -1,10 +1,10 @@
 {
- "now": 1793740440.5357878,
- "heure": "22:14:00",
+ "now": 1793740740.5831535,
+ "heure": "22:19:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Circuit logique programmable + Trouver des sujets candidats",
-  "battement_s": 3
+  "activite": "Écrire le script : Immotique + Écrire le script : Circuit logique programmable",
+  "battement_s": 0
  },
  "modele": {
   "ok": true,
@@ -18,26 +18,21 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Trouver des sujets candidats",
-    "projet": "Éditorial",
-    "depuis": 197
-   },
+   "etat": "alerte",
+   "courant": null,
    "file": 0,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
    "derniere": {
     "titre": "Trouver des sujets candidats",
-    "quand": "03/11 21:10"
+    "quand": "03/11 22:17"
    },
-   "total_fait": 17,
+   "total_fait": 18,
    "taches": [
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "en cours",
-     "depuis": 197
+     "etat": "terminée 03/11 22:17"
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -48,11 +43,6 @@
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
      "etat": "terminée 27/10 16:03"
-    },
-    {
-     "titre": "Trouver des sujets candidats",
-     "projet": "Éditorial",
-     "etat": "terminée 26/10 07:08"
     }
    ]
   },
@@ -61,26 +51,21 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Circuit logique programmable",
-    "projet": "Sujet : Circuit logique programmable",
-    "depuis": 531
-   },
+   "etat": "repos",
+   "courant": null,
    "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Recherche documentaire : Immotique",
-    "quand": "03/11 21:53"
+    "titre": "Recherche documentaire : Circuit logique programmable",
+    "quand": "03/11 22:16"
    },
-   "total_fait": 36,
+   "total_fait": 37,
    "taches": [
     {
      "titre": "Recherche documentaire : Circuit logique programmable",
      "projet": "Sujet : Circuit logique programmable",
-     "etat": "en cours",
-     "depuis": 531
+     "etat": "terminée 03/11 22:16"
     },
     {
      "titre": "Recherche documentaire : Immotique",
@@ -91,11 +76,6 @@
      "titre": "Recherche documentaire : Shodan (site web)",
      "projet": "Sujet : Shodan (site web)",
      "etat": "terminée 03/11 21:09"
-    },
-    {
-     "titre": "Recherche documentaire : Agence nationale des techniques d'enquêtes numériques judiciaires",
-     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
-     "etat": "terminée 03/11 20:54"
     }
    ]
   },
@@ -104,9 +84,13 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "alerte",
-   "courant": null,
-   "file": 2,
+   "etat": "actif",
+   "courant": {
+    "titre": "Écrire le script : Immotique",
+    "projet": "Sujet : Immotique",
+    "depuis": 133
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -118,12 +102,14 @@
     {
      "titre": "Écrire le script : Immotique",
      "projet": "Sujet : Immotique",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 133
     },
     {
      "titre": "Écrire le script : Circuit logique programmable",
      "projet": "Sujet : Circuit logique programmable",
-     "etat": "en attente"
+     "etat": "en cours",
+     "depuis": 107
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -793,10 +779,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 11,
-  "PENDING": 13,
+  "READY": 10,
+  "PENDING": 12,
   "DEFERRED": 0,
-  "SUCCESS": 1022,
+  "SUCCESS": 1024,
   "FAILED": 65
  }
 }
