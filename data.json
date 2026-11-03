@@ -1,10 +1,10 @@
 {
- "now": 1793747640.7982702,
- "heure": "00:14:01",
+ "now": 1793747940.7490256,
+ "heure": "00:19:00",
  "moteur": {
   "etat": "actif",
   "activite": "Écrire le script : Soudage à l'arc submergé + Générer la voix : Hydrophone",
-  "battement_s": 5
+  "battement_s": 2
  },
  "modele": {
   "ok": true,
@@ -93,7 +93,7 @@
    "courant": {
     "titre": "Écrire le script : Soudage à l'arc submergé",
     "projet": "Sujet : Soudage à l'arc submergé",
-    "depuis": 304
+    "depuis": 603
    },
    "file": 1,
    "attend_humain": 0,
@@ -108,12 +108,12 @@
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en cours",
-     "depuis": 304
+     "depuis": 603
     },
     {
      "titre": "Écrire le script : Immotique",
      "projet": "Sujet : Immotique",
-     "etat": "en attente"
+     "etat": "prête"
     },
     {
      "titre": "Écrire le script : Hydrophone",
@@ -179,7 +179,7 @@
    "courant": {
     "titre": "Générer la voix : Hydrophone",
     "projet": "Sujet : Hydrophone",
-    "depuis": 288
+    "depuis": 588
    },
    "file": 1,
    "attend_humain": 0,
@@ -194,7 +194,7 @@
      "titre": "Générer la voix : Hydrophone",
      "projet": "Sujet : Hydrophone",
      "etat": "en cours",
-     "depuis": 288
+     "depuis": 588
     },
     {
      "titre": "Générer la voix : Immotique",
@@ -783,9 +783,9 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 11,
+  "READY": 12,
   "PENDING": 10,
-  "DEFERRED": 1,
+  "DEFERRED": 0,
   "SUCCESS": 1027,
   "FAILED": 65
  }
