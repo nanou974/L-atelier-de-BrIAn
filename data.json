@@ -1,10 +1,10 @@
 {
- "now": 1793703540.5403616,
- "heure": "11:59:00",
+ "now": 1793703840.5429022,
+ "heure": "12:04:00",
  "moteur": {
   "etat": "actif",
   "activite": "en attente de travail exécutable",
-  "battement_s": 1
+  "battement_s": 2
  },
  "modele": {
   "ok": false,
@@ -425,10 +425,15 @@
    "alerte": null,
    "derniere": {
     "titre": "Tester la disponibilité du LLM Groq (borné)",
-    "quand": "03/11 06:01"
+    "quand": "03/11 12:00"
    },
-   "total_fait": 116,
+   "total_fait": 117,
    "taches": [
+    {
+     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "projet": "Maintenance",
+     "etat": "terminée 03/11 12:00"
+    },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
@@ -436,11 +441,6 @@
     },
     {
      "titre": "Contrôler l'espace disque",
-     "projet": "Maintenance",
-     "etat": "terminée 03/11 00:00"
-    },
-    {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
      "etat": "terminée 03/11 00:00"
     }
@@ -451,19 +451,19 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "images",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
-   "passages": 5608,
-   "dernier_a": "03/11 11:58"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 5610,
+   "dernier_a": "03/11 12:02"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
    "poste": "publication",
    "poste_prefere": "recherche",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
    "passages": 5152,
    "dernier_a": "03/11 11:54"
@@ -501,12 +501,12 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "idee",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 3781,
-   "dernier_a": "03/11 11:50"
+   "passages": 3783,
+   "dernier_a": "03/11 12:03"
   },
   {
    "cle": "accroche",
@@ -515,13 +515,13 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 2038,
-   "dernier_a": "03/11 11:58"
+   "passages": 2039,
+   "dernier_a": "03/11 12:01"
   },
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
@@ -621,45 +621,45 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-03T11:58:54",
-   "type": "alerte",
-   "texte": "Échec : Programmateur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T11:58:48",
-   "type": "alerte",
-   "texte": "Échec : Référenceur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T11:58:32",
-   "type": "alerte",
-   "texte": "Échec : Tendances : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T11:58:27",
+   "ts": "2026-11-03T12:03:17",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-03T11:58:22",
+   "ts": "2026-11-03T12:03:12",
    "type": "alerte",
    "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-03T11:58:17",
+   "ts": "2026-11-03T12:03:06",
    "type": "alerte",
    "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-03T11:58:12",
+   "ts": "2026-11-03T12:03:01",
    "type": "alerte",
    "texte": "Échec : Archiviste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-03T12:01:39",
+   "type": "alerte",
+   "texte": "Échec : Programmateur : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-03T12:01:34",
+   "type": "alerte",
+   "texte": "Échec : Référenceur : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-03T12:01:28",
+   "type": "alerte",
+   "texte": "Échec : Miniaturiste : passage continu",
    "url": null
   },
   {
@@ -776,7 +776,7 @@
   "READY": 0,
   "PENDING": 12,
   "DEFERRED": 2,
-  "SUCCESS": 1007,
+  "SUCCESS": 1008,
   "FAILED": 62
  }
 }
