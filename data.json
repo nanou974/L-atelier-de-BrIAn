@@ -1,10 +1,10 @@
 {
- "now": 1793748241.0547552,
- "heure": "00:24:01",
+ "now": 1793748540.7705564,
+ "heure": "00:29:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Immotique + Générer la voix : Hydrophone",
-  "battement_s": 2
+  "activite": "Générer la voix : Hydrophone + Trouver des sujets candidats",
+  "battement_s": 1
  },
  "modele": {
   "ok": true,
@@ -18,21 +18,31 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "alerte",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Trouver des sujets candidats",
+    "projet": "Éditorial",
+    "depuis": 47
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
    "derniere": {
     "titre": "Trouver des sujets candidats",
-    "quand": "03/11 22:17"
+    "quand": "04/11 00:28"
    },
-   "total_fait": 18,
+   "total_fait": 19,
    "taches": [
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 47
+    },
+    {
+     "titre": "Trouver des sujets candidats",
+     "projet": "Éditorial",
+     "etat": "terminée 04/11 00:28"
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -43,11 +53,6 @@
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
      "etat": "terminée 03/11 21:10"
-    },
-    {
-     "titre": "Trouver des sujets candidats",
-     "projet": "Éditorial",
-     "etat": "terminée 27/10 16:03"
     }
    ]
   },
@@ -89,13 +94,9 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Écrire le script : Immotique",
-    "projet": "Sujet : Immotique",
-    "depuis": 281
-   },
-   "file": 0,
+   "etat": "alerte",
+   "courant": null,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -107,8 +108,7 @@
     {
      "titre": "Écrire le script : Immotique",
      "projet": "Sujet : Immotique",
-     "etat": "en cours",
-     "depuis": 281
+     "etat": "programmée 04/11 00:32"
     },
     {
      "titre": "Écrire le script : Hydrophone",
@@ -174,7 +174,7 @@
    "courant": {
     "titre": "Générer la voix : Hydrophone",
     "projet": "Sujet : Hydrophone",
-    "depuis": 888
+    "depuis": 1188
    },
    "file": 1,
    "attend_humain": 0,
@@ -189,7 +189,7 @@
      "titre": "Générer la voix : Hydrophone",
      "projet": "Sujet : Hydrophone",
      "etat": "en cours",
-     "depuis": 888
+     "depuis": 1188
     },
     {
      "titre": "Générer la voix : Immotique",
@@ -423,9 +423,9 @@
    "titre": "Veille et maintenance",
    "icone": "🧰",
    "desc": "Vérifie le disque, l'intégrité des fichiers et le modèle de langage.",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
-   "file": 0,
+   "file": 3,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -434,6 +434,21 @@
    },
    "total_fait": 118,
    "taches": [
+    {
+     "titre": "Vérifier l'intégrité des médias sources",
+     "projet": "Maintenance",
+     "etat": "prête"
+    },
+    {
+     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "projet": "Maintenance",
+     "etat": "prête"
+    },
+    {
+     "titre": "Contrôler l'espace disque",
+     "projet": "Maintenance",
+     "etat": "prête"
+    },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
@@ -778,10 +793,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 11,
+  "READY": 13,
   "PENDING": 10,
-  "DEFERRED": 0,
-  "SUCCESS": 1027,
+  "DEFERRED": 1,
+  "SUCCESS": 1028,
   "FAILED": 66
  }
 }
