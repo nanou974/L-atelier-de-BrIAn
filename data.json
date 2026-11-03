@@ -1,10 +1,10 @@
 {
- "now": 1793729341.2648327,
- "heure": "19:09:01",
+ "now": 1793729640.3091166,
+ "heure": "19:14:00",
  "moteur": {
   "etat": "actif",
   "activite": "Écrire le script : Soudage à l'arc submergé + Éclaireur : passage continu",
-  "battement_s": 3
+  "battement_s": 0
  },
  "modele": {
   "ok": true,
@@ -88,7 +88,7 @@
    "courant": {
     "titre": "Écrire le script : Soudage à l'arc submergé",
     "projet": "Sujet : Soudage à l'arc submergé",
-    "depuis": 226
+    "depuis": 525
    },
    "file": 0,
    "attend_humain": 0,
@@ -103,7 +103,7 @@
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "en cours",
-     "depuis": 226
+     "depuis": 525
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -160,9 +160,9 @@
    "titre": "Studio voix",
    "icone": "🎙️",
    "desc": "Synthétise la voix de BrIAn (lexique de prononciation).",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -171,6 +171,11 @@
    },
    "total_fait": 57,
    "taches": [
+    {
+     "titre": "Régénérer la voix (après QA en échec) : Poste à souder",
+     "projet": "Sujet : Poste à souder",
+     "etat": "prête"
+    },
     {
      "titre": "Générer la voix : Poste à souder",
      "projet": "Sujet : Poste à souder",
@@ -195,7 +200,7 @@
    "desc": "Écoute la voix et la cale sur les sous-titres.",
    "etat": "repos",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -204,6 +209,11 @@
    },
    "total_fait": 53,
    "taches": [
+    {
+     "titre": "Aligner la nouvelle narration : Poste à souder",
+     "projet": "Sujet : Poste à souder",
+     "etat": "en attente"
+    },
     {
      "titre": "Aligner la narration : Poste à souder",
      "projet": "Sujet : Poste à souder",
@@ -228,7 +238,7 @@
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
    "etat": "repos",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -237,6 +247,11 @@
    },
    "total_fait": 75,
    "taches": [
+    {
+     "titre": "Rendre la vidéo corrigée : Poste à souder",
+     "projet": "Sujet : Poste à souder",
+     "etat": "en attente"
+    },
     {
      "titre": "Rendre la vidéo : Poste à souder",
      "projet": "Sujet : Poste à souder",
@@ -259,11 +274,11 @@
    "titre": "Contrôle qualité",
    "icone": "✅",
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
-   "etat": "attente",
+   "etat": "alerte",
    "courant": null,
    "file": 1,
    "attend_humain": 0,
-   "alerte": null,
+   "alerte": "QA automatique : Poste à souder",
    "derniere": {
     "titre": "QA automatique : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
     "quand": "18/10 12:25"
@@ -271,9 +286,9 @@
    "total_fait": 59,
    "taches": [
     {
-     "titre": "QA automatique : Poste à souder",
+     "titre": "QA automatique de la vidéo corrigée : Poste à souder",
      "projet": "Sujet : Poste à souder",
-     "etat": "prête"
+     "etat": "en attente"
     },
     {
      "titre": "QA automatique : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
@@ -299,7 +314,7 @@
    "desc": "Décide si la vidéo mérite d'être publiée.",
    "etat": "repos",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -308,6 +323,11 @@
    },
    "total_fait": 45,
    "taches": [
+    {
+     "titre": "Revue finale de la vidéo corrigée : Poste à souder",
+     "projet": "Sujet : Poste à souder",
+     "etat": "en attente"
+    },
     {
      "titre": "Revue finale (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
      "projet": "Sujet : ESP8266",
@@ -399,9 +419,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée, avec Tendances] 36 titres lus, 0 idées retenues",
-   "passages": 5697,
-   "dernier_a": "03/11 19:05"
+   "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
+   "passages": 5698,
+   "dernier_a": "03/11 19:09"
   },
   {
    "cle": "archiviste",
@@ -416,12 +436,12 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Éclaireur] 27 titres lus, 0 idées retenues",
-   "passages": 4548,
-   "dernier_a": "03/11 18:13"
+   "etat": "actif",
+   "dernier": "[poste Écriture du script] 1 script(s) relu(s), 1 avec défauts : poste-a-souder : 62 mots : trop court (70 minimum)",
+   "passages": 4549,
+   "dernier_a": "03/11 19:10"
   },
   {
    "cle": "iconographe",
@@ -448,10 +468,10 @@
    "nom": "Tendances",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
-   "passages": 3859,
-   "dernier_a": "03/11 18:43"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée, avec Éclaireur] 36 titres lus, 0 idées retenues",
+   "passages": 3860,
+   "dernier_a": "03/11 19:12"
   },
   {
    "cle": "accroche",
@@ -565,6 +585,18 @@
  ],
  "nb_publiees": 18,
  "notifications": [
+  {
+   "ts": "2026-11-03T19:13:03",
+   "type": "alerte",
+   "texte": "Échec : QA automatique : Poste à souder",
+   "url": null
+  },
+  {
+   "ts": "2026-11-03T19:10:18",
+   "type": "assistant",
+   "texte": "Plume : à revoir avant la voix : poste-a-souder : 62 mots : trop court (70 minimum)",
+   "url": null
+  },
   {
    "ts": "2026-11-03T19:03:02",
    "type": "alerte",
@@ -702,26 +734,14 @@
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
    "url": null
-  },
-  {
-   "ts": "2026-10-17T15:00:11",
-   "type": "publication",
-   "texte": "Publiée : Fichier de stéréolithographie : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=pelVz3EWz2M"
-  },
-  {
-   "ts": "2026-10-17T09:00:09",
-   "type": "publication",
-   "texte": "Publiée : RISC-V : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=Rdp9AgvQvA0"
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
-  "PENDING": 0,
+  "READY": 9,
+  "PENDING": 4,
   "DEFERRED": 0,
-  "SUCCESS": 1013,
-  "FAILED": 57
+  "SUCCESS": 1014,
+  "FAILED": 58
  }
 }
