@@ -1,10 +1,10 @@
 {
- "now": 1793726041.1939769,
- "heure": "18:14:01",
+ "now": 1793726341.164612,
+ "heure": "18:19:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Recherche documentaire : Moteur de recherche + Éclaireur : passage continu",
-  "battement_s": 1
+  "activite": "Écrire le script : Poste à souder + Éclaireur : passage continu",
+  "battement_s": 4
  },
  "modele": {
   "ok": true,
@@ -51,26 +51,21 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Moteur de recherche",
-    "projet": "Sujet : Moteur de recherche",
-    "depuis": 357
-   },
+   "etat": "repos",
+   "courant": null,
    "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Recherche documentaire : Soudage à l'arc submergé",
-    "quand": "27/10 18:29"
+    "titre": "Recherche documentaire : Moteur de recherche",
+    "quand": "03/11 18:15"
    },
-   "total_fait": 29,
+   "total_fait": 30,
    "taches": [
     {
      "titre": "Recherche documentaire : Moteur de recherche",
      "projet": "Sujet : Moteur de recherche",
-     "etat": "en cours",
-     "depuis": 357
+     "etat": "terminée 03/11 18:15"
     },
     {
      "titre": "Recherche documentaire : Soudage à l'arc submergé",
@@ -81,11 +76,6 @@
      "titre": "Recherche documentaire : Poste à souder",
      "projet": "Sujet : Poste à souder",
      "etat": "terminée 27/10 17:35"
-    },
-    {
-     "titre": "Recherche documentaire : Impression 3D dans la construction",
-     "projet": "Sujet : Impression 3D dans la construction",
-     "etat": "terminée 21/10 05:50"
     }
    ]
   },
@@ -94,17 +84,27 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "alerte",
-   "courant": null,
+   "etat": "actif",
+   "courant": {
+    "titre": "Écrire le script : Poste à souder",
+    "projet": "Sujet : Poste à souder",
+    "depuis": 212
+   },
    "file": 2,
    "attend_humain": 0,
-   "alerte": "Écrire le script : Poste à souder",
+   "alerte": null,
    "derniere": {
     "titre": "Écrire le script : Impression 3D dans la construction",
     "quand": "22/10 12:11"
    },
    "total_fait": 33,
    "taches": [
+    {
+     "titre": "Écrire le script : Poste à souder",
+     "projet": "Sujet : Poste à souder",
+     "etat": "en cours",
+     "depuis": 212
+    },
     {
      "titre": "Écrire le script : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
@@ -113,7 +113,7 @@
     {
      "titre": "Écrire le script : Moteur de recherche",
      "projet": "Sujet : Moteur de recherche",
-     "etat": "en attente"
+     "etat": "programmée 03/11 18:19"
     },
     {
      "titre": "Écrire le script : Impression 3D dans la construction",
@@ -464,16 +464,16 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
-   "passages": 5692,
-   "dernier_a": "03/11 18:10"
+   "dernier": "[poste Trouver une idée, avec Plume] 36 titres lus, 0 idées retenues",
+   "passages": 5693,
+   "dernier_a": "03/11 18:15"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
    "poste": "publication",
    "poste_prefere": "recherche",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
    "passages": 5225,
    "dernier_a": "03/11 18:06"
@@ -511,9 +511,9 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
    "passages": 3858,
    "dernier_a": "03/11 18:06"
@@ -630,12 +630,6 @@
  ],
  "nb_publiees": 18,
  "notifications": [
-  {
-   "ts": "2026-11-03T18:06:45",
-   "type": "alerte",
-   "texte": "Échec : Écrire le script : Poste à souder",
-   "url": null
-  },
   {
    "ts": "2026-10-25T11:52:01",
    "type": "assistant",
@@ -779,14 +773,20 @@
    "type": "publication",
    "texte": "Publiée : Dépôt de fil fondu : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=-IWZe2Lb-pg"
+  },
+  {
+   "ts": "2026-10-16T16:08:27",
+   "type": "publication",
+   "texte": "Publiée : Disque compact : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=NodSE53R2ck"
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 8,
-  "PENDING": 13,
-  "DEFERRED": 1,
+  "READY": 9,
+  "PENDING": 12,
+  "DEFERRED": 2,
   "SUCCESS": 1007,
-  "FAILED": 56
+  "FAILED": 55
  }
 }
