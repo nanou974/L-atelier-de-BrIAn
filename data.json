@@ -1,10 +1,10 @@
 {
- "now": 1793739840.5233004,
- "heure": "22:04:00",
+ "now": 1793740140.5316508,
+ "heure": "22:09:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Immotique + Éclaireur : passage continu",
-  "battement_s": 3
+  "activite": "Écrire le script : Immotique + Recherche documentaire : Circuit logique programmable",
+  "battement_s": 1
  },
  "modele": {
   "ok": true,
@@ -20,7 +20,7 @@
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
    "etat": "alerte",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
    "derniere": {
@@ -29,6 +29,11 @@
    },
    "total_fait": 17,
    "taches": [
+    {
+     "titre": "Trouver des sujets candidats",
+     "projet": "Éditorial",
+     "etat": "prête"
+    },
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
@@ -51,9 +56,13 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "attente",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Recherche documentaire : Circuit logique programmable",
+    "projet": "Sujet : Circuit logique programmable",
+    "depuis": 231
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -65,7 +74,8 @@
     {
      "titre": "Recherche documentaire : Circuit logique programmable",
      "projet": "Sujet : Circuit logique programmable",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 231
     },
     {
      "titre": "Recherche documentaire : Immotique",
@@ -93,7 +103,7 @@
    "courant": {
     "titre": "Écrire le script : Immotique",
     "projet": "Sujet : Immotique",
-    "depuis": 604
+    "depuis": 904
    },
    "file": 1,
    "attend_humain": 0,
@@ -108,7 +118,7 @@
      "titre": "Écrire le script : Immotique",
      "projet": "Sujet : Immotique",
      "etat": "en cours",
-     "depuis": 604
+     "depuis": 904
     },
     {
      "titre": "Écrire le script : Circuit logique programmable",
@@ -464,9 +474,9 @@
    "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
-   "passages": 5708,
-   "dernier_a": "03/11 21:49"
+   "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
+   "passages": 5709,
+   "dernier_a": "03/11 22:05"
   },
   {
    "cle": "archiviste",
@@ -786,7 +796,7 @@
   "READY": 10,
   "PENDING": 13,
   "DEFERRED": 0,
-  "SUCCESS": 1022,
+  "SUCCESS": 1023,
   "FAILED": 65
  }
 }
