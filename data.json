@@ -1,9 +1,9 @@
 {
- "now": 1793747940.7490256,
- "heure": "00:19:00",
+ "now": 1793748241.0547552,
+ "heure": "00:24:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Soudage à l'arc submergé + Générer la voix : Hydrophone",
+  "activite": "Écrire le script : Immotique + Générer la voix : Hydrophone",
   "battement_s": 2
  },
  "modele": {
@@ -91,13 +91,13 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "actif",
    "courant": {
-    "titre": "Écrire le script : Soudage à l'arc submergé",
-    "projet": "Sujet : Soudage à l'arc submergé",
-    "depuis": 603
+    "titre": "Écrire le script : Immotique",
+    "projet": "Sujet : Immotique",
+    "depuis": 281
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
-   "alerte": "Écrire le script : Moteur de recherche",
+   "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
     "titre": "Écrire le script : Hydrophone",
     "quand": "03/11 23:40"
@@ -105,15 +105,10 @@
    "total_fait": 35,
    "taches": [
     {
-     "titre": "Écrire le script : Soudage à l'arc submergé",
-     "projet": "Sujet : Soudage à l'arc submergé",
-     "etat": "en cours",
-     "depuis": 603
-    },
-    {
      "titre": "Écrire le script : Immotique",
      "projet": "Sujet : Immotique",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 281
     },
     {
      "titre": "Écrire le script : Hydrophone",
@@ -179,7 +174,7 @@
    "courant": {
     "titre": "Générer la voix : Hydrophone",
     "projet": "Sujet : Hydrophone",
-    "depuis": 588
+    "depuis": 888
    },
    "file": 1,
    "attend_humain": 0,
@@ -194,7 +189,7 @@
      "titre": "Générer la voix : Hydrophone",
      "projet": "Sujet : Hydrophone",
      "etat": "en cours",
-     "depuis": 588
+     "depuis": 888
     },
     {
      "titre": "Générer la voix : Immotique",
@@ -631,6 +626,12 @@
  "nb_publiees": 18,
  "notifications": [
   {
+   "ts": "2026-11-04T00:19:19",
+   "type": "alerte",
+   "texte": "Échec : Écrire le script : Soudage à l'arc submergé",
+   "url": null
+  },
+  {
    "ts": "2026-11-03T23:02:07",
    "type": "alerte",
    "texte": "Échec : Écrire le script : Circuit logique programmable",
@@ -773,20 +774,14 @@
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
    "url": null
-  },
-  {
-   "ts": "2026-10-18T08:43:11",
-   "type": "assistant",
-   "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
-   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 12,
+  "READY": 11,
   "PENDING": 10,
   "DEFERRED": 0,
   "SUCCESS": 1027,
-  "FAILED": 65
+  "FAILED": 66
  }
 }
