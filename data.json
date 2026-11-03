@@ -1,15 +1,15 @@
 {
- "now": 1793741940.6037135,
- "heure": "22:39:00",
+ "now": 1793742240.6183522,
+ "heure": "22:44:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Immotique + Écrire le script : Circuit logique programmable",
-  "battement_s": 3
+  "activite": "Écrire le script : Circuit logique programmable + Plume : passage continu",
+  "battement_s": 5
  },
  "modele": {
-  "ok": true,
+  "ok": false,
   "reprise": null,
-  "erreur": null,
+  "erreur": "Ollama DESKTOP-ARBTDCL: HTTPError: HTTP Error 400: Bad Request | JARVIS-PC: URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
   "moteur": "ollama qwen3:4b-instruct-2507-q4_K_M (DESKTOP-ARBTDCL)"
  },
  "stations": [
@@ -86,11 +86,11 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "actif",
    "courant": {
-    "titre": "Écrire le script : Immotique",
-    "projet": "Sujet : Immotique",
-    "depuis": 712
+    "titre": "Écrire le script : Circuit logique programmable",
+    "projet": "Sujet : Circuit logique programmable",
+    "depuis": 472
    },
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -100,16 +100,15 @@
    "total_fait": 34,
    "taches": [
     {
-     "titre": "Écrire le script : Immotique",
-     "projet": "Sujet : Immotique",
-     "etat": "en cours",
-     "depuis": 712
-    },
-    {
      "titre": "Écrire le script : Circuit logique programmable",
      "projet": "Sujet : Circuit logique programmable",
      "etat": "en cours",
-     "depuis": 172
+     "depuis": 472
+    },
+    {
+     "titre": "Écrire le script : Immotique",
+     "projet": "Sujet : Immotique",
+     "etat": "programmée 03/11 22:46"
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -461,25 +460,25 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
-   "passages": 5711,
-   "dernier_a": "03/11 22:36"
+   "passages": 5712,
+   "dernier_a": "03/11 22:43"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
    "poste": "recherche",
    "poste_prefere": "recherche",
-   "etat": "veille",
-   "dernier": "[poste Recherche, avec Éclaireur] Xilinx : OK (15 phrases) ; Altera : écarté (5 phrases, EN 6214)",
-   "passages": 5228,
-   "dernier_a": "03/11 21:18"
+   "etat": "actif",
+   "dernier": "[poste Recherche] Hydrophone : OK (30 phrases) ; Bain de fusion : écarté (23 phrases, EN 711)",
+   "passages": 5229,
+   "dernier_a": "03/11 22:43"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "idee",
    "poste_prefere": "script",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Écriture du script] 1 script(s) relu(s), 1 avec défauts : poste-a-souder : 62 mots : trop court (70 minimum)",
    "passages": 4549,
    "dernier_a": "03/11 19:10"
@@ -779,10 +778,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 7,
   "PENDING": 12,
-  "DEFERRED": 0,
-  "SUCCESS": 1024,
+  "DEFERRED": 1,
+  "SUCCESS": 1026,
   "FAILED": 65
  }
 }
