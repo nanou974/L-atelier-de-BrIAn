@@ -1,10 +1,10 @@
 {
- "now": 1793728141.315247,
- "heure": "18:49:01",
+ "now": 1793728441.3996398,
+ "heure": "18:54:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Générer la voix : Poste à souder + Écrire le script : Bambu Lab",
-  "battement_s": 5
+  "activite": "Générer la voix : Poste à souder + Éclaireur : passage continu",
+  "battement_s": 1
  },
  "modele": {
   "ok": true,
@@ -84,13 +84,9 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Écrire le script : Bambu Lab",
-    "projet": "Sujet : Bambu Lab",
-    "depuis": 15
-   },
-   "file": 0,
+   "etat": "alerte",
+   "courant": null,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -102,8 +98,7 @@
     {
      "titre": "Écrire le script : Bambu Lab",
      "projet": "Sujet : Bambu Lab",
-     "etat": "en cours",
-     "depuis": 15
+     "etat": "prête"
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -169,7 +164,7 @@
    "courant": {
     "titre": "Générer la voix : Poste à souder",
     "projet": "Sujet : Poste à souder",
-    "depuis": 679
+    "depuis": 979
    },
    "file": 1,
    "attend_humain": 0,
@@ -184,7 +179,7 @@
      "titre": "Générer la voix : Poste à souder",
      "projet": "Sujet : Poste à souder",
      "etat": "en cours",
-     "depuis": 679
+     "depuis": 979
     },
     {
      "titre": "Générer la voix : Bambu Lab",
@@ -431,9 +426,9 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Plume] 36 titres lus, 0 idées retenues",
    "passages": 5694,
    "dernier_a": "03/11 18:21"
@@ -483,7 +478,7 @@
    "nom": "Tendances",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
    "passages": 3859,
    "dernier_a": "03/11 18:43"
