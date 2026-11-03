@@ -1,15 +1,15 @@
 {
- "now": 1793743740.746667,
- "heure": "23:09:01",
+ "now": 1793744041.6285398,
+ "heure": "23:14:02",
  "moteur": {
   "etat": "actif",
   "activite": "Recherche documentaire : Hydrophone + Trouver des sujets candidats",
-  "battement_s": 1
+  "battement_s": 2
  },
  "modele": {
-  "ok": false,
+  "ok": true,
   "reprise": null,
-  "erreur": "Ollama DESKTOP-ARBTDCL: HTTPError: HTTP Error 400: Bad Request | JARVIS-PC: URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
+  "erreur": null,
   "moteur": "ollama qwen3:4b-instruct-2507-q4_K_M (DESKTOP-ARBTDCL)"
  },
  "stations": [
@@ -22,7 +22,7 @@
    "courant": {
     "titre": "Trouver des sujets candidats",
     "projet": "Éditorial",
-    "depuis": 16
+    "depuis": 317
    },
    "file": 0,
    "attend_humain": 0,
@@ -37,7 +37,7 @@
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
      "etat": "en cours",
-     "depuis": 16
+     "depuis": 317
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -65,7 +65,7 @@
    "courant": {
     "titre": "Recherche documentaire : Hydrophone",
     "projet": "Sujet : Hydrophone",
-    "depuis": 166
+    "depuis": 467
    },
    "file": 0,
    "attend_humain": 0,
@@ -80,7 +80,7 @@
      "titre": "Recherche documentaire : Hydrophone",
      "projet": "Sujet : Hydrophone",
      "etat": "en cours",
-     "depuis": 166
+     "depuis": 467
     },
     {
      "titre": "Recherche documentaire : Circuit logique programmable",
@@ -106,9 +106,9 @@
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
    "etat": "alerte",
    "courant": null,
-   "file": 2,
+   "file": 3,
    "attend_humain": 0,
-   "alerte": "Écrire le script : Soudage à l'arc submergé",
+   "alerte": "Écrire le script : Moteur de recherche",
    "derniere": {
     "titre": "Écrire le script : Poste à souder",
     "quand": "03/11 18:23"
@@ -116,9 +116,14 @@
    "total_fait": 34,
    "taches": [
     {
+     "titre": "Écrire le script : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
+     "etat": "prête"
+    },
+    {
      "titre": "Écrire le script : Immotique",
      "projet": "Sujet : Immotique",
-     "etat": "programmée 03/11 23:13"
+     "etat": "prête"
     },
     {
      "titre": "Écrire le script : Hydrophone",
@@ -473,7 +478,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Archiviste, Plume] 27 titres lus, 0 idées retenues",
    "passages": 5716,
    "dernier_a": "03/11 23:04"
@@ -493,7 +498,7 @@
    "nom": "Plume",
    "poste": "idee",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Archiviste] 27 titres lus, 0 idées retenues",
    "passages": 4551,
    "dernier_a": "03/11 23:01"
@@ -677,12 +682,6 @@
    "url": null
   },
   {
-   "ts": "2026-11-03T19:38:27",
-   "type": "alerte",
-   "texte": "Échec : Écrire le script : Soudage à l'arc submergé",
-   "url": null
-  },
-  {
    "ts": "2026-11-03T19:32:10",
    "type": "alerte",
    "texte": "Échec : QA automatique de la vidéo corrigée : Poste à souder",
@@ -789,14 +788,20 @@
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
    "url": null
+  },
+  {
+   "ts": "2026-10-18T08:43:11",
+   "type": "assistant",
+   "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
+   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 12,
   "PENDING": 13,
-  "DEFERRED": 1,
+  "DEFERRED": 0,
   "SUCCESS": 1024,
-  "FAILED": 66
+  "FAILED": 65
  }
 }
