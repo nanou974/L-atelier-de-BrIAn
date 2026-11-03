@@ -1,10 +1,10 @@
 {
- "now": 1793732940.352473,
- "heure": "20:09:00",
+ "now": 1793733240.6430838,
+ "heure": "20:14:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : David Gerstein + Trouver des sujets candidats",
-  "battement_s": 1
+  "activite": "Écrire le script : David Gerstein + Écrire le script : Découpe laser",
+  "battement_s": 3
  },
  "modele": {
   "ok": true,
@@ -18,13 +18,9 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Trouver des sujets candidats",
-    "projet": "Éditorial",
-    "depuis": 447
-   },
-   "file": 0,
+   "etat": "attente",
+   "courant": null,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -36,8 +32,7 @@
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "en cours",
-     "depuis": 447
+     "etat": "prête"
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -98,9 +93,9 @@
    "courant": {
     "titre": "Écrire le script : David Gerstein",
     "projet": "Sujet : David Gerstein",
-    "depuis": 1431
+    "depuis": 54
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -113,12 +108,13 @@
      "titre": "Écrire le script : David Gerstein",
      "projet": "Sujet : David Gerstein",
      "etat": "en cours",
-     "depuis": 1431
+     "depuis": 54
     },
     {
      "titre": "Écrire le script : Découpe laser",
      "projet": "Sujet : Découpe laser",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 151
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -468,10 +464,10 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 36 titres lus, 0 idées retenues",
-   "passages": 5702,
-   "dernier_a": "03/11 19:40"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
+   "passages": 5703,
+   "dernier_a": "03/11 20:13"
   },
   {
    "cle": "archiviste",
@@ -788,10 +784,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 11,
+  "READY": 10,
   "PENDING": 12,
   "DEFERRED": 0,
-  "SUCCESS": 1018,
+  "SUCCESS": 1019,
   "FAILED": 60
  }
 }
