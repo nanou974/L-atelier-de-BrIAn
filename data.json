@@ -1,15 +1,15 @@
 {
- "now": 1793749140.8109007,
- "heure": "00:39:01",
+ "now": 1793749440.7872262,
+ "heure": "00:44:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Rendre la vidéo : Hydrophone + Tester la disponibilité du LLM Groq (borné)",
-  "battement_s": 3
+  "activite": "Écrire le script : Immotique + Iconographe : passage continu",
+  "battement_s": 4
  },
  "modele": {
-  "ok": false,
+  "ok": true,
   "reprise": null,
-  "erreur": "Ollama DESKTOP-ARBTDCL: HTTPError: HTTP Error 400: Bad Request | JARVIS-PC: URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
+  "erreur": null,
   "moteur": "ollama qwen3:4b-instruct-2507-q4_K_M (DESKTOP-ARBTDCL)"
  },
  "stations": [
@@ -84,9 +84,13 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "alerte",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Écrire le script : Immotique",
+    "projet": "Sujet : Immotique",
+    "depuis": 34
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -98,7 +102,8 @@
     {
      "titre": "Écrire le script : Immotique",
      "projet": "Sujet : Immotique",
-     "etat": "programmée 04/11 00:43"
+     "etat": "en cours",
+     "depuis": 34
     },
     {
      "titre": "Écrire le script : Hydrophone",
@@ -236,31 +241,26 @@
    "titre": "Montage vidéo",
    "icone": "🎬",
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Rendre la vidéo : Hydrophone",
-    "projet": "Sujet : Hydrophone",
-    "depuis": 510
-   },
+   "etat": "repos",
+   "courant": null,
    "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Rendre la vidéo corrigée : Poste à souder",
-    "quand": "03/11 19:26"
+    "titre": "Rendre la vidéo : Hydrophone",
+    "quand": "04/11 00:39"
    },
-   "total_fait": 76,
+   "total_fait": 77,
    "taches": [
-    {
-     "titre": "Rendre la vidéo : Hydrophone",
-     "projet": "Sujet : Hydrophone",
-     "etat": "en cours",
-     "depuis": 510
-    },
     {
      "titre": "Rendre la vidéo : Immotique",
      "projet": "Sujet : Immotique",
      "etat": "en attente"
+    },
+    {
+     "titre": "Rendre la vidéo : Hydrophone",
+     "projet": "Sujet : Hydrophone",
+     "etat": "terminée 04/11 00:39"
     },
     {
      "titre": "Rendre la vidéo corrigée : Poste à souder",
@@ -271,11 +271,6 @@
      "titre": "Rendre la vidéo : Poste à souder",
      "projet": "Sujet : Poste à souder",
      "etat": "terminée 03/11 19:06"
-    },
-    {
-     "titre": "Rendre la vidéo : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
-     "projet": "Sujet : ESP8266",
-     "etat": "terminée 18/10 12:24"
     }
    ]
   },
@@ -286,7 +281,7 @@
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
    "etat": "alerte",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "QA automatique de la vidéo corrigée : Poste à souder",
    "derniere": {
@@ -298,11 +293,6 @@
     {
      "titre": "QA automatique : Immotique",
      "projet": "Sujet : Immotique",
-     "etat": "en attente"
-    },
-    {
-     "titre": "QA automatique : Hydrophone",
-     "projet": "Sujet : Hydrophone",
      "etat": "en attente"
     },
     {
@@ -329,7 +319,7 @@
    "desc": "Décide si la vidéo mérite d'être publiée.",
    "etat": "repos",
    "courant": null,
-   "file": 2,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -341,11 +331,6 @@
     {
      "titre": "Revue finale (dossier, script, vidéo) : Immotique",
      "projet": "Sujet : Immotique",
-     "etat": "en attente"
-    },
-    {
-     "titre": "Revue finale (dossier, script, vidéo) : Hydrophone",
-     "projet": "Sujet : Hydrophone",
      "etat": "en attente"
     },
     {
@@ -403,46 +388,31 @@
    "titre": "Veille et maintenance",
    "icone": "🧰",
    "desc": "Vérifie le disque, l'intégrité des fichiers et le modèle de langage.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Tester la disponibilité du LLM Groq (borné)",
-    "projet": "Maintenance",
-    "depuis": 34
-   },
-   "file": 1,
+   "etat": "repos",
+   "courant": null,
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Vérifier l'intégrité des médias sources",
-    "quand": "04/11 00:38"
+    "titre": "Contrôler l'espace disque",
+    "quand": "04/11 00:39"
    },
-   "total_fait": 119,
+   "total_fait": 121,
    "taches": [
-    {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
-     "projet": "Maintenance",
-     "etat": "en cours",
-     "depuis": 34
-    },
     {
      "titre": "Contrôler l'espace disque",
      "projet": "Maintenance",
-     "etat": "prête"
+     "etat": "terminée 04/11 00:39"
+    },
+    {
+     "titre": "Tester la disponibilité du LLM Groq (borné)",
+     "projet": "Maintenance",
+     "etat": "terminée 04/11 00:39"
     },
     {
      "titre": "Vérifier l'intégrité des médias sources",
      "projet": "Maintenance",
      "etat": "terminée 04/11 00:38"
-    },
-    {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
-     "projet": "Maintenance",
-     "etat": "terminée 03/11 18:01"
-    },
-    {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
-     "projet": "Maintenance",
-     "etat": "terminée 03/11 12:00"
     }
    ]
   }
@@ -451,42 +421,42 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Archiviste, Plume] 27 titres lus, 0 idées retenues",
-   "passages": 5716,
-   "dernier_a": "03/11 23:04"
+   "etat": "actif",
+   "dernier": "[poste Recherche] Capteur à pixels actifs : OK (39 phrases) ; Économie collaborative : OK (39 phrases) ; Capteur photographique : OK (34 phrases)",
+   "passages": 5717,
+   "dernier_a": "04/11 00:39"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Plume] 36 titres lus, 0 idées retenues",
-   "passages": 5231,
-   "dernier_a": "03/11 23:06"
+   "etat": "actif",
+   "dernier": "[poste Recherche, avec Éclaireur] Capteur solaire thermique : OK (38 phrases) ; Capteur photographique CCD : OK (28 phrases) ; Magnétomètre : OK (31 phrases)",
+   "passages": 5232,
+   "dernier_a": "04/11 00:40"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée, avec Archiviste] 27 titres lus, 0 idées retenues",
-   "passages": 4551,
-   "dernier_a": "03/11 23:01"
+   "etat": "actif",
+   "dernier": "[poste Recherche, avec Éclaireur, Archiviste] Capteur de proximité : OK (27 phrases) ; Capteur piézoélectrique : OK (17 phrases) ; Capteur à effet Hall : OK (18 phrases)",
+   "passages": 4552,
+   "dernier_a": "04/11 00:40"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "idee",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 4118,
-   "dernier_a": "03/11 18:04"
+   "etat": "actif",
+   "dernier": "[poste Écriture du script] 2 accroche(s) analysée(s), 2 à améliorer : hydrophone : l'accroche n'interpelle pas (ni question, ni « tu », ni chiffre) | poste-a-souder : l'accroche n'interpelle pas (ni question, ni « tu », ni chiffre)",
+   "passages": 4119,
+   "dernier_a": "04/11 00:40"
   },
   {
    "cle": "analyste",
@@ -503,10 +473,10 @@
    "nom": "Tendances",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
-   "passages": 3862,
-   "dernier_a": "03/11 21:21"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 12 sujets mesurés, en hausse : Capteur à pixels actifs ×1.09, Capteur solaire thermique ×0.91",
+   "passages": 3863,
+   "dernier_a": "04/11 00:40"
   },
   {
    "cle": "accroche",
@@ -543,10 +513,10 @@
    "nom": "Programmateur",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube, avec Archiviste, Plume, Iconographe, Tendances] 0 publications programmées, calendrier sain",
-   "passages": 1796,
-   "dernier_a": "03/11 16:29"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube] 0 publications programmées, calendrier sain",
+   "passages": 1797,
+   "dernier_a": "04/11 00:40"
   }
  ],
  "programmees": [],
@@ -620,6 +590,30 @@
  ],
  "nb_publiees": 18,
  "notifications": [
+  {
+   "ts": "2026-11-04T00:43:31",
+   "type": "alerte",
+   "texte": "Échec : QA automatique : Hydrophone",
+   "url": null
+  },
+  {
+   "ts": "2026-11-04T00:43:25",
+   "type": "alerte",
+   "texte": "Échec : Plume : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-04T00:43:20",
+   "type": "alerte",
+   "texte": "Échec : Archiviste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-04T00:43:15",
+   "type": "alerte",
+   "texte": "Échec : Éclaireur : passage continu",
+   "url": null
+  },
   {
    "ts": "2026-11-04T00:19:19",
    "type": "alerte",
@@ -745,38 +739,14 @@
    "type": "publication",
    "texte": "Publiée : RISC-V : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=RJ2JFpAB8Ew"
-  },
-  {
-   "ts": "2026-10-18T09:00:12",
-   "type": "publication",
-   "texte": "Publiée : Risques pour la santé et la sécurité liés à l'impression 3D : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=5JBt9S1Z8Z8"
-  },
-  {
-   "ts": "2026-10-18T08:51:21",
-   "type": "assistant",
-   "texte": "Écoute : conseil de spectateur à examiner : « Petit conseil refait peut etre le début car tu passe d’un bienvenu au sujet directement sinon c'est cool »",
-   "url": null
-  },
-  {
-   "ts": "2026-10-18T08:43:16",
-   "type": "assistant",
-   "texte": "Plume : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
-   "url": null
-  },
-  {
-   "ts": "2026-10-18T08:43:11",
-   "type": "assistant",
-   "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
-   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 11,
-  "PENDING": 8,
-  "DEFERRED": 1,
-  "SUCCESS": 1032,
-  "FAILED": 66
+  "READY": 6,
+  "PENDING": 6,
+  "DEFERRED": 0,
+  "SUCCESS": 1035,
+  "FAILED": 70
  }
 }
