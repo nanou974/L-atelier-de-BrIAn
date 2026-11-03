@@ -1,10 +1,10 @@
 {
- "now": 1793729041.3490157,
- "heure": "19:04:01",
+ "now": 1793729341.2648327,
+ "heure": "19:09:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Rendre la vidéo : Poste à souder + Éclaireur : passage continu",
-  "battement_s": 1
+  "activite": "Écrire le script : Soudage à l'arc submergé + Éclaireur : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": true,
@@ -84,17 +84,27 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "alerte",
-   "courant": null,
+   "etat": "actif",
+   "courant": {
+    "titre": "Écrire le script : Soudage à l'arc submergé",
+    "projet": "Sujet : Soudage à l'arc submergé",
+    "depuis": 226
+   },
    "file": 0,
    "attend_humain": 0,
-   "alerte": "Écrire le script : Soudage à l'arc submergé",
+   "alerte": "Écrire le script : Moteur de recherche",
    "derniere": {
     "titre": "Écrire le script : Poste à souder",
     "quand": "03/11 18:23"
    },
    "total_fait": 34,
    "taches": [
+    {
+     "titre": "Écrire le script : Soudage à l'arc submergé",
+     "projet": "Sujet : Soudage à l'arc submergé",
+     "etat": "en cours",
+     "depuis": 226
+    },
     {
      "titre": "Écrire le script : Poste à souder",
      "projet": "Sujet : Poste à souder",
@@ -216,26 +226,21 @@
    "titre": "Montage vidéo",
    "icone": "🎬",
    "desc": "Dessine les pièces, anime BrIAn, mixe la musique et rend la vidéo.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Rendre la vidéo : Poste à souder",
-    "projet": "Sujet : Poste à souder",
-    "depuis": 480
-   },
+   "etat": "repos",
+   "courant": null,
    "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Rendre la vidéo : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
-    "quand": "18/10 12:24"
+    "titre": "Rendre la vidéo : Poste à souder",
+    "quand": "03/11 19:06"
    },
-   "total_fait": 74,
+   "total_fait": 75,
    "taches": [
     {
      "titre": "Rendre la vidéo : Poste à souder",
      "projet": "Sujet : Poste à souder",
-     "etat": "en cours",
-     "depuis": 480
+     "etat": "terminée 03/11 19:06"
     },
     {
      "titre": "Rendre la vidéo : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
@@ -246,11 +251,6 @@
      "titre": "Rendre la vidéo : Défauts des joints soudés (ouverture « Aujourd'hui je vais vous parler de ») : defauts-des-joints-soudes",
      "projet": "Sujet : Défauts des joints soudés",
      "etat": "terminée 18/10 11:49"
-    },
-    {
-     "titre": "Rendre la vidéo : UltiMaker (ouverture « Aujourd'hui je vais vous parler de ») : ultimaker",
-     "projet": "Sujet : UltiMaker",
-     "etat": "terminée 18/10 11:33"
     }
    ]
   },
@@ -259,9 +259,9 @@
    "titre": "Contrôle qualité",
    "icone": "✅",
    "desc": "Mesure ~60 points : silences, textes, images, voix, fin avec l'humain…",
-   "etat": "repos",
+   "etat": "attente",
    "courant": null,
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -270,6 +270,11 @@
    },
    "total_fait": 59,
    "taches": [
+    {
+     "titre": "QA automatique : Poste à souder",
+     "projet": "Sujet : Poste à souder",
+     "etat": "prête"
+    },
     {
      "titre": "QA automatique : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
      "projet": "Sujet : ESP8266",
@@ -395,8 +400,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Tendances] 36 titres lus, 0 idées retenues",
-   "passages": 5696,
-   "dernier_a": "03/11 18:59"
+   "passages": 5697,
+   "dernier_a": "03/11 19:05"
   },
   {
    "cle": "archiviste",
@@ -567,12 +572,6 @@
    "url": null
   },
   {
-   "ts": "2026-11-03T18:41:10",
-   "type": "alerte",
-   "texte": "Échec : Écrire le script : Soudage à l'arc submergé",
-   "url": null
-  },
-  {
    "ts": "2026-11-03T18:36:39",
    "type": "alerte",
    "texte": "Échec : Écrire le script : Moteur de recherche",
@@ -709,14 +708,20 @@
    "type": "publication",
    "texte": "Publiée : Fichier de stéréolithographie : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=pelVz3EWz2M"
+  },
+  {
+   "ts": "2026-10-17T09:00:09",
+   "type": "publication",
+   "texte": "Publiée : RISC-V : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=Rdp9AgvQvA0"
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 9,
+  "READY": 10,
   "PENDING": 0,
   "DEFERRED": 0,
-  "SUCCESS": 1012,
-  "FAILED": 58
+  "SUCCESS": 1013,
+  "FAILED": 57
  }
 }
