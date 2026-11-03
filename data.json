@@ -1,10 +1,10 @@
 {
- "now": 1793734140.4297955,
- "heure": "20:29:00",
+ "now": 1793734440.3957229,
+ "heure": "20:34:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : David Gerstein + Trouver des sujets candidats",
-  "battement_s": 0
+  "activite": "Écrire le script : David Gerstein + Écrire le script : Découpe laser",
+  "battement_s": 2
  },
  "modele": {
   "ok": true,
@@ -18,13 +18,9 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Trouver des sujets candidats",
-    "projet": "Éditorial",
-    "depuis": 477
-   },
-   "file": 0,
+   "etat": "attente",
+   "courant": null,
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -36,8 +32,7 @@
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "en cours",
-     "depuis": 477
+     "etat": "prête"
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -98,9 +93,9 @@
    "courant": {
     "titre": "Écrire le script : David Gerstein",
     "projet": "Sujet : David Gerstein",
-    "depuis": 954
+    "depuis": 176
    },
-   "file": 1,
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -113,12 +108,13 @@
      "titre": "Écrire le script : David Gerstein",
      "projet": "Sujet : David Gerstein",
      "etat": "en cours",
-     "depuis": 954
+     "depuis": 176
     },
     {
      "titre": "Écrire le script : Découpe laser",
      "projet": "Sujet : Découpe laser",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 238
     },
     {
      "titre": "Écrire le script : Poste à souder",
