@@ -1,10 +1,10 @@
 {
- "now": 1793727841.4480875,
- "heure": "18:44:01",
+ "now": 1793728141.315247,
+ "heure": "18:49:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Générer la voix : Poste à souder + Recherche documentaire : Bambu Lab",
-  "battement_s": 4
+  "activite": "Générer la voix : Poste à souder + Écrire le script : Bambu Lab",
+  "battement_s": 5
  },
  "modele": {
   "ok": true,
@@ -51,26 +51,21 @@
    "titre": "Recherche",
    "icone": "🔎",
    "desc": "Rassemble les faits, vérifie les citations mot pour mot et recoupe les sources.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Recherche documentaire : Bambu Lab",
-    "projet": "Sujet : Bambu Lab",
-    "depuis": 52
-   },
+   "etat": "repos",
+   "courant": null,
    "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Recherche documentaire : Moteur de recherche",
-    "quand": "03/11 18:15"
+    "titre": "Recherche documentaire : Bambu Lab",
+    "quand": "03/11 18:48"
    },
-   "total_fait": 30,
+   "total_fait": 31,
    "taches": [
     {
      "titre": "Recherche documentaire : Bambu Lab",
      "projet": "Sujet : Bambu Lab",
-     "etat": "en cours",
-     "depuis": 52
+     "etat": "terminée 03/11 18:48"
     },
     {
      "titre": "Recherche documentaire : Moteur de recherche",
@@ -81,11 +76,6 @@
      "titre": "Recherche documentaire : Soudage à l'arc submergé",
      "projet": "Sujet : Soudage à l'arc submergé",
      "etat": "terminée 27/10 18:29"
-    },
-    {
-     "titre": "Recherche documentaire : Poste à souder",
-     "projet": "Sujet : Poste à souder",
-     "etat": "terminée 27/10 17:35"
     }
    ]
   },
@@ -94,9 +84,13 @@
    "titre": "Écriture du script",
    "icone": "✍️",
    "desc": "Écrit le récit oral à partir des faits vérifiés.",
-   "etat": "alerte",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Écrire le script : Bambu Lab",
+    "projet": "Sujet : Bambu Lab",
+    "depuis": 15
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -108,7 +102,8 @@
     {
      "titre": "Écrire le script : Bambu Lab",
      "projet": "Sujet : Bambu Lab",
-     "etat": "en attente"
+     "etat": "en cours",
+     "depuis": 15
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -174,7 +169,7 @@
    "courant": {
     "titre": "Générer la voix : Poste à souder",
     "projet": "Sujet : Poste à souder",
-    "depuis": 379
+    "depuis": 679
    },
    "file": 1,
    "attend_humain": 0,
@@ -189,7 +184,7 @@
      "titre": "Générer la voix : Poste à souder",
      "projet": "Sujet : Poste à souder",
      "etat": "en cours",
-     "depuis": 379
+     "depuis": 679
     },
     {
      "titre": "Générer la voix : Bambu Lab",
@@ -606,36 +601,6 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-03T18:41:42",
-   "type": "alerte",
-   "texte": "Échec : Analyste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T18:41:37",
-   "type": "alerte",
-   "texte": "Échec : Iconographe : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T18:41:31",
-   "type": "alerte",
-   "texte": "Échec : Plume : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T18:41:26",
-   "type": "alerte",
-   "texte": "Échec : Archiviste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T18:41:21",
-   "type": "alerte",
-   "texte": "Échec : Éclaireur : passage continu",
-   "url": null
-  },
-  {
    "ts": "2026-11-03T18:41:10",
    "type": "alerte",
    "texte": "Échec : Écrire le script : Soudage à l'arc submergé",
@@ -754,14 +719,44 @@
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
    "url": null
+  },
+  {
+   "ts": "2026-10-17T18:38:45",
+   "type": "assistant",
+   "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
+   "url": null
+  },
+  {
+   "ts": "2026-10-17T18:35:09",
+   "type": "assistant",
+   "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Intelligence artificielle, Tesla (automobile)",
+   "url": null
+  },
+  {
+   "ts": "2026-10-17T18:32:14",
+   "type": "assistant",
+   "texte": "Plume : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
+   "url": null
+  },
+  {
+   "ts": "2026-10-17T15:00:11",
+   "type": "publication",
+   "texte": "Publiée : Fichier de stéréolithographie : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=pelVz3EWz2M"
+  },
+  {
+   "ts": "2026-10-17T09:00:09",
+   "type": "publication",
+   "texte": "Publiée : RISC-V : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=Rdp9AgvQvA0"
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 4,
-  "PENDING": 7,
+  "READY": 10,
+  "PENDING": 6,
   "DEFERRED": 0,
   "SUCCESS": 1010,
-  "FAILED": 62
+  "FAILED": 57
  }
 }
