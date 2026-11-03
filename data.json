@@ -1,15 +1,15 @@
 {
- "now": 1793748840.839326,
- "heure": "00:34:01",
+ "now": 1793749140.8109007,
+ "heure": "00:39:01",
  "moteur": {
   "etat": "actif",
-  "activite": "Rendre la vidéo : Hydrophone + Trouver des sujets candidats",
-  "battement_s": 1
+  "activite": "Rendre la vidéo : Hydrophone + Tester la disponibilité du LLM Groq (borné)",
+  "battement_s": 3
  },
  "modele": {
-  "ok": true,
+  "ok": false,
   "reprise": null,
-  "erreur": null,
+  "erreur": "Ollama DESKTOP-ARBTDCL: HTTPError: HTTP Error 400: Bad Request | JARVIS-PC: URLError: <urlopen error [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée>",
   "moteur": "ollama qwen3:4b-instruct-2507-q4_K_M (DESKTOP-ARBTDCL)"
  },
  "stations": [
@@ -18,26 +18,21 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "actif",
-   "courant": {
-    "titre": "Trouver des sujets candidats",
-    "projet": "Éditorial",
-    "depuis": 347
-   },
+   "etat": "alerte",
+   "courant": null,
    "file": 0,
    "attend_humain": 0,
    "alerte": "Trouver des sujets candidats",
    "derniere": {
     "titre": "Trouver des sujets candidats",
-    "quand": "04/11 00:28"
+    "quand": "04/11 00:34"
    },
-   "total_fait": 19,
+   "total_fait": 20,
    "taches": [
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "en cours",
-     "depuis": 347
+     "etat": "terminée 04/11 00:34"
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -48,11 +43,6 @@
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
      "etat": "terminée 03/11 22:17"
-    },
-    {
-     "titre": "Trouver des sujets candidats",
-     "projet": "Éditorial",
-     "etat": "terminée 03/11 21:10"
     }
    ]
   },
@@ -108,7 +98,7 @@
     {
      "titre": "Écrire le script : Immotique",
      "projet": "Sujet : Immotique",
-     "etat": "prête"
+     "etat": "programmée 04/11 00:43"
     },
     {
      "titre": "Écrire le script : Hydrophone",
@@ -250,7 +240,7 @@
    "courant": {
     "titre": "Rendre la vidéo : Hydrophone",
     "projet": "Sujet : Hydrophone",
-    "depuis": 210
+    "depuis": 510
    },
    "file": 1,
    "attend_humain": 0,
@@ -265,7 +255,7 @@
      "titre": "Rendre la vidéo : Hydrophone",
      "projet": "Sujet : Hydrophone",
      "etat": "en cours",
-     "depuis": 210
+     "depuis": 510
     },
     {
      "titre": "Rendre la vidéo : Immotique",
@@ -413,31 +403,36 @@
    "titre": "Veille et maintenance",
    "icone": "🧰",
    "desc": "Vérifie le disque, l'intégrité des fichiers et le modèle de langage.",
-   "etat": "attente",
-   "courant": null,
-   "file": 3,
+   "etat": "actif",
+   "courant": {
+    "titre": "Tester la disponibilité du LLM Groq (borné)",
+    "projet": "Maintenance",
+    "depuis": 34
+   },
+   "file": 1,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
-    "titre": "Tester la disponibilité du LLM Groq (borné)",
-    "quand": "03/11 18:01"
+    "titre": "Vérifier l'intégrité des médias sources",
+    "quand": "04/11 00:38"
    },
-   "total_fait": 118,
+   "total_fait": 119,
    "taches": [
-    {
-     "titre": "Vérifier l'intégrité des médias sources",
-     "projet": "Maintenance",
-     "etat": "prête"
-    },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 34
     },
     {
      "titre": "Contrôler l'espace disque",
      "projet": "Maintenance",
      "etat": "prête"
+    },
+    {
+     "titre": "Vérifier l'intégrité des médias sources",
+     "projet": "Maintenance",
+     "etat": "terminée 04/11 00:38"
     },
     {
      "titre": "Tester la disponibilité du LLM Groq (borné)",
@@ -448,11 +443,6 @@
      "titre": "Tester la disponibilité du LLM Groq (borné)",
      "projet": "Maintenance",
      "etat": "terminée 03/11 12:00"
-    },
-    {
-     "titre": "Tester la disponibilité du LLM Groq (borné)",
-     "projet": "Maintenance",
-     "etat": "terminée 03/11 06:01"
     }
    ]
   }
@@ -697,12 +687,6 @@
    "url": null
   },
   {
-   "ts": "2026-11-03T18:36:39",
-   "type": "alerte",
-   "texte": "Échec : Écrire le script : Moteur de recherche",
-   "url": null
-  },
-  {
    "ts": "2026-10-25T11:52:01",
    "type": "assistant",
    "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Programmation de commande numérique",
@@ -779,14 +763,20 @@
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
    "url": null
+  },
+  {
+   "ts": "2026-10-18T08:43:11",
+   "type": "assistant",
+   "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
+   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 14,
+  "READY": 11,
   "PENDING": 8,
-  "DEFERRED": 0,
-  "SUCCESS": 1030,
+  "DEFERRED": 1,
+  "SUCCESS": 1032,
   "FAILED": 66
  }
 }
