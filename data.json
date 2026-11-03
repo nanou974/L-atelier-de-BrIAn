@@ -1,10 +1,10 @@
 {
- "now": 1793737440.4728658,
- "heure": "21:24:00",
+ "now": 1793737740.5075572,
+ "heure": "21:29:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires + Écrire le script : Shodan (site web)",
-  "battement_s": 3
+  "activite": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires + Éclaireur : passage continu",
+  "battement_s": 0
  },
  "modele": {
   "ok": true,
@@ -88,9 +88,9 @@
    "courant": {
     "titre": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires",
     "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
-    "depuis": 173
+    "depuis": 473
    },
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -103,13 +103,12 @@
      "titre": "Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires",
      "projet": "Sujet : Agence nationale des techniques d'enquêtes numériques judiciaires",
      "etat": "en cours",
-     "depuis": 173
+     "depuis": 473
     },
     {
      "titre": "Écrire le script : Shodan (site web)",
      "projet": "Sujet : Shodan (site web)",
-     "etat": "en cours",
-     "depuis": 830
+     "etat": "programmée 03/11 21:29"
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -457,7 +456,7 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "recherche",
+   "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Recherche] Immotique : OK (13 phrases) ; Circuit logique programmable : OK (30 phrases) ; Microblaze : OK (29 phrases)",
@@ -469,7 +468,7 @@
    "nom": "Archiviste",
    "poste": "recherche",
    "poste_prefere": "recherche",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Recherche, avec Éclaireur] Xilinx : OK (15 phrases) ; Altera : écarté (5 phrases, EN 6214)",
    "passages": 5228,
    "dernier_a": "03/11 21:18"
@@ -781,8 +780,8 @@
   "RUNNING": 2,
   "READY": 9,
   "PENDING": 12,
-  "DEFERRED": 0,
-  "SUCCESS": 1022,
+  "DEFERRED": 1,
+  "SUCCESS": 1021,
   "FAILED": 63
  }
 }
