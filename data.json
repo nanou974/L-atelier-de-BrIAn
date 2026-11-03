@@ -1,10 +1,10 @@
 {
- "now": 1793733540.3750472,
- "heure": "20:19:00",
+ "now": 1793733840.3878965,
+ "heure": "20:24:00",
  "moteur": {
   "etat": "actif",
-  "activite": "Écrire le script : David Gerstein + Écrire le script : Découpe laser",
-  "battement_s": 0
+  "activite": "Écrire le script : David Gerstein + Trouver des sujets candidats",
+  "battement_s": 3
  },
  "modele": {
   "ok": true,
@@ -18,9 +18,13 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "attente",
-   "courant": null,
-   "file": 1,
+   "etat": "actif",
+   "courant": {
+    "titre": "Trouver des sujets candidats",
+    "projet": "Éditorial",
+    "depuis": 177
+   },
+   "file": 0,
    "attend_humain": 0,
    "alerte": null,
    "derniere": {
@@ -32,7 +36,8 @@
     {
      "titre": "Trouver des sujets candidats",
      "projet": "Éditorial",
-     "etat": "prête"
+     "etat": "en cours",
+     "depuis": 177
     },
     {
      "titre": "Trouver des sujets candidats",
@@ -93,9 +98,9 @@
    "courant": {
     "titre": "Écrire le script : David Gerstein",
     "projet": "Sujet : David Gerstein",
-    "depuis": 353
+    "depuis": 653
    },
-   "file": 0,
+   "file": 1,
    "attend_humain": 0,
    "alerte": "Écrire le script : Soudage à l'arc submergé",
    "derniere": {
@@ -108,13 +113,12 @@
      "titre": "Écrire le script : David Gerstein",
      "projet": "Sujet : David Gerstein",
      "etat": "en cours",
-     "depuis": 353
+     "depuis": 653
     },
     {
      "titre": "Écrire le script : Découpe laser",
      "projet": "Sujet : Découpe laser",
-     "etat": "en cours",
-     "depuis": 451
+     "etat": "prête"
     },
     {
      "titre": "Écrire le script : Poste à souder",
@@ -464,7 +468,7 @@
    "nom": "Éclaireur",
    "poste": "idee",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
    "passages": 5703,
    "dernier_a": "03/11 20:13"
@@ -784,10 +788,10 @@
  ],
  "compteurs": {
   "RUNNING": 2,
-  "READY": 10,
+  "READY": 11,
   "PENDING": 12,
   "DEFERRED": 0,
-  "SUCCESS": 1019,
+  "SUCCESS": 1018,
   "FAILED": 60
  }
 }
