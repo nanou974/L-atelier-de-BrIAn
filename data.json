@@ -1,10 +1,10 @@
 {
- "now": 1793752140.9113476,
- "heure": "01:29:01",
+ "now": 1793752440.8483787,
+ "heure": "01:34:01",
  "moteur": {
   "etat": "en pause",
   "activite": "Tendances : passage continu",
-  "battement_s": 0
+  "battement_s": 4
  },
  "modele": {
   "ok": true,
@@ -253,7 +253,7 @@
    "courant": null,
    "file": 1,
    "attend_humain": 0,
-   "alerte": "QA automatique de la vidéo corrigée : Poste à souder",
+   "alerte": "QA automatique : Hydrophone",
    "derniere": {
     "titre": "QA automatique : ESP8266 (ouverture « Aujourd'hui je vais vous parler de ») : esp8266",
     "quand": "18/10 12:25"
@@ -391,27 +391,27 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 5727,
-   "dernier_a": "04/11 01:26"
+   "passages": 5728,
+   "dernier_a": "04/11 01:33"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 5242,
-   "dernier_a": "04/11 01:28"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 5245,
+   "dernier_a": "04/11 01:33"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script, avec Archiviste] ronde : 0 script(s) relu(s), aucun défaut",
@@ -421,12 +421,12 @@
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 4127,
-   "dernier_a": "04/11 01:28"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 4128,
+   "dernier_a": "04/11 01:30"
   },
   {
    "cle": "analyste",
@@ -444,29 +444,29 @@
    "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 3875,
-   "dernier_a": "04/11 01:27"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 3877,
+   "dernier_a": "04/11 01:33"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 2085,
-   "dernier_a": "04/11 01:22"
+   "passages": 2087,
+   "dernier_a": "04/11 01:32"
   },
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
    "poste": "publication",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 2044,
-   "dernier_a": "04/11 01:11"
+   "etat": "actif",
+   "dernier": "[poste Images, avec Archiviste] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 2045,
+   "dernier_a": "04/11 01:30"
   },
   {
    "cle": "referenceur",
@@ -561,39 +561,39 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-04T01:29:00",
+   "ts": "2026-11-04T01:33:56",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T01:28:39",
+   "ts": "2026-11-04T01:33:51",
    "type": "alerte",
-   "texte": "Échec : Éclaireur : passage continu",
+   "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T01:27:47",
+   "ts": "2026-11-04T01:33:46",
+   "type": "alerte",
+   "texte": "Échec : Plume : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-04T01:32:44",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T01:27:42",
+   "ts": "2026-11-04T01:32:39",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T01:27:37",
+   "ts": "2026-11-04T01:32:34",
    "type": "alerte",
    "texte": "Échec : Miniaturiste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-04T01:27:32",
-   "type": "alerte",
-   "texte": "Échec : Accroche : passage continu",
    "url": null
   },
   {
@@ -657,12 +657,6 @@
    "url": null
   },
   {
-   "ts": "2026-11-03T19:32:10",
-   "type": "alerte",
-   "texte": "Échec : QA automatique de la vidéo corrigée : Poste à souder",
-   "url": null
-  },
-  {
    "ts": "2026-11-03T19:10:18",
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : poste-a-souder : 62 mots : trop court (70 minimum)",
@@ -709,6 +703,12 @@
    "type": "publication",
    "texte": "Publiée : Capteur : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=yEFqshq0F3A"
+  },
+  {
+   "ts": "2026-10-18T10:57:13",
+   "type": "publication",
+   "texte": "Publiée : Risques pour la santé et la sécurité liés à l'impression 3D : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=1HW5H4d5bzQ"
   }
  ],
  "compteurs": {
