@@ -1,10 +1,10 @@
 {
- "now": 1793756940.989239,
- "heure": "02:49:01",
+ "now": 1793757240.962339,
+ "heure": "02:54:01",
  "moteur": {
   "etat": "en pause",
   "activite": "en attente de travail exécutable",
-  "battement_s": 4
+  "battement_s": 3
  },
  "modele": {
   "ok": true,
@@ -18,11 +18,11 @@
    "titre": "Trouver une idée",
    "icone": "💡",
    "desc": "Explore Wikipédia, Wikidata et le flux des makers pour proposer des sujets.",
-   "etat": "alerte",
+   "etat": "repos",
    "courant": null,
    "file": 0,
    "attend_humain": 0,
-   "alerte": "Trouver des sujets candidats",
+   "alerte": null,
    "derniere": {
     "titre": "Trouver des sujets candidats",
     "quand": "04/11 00:34"
@@ -394,14 +394,14 @@
    "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 5748,
-   "dernier_a": "04/11 02:42"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 5749,
+   "dernier_a": "04/11 02:50"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
@@ -421,12 +421,12 @@
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images, avec Archiviste] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 4147,
-   "dernier_a": "04/11 02:47"
+   "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 4148,
+   "dernier_a": "04/11 02:49"
   },
   {
    "cle": "analyste",
@@ -441,12 +441,12 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 3906,
-   "dernier_a": "04/11 02:47"
+   "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
+   "passages": 3908,
+   "dernier_a": "04/11 02:53"
   },
   {
    "cle": "accroche",
@@ -454,19 +454,19 @@
    "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, avec Archiviste] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 2101,
-   "dernier_a": "04/11 02:47"
+   "dernier": "[poste Écriture du script] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 2103,
+   "dernier_a": "04/11 02:53"
   },
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 2059,
-   "dernier_a": "04/11 02:44"
+   "passages": 2061,
+   "dernier_a": "04/11 02:53"
   },
   {
    "cle": "referenceur",
@@ -561,37 +561,43 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-04T02:48:15",
+   "ts": "2026-11-04T02:53:52",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T02:48:09",
+   "ts": "2026-11-04T02:53:47",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T02:48:04",
-   "type": "alerte",
-   "texte": "Échec : Miniaturiste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-04T02:47:48",
+   "ts": "2026-11-04T02:53:31",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T02:47:42",
+   "ts": "2026-11-04T02:53:26",
+   "type": "alerte",
+   "texte": "Échec : Iconographe : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-04T02:53:21",
    "type": "alerte",
    "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T02:47:32",
+   "ts": "2026-11-04T02:53:15",
+   "type": "alerte",
+   "texte": "Échec : Archiviste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-04T02:53:10",
    "type": "alerte",
    "texte": "Échec : Éclaireur : passage continu",
    "url": null
@@ -636,18 +642,6 @@
    "ts": "2026-11-03T21:37:59",
    "type": "alerte",
    "texte": "Échec : Écrire le script : Agence nationale des techniques d'enquêtes numériques judiciaires",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T20:49:32",
-   "type": "alerte",
-   "texte": "Échec : Trouver des sujets candidats",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T20:49:11",
-   "type": "alerte",
-   "texte": "Échec : Écrire le script : David Gerstein",
    "url": null
   },
   {
@@ -709,6 +703,12 @@
    "type": "assistant",
    "texte": "Éclaireur : à revoir avant la voix : esp8266 : 10 plans : trop long (8 maximum) (+1) | risques-pour-la-sante-et-la-securite-lies-a-l-impr : 9 plans : trop long (8 maximum) (+1) | ultimaker : 9 plans : trop long (8 maximum)",
    "url": null
+  },
+  {
+   "ts": "2026-10-18T09:37:12",
+   "type": "publication",
+   "texte": "Publiée : RISC-V : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=RJ2JFpAB8Ew"
   }
  ],
  "compteurs": {
@@ -716,7 +716,7 @@
   "READY": 1,
   "PENDING": 1,
   "DEFERRED": 0,
-  "SUCCESS": 1040,
-  "FAILED": 74
+  "SUCCESS": 1039,
+  "FAILED": 75
  }
 }
