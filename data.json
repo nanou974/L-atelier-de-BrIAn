@@ -1,10 +1,10 @@
 {
- "now": 1793758440.9923453,
- "heure": "03:14:01",
+ "now": 1793758740.9848042,
+ "heure": "03:19:01",
  "moteur": {
   "etat": "en pause",
   "activite": "en attente de travail exécutable",
-  "battement_s": 0
+  "battement_s": 3
  },
  "modele": {
   "ok": true,
@@ -395,8 +395,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 5756,
-   "dernier_a": "04/11 03:11"
+   "passages": 5758,
+   "dernier_a": "04/11 03:16"
   },
   {
    "cle": "archiviste",
@@ -405,23 +405,23 @@
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 5277,
-   "dernier_a": "04/11 03:12"
+   "passages": 5280,
+   "dernier_a": "04/11 03:17"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 4579,
-   "dernier_a": "04/11 03:11"
+   "dernier": "[poste Écriture du script, avec Archiviste] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 4580,
+   "dernier_a": "04/11 03:18"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
@@ -444,9 +444,9 @@
    "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 3916,
-   "dernier_a": "04/11 03:09"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 3918,
+   "dernier_a": "04/11 03:16"
   },
   {
    "cle": "accroche",
@@ -461,12 +461,12 @@
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 2061,
-   "dernier_a": "04/11 02:53"
+   "passages": 2062,
+   "dernier_a": "04/11 03:18"
   },
   {
    "cle": "referenceur",
@@ -561,49 +561,43 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-04T03:13:39",
+   "ts": "2026-11-04T03:18:37",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T03:13:34",
+   "ts": "2026-11-04T03:18:32",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T03:13:28",
-   "type": "alerte",
-   "texte": "Échec : Miniaturiste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-04T03:13:23",
+   "ts": "2026-11-04T03:18:21",
    "type": "alerte",
    "texte": "Échec : Accroche : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T03:13:18",
+   "ts": "2026-11-04T03:18:16",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T03:13:07",
+   "ts": "2026-11-04T03:18:10",
    "type": "alerte",
-   "texte": "Échec : Plume : passage continu",
+   "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T03:12:57",
+   "ts": "2026-11-04T03:17:54",
    "type": "alerte",
    "texte": "Échec : Éclaireur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T03:12:52",
+   "ts": "2026-11-04T03:17:49",
    "type": "alerte",
    "texte": "Échec : Tendances : passage continu",
    "url": null
@@ -709,6 +703,12 @@
    "type": "assistant",
    "texte": "Éclaireur : à revoir avant la voix : esp8266 : 10 plans : trop long (8 maximum) (+1) | risques-pour-la-sante-et-la-securite-lies-a-l-impr : 9 plans : trop long (8 maximum) (+1) | ultimaker : 9 plans : trop long (8 maximum)",
    "url": null
+  },
+  {
+   "ts": "2026-10-18T09:37:12",
+   "type": "publication",
+   "texte": "Publiée : RISC-V : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=RJ2JFpAB8Ew"
   }
  ],
  "compteurs": {
@@ -716,7 +716,7 @@
   "READY": 1,
   "PENDING": 1,
   "DEFERRED": 0,
-  "SUCCESS": 1038,
-  "FAILED": 76
+  "SUCCESS": 1039,
+  "FAILED": 75
  }
 }
