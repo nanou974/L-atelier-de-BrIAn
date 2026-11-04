@@ -1,10 +1,10 @@
 {
- "now": 1793761141.0418031,
- "heure": "03:59:01",
+ "now": 1793761441.160192,
+ "heure": "04:04:01",
  "moteur": {
   "etat": "en pause",
-  "activite": "Plume : passage continu",
-  "battement_s": 3
+  "activite": "Analyste : passage continu",
+  "battement_s": 0
  },
  "modele": {
   "ok": true,
@@ -391,32 +391,32 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "images",
+   "poste": "script",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 5771,
-   "dernier_a": "04/11 03:58"
+   "dernier": "[poste Écriture du script, avec Tendances] 1 script(s) relu(s), 1 avec défauts : hydrophone : 55 mots : trop court (70 minimum)",
+   "passages": 5774,
+   "dernier_a": "04/11 04:03"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 5289,
-   "dernier_a": "04/11 03:58"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 5291,
+   "dernier_a": "04/11 04:02"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 4591,
-   "dernier_a": "04/11 03:57"
+   "dernier": "[poste Écriture du script, avec Éclaireur, Tendances] 1 accroche(s) analysée(s), 1 à améliorer : hydrophone : l'accroche n'interpelle pas (ni question, ni « tu », ni chiffre)",
+   "passages": 4592,
+   "dernier_a": "04/11 04:03"
   },
   {
    "cle": "iconographe",
@@ -433,7 +433,7 @@
    "nom": "Analyste",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
    "passages": 3322,
    "dernier_a": "04/11 01:49"
@@ -441,12 +441,12 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 3927,
-   "dernier_a": "04/11 03:48"
+   "etat": "actif",
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 3930,
+   "dernier_a": "04/11 04:02"
   },
   {
    "cle": "accroche",
@@ -461,7 +461,7 @@
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
@@ -561,39 +561,45 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-04T03:58:47",
+   "ts": "2026-11-04T04:03:55",
+   "type": "alerte",
+   "texte": "Échec : Archiviste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-04T04:03:45",
+   "type": "assistant",
+   "texte": "Éclaireur : à revoir avant la voix : hydrophone : 55 mots : trop court (70 minimum)",
+   "url": null
+  },
+  {
+   "ts": "2026-11-04T04:03:44",
    "type": "alerte",
    "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T03:57:56",
+   "ts": "2026-11-04T04:02:53",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T03:57:50",
+   "ts": "2026-11-04T04:02:47",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T03:57:40",
+   "ts": "2026-11-04T04:02:42",
+   "type": "alerte",
+   "texte": "Échec : Miniaturiste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-04T04:02:37",
    "type": "alerte",
    "texte": "Échec : Accroche : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-04T03:57:35",
-   "type": "alerte",
-   "texte": "Échec : Tendances : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-04T03:57:29",
-   "type": "alerte",
-   "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
@@ -624,12 +630,6 @@
    "ts": "2026-11-03T23:02:07",
    "type": "alerte",
    "texte": "Échec : Écrire le script : Circuit logique programmable",
-   "url": null
-  },
-  {
-   "ts": "2026-11-03T22:02:59",
-   "type": "alerte",
-   "texte": "Échec : Écrire le script : Shodan (site web)",
    "url": null
   },
   {
