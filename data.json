@@ -1,10 +1,10 @@
 {
- "now": 1793751240.892833,
- "heure": "01:14:01",
+ "now": 1793751540.8574638,
+ "heure": "01:19:01",
  "moteur": {
   "etat": "en pause",
   "activite": "Iconographe : passage continu",
-  "battement_s": 1
+  "battement_s": 0
  },
  "modele": {
   "ok": true,
@@ -391,29 +391,29 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 5723,
-   "dernier_a": "04/11 01:13"
+   "dernier": "[poste Trouver une idée] 27 titres lus, 0 idées retenues",
+   "passages": 5724,
+   "dernier_a": "04/11 01:17"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 5237,
-   "dernier_a": "04/11 01:08"
+   "passages": 5238,
+   "dernier_a": "04/11 01:18"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
    "passages": 4556,
    "dernier_a": "04/11 01:10"
@@ -421,12 +421,12 @@
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 4123,
-   "dernier_a": "04/11 01:02"
+   "passages": 4125,
+   "dernier_a": "04/11 01:17"
   },
   {
    "cle": "analyste",
@@ -455,8 +455,8 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 2081,
-   "dernier_a": "04/11 01:12"
+   "passages": 2083,
+   "dernier_a": "04/11 01:17"
   },
   {
    "cle": "miniaturiste",
@@ -561,37 +561,49 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-04T01:13:54",
+   "ts": "2026-11-04T01:19:00",
+   "type": "alerte",
+   "texte": "Échec : Iconographe : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-04T01:18:55",
    "type": "alerte",
    "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T01:13:48",
+   "ts": "2026-11-04T01:18:45",
    "type": "alerte",
-   "texte": "Échec : Archiviste : passage continu",
+   "texte": "Échec : Éclaireur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T01:12:56",
+   "ts": "2026-11-04T01:17:53",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T01:12:51",
+   "ts": "2026-11-04T01:17:48",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T01:12:46",
+   "ts": "2026-11-04T01:17:42",
    "type": "alerte",
    "texte": "Échec : Miniaturiste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-04T01:12:30",
+   "ts": "2026-11-04T01:17:32",
+   "type": "alerte",
+   "texte": "Échec : Tendances : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-04T01:17:27",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
@@ -697,26 +709,14 @@
    "type": "publication",
    "texte": "Publiée : Défauts des joints soudés : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=NcVFxVcU7Xc"
-  },
-  {
-   "ts": "2026-10-19T09:01:11",
-   "type": "publication",
-   "texte": "Publiée : UltiMaker : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=FsY8HKNpHVE"
-  },
-  {
-   "ts": "2026-10-18T15:00:12",
-   "type": "publication",
-   "texte": "Publiée : Capteur : l'histoire en bref #Shorts",
-   "url": "https://www.youtube.com/watch?v=yEFqshq0F3A"
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
+  "RUNNING": 0,
   "READY": 1,
   "PENDING": 1,
   "DEFERRED": 0,
-  "SUCCESS": 1039,
-  "FAILED": 74
+  "SUCCESS": 1038,
+  "FAILED": 76
  }
 }
