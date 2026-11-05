@@ -1,10 +1,10 @@
 {
- "now": 1793893140.5297737,
- "heure": "16:39:00",
+ "now": 1793893440.5554988,
+ "heure": "16:44:00",
  "moteur": {
   "etat": "en pause",
-  "activite": "en attente de travail exécutable",
-  "battement_s": 2
+  "activite": "Accroche : passage continu",
+  "battement_s": 5
  },
  "modele": {
   "ok": true,
@@ -391,12 +391,12 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 6456,
-   "dernier_a": "05/11 16:36"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 6457,
+   "dernier_a": "05/11 16:42"
   },
   {
    "cle": "archiviste",
@@ -411,12 +411,12 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, avec Accroche] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 5058,
-   "dernier_a": "05/11 16:38"
+   "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 5060,
+   "dernier_a": "05/11 16:41"
   },
   {
    "cle": "iconographe",
@@ -425,8 +425,8 @@
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 4623,
-   "dernier_a": "05/11 16:38"
+   "passages": 4625,
+   "dernier_a": "05/11 16:43"
   },
   {
    "cle": "analyste",
@@ -444,14 +444,14 @@
    "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 4710,
-   "dernier_a": "05/11 16:37"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 4712,
+   "dernier_a": "05/11 16:42"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "script",
+   "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script, avec Plume] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
@@ -561,33 +561,21 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-05T16:38:43",
-   "type": "alerte",
-   "texte": "Échec : Programmateur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-05T16:38:38",
-   "type": "alerte",
-   "texte": "Échec : Référenceur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-05T16:38:27",
-   "type": "alerte",
-   "texte": "Échec : Miniaturiste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-05T16:38:17",
+   "ts": "2026-11-05T16:43:14",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-05T16:37:56",
+   "ts": "2026-11-05T16:43:03",
    "type": "alerte",
-   "texte": "Échec : Éclaireur : passage continu",
+   "texte": "Échec : Plume : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-05T16:42:58",
+   "type": "alerte",
+   "texte": "Échec : Archiviste : passage continu",
    "url": null
   },
   {
@@ -709,14 +697,26 @@
    "type": "assistant",
    "texte": "Éclaireur : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
    "url": null
+  },
+  {
+   "ts": "2026-10-18T08:42:01",
+   "type": "assistant",
+   "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
+   "url": null
+  },
+  {
+   "ts": "2026-10-18T01:24:12",
+   "type": "assistant",
+   "texte": "Référenceur : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
+   "url": null
   }
  ],
  "compteurs": {
-  "RUNNING": 0,
-  "READY": 1,
+  "RUNNING": 1,
+  "READY": 4,
   "PENDING": 1,
   "DEFERRED": 0,
-  "SUCCESS": 1041,
-  "FAILED": 73
+  "SUCCESS": 1039,
+  "FAILED": 71
  }
 }
