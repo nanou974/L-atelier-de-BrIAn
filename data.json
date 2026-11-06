@@ -1,10 +1,10 @@
 {
- "now": 1793983741.2194102,
- "heure": "17:49:01",
+ "now": 1793984041.277094,
+ "heure": "17:54:01",
  "moteur": {
   "etat": "en pause",
   "activite": "Analyste : passage continu",
-  "battement_s": 2
+  "battement_s": 1
  },
  "modele": {
   "ok": true,
@@ -391,69 +391,69 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 6924,
-   "dernier_a": "06/11 17:41"
+   "passages": 6926,
+   "dernier_a": "06/11 17:52"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 6531,
-   "dernier_a": "06/11 17:45"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 6534,
+   "dernier_a": "06/11 17:52"
   },
   {
    "cle": "plume",
    "nom": "Plume",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 5381,
-   "dernier_a": "06/11 17:38"
+   "etat": "actif",
+   "dernier": "[poste Écriture du script, avec Éclaireur] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 5382,
+   "dernier_a": "06/11 17:50"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "publication",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 4956,
-   "dernier_a": "06/11 17:40"
+   "passages": 4957,
+   "dernier_a": "06/11 17:51"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "publication",
    "etat": "actif",
    "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
-   "passages": 3342,
-   "dernier_a": "06/11 11:25"
+   "passages": 3343,
+   "dernier_a": "06/11 17:49"
   },
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "images",
+   "poste": "script",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 5211,
-   "dernier_a": "06/11 17:46"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 5212,
+   "dernier_a": "06/11 17:52"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Écriture du script, avec Tendances] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
    "passages": 2704,
    "dernier_a": "06/11 17:45"
@@ -465,8 +465,8 @@
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 2700,
-   "dernier_a": "06/11 17:45"
+   "passages": 2702,
+   "dernier_a": "06/11 17:52"
   },
   {
    "cle": "referenceur",
@@ -560,6 +560,36 @@
  ],
  "nb_publiees": 18,
  "notifications": [
+  {
+   "ts": "2026-11-06T17:53:13",
+   "type": "alerte",
+   "texte": "Échec : Programmateur : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-06T17:53:08",
+   "type": "alerte",
+   "texte": "Échec : Référenceur : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-06T17:52:57",
+   "type": "alerte",
+   "texte": "Échec : Accroche : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-06T17:52:47",
+   "type": "alerte",
+   "texte": "Échec : Iconographe : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-06T17:52:42",
+   "type": "alerte",
+   "texte": "Échec : Plume : passage continu",
+   "url": null
+  },
   {
    "ts": "2026-11-04T11:09:49",
    "type": "assistant",
@@ -679,44 +709,14 @@
    "type": "assistant",
    "texte": "Éclaireur : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
    "url": null
-  },
-  {
-   "ts": "2026-10-18T08:42:01",
-   "type": "assistant",
-   "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
-   "url": null
-  },
-  {
-   "ts": "2026-10-18T01:24:12",
-   "type": "assistant",
-   "texte": "Référenceur : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
-   "url": null
-  },
-  {
-   "ts": "2026-10-17T18:38:45",
-   "type": "assistant",
-   "texte": "Plume : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
-   "url": null
-  },
-  {
-   "ts": "2026-10-17T18:38:45",
-   "type": "assistant",
-   "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
-   "url": null
-  },
-  {
-   "ts": "2026-10-17T18:35:09",
-   "type": "assistant",
-   "texte": "Éclaireur : nouvelles idées proposées à BrIAn : Intelligence artificielle, Tesla (automobile)",
-   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 10,
+  "READY": 1,
   "PENDING": 1,
   "DEFERRED": 0,
-  "SUCCESS": 1036,
-  "FAILED": 68
+  "SUCCESS": 1040,
+  "FAILED": 73
  }
 }
