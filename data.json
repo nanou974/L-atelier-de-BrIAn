@@ -1,10 +1,10 @@
 {
- "now": 1794021540.5608652,
- "heure": "04:19:00",
+ "now": 1794021840.5370655,
+ "heure": "04:24:00",
  "moteur": {
   "etat": "en pause",
   "activite": "Programmateur : passage continu",
-  "battement_s": 2
+  "battement_s": 5
  },
  "modele": {
   "ok": true,
@@ -401,12 +401,12 @@
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 6742,
-   "dernier_a": "07/11 04:18"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 6743,
+   "dernier_a": "07/11 04:20"
   },
   {
    "cle": "plume",
@@ -415,18 +415,18 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 5495,
-   "dernier_a": "07/11 04:18"
+   "passages": 5497,
+   "dernier_a": "07/11 04:23"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "publication",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 5071,
-   "dernier_a": "07/11 03:54"
+   "etat": "actif",
+   "dernier": "[poste Images, avec Miniaturiste] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 5073,
+   "dernier_a": "07/11 04:21"
   },
   {
    "cle": "analyste",
@@ -441,22 +441,22 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 5411,
-   "dernier_a": "07/11 04:18"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 5413,
+   "dernier_a": "07/11 04:23"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, avec Éclaireur] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 2813,
-   "dernier_a": "07/11 04:12"
+   "dernier": "[poste Écriture du script, avec Plume] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 2814,
+   "dernier_a": "07/11 04:23"
   },
   {
    "cle": "miniaturiste",
@@ -464,9 +464,9 @@
    "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 2840,
-   "dernier_a": "07/11 04:14"
+   "dernier": "[poste Images, avec Iconographe] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 2841,
+   "dernier_a": "07/11 04:21"
   },
   {
    "cle": "referenceur",
@@ -561,37 +561,37 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-07T04:18:58",
+   "ts": "2026-11-07T04:23:55",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-07T04:18:53",
-   "type": "alerte",
-   "texte": "Échec : Accroche : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-07T04:18:42",
+   "ts": "2026-11-07T04:23:39",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-07T04:18:37",
+   "ts": "2026-11-07T04:23:34",
    "type": "alerte",
    "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-07T04:18:21",
+   "ts": "2026-11-07T04:23:24",
+   "type": "alerte",
+   "texte": "Échec : Archiviste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-07T04:23:19",
    "type": "alerte",
    "texte": "Échec : Éclaireur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-07T04:18:16",
+   "ts": "2026-11-07T04:23:13",
    "type": "alerte",
    "texte": "Échec : Miniaturiste : passage continu",
    "url": null
