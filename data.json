@@ -1,10 +1,10 @@
 {
- "now": 1794057540.5728052,
- "heure": "14:19:00",
+ "now": 1794057840.5723643,
+ "heure": "14:24:00",
  "moteur": {
   "etat": "en pause",
   "activite": "en attente de travail exécutable",
-  "battement_s": 3
+  "battement_s": 1
  },
  "modele": {
   "ok": true,
@@ -395,38 +395,38 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 7316,
-   "dernier_a": "07/11 14:14"
+   "passages": 7318,
+   "dernier_a": "07/11 14:21"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 6952,
-   "dernier_a": "07/11 14:18"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 6953,
+   "dernier_a": "07/11 14:23"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 5614,
-   "dernier_a": "07/11 14:18"
+   "passages": 5616,
+   "dernier_a": "07/11 14:21"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 5191,
-   "dernier_a": "07/11 14:08"
+   "etat": "actif",
+   "dernier": "[poste Images, avec Archiviste] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 5192,
+   "dernier_a": "07/11 14:23"
   },
   {
    "cle": "analyste",
@@ -441,12 +441,12 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 5620,
-   "dernier_a": "07/11 14:12"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 5623,
+   "dernier_a": "07/11 14:22"
   },
   {
    "cle": "accroche",
@@ -461,7 +461,7 @@
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
@@ -561,45 +561,45 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-07T14:18:47",
+   "ts": "2026-11-07T14:23:44",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-07T14:18:42",
+   "ts": "2026-11-07T14:23:39",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-07T14:18:31",
+   "ts": "2026-11-07T14:23:33",
+   "type": "alerte",
+   "texte": "Échec : Miniaturiste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-07T14:23:28",
    "type": "alerte",
    "texte": "Échec : Accroche : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-07T14:18:26",
+   "ts": "2026-11-07T14:23:23",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-07T14:18:21",
+   "ts": "2026-11-07T14:23:12",
    "type": "alerte",
-   "texte": "Échec : Iconographe : passage continu",
+   "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-07T14:18:05",
+   "ts": "2026-11-07T14:23:02",
    "type": "alerte",
    "texte": "Échec : Éclaireur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-07T14:18:00",
-   "type": "alerte",
-   "texte": "Échec : Tendances : passage continu",
    "url": null
   },
   {
