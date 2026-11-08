@@ -1,10 +1,10 @@
 {
- "now": 1794173940.953053,
- "heure": "22:39:01",
+ "now": 1794174240.9604895,
+ "heure": "22:44:01",
  "moteur": {
   "etat": "en pause",
-  "activite": "Archiviste : passage continu",
-  "battement_s": 2
+  "activite": "Miniaturiste : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": true,
@@ -394,36 +394,36 @@
    "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 7962,
-   "dernier_a": "08/11 22:36"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 7964,
+   "dernier_a": "08/11 22:43"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "idee",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 7592,
-   "dernier_a": "08/11 22:29"
+   "passages": 7595,
+   "dernier_a": "08/11 22:43"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, avec Iconographe] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 5986,
-   "dernier_a": "08/11 22:33"
+   "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 5987,
+   "dernier_a": "08/11 22:43"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "publication",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
    "passages": 5564,
    "dernier_a": "08/11 22:34"
@@ -443,7 +443,7 @@
    "nom": "Tendances",
    "poste": "publication",
    "poste_prefere": "idee",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
    "passages": 6205,
    "dernier_a": "08/11 22:35"
@@ -454,19 +454,19 @@
    "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, avec Éclaireur] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 3283,
-   "dernier_a": "08/11 22:36"
+   "dernier": "[poste Écriture du script, avec Plume] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 3285,
+   "dernier_a": "08/11 22:43"
   },
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 3301,
-   "dernier_a": "08/11 22:36"
+   "passages": 3303,
+   "dernier_a": "08/11 22:42"
   },
   {
    "cle": "referenceur",
@@ -561,15 +561,33 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-08T22:38:06",
+   "ts": "2026-11-08T22:43:52",
    "type": "alerte",
-   "texte": "Échec : Éclaireur : passage continu",
+   "texte": "Échec : Tendances : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-08T22:37:56",
+   "ts": "2026-11-08T22:43:47",
+   "type": "alerte",
+   "texte": "Échec : Analyste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-08T22:43:42",
    "type": "alerte",
    "texte": "Échec : Iconographe : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-08T22:42:34",
+   "type": "alerte",
+   "texte": "Échec : Programmateur : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-08T22:42:28",
+   "type": "alerte",
+   "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
@@ -691,32 +709,14 @@
    "type": "assistant",
    "texte": "Éclaireur : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
    "url": null
-  },
-  {
-   "ts": "2026-10-18T08:42:01",
-   "type": "assistant",
-   "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
-   "url": null
-  },
-  {
-   "ts": "2026-10-18T01:24:12",
-   "type": "assistant",
-   "texte": "Référenceur : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
-   "url": null
-  },
-  {
-   "ts": "2026-10-17T18:38:45",
-   "type": "assistant",
-   "texte": "Plume : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
-   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 8,
+  "READY": 1,
   "PENDING": 1,
   "DEFERRED": 0,
-  "SUCCESS": 1036,
-  "FAILED": 70
+  "SUCCESS": 1040,
+  "FAILED": 73
  }
 }
