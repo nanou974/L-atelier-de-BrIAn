@@ -1,10 +1,10 @@
 {
- "now": 1794212641.0477858,
- "heure": "09:24:01",
+ "now": 1794212941.011683,
+ "heure": "09:29:01",
  "moteur": {
   "etat": "en pause",
   "activite": "Miniaturiste : passage continu",
-  "battement_s": 0
+  "battement_s": 2
  },
  "modele": {
   "ok": true,
@@ -395,18 +395,18 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 8151,
-   "dernier_a": "09/11 09:21"
+   "passages": 8152,
+   "dernier_a": "09/11 09:28"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 7802,
-   "dernier_a": "09/11 09:23"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 7805,
+   "dernier_a": "09/11 09:28"
   },
   {
    "cle": "plume",
@@ -414,19 +414,19 @@
    "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
-   "passages": 6127,
-   "dernier_a": "09/11 09:20"
+   "dernier": "[poste Écriture du script, avec Archiviste] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 6129,
+   "dernier_a": "09/11 09:26"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images, avec Archiviste] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 5706,
-   "dernier_a": "09/11 09:22"
+   "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 5708,
+   "dernier_a": "09/11 09:28"
   },
   {
    "cle": "analyste",
@@ -441,17 +441,17 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 6396,
-   "dernier_a": "09/11 09:23"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 6397,
+   "dernier_a": "09/11 09:28"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
@@ -561,37 +561,31 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-09T09:23:50",
+   "ts": "2026-11-09T09:28:59",
+   "type": "alerte",
+   "texte": "Échec : Accroche : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-09T09:28:48",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-09T09:23:44",
-   "type": "alerte",
-   "texte": "Échec : Iconographe : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-09T09:23:34",
-   "type": "alerte",
-   "texte": "Échec : Éclaireur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-09T09:23:28",
+   "ts": "2026-11-09T09:28:27",
    "type": "alerte",
    "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-09T09:22:37",
+   "ts": "2026-11-09T09:27:35",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-09T09:22:31",
+   "ts": "2026-11-09T09:27:30",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
@@ -709,6 +703,12 @@
    "type": "assistant",
    "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
    "url": null
+  },
+  {
+   "ts": "2026-10-18T08:43:06",
+   "type": "assistant",
+   "texte": "Éclaireur : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
+   "url": null
   }
  ],
  "compteurs": {
@@ -716,7 +716,7 @@
   "READY": 1,
   "PENDING": 1,
   "DEFERRED": 0,
-  "SUCCESS": 1039,
-  "FAILED": 74
+  "SUCCESS": 1040,
+  "FAILED": 73
  }
 }
