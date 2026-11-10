@@ -1,10 +1,10 @@
 {
- "now": 1794351540.4229941,
- "heure": "23:59:00",
+ "now": 1794351840.4047718,
+ "heure": "00:04:00",
  "moteur": {
   "etat": "en pause",
   "activite": "Plume : passage continu",
-  "battement_s": 2
+  "battement_s": 3
  },
  "modele": {
   "ok": true,
@@ -395,18 +395,18 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 8871,
-   "dernier_a": "10/11 23:57"
+   "passages": 8874,
+   "dernier_a": "11/11 00:02"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 8576,
-   "dernier_a": "10/11 23:57"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 8579,
+   "dernier_a": "11/11 00:02"
   },
   {
    "cle": "plume",
@@ -421,7 +421,7 @@
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
@@ -444,9 +444,9 @@
    "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 7098,
-   "dernier_a": "10/11 23:56"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 7099,
+   "dernier_a": "11/11 00:02"
   },
   {
    "cle": "accroche",
@@ -455,18 +455,18 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 3817,
-   "dernier_a": "10/11 23:57"
+   "passages": 3820,
+   "dernier_a": "11/11 00:02"
   },
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
-   "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 3795,
-   "dernier_a": "10/11 23:37"
+   "etat": "actif",
+   "dernier": "[poste Images, avec Archiviste] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 3796,
+   "dernier_a": "11/11 00:02"
   },
   {
    "cle": "referenceur",
@@ -561,33 +561,27 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-10T23:58:11",
+   "ts": "2026-11-11T00:03:10",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-10T23:58:06",
+   "ts": "2026-11-11T00:03:04",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-10T23:58:00",
-   "type": "alerte",
-   "texte": "Échec : Miniaturiste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-10T23:57:50",
-   "type": "alerte",
-   "texte": "Échec : Tendances : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-10T23:57:44",
+   "ts": "2026-11-11T00:02:43",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-11T00:02:38",
+   "type": "alerte",
+   "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
@@ -709,6 +703,12 @@
    "type": "assistant",
    "texte": "Éclaireur : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
    "url": null
+  },
+  {
+   "ts": "2026-10-18T08:42:01",
+   "type": "assistant",
+   "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
+   "url": null
   }
  ],
  "compteurs": {
@@ -716,7 +716,7 @@
   "READY": 1,
   "PENDING": 1,
   "DEFERRED": 0,
-  "SUCCESS": 1040,
-  "FAILED": 73
+  "SUCCESS": 1041,
+  "FAILED": 72
  }
 }
