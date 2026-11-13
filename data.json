@@ -1,10 +1,10 @@
 {
- "now": 1794599340.5530677,
- "heure": "20:49:00",
+ "now": 1794599640.6029665,
+ "heure": "20:54:00",
  "moteur": {
   "etat": "en pause",
-  "activite": "Référenceur : passage continu",
-  "battement_s": 3
+  "activite": "Programmateur : passage continu",
+  "battement_s": 1
  },
  "modele": {
   "ok": true,
@@ -391,32 +391,32 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 10211,
-   "dernier_a": "13/11 20:48"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 10212,
+   "dernier_a": "13/11 20:50"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 9894,
-   "dernier_a": "13/11 20:48"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 9895,
+   "dernier_a": "13/11 20:50"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 7434,
-   "dernier_a": "13/11 20:48"
+   "passages": 7436,
+   "dernier_a": "13/11 20:51"
   },
   {
    "cle": "iconographe",
@@ -443,37 +443,37 @@
    "nom": "Tendances",
    "poste": "publication",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 8409,
-   "dernier_a": "13/11 20:38"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 8410,
+   "dernier_a": "13/11 20:53"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Écriture du script] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 4572,
-   "dernier_a": "13/11 20:40"
+   "passages": 4574,
+   "dernier_a": "13/11 20:53"
   },
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images, avec Éclaireur] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 4590,
-   "dernier_a": "13/11 20:45"
+   "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 4593,
+   "dernier_a": "13/11 20:53"
   },
   {
    "cle": "referenceur",
    "nom": "Référenceur",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 36 titres lus, 0 idées retenues",
    "passages": 1789,
    "dernier_a": "07/11 07:12"
@@ -483,7 +483,7 @@
    "nom": "Programmateur",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 35 titres lus, 1 idées retenues",
    "passages": 1803,
    "dernier_a": "13/11 17:23"
@@ -561,39 +561,39 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-13T20:48:57",
+   "ts": "2026-11-13T20:53:59",
    "type": "alerte",
-   "texte": "Échec : Miniaturiste : passage continu",
+   "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-13T20:48:52",
-   "type": "alerte",
-   "texte": "Échec : Accroche : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-13T20:48:47",
-   "type": "alerte",
-   "texte": "Échec : Tendances : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-13T20:48:41",
+   "ts": "2026-11-13T20:53:38",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-13T20:48:20",
+   "ts": "2026-11-13T20:53:33",
    "type": "alerte",
-   "texte": "Échec : Iconographe : passage continu",
+   "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-13T20:47:29",
+   "ts": "2026-11-13T20:53:28",
    "type": "alerte",
-   "texte": "Échec : Programmateur : passage continu",
+   "texte": "Échec : Archiviste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-13T20:53:23",
+   "type": "alerte",
+   "texte": "Échec : Éclaireur : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-13T20:53:17",
+   "type": "alerte",
+   "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
