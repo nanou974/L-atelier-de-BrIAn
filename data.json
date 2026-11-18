@@ -1,10 +1,10 @@
 {
- "now": 1794992940.2998505,
- "heure": "10:09:00",
+ "now": 1794993240.3668308,
+ "heure": "10:14:00",
  "moteur": {
   "etat": "en pause",
-  "activite": "Référenceur : passage continu",
-  "battement_s": 2
+  "activite": "Programmateur : passage continu",
+  "battement_s": 0
  },
  "modele": {
   "ok": true,
@@ -393,40 +393,40 @@
    "nom": "Éclaireur",
    "poste": "publication",
    "poste_prefere": "idee",
-   "etat": "veille",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 12341,
-   "dernier_a": "18/11 10:00"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 12343,
+   "dernier_a": "18/11 10:11"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 12023,
-   "dernier_a": "18/11 10:08"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 12026,
+   "dernier_a": "18/11 10:13"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Écriture du script, avec Éclaireur] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 8761,
-   "dernier_a": "18/11 10:00"
+   "etat": "actif",
+   "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 8763,
+   "dernier_a": "18/11 10:13"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "publication",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 8323,
-   "dernier_a": "18/11 09:56"
+   "passages": 8324,
+   "dernier_a": "18/11 10:11"
   },
   {
    "cle": "analyste",
@@ -444,24 +444,24 @@
    "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 10567,
-   "dernier_a": "18/11 10:07"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 10569,
+   "dernier_a": "18/11 10:13"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, avec Archiviste] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 5745,
-   "dernier_a": "18/11 10:05"
+   "dernier": "[poste Écriture du script, avec Plume] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 5746,
+   "dernier_a": "18/11 10:13"
   },
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images, avec Archiviste] ronde : 16 miniatures notées, meilleure : contour-crafting",
@@ -473,7 +473,7 @@
    "nom": "Référenceur",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 37 titres lus, 1 idées retenues",
    "passages": 1791,
    "dernier_a": "18/11 08:19"
@@ -483,7 +483,7 @@
    "nom": "Programmateur",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée, avec Iconographe] 5 sujets mesurés, en hausse : Capteur photographique CCD ×0.98, Capteur piézoélectrique ×0.89",
    "passages": 1804,
    "dernier_a": "17/11 00:51"
@@ -561,45 +561,33 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-18T10:08:52",
+   "ts": "2026-11-18T10:13:59",
    "type": "alerte",
-   "texte": "Échec : Accroche : passage continu",
+   "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-18T10:08:47",
+   "ts": "2026-11-18T10:13:54",
    "type": "alerte",
-   "texte": "Échec : Tendances : passage continu",
+   "texte": "Échec : Miniaturiste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-18T10:08:42",
+   "ts": "2026-11-18T10:13:38",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-18T10:08:36",
-   "type": "alerte",
-   "texte": "Échec : Plume : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-18T10:08:26",
+   "ts": "2026-11-18T10:13:22",
    "type": "alerte",
    "texte": "Échec : Éclaireur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-18T10:08:21",
+   "ts": "2026-11-18T10:13:17",
    "type": "alerte",
    "texte": "Échec : Iconographe : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-18T10:07:29",
-   "type": "alerte",
-   "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
@@ -709,6 +697,18 @@
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
    "url": null
+  },
+  {
+   "ts": "2026-10-18T08:43:11",
+   "type": "assistant",
+   "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
+   "url": null
+  },
+  {
+   "ts": "2026-10-18T08:43:06",
+   "type": "assistant",
+   "texte": "Éclaireur : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
+   "url": null
   }
  ],
  "compteurs": {
@@ -716,7 +716,7 @@
   "READY": 1,
   "PENDING": 1,
   "DEFERRED": 0,
-  "SUCCESS": 1038,
-  "FAILED": 75
+  "SUCCESS": 1040,
+  "FAILED": 73
  }
 }
