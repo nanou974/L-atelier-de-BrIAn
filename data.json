@@ -1,10 +1,10 @@
 {
- "now": 1795109041.0907059,
- "heure": "18:24:01",
+ "now": 1795109341.09297,
+ "heure": "18:29:01",
  "moteur": {
   "etat": "en pause",
-  "activite": "en attente de travail exécutable",
-  "battement_s": 4
+  "activite": "Plume : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": true,
@@ -394,29 +394,29 @@
    "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 12996,
-   "dernier_a": "19/11 18:23"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 12997,
+   "dernier_a": "19/11 18:24"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "images",
+   "poste": "script",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 12630,
-   "dernier_a": "19/11 18:23"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 12632,
+   "dernier_a": "19/11 18:28"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 9128,
-   "dernier_a": "19/11 18:23"
+   "passages": 9130,
+   "dernier_a": "19/11 18:27"
   },
   {
    "cle": "iconographe",
@@ -445,18 +445,18 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 11223,
-   "dernier_a": "19/11 18:22"
+   "passages": 11224,
+   "dernier_a": "19/11 18:27"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Écriture du script] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 6084,
-   "dernier_a": "19/11 18:03"
+   "etat": "actif",
+   "dernier": "[poste Trouver une idée] 37 titres lus, 0 idées retenues",
+   "passages": 6085,
+   "dernier_a": "19/11 18:27"
   },
   {
    "cle": "miniaturiste",
@@ -561,37 +561,43 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-19T18:23:56",
+   "ts": "2026-11-19T18:28:52",
    "type": "alerte",
-   "texte": "Échec : Programmateur : passage continu",
+   "texte": "Échec : Éclaireur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-19T18:23:51",
-   "type": "alerte",
-   "texte": "Échec : Référenceur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-19T18:23:45",
-   "type": "alerte",
-   "texte": "Échec : Miniaturiste : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-19T18:23:40",
+   "ts": "2026-11-19T18:28:47",
    "type": "alerte",
    "texte": "Échec : Accroche : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-19T18:23:35",
+   "ts": "2026-11-19T18:27:55",
+   "type": "alerte",
+   "texte": "Échec : Programmateur : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-19T18:27:50",
+   "type": "alerte",
+   "texte": "Échec : Référenceur : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-19T18:27:45",
+   "type": "alerte",
+   "texte": "Échec : Miniaturiste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-19T18:27:34",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-19T18:23:30",
+   "ts": "2026-11-19T18:27:29",
    "type": "alerte",
    "texte": "Échec : Iconographe : passage continu",
    "url": null
@@ -703,20 +709,14 @@
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
    "url": null
-  },
-  {
-   "ts": "2026-10-18T08:43:11",
-   "type": "assistant",
-   "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
-   "url": null
   }
  ],
  "compteurs": {
-  "RUNNING": 0,
+  "RUNNING": 1,
   "READY": 1,
   "PENDING": 1,
   "DEFERRED": 0,
-  "SUCCESS": 1040,
-  "FAILED": 74
+  "SUCCESS": 1038,
+  "FAILED": 75
  }
 }
