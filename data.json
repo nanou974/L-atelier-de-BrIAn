@@ -1,10 +1,10 @@
 {
- "now": 1795215840.9968503,
- "heure": "00:04:01",
+ "now": 1795216140.9793804,
+ "heure": "00:09:01",
  "moteur": {
   "etat": "en pause",
   "activite": "Plume : passage continu",
-  "battement_s": 4
+  "battement_s": 5
  },
  "modele": {
   "ok": true,
@@ -395,18 +395,18 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
-   "passages": 13544,
-   "dernier_a": "21/11 00:01"
+   "passages": 13547,
+   "dernier_a": "21/11 00:08"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 13199,
-   "dernier_a": "21/11 00:03"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 13202,
+   "dernier_a": "21/11 00:08"
   },
   {
    "cle": "plume",
@@ -445,23 +445,23 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 11796,
-   "dernier_a": "21/11 00:02"
+   "passages": 11799,
+   "dernier_a": "21/11 00:07"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
-   "etat": "veille",
-   "dernier": "[poste Écriture du script, avec Plume] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 6423,
-   "dernier_a": "20/11 23:52"
+   "etat": "actif",
+   "dernier": "[poste Écriture du script, avec Archiviste, Tendances] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 6426,
+   "dernier_a": "21/11 00:07"
   },
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images, avec Archiviste] ronde : 16 miniatures notées, meilleure : contour-crafting",
@@ -561,37 +561,31 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-21T00:03:36",
-   "type": "alerte",
-   "texte": "Échec : Éclaireur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-21T00:03:30",
+   "ts": "2026-11-21T00:08:29",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-21T00:03:09",
+   "ts": "2026-11-21T00:08:09",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-21T00:03:04",
+   "ts": "2026-11-21T00:08:03",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-21T00:02:48",
+   "ts": "2026-11-21T00:07:53",
    "type": "alerte",
-   "texte": "Échec : Accroche : passage continu",
+   "texte": "Échec : Miniaturiste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-21T00:02:27",
+   "ts": "2026-11-21T00:07:27",
    "type": "alerte",
    "texte": "Échec : Iconographe : passage continu",
    "url": null
@@ -709,6 +703,12 @@
    "type": "assistant",
    "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
    "url": null
+  },
+  {
+   "ts": "2026-10-18T08:43:06",
+   "type": "assistant",
+   "texte": "Éclaireur : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
+   "url": null
   }
  ],
  "compteurs": {
@@ -716,7 +716,7 @@
   "READY": 1,
   "PENDING": 1,
   "DEFERRED": 0,
-  "SUCCESS": 1039,
-  "FAILED": 74
+  "SUCCESS": 1040,
+  "FAILED": 73
  }
 }
