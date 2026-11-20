@@ -1,10 +1,10 @@
 {
- "now": 1795133940.6857805,
- "heure": "01:19:00",
+ "now": 1795134240.6980124,
+ "heure": "01:24:00",
  "moteur": {
   "etat": "en pause",
   "activite": "en attente de travail exécutable",
-  "battement_s": 0
+  "battement_s": 3
  },
  "modele": {
   "ok": true,
@@ -391,22 +391,22 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 13125,
-   "dernier_a": "20/11 01:17"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 13127,
+   "dernier_a": "20/11 01:20"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 12766,
-   "dernier_a": "20/11 01:17"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 12768,
+   "dernier_a": "20/11 01:20"
   },
   {
    "cle": "plume",
@@ -421,12 +421,12 @@
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images, avec Miniaturiste] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 8740,
-   "dernier_a": "20/11 01:11"
+   "dernier": "[poste Trouver une idée] 37 titres lus, 0 idées retenues",
+   "passages": 8741,
+   "dernier_a": "20/11 01:23"
   },
   {
    "cle": "analyste",
@@ -445,25 +445,25 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 11365,
-   "dernier_a": "20/11 01:17"
+   "passages": 11368,
+   "dernier_a": "20/11 01:23"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, avec Éclaireur] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 6172,
-   "dernier_a": "20/11 01:16"
+   "dernier": "[poste Écriture du script] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 6173,
+   "dernier_a": "20/11 01:23"
   },
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
    "poste": "publication",
    "poste_prefere": "images",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
    "passages": 6272,
    "dernier_a": "20/11 01:14"
@@ -561,45 +561,45 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-20T01:18:24",
+   "ts": "2026-11-20T01:23:57",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-20T01:18:18",
+   "ts": "2026-11-20T01:23:52",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-20T01:18:08",
+   "ts": "2026-11-20T01:23:47",
    "type": "alerte",
    "texte": "Échec : Miniaturiste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-20T01:18:03",
-   "type": "alerte",
-   "texte": "Échec : Accroche : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-20T01:17:58",
+   "ts": "2026-11-20T01:23:31",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-20T01:17:52",
+   "ts": "2026-11-20T01:23:26",
    "type": "alerte",
-   "texte": "Échec : Iconographe : passage continu",
+   "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-20T01:17:47",
+   "ts": "2026-11-20T01:23:20",
    "type": "alerte",
-   "texte": "Échec : Plume : passage continu",
+   "texte": "Échec : Archiviste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-20T01:23:15",
+   "type": "alerte",
+   "texte": "Échec : Éclaireur : passage continu",
    "url": null
   },
   {
