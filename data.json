@@ -1,10 +1,10 @@
 {
- "now": 1795218552.9016418,
- "heure": "00:49:27",
+ "now": 1795218853.165558,
+ "heure": "00:54:21",
  "moteur": {
   "etat": "en pause",
-  "activite": "Archiviste : passage continu",
-  "battement_s": -4
+  "activite": "Iconographe : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": true,
@@ -391,7 +391,7 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
@@ -403,7 +403,7 @@
    "nom": "Archiviste",
    "poste": "publication",
    "poste_prefere": "recherche",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
    "passages": 13211,
    "dernier_a": "21/11 00:40"
@@ -411,17 +411,17 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "idee",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 9415,
-   "dernier_a": "21/11 00:47"
+   "dernier": "[poste Trouver une idée] 37 titres lus, 0 idées retenues",
+   "passages": 9416,
+   "dernier_a": "21/11 00:52"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images, avec Tendances] ronde : 16 miniatures notées, meilleure : contour-crafting",
@@ -561,9 +561,15 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-21T00:48:48",
+   "ts": "2026-11-21T00:53:35",
    "type": "alerte",
-   "texte": "Échec : Analyste : passage continu",
+   "texte": "Échec : Archiviste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-21T00:52:55",
+   "type": "alerte",
+   "texte": "Échec : Éclaireur : passage continu",
    "url": null
   },
   {
@@ -703,20 +709,14 @@
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
    "url": null
-  },
-  {
-   "ts": "2026-10-17T18:38:45",
-   "type": "assistant",
-   "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
-   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 6,
+  "READY": 8,
   "PENDING": 1,
   "DEFERRED": 0,
-  "SUCCESS": 1039,
-  "FAILED": 69
+  "SUCCESS": 1036,
+  "FAILED": 70
  }
 }
