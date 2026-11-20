@@ -1,9 +1,9 @@
 {
- "now": 1795204742.1726851,
- "heure": "20:59:03",
+ "now": 1795205043.0123913,
+ "heure": "21:04:04",
  "moteur": {
   "etat": "en pause",
-  "activite": "Iconographe : passage continu",
+  "activite": "Plume : passage continu",
   "battement_s": 0
  },
  "modele": {
@@ -391,12 +391,12 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 13472,
-   "dernier_a": "20/11 20:56"
+   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
+   "passages": 13475,
+   "dernier_a": "20/11 21:03"
   },
   {
    "cle": "archiviste",
@@ -411,22 +411,22 @@
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 9378,
-   "dernier_a": "20/11 20:58"
+   "passages": 9379,
+   "dernier_a": "20/11 21:02"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
    "poste": "publication",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 8958,
-   "dernier_a": "20/11 20:50"
+   "passages": 8959,
+   "dernier_a": "20/11 21:01"
   },
   {
    "cle": "analyste",
@@ -441,12 +441,12 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 11740,
-   "dernier_a": "20/11 20:58"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 18 fiches vérifiées, 18 avec remarques",
+   "passages": 11741,
+   "dernier_a": "20/11 21:00"
   },
   {
    "cle": "accroche",
@@ -461,12 +461,12 @@
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "images",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 6484,
-   "dernier_a": "20/11 20:43"
+   "passages": 6485,
+   "dernier_a": "20/11 21:03"
   },
   {
    "cle": "referenceur",
@@ -561,37 +561,37 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-20T20:58:48",
-   "type": "alerte",
-   "texte": "Échec : Programmateur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-20T20:58:31",
+   "ts": "2026-11-20T21:03:55",
    "type": "alerte",
    "texte": "Échec : Archiviste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-20T20:58:18",
+   "ts": "2026-11-20T21:03:25",
    "type": "alerte",
-   "texte": "Échec : Éclaireur : passage continu",
+   "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-20T20:58:07",
+   "ts": "2026-11-20T21:03:13",
    "type": "alerte",
    "texte": "Échec : Accroche : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-20T20:57:55",
+   "ts": "2026-11-20T21:03:01",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-20T20:57:43",
+   "ts": "2026-11-20T21:02:49",
+   "type": "alerte",
+   "texte": "Échec : Iconographe : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-20T21:02:37",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
@@ -712,8 +712,8 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 0,
-  "READY": 3,
+  "RUNNING": 1,
+  "READY": 2,
   "PENDING": 1,
   "DEFERRED": 0,
   "SUCCESS": 1038,
