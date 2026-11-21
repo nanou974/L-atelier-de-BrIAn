@@ -1,10 +1,10 @@
 {
- "now": 1795303140.3734944,
- "heure": "00:19:00",
+ "now": 1795303440.3795693,
+ "heure": "00:24:00",
  "moteur": {
   "etat": "en pause",
-  "activite": "en attente de travail exécutable",
-  "battement_s": 5
+  "activite": "Tendances : passage continu",
+  "battement_s": 3
  },
  "modele": {
   "ok": true,
@@ -443,7 +443,7 @@
    "nom": "Tendances",
    "poste": "publication",
    "poste_prefere": "idee",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 37 titres lus, 0 idées retenues",
    "passages": 11817,
    "dernier_a": "21/11 23:54"
@@ -483,7 +483,7 @@
    "nom": "Programmateur",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Publication YouTube, avec Tendances] 0 publications programmées, calendrier sain",
    "passages": 1827,
    "dernier_a": "22/11 00:13"
@@ -561,63 +561,57 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-22T00:18:19",
+   "ts": "2026-11-22T00:23:15",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-22T00:18:14",
+   "ts": "2026-11-22T00:23:10",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-22T00:18:08",
+   "ts": "2026-11-22T00:23:05",
    "type": "alerte",
    "texte": "Échec : Miniaturiste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-22T00:18:03",
+   "ts": "2026-11-22T00:23:00",
    "type": "alerte",
    "texte": "Échec : Accroche : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-22T00:17:52",
+   "ts": "2026-11-22T00:22:49",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-22T00:17:47",
+   "ts": "2026-11-22T00:22:44",
    "type": "alerte",
    "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-22T00:17:42",
+   "ts": "2026-11-22T00:22:39",
    "type": "alerte",
    "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-22T00:17:37",
+   "ts": "2026-11-22T00:22:33",
    "type": "alerte",
    "texte": "Échec : Archiviste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-22T00:17:32",
+   "ts": "2026-11-22T00:22:28",
    "type": "alerte",
    "texte": "Échec : Éclaireur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-22T00:17:26",
-   "type": "alerte",
-   "texte": "Échec : Tendances : passage continu",
    "url": null
   },
   {
@@ -709,14 +703,20 @@
    "type": "publication",
    "texte": "Publiée : RISC-V : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=RJ2JFpAB8Ew"
+  },
+  {
+   "ts": "2026-10-18T09:00:12",
+   "type": "publication",
+   "texte": "Publiée : Risques pour la santé et la sécurité liés à l'impression 3D : l'histoire en bref #Shorts",
+   "url": "https://www.youtube.com/watch?v=5JBt9S1Z8Z8"
   }
  ],
  "compteurs": {
-  "RUNNING": 0,
+  "RUNNING": 1,
   "READY": 1,
   "PENDING": 1,
   "DEFERRED": 0,
   "SUCCESS": 1036,
-  "FAILED": 78
+  "FAILED": 77
  }
 }
