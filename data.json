@@ -1,10 +1,10 @@
 {
- "now": 1795221006.9788456,
- "heure": "01:31:06",
+ "now": 1795221362.000487,
+ "heure": "01:37:04",
  "moteur": {
   "etat": "en pause",
   "activite": "Archiviste : passage continu",
-  "battement_s": -3
+  "battement_s": -40
  },
  "modele": {
   "ok": true,
@@ -401,7 +401,7 @@
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
@@ -413,7 +413,7 @@
    "nom": "Plume",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 37 titres lus, 0 idées retenues",
    "passages": 9418,
    "dernier_a": "21/11 01:24"
@@ -561,9 +561,15 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-21T01:29:38",
+   "ts": "2026-11-21T01:35:54",
    "type": "alerte",
    "texte": "Échec : Éclaireur : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-21T01:34:51",
+   "type": "alerte",
+   "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
@@ -703,20 +709,14 @@
    "type": "assistant",
    "texte": "Plume : à revoir avant la voix : contour-crafting : 69 mots : trop court (70 minimum) (+2) | disque-compact : noms à faire prononcer (lexique) : CD | esp8266 : tournures encyclopédiques : permet de",
    "url": null
-  },
-  {
-   "ts": "2026-10-17T18:38:45",
-   "type": "assistant",
-   "texte": "Archiviste : à revoir avant la voix : impression-3d : accroche passe-partout interdite | industrie-4-0 : le plan 2 commence par « ces/cette » sans antécédent | nodemcu : accroche = définition : préférer une question ou une situation (+1)",
-   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 9,
+  "READY": 8,
   "PENDING": 1,
   "DEFERRED": 0,
   "SUCCESS": 1036,
-  "FAILED": 69
+  "FAILED": 70
  }
 }
