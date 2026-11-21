@@ -1,9 +1,9 @@
 {
- "now": 1795227245.2297974,
- "heure": "03:14:10",
+ "now": 1795227545.9956374,
+ "heure": "03:19:11",
  "moteur": {
   "etat": "en pause",
-  "activite": "Archiviste : passage continu",
+  "activite": "Plume : passage continu",
   "battement_s": -1
  },
  "modele": {
@@ -403,7 +403,7 @@
    "nom": "Archiviste",
    "poste": "publication",
    "poste_prefere": "recherche",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
    "passages": 13215,
    "dernier_a": "21/11 01:30"
@@ -413,7 +413,7 @@
    "nom": "Plume",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 37 titres lus, 0 idées retenues",
    "passages": 9418,
    "dernier_a": "21/11 01:24"
@@ -561,19 +561,25 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-21T03:13:45",
+   "ts": "2026-11-21T03:18:59",
+   "type": "alerte",
+   "texte": "Échec : Archiviste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-21T03:18:31",
    "type": "alerte",
    "texte": "Échec : Éclaireur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-21T03:13:16",
+   "ts": "2026-11-21T03:18:03",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-21T03:12:49",
+   "ts": "2026-11-21T03:17:34",
    "type": "alerte",
    "texte": "Échec : Iconographe : passage continu",
    "url": null
@@ -703,20 +709,14 @@
    "type": "assistant",
    "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
    "url": null
-  },
-  {
-   "ts": "2026-10-18T01:24:12",
-   "type": "assistant",
-   "texte": "Référenceur : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
-   "url": null
   }
  ],
  "compteurs": {
   "RUNNING": 1,
-  "READY": 7,
+  "READY": 6,
   "PENDING": 1,
   "DEFERRED": 0,
   "SUCCESS": 1036,
-  "FAILED": 71
+  "FAILED": 72
  }
 }
