@@ -1,10 +1,10 @@
 {
- "now": 1795353840.5883508,
- "heure": "14:24:00",
+ "now": 1795354140.671296,
+ "heure": "14:29:00",
  "moteur": {
   "etat": "en pause",
-  "activite": "Analyste : passage continu",
-  "battement_s": 2
+  "activite": "en attente de travail exécutable",
+  "battement_s": 0
  },
  "modele": {
   "ok": true,
@@ -433,7 +433,7 @@
    "nom": "Analyste",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée] 37 titres lus, 0 idées retenues",
    "passages": 3416,
    "dernier_a": "20/11 23:47"
@@ -483,10 +483,10 @@
    "nom": "Programmateur",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
-   "dernier": "[poste Publication YouTube, avec Éclaireur] 0 publications programmées, calendrier sain",
-   "passages": 1840,
-   "dernier_a": "22/11 13:26"
+   "etat": "actif",
+   "dernier": "[poste Publication YouTube, avec Tendances] 0 publications programmées, calendrier sain",
+   "passages": 1841,
+   "dernier_a": "22/11 14:27"
   }
  ],
  "programmees": [],
@@ -561,55 +561,55 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-22T14:23:57",
+   "ts": "2026-11-22T14:29:00",
+   "type": "alerte",
+   "texte": "Échec : Analyste : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-22T14:28:55",
    "type": "alerte",
    "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-22T14:23:52",
+   "ts": "2026-11-22T14:28:49",
    "type": "alerte",
    "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-22T14:23:47",
+   "ts": "2026-11-22T14:28:44",
    "type": "alerte",
    "texte": "Échec : Archiviste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-22T14:23:42",
+   "ts": "2026-11-22T14:28:39",
    "type": "alerte",
    "texte": "Échec : Éclaireur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-22T14:23:21",
+   "ts": "2026-11-22T14:28:18",
    "type": "alerte",
    "texte": "Échec : Tendances : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-22T14:23:00",
-   "type": "alerte",
-   "texte": "Échec : Programmateur : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-22T14:22:50",
+   "ts": "2026-11-22T14:27:47",
    "type": "alerte",
    "texte": "Échec : Référenceur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-22T14:22:45",
+   "ts": "2026-11-22T14:27:42",
    "type": "alerte",
    "texte": "Échec : Miniaturiste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-22T14:22:39",
+   "ts": "2026-11-22T14:27:37",
    "type": "alerte",
    "texte": "Échec : Accroche : passage continu",
    "url": null
@@ -712,11 +712,11 @@
   }
  ],
  "compteurs": {
-  "RUNNING": 1,
+  "RUNNING": 0,
   "READY": 1,
   "PENDING": 1,
   "DEFERRED": 0,
-  "SUCCESS": 1036,
+  "SUCCESS": 1037,
   "FAILED": 77
  }
 }
