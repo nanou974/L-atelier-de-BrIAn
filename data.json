@@ -1,10 +1,10 @@
 {
- "now": 1795458240.9870653,
- "heure": "19:24:01",
+ "now": 1795458540.933818,
+ "heure": "19:29:01",
  "moteur": {
   "etat": "en pause",
   "activite": "Référenceur : passage continu",
-  "battement_s": 2
+  "battement_s": 4
  },
  "modele": {
   "ok": true,
@@ -421,7 +421,7 @@
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
@@ -451,12 +451,12 @@
   {
    "cle": "accroche",
    "nom": "Accroche",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "script",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Écriture du script] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
-   "passages": 6433,
-   "dernier_a": "21/11 00:29"
+   "passages": 6434,
+   "dernier_a": "23/11 19:27"
   },
   {
    "cle": "miniaturiste",
@@ -561,49 +561,55 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-23T19:23:58",
+   "ts": "2026-11-23T19:28:56",
    "type": "alerte",
    "texte": "Échec : Miniaturiste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-23T19:23:53",
+   "ts": "2026-11-23T19:28:51",
    "type": "alerte",
    "texte": "Échec : Accroche : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-23T19:23:48",
+   "ts": "2026-11-23T19:28:46",
    "type": "alerte",
    "texte": "Échec : Tendances : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-23T19:23:43",
+   "ts": "2026-11-23T19:28:40",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-23T19:23:27",
+   "ts": "2026-11-23T19:28:25",
+   "type": "alerte",
+   "texte": "Échec : Iconographe : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-23T19:28:20",
    "type": "alerte",
    "texte": "Échec : Plume : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-23T19:23:22",
+   "ts": "2026-11-23T19:28:14",
    "type": "alerte",
    "texte": "Échec : Archiviste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-23T19:23:16",
+   "ts": "2026-11-23T19:28:09",
    "type": "alerte",
    "texte": "Échec : Éclaireur : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-23T19:22:35",
+   "ts": "2026-11-23T19:27:28",
    "type": "alerte",
    "texte": "Échec : Programmateur : passage continu",
    "url": null
@@ -703,12 +709,6 @@
    "type": "publication",
    "texte": "Publiée : Risques pour la santé et la sécurité liés à l'impression 3D : l'histoire en bref #Shorts",
    "url": "https://www.youtube.com/watch?v=5JBt9S1Z8Z8"
-  },
-  {
-   "ts": "2026-10-18T08:51:21",
-   "type": "assistant",
-   "texte": "Écoute : conseil de spectateur à examiner : « Petit conseil refait peut etre le début car tu passe d’un bienvenu au sujet directement sinon c'est cool »",
-   "url": null
   }
  ],
  "compteurs": {
@@ -716,7 +716,7 @@
   "READY": 1,
   "PENDING": 1,
   "DEFERRED": 0,
-  "SUCCESS": 1037,
-  "FAILED": 76
+  "SUCCESS": 1036,
+  "FAILED": 77
  }
 }
