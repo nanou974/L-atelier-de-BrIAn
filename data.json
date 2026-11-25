@@ -1,10 +1,10 @@
 {
- "now": 1795600741.1146822,
- "heure": "10:59:01",
+ "now": 1795601041.1236963,
+ "heure": "11:04:01",
  "moteur": {
   "etat": "en pause",
-  "activite": "en attente de travail exécutable",
-  "battement_s": 0
+  "activite": "Analyste : passage continu",
+  "battement_s": 5
  },
  "modele": {
   "ok": true,
@@ -415,25 +415,25 @@
    "poste_prefere": "script",
    "etat": "actif",
    "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 9906,
-   "dernier_a": "25/11 10:57"
+   "passages": 9909,
+   "dernier_a": "25/11 11:02"
   },
   {
    "cle": "iconographe",
    "nom": "Iconographe",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images, avec Miniaturiste] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 9496,
-   "dernier_a": "25/11 10:58"
+   "passages": 9497,
+   "dernier_a": "25/11 10:59"
   },
   {
    "cle": "analyste",
    "nom": "Analyste",
-   "poste": "publication",
+   "poste": "idee",
    "poste_prefere": "publication",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 37 titres lus, 0 idées retenues",
    "passages": 3424,
    "dernier_a": "25/11 08:57"
@@ -441,19 +441,19 @@
   {
    "cle": "tendances",
    "nom": "Tendances",
-   "poste": "publication",
+   "poste": "images",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
-   "passages": 12644,
-   "dernier_a": "25/11 10:57"
+   "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 12646,
+   "dernier_a": "25/11 11:02"
   },
   {
    "cle": "accroche",
    "nom": "Accroche",
    "poste": "publication",
    "poste_prefere": "script",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Écriture du script] ronde : 0 accroche(s) analysée(s), aucune faiblesse",
    "passages": 6844,
    "dernier_a": "25/11 10:53"
@@ -461,7 +461,7 @@
   {
    "cle": "miniaturiste",
    "nom": "Miniaturiste",
-   "poste": "images",
+   "poste": "publication",
    "poste_prefere": "images",
    "etat": "actif",
    "dernier": "[poste Images, avec Iconographe] ronde : 16 miniatures notées, meilleure : contour-crafting",
@@ -561,27 +561,21 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-25T10:58:34",
+   "ts": "2026-11-25T11:03:04",
    "type": "alerte",
-   "texte": "Échec : Programmateur : passage continu",
+   "texte": "Échec : Iconographe : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-25T10:58:29",
+   "ts": "2026-11-25T11:02:48",
    "type": "alerte",
-   "texte": "Échec : Référenceur : passage continu",
+   "texte": "Échec : Archiviste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-25T10:58:19",
+   "ts": "2026-11-25T11:02:43",
    "type": "alerte",
-   "texte": "Échec : Accroche : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-25T10:58:13",
-   "type": "alerte",
-   "texte": "Échec : Analyste : passage continu",
+   "texte": "Échec : Éclaireur : passage continu",
    "url": null
   },
   {
@@ -709,14 +703,20 @@
    "type": "assistant",
    "texte": "Accroche : à revoir avant la voix : agility-robotics : la signature n'est pas le dernier plan (+2) | arlo-technologies : noms à faire prononcer (lexique) : Arlo, Foxconn, Matthew, McRae, Netgear, Pegatron, VP | basic-langage : le script ne commence pas par « Salut, c'est BrIAn ! » (+1)",
    "url": null
+  },
+  {
+   "ts": "2026-10-18T01:24:12",
+   "type": "assistant",
+   "texte": "Référenceur : à revoir avant la voix : prusaslicer : 61 mots : trop court (70 minimum) (+3) | reprap : accroche passe-partout interdite | ultimaker : accroche = définition : préférer une question ou une situation",
+   "url": null
   }
  ],
  "compteurs": {
-  "RUNNING": 0,
-  "READY": 1,
+  "RUNNING": 1,
+  "READY": 5,
   "PENDING": 1,
   "DEFERRED": 0,
-  "SUCCESS": 1042,
-  "FAILED": 72
+  "SUCCESS": 1038,
+  "FAILED": 71
  }
 }
