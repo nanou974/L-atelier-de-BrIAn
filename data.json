@@ -1,9 +1,9 @@
 {
- "now": 1795803541.2817037,
- "heure": "19:19:01",
+ "now": 1795803840.2919278,
+ "heure": "19:24:00",
  "moteur": {
   "etat": "en pause",
-  "activite": "Référenceur : passage continu",
+  "activite": "Programmateur : passage continu",
   "battement_s": 4
  },
  "modele": {
@@ -391,32 +391,32 @@
   {
    "cle": "eclaireur",
    "nom": "Éclaireur",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "idee",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 15502,
-   "dernier_a": "27/11 19:18"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 15505,
+   "dernier_a": "27/11 19:23"
   },
   {
    "cle": "archiviste",
    "nom": "Archiviste",
-   "poste": "script",
+   "poste": "publication",
    "poste_prefere": "recherche",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, ronde de contrôle] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 15167,
-   "dernier_a": "27/11 19:18"
+   "dernier": "[poste Publication YouTube, ronde de contrôle] ronde : 0 publications programmées, calendrier sain",
+   "passages": 15170,
+   "dernier_a": "27/11 19:23"
   },
   {
    "cle": "plume",
    "nom": "Plume",
-   "poste": "publication",
+   "poste": "script",
    "poste_prefere": "script",
    "etat": "actif",
-   "dernier": "[poste Écriture du script, avec Accroche] ronde : 0 script(s) relu(s), aucun défaut",
-   "passages": 10621,
-   "dernier_a": "27/11 19:13"
+   "dernier": "[poste Écriture du script] ronde : 0 script(s) relu(s), aucun défaut",
+   "passages": 10622,
+   "dernier_a": "27/11 19:23"
   },
   {
    "cle": "iconographe",
@@ -424,9 +424,9 @@
    "poste": "images",
    "poste_prefere": "images",
    "etat": "actif",
-   "dernier": "[poste Images] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 10144,
-   "dernier_a": "27/11 19:18"
+   "dernier": "[poste Images, avec Tendances] ronde : 16 miniatures notées, meilleure : contour-crafting",
+   "passages": 10145,
+   "dernier_a": "27/11 19:23"
   },
   {
    "cle": "analyste",
@@ -445,8 +445,8 @@
    "poste_prefere": "idee",
    "etat": "actif",
    "dernier": "[poste Images, ronde de contrôle] ronde : 16 miniatures notées, meilleure : contour-crafting",
-   "passages": 13770,
-   "dernier_a": "27/11 19:18"
+   "passages": 13773,
+   "dernier_a": "27/11 19:23"
   },
   {
    "cle": "accroche",
@@ -473,7 +473,7 @@
    "nom": "Référenceur",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "actif",
+   "etat": "veille",
    "dernier": "[poste Trouver une idée, avec Accroche] 12 sujets mesurés, en hausse : Fluxmètre ×1.15, Magnétomètre ×1.12",
    "passages": 1795,
    "dernier_a": "27/11 19:05"
@@ -483,7 +483,7 @@
    "nom": "Programmateur",
    "poste": "publication",
    "poste_prefere": "publication",
-   "etat": "veille",
+   "etat": "actif",
    "dernier": "[poste Trouver une idée] 6 sujets mesurés, en hausse : Capteur photographique CCD ×0.81, Capteur photographique ×0.8",
    "passages": 1870,
    "dernier_a": "25/11 01:02"
@@ -561,27 +561,27 @@
  "nb_publiees": 18,
  "notifications": [
   {
-   "ts": "2026-11-27T19:18:56",
+   "ts": "2026-11-27T19:23:55",
+   "type": "alerte",
+   "texte": "Échec : Référenceur : passage continu",
+   "url": null
+  },
+  {
+   "ts": "2026-11-27T19:23:50",
    "type": "alerte",
    "texte": "Échec : Miniaturiste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-27T19:18:45",
+   "ts": "2026-11-27T19:23:40",
    "type": "alerte",
    "texte": "Échec : Analyste : passage continu",
    "url": null
   },
   {
-   "ts": "2026-11-27T19:18:34",
+   "ts": "2026-11-27T19:23:13",
    "type": "alerte",
-   "texte": "Échec : Plume : passage continu",
-   "url": null
-  },
-  {
-   "ts": "2026-11-27T19:17:27",
-   "type": "alerte",
-   "texte": "Échec : Programmateur : passage continu",
+   "texte": "Échec : Accroche : passage continu",
    "url": null
   },
   {
